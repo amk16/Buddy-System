@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import type { Issue, IndexEntry } from "./lib/types";
+import { readingTime } from "./lib/readingTime";
 import { Brief } from "./components/Brief";
 import { Section } from "./components/Section";
 import { ArchiveSwitcher } from "./components/ArchiveSwitcher";
@@ -45,10 +46,10 @@ export default function App() {
       .catch(() => setStatus("empty"));
   }, []);
 
-  // Load the selected issue whenever it changes.
+  // Load the selected issue whenever it changes. The status reset to "loading"
+  // happens in selectIssue (the event), not here — effects only report results.
   useEffect(() => {
     if (!currentId) return;
-    setStatus("loading");
     fetch(issueUrl(currentId))
       .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
       .then((data: Issue) => {
@@ -58,6 +59,13 @@ export default function App() {
       .catch(() => setStatus("error"));
   }, [currentId]);
 
+  const selectIssue = (id: string) => {
+    setStatus("loading");
+    setCurrentId(id);
+  };
+
+  const readTime = issue ? readingTime(issue) : null;
+
   return (
     <div className="app">
       <header className="masthead">
@@ -66,11 +74,16 @@ export default function App() {
           <ArchiveSwitcher
             entries={index}
             currentId={currentId}
-            onSelect={setCurrentId}
+            onSelect={selectIssue}
           />
         </div>
         {issue && (
           <p className="masthead-date">{formatDate(issue.generated_at)}</p>
+        )}
+        {status === "ready" && readTime && (
+          <p className="masthead-read">
+            {readTime.skimMin} min skim · {readTime.fullMin} min full read
+          </p>
         )}
       </header>
 
