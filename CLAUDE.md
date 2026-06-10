@@ -48,7 +48,22 @@ editorial judgment.
      chatbot that helps shoppers buy)`.
    - `terms`: define any genuinely technical term on the card in one plain sentence; `[]` if none.
      No acronym left unexplained; no circular definitions.
-   - `why_it_matters`: still ONE sentence — the consulting angle.
+   - `why_it_matters`: ONE sentence phrased as an action she can take — "pitch X
+     to retail clients", "try Y on a client workflow", "flag Z before any agent
+     deployment". No clickbait.
+
+   **Ranked priorities** when choosing between candidates: (1) client-ready
+   talking points she can repeat today; (2) her own learning curve; (3) market
+   radar. A weaker story she can USE beats a bigger story she can't.
+
+   **Card shapes (per section):**
+   - Brief cards: sentence ONE of the summary must contain a concrete fact or
+     number from the source (a %, $, count, or date).
+   - `case_studies`: a named company + what they deployed + the measurable
+     result (%, $, hours saved) in sentence one. A story with no measurable
+     result is News, not a Case Study.
+   - `people`: a named person + what they just said/did (the URL points to it)
+     + why she should follow them. Never invented, never a listicle entry.
 
 6. **Validate + persist:**
    ```bash
@@ -69,9 +84,10 @@ editorial judgment.
 3. **Dedupe** near-identical stories; keep the best single source.
 4. **Sections:** use exactly the `id`s/`label`s from `pool.json`; respect each
    `max_items`. **Brief:** the `brief_count` single most important items across all
-   sections (copies of items that also appear in their section).
-5. `why_it_matters`: ONE sentence on why it matters to an AI consultant (a tool to try,
-   a cost-saving angle, a person to follow, a shift to track). No clickbait.
+   sections. List each as `{ "url": "<url of a section item>" }` — the
+   pipeline copies the full card from its section automatically.
+5. `why_it_matters`: ONE action-phrased sentence for an AI consultant (a tool to
+   try, a pitch to make, a risk to flag, a person to follow). No clickbait.
 6. `signal_tag`: one of `trending` / `new` / `shift`.
 7. Rank by relevance to `relevance_focus` AND topicality. Quality over quantity — fewer
    than the max is fine if the pool is thin.
