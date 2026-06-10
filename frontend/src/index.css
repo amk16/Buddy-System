@@ -214,6 +214,8 @@ a:hover {
 .brief-list a {
   font-weight: 560;
   font-variation-settings: "SOFT" 60, "WONK" 0;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 .brief-why {
@@ -239,7 +241,6 @@ a:hover {
   display: block;
   width: var(--sp-6);
   height: 3px;
-  border-radius: 2px;
   background: var(--accent);
   margin-bottom: var(--sp-3);
 }
@@ -270,7 +271,8 @@ a:hover {
   font-size: var(--fs-xs);
   font-weight: 600;
   letter-spacing: 0.05em;
-  padding: 2px var(--sp-2);
+  padding: var(--sp-1) var(--sp-2);
+  line-height: 1;
   border-radius: 999px;
   margin-bottom: var(--sp-2);
 }
@@ -297,7 +299,12 @@ a:hover {
   font-variation-settings: "SOFT" 60, "WONK" 0;
   line-height: var(--lh-tight);
   color: var(--ink);
-  text-decoration: none;
+  /* faint resting underline: the headline IS the link to the source,
+     and touch devices have no hover to discover that */
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--accent) 25%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
   margin-bottom: var(--sp-2);
 }
 
@@ -311,17 +318,6 @@ a:hover {
 .card-why {
   margin: 0 0 var(--sp-3);
   color: var(--ink-soft);
-}
-
-.card-why-label {
-  display: block;
-  font-family: var(--font-sans);
-  font-size: var(--fs-xs);
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: 2px;
 }
 
 /* meta row: source · date · Details toggle */
@@ -344,7 +340,7 @@ a:hover {
   background: none;
   border: none;
   border-radius: var(--radius-sm);
-  padding: var(--sp-2) var(--sp-2);
+  padding: 0 var(--sp-2);
   min-height: 40px;
   cursor: pointer;
   display: inline-flex;
@@ -358,8 +354,9 @@ a:hover {
 
 .card-toggle .chev {
   display: inline-block;
+  position: relative;
+  top: -1px; /* optical centering against the label x-height */
   transition: transform 200ms ease;
-  font-size: 0.7em;
 }
 
 .card-toggle[aria-expanded="true"] .chev {
@@ -382,8 +379,13 @@ a:hover {
   overflow: hidden;
 }
 
+/* The opt-in depth layer: a hairline and a slightly narrower measure mark
+   "you are below the skim now" without sacrificing readability. */
 .card-summary {
   margin: var(--sp-3) 0 0;
+  padding-top: var(--sp-3);
+  border-top: 1px solid var(--border);
+  max-inline-size: 62ch;
 }
 
 .card-terms {
@@ -427,7 +429,7 @@ a:hover {
   font-size: 0.9em;
   background: var(--cream-2);
   border-radius: var(--radius-sm);
-  padding: 2px 6px;
+  padding: var(--sp-1) var(--sp-2);
 }
 
 .foot {

@@ -28,7 +28,7 @@ export function ArchiveSwitcher({ entries, currentId, onSelect }: Props) {
         {entries.map((entry, idx) => (
           <option key={entry.id} value={entry.id}>
             {formatDate(entry.generated_at)}
-            {idx === 0 ? " (latest)" : ""} · {entry.item_count} items
+            {idx === 0 ? " (latest)" : ""}
           </option>
         ))}
       </select>

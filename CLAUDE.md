@@ -87,7 +87,8 @@ editorial judgment.
    sections. List each as `{ "url": "<url of a section item>" }` — the
    pipeline copies the full card from its section automatically.
 5. `why_it_matters`: ONE action-phrased sentence for an AI consultant (a tool to
-   try, a pitch to make, a risk to flag, a person to follow). No clickbait.
+   try, a pitch to make, a risk to flag, a person to follow). No clickbait, and
+   no deadline countdowns — dates belong in the `summary`, grounded.
 6. `signal_tag`: one of `trending` / `new` / `shift`.
 7. Rank by relevance to `relevance_focus` AND topicality. Quality over quantity — fewer
    than the max is fine if the pool is thin.

@@ -7,6 +7,17 @@ const SIGNAL: Record<SignalTag, string> = {
   shift: "Big shift",
 };
 
+// "2026-06-09" → "Jun 9". Built via the local-time constructor so negative
+// UTC offsets don't shift the day; anything unparseable passes through.
+function formatDay(iso: string): string {
+  const [y, m, d] = iso.slice(0, 10).split("-").map(Number);
+  if (!y || !m || !d) return iso;
+  return new Date(y, m - 1, d).toLocaleDateString(undefined, {
+    month: "short",
+    day: "numeric",
+  });
+}
+
 // Calm by default: collapsed cards show only kicker, headline, why-it-matters
 // and meta. The summary + glossary unfold behind a quiet "Details" button.
 export function ItemCard({ item }: { item: Item }) {
@@ -25,15 +36,12 @@ export function ItemCard({ item }: { item: Item }) {
         {item.headline}
       </a>
 
-      <p className="card-why">
-        <span className="card-why-label">Why it matters</span>
-        {item.why_it_matters}
-      </p>
+      <p className="card-why">{item.why_it_matters}</p>
 
       <div className="card-meta">
         <span className="card-source">
           {item.source_name}
-          {item.published_at ? ` · ${item.published_at}` : ""}
+          {item.published_at ? ` · ${formatDay(item.published_at)}` : ""}
         </span>
         {hasDetail && (
           <button
@@ -44,9 +52,21 @@ export function ItemCard({ item }: { item: Item }) {
             onClick={() => setOpen((o) => !o)}
           >
             {open ? "Less" : "Details"}
-            <span className="chev" aria-hidden="true">
-              ▾
-            </span>
+            <svg
+              className="chev"
+              aria-hidden="true"
+              width="12"
+              height="8"
+              viewBox="0 0 12 8"
+            >
+              <path
+                d="M1 1.5 6 6.5 11 1.5"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+              />
+            </svg>
           </button>
         )}
       </div>

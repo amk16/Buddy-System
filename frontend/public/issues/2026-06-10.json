@@ -1,347 +1,347 @@
 {
-  "id": "2026-06-10",
-  "generated_at": "2026-06-10T15:19:51.026641+00:00",
-  "title": "AI Marketing Pulse",
-  "brief": [
+ "id": "2026-06-10",
+ "generated_at": "2026-06-10T15:19:51.026641+00:00",
+ "title": "AI Marketing Pulse",
+ "brief": [
+  {
+   "section": "tools",
+   "headline": "Anthropic opens its most powerful AI to the public with Claude Fable 5",
+   "summary": "Anthropic released Claude Fable 5 on June 9 — the first of its top-tier \"Mythos-class\" models the public can use, priced at $10 per million input tokens and $50 per million output tokens, about double its previous flagship. The model is built for software work, knowledge work, and reading images, and it refuses requests in risky areas like cybersecurity and biology, handing those to the older Opus model instead. It is included free in paid Claude plans from June 9 to 22, after which it draws on usage credits.",
+   "why_it_matters": "Try it on a real client deliverable while it's included in paid Claude plans, so you can speak about Mythos-class AI firsthand.",
+   "terms": [
     {
-      "section": "tools",
-      "headline": "Anthropic opens its most powerful AI to the public with Claude Fable 5",
-      "summary": "Anthropic released Claude Fable 5 on June 9 — the first of its top-tier \"Mythos-class\" models the public can use, priced at $10 per million input tokens and $50 per million output tokens, about double its previous flagship. The model is built for software work, knowledge work, and reading images, and it refuses requests in risky areas like cybersecurity and biology, handing those to the older Opus model instead. It is included free in paid Claude plans from June 9 to 22, after which it draws on usage credits.",
-      "why_it_matters": "Try it on a real client deliverable during the free window (through June 22) so you can speak about Mythos-class AI firsthand.",
-      "terms": [
-        {
-          "term": "Token",
-          "definition": "The small chunks of text an AI model reads and writes; usage is billed per million of them."
-        },
-        {
-          "term": "Mythos-class",
-          "definition": "Anthropic's most powerful tier of AI models, previously limited to vetted partners and critical-infrastructure organizations."
-        }
-      ],
-      "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
-      "source_name": "TechCrunch",
-      "signal_tag": "new",
-      "published_at": "2026-06-09"
+     "term": "Token",
+     "definition": "The small chunks of text an AI model reads and writes; usage is billed per million of them."
     },
     {
-      "section": "case_studies",
-      "headline": "Bristol Myers cut supplier-bidding cycles from 6–9 months to under 30 days with AI",
-      "summary": "Pharma giant Bristol Myers Squibb compressed its RFP process — the formal request companies send suppliers to bid on work — from 6–9 months to under 30 days using an AI procurement platform from vendor Globality, running roughly 10× more RFPs in the first year and putting over $1 billion of spend through it with about 50% fewer people than the outsourced process it replaced. Its digital strategy lead's advice on data quality: \"if you wait for perfect data, you'll never get started.\"",
-      "why_it_matters": "A ready-made client story for procurement automation — and ammunition against the \"our data isn't ready\" objection.",
-      "terms": [
-        {
-          "term": "Procurement",
-          "definition": "How a company buys goods and services from suppliers."
-        },
-        {
-          "term": "RFP",
-          "definition": "Request for Proposal — the formal document a company sends suppliers asking them to bid on work."
-        }
-      ],
-      "url": "https://www.cfodive.com/news/inside-bristol-myers-ai-powered-procurement-overhaul/822188/",
-      "source_name": "CFO Dive",
-      "signal_tag": "new",
-      "published_at": "2026-06-09"
-    },
-    {
-      "section": "news",
-      "headline": "Google cuts its budget AI plan 37% as the subscription price war reaches the US",
-      "summary": "Google dropped its entry-level AI subscription from $7.99 to $4.99 a month in early June while doubling its included storage to 400GB. Cheap AI tiers were previously an emerging-markets play — OpenAI launched ChatGPT Go in India at about $4.60 — but this cut targets US customers, a sign AI assistants are starting to be priced like commodities while standard plans such as ChatGPT Plus still run $20.",
-      "why_it_matters": "Revisit clients' AI subscription stack — consumer-tier pricing is dropping fast and many teams are overpaying for seats they could downgrade.",
-      "terms": [
-        {
-          "term": "Commoditization",
-          "definition": "When competing products become interchangeable, forcing companies to compete mainly on price."
-        }
-      ],
-      "url": "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
-      "source_name": "TechCrunch",
-      "signal_tag": "shift",
-      "published_at": "2026-06-09"
+     "term": "Mythos-class",
+     "definition": "Anthropic's most powerful tier of AI models, previously limited to vetted partners and critical-infrastructure organizations."
     }
-  ],
-  "sections": [
+   ],
+   "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
+   "source_name": "TechCrunch",
+   "signal_tag": "new",
+   "published_at": "2026-06-09"
+  },
+  {
+   "section": "case_studies",
+   "headline": "Bristol Myers cut supplier-bidding cycles from 6–9 months to under 30 days with AI",
+   "summary": "Pharma giant Bristol Myers Squibb compressed its RFP process — the formal request companies send suppliers to bid on work — from 6–9 months to under 30 days using an AI procurement platform from vendor Globality, running roughly 10× more RFPs in the first year and putting over $1 billion of spend through it with about 50% fewer people than the outsourced process it replaced. Its digital strategy lead's advice on data quality: \"if you wait for perfect data, you'll never get started.\"",
+   "why_it_matters": "A ready-made client story for procurement automation — and ammunition against the \"our data isn't ready\" objection.",
+   "terms": [
     {
-      "id": "tools",
-      "label": "🛠 Tools",
-      "items": [
-        {
-          "section": "tools",
-          "headline": "Anthropic opens its most powerful AI to the public with Claude Fable 5",
-          "summary": "Anthropic released Claude Fable 5 on June 9 — the first of its top-tier \"Mythos-class\" models the public can use, priced at $10 per million input tokens and $50 per million output tokens, about double its previous flagship. The model is built for software work, knowledge work, and reading images, and it refuses requests in risky areas like cybersecurity and biology, handing those to the older Opus model instead. It is included free in paid Claude plans from June 9 to 22, after which it draws on usage credits.",
-          "why_it_matters": "Try it on a real client deliverable during the free window (through June 22) so you can speak about Mythos-class AI firsthand.",
-          "terms": [
-            {
-              "term": "Token",
-              "definition": "The small chunks of text an AI model reads and writes; usage is billed per million of them."
-            },
-            {
-              "term": "Mythos-class",
-              "definition": "Anthropic's most powerful tier of AI models, previously limited to vetted partners and critical-infrastructure organizations."
-            }
-          ],
-          "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
-          "source_name": "TechCrunch",
-          "signal_tag": "new",
-          "published_at": "2026-06-09"
-        },
-        {
-          "section": "tools",
-          "headline": "Accenture and Carnegie Mellon release a framework for scoring AI readiness",
-          "summary": "Accenture and Carnegie Mellon University's Software Engineering Institute launched an \"AI Adoption Maturity Model\" on June 8 — a framework that scores an organization across eight dimensions, from strategy and workforce to data, risk, and operations. It was built from over 100 reviewed maturity efforts, about 25 executive interviews, and nearly 600 practitioner surveys. The release cites that 86% of C-suite leaders plan to raise AI spending in 2026, yet only 21% of organizations are redesigning end-to-end processes and nearly half of executives say AI has delivered minimal profit impact.",
-          "why_it_matters": "Borrow this as the backbone of an AI-readiness assessment offering — a credible, citable structure for client audits.",
-          "terms": [
-            {
-              "term": "Maturity model",
-              "definition": "A framework that rates how advanced an organization's capabilities are, so it can see gaps and plan next steps."
-            }
-          ],
-          "url": "https://newsroom.accenture.com/news/2026/accenture-and-the-carnegie-mellon-university-software-engineering-institute-launch-ai-adoption-maturity-model-to-help-organizations-scale-ai-with-predictable-outcomes",
-          "source_name": "Accenture Newsroom",
-          "signal_tag": "new",
-          "published_at": "2026-06-08"
-        },
-        {
-          "section": "tools",
-          "headline": "SoFi launches \"Coach,\" an AI money adviser inside its banking app",
-          "summary": "SoFi, the US online bank with about 14.7 million customers, is rolling out Coach to its SoFi Plus members in June — a chat-based AI adviser that uses a customer's own financial data to help with budgeting, investing, and canceling unused subscriptions. In testing, SoFi says a majority of users took action to improve their finances after talking to Coach. Its head of advice says the AI recommends what people will actually follow through on — like paying off the smallest debts first for visible progress — over what is mathematically optimal.",
-          "why_it_matters": "A fresh example of AI that changes customer behavior rather than just answering questions — useful framing when pitching AI for engagement instead of cost-cutting.",
-          "terms": [],
-          "url": "https://www.customerexperiencedive.com/news/sofi-bank-ai-adviser-coach-financial-planning/822414/",
-          "source_name": "CX Dive",
-          "signal_tag": "new",
-          "published_at": "2026-06-10"
-        },
-        {
-          "section": "tools",
-          "headline": "Jedify raises $24M to teach AI agents how a business actually works",
-          "summary": "Startup Jedify announced a $24 million funding round on June 10, led by Norwest with Snowflake's venture arm participating. Its platform plugs into a company's databases, business apps, and even Slack to build a \"context graph\" — a map of how the business defines things like revenue, who is allowed to see what, and how work flows — so AI agents stop guessing and follow the company's real rules.",
-          "why_it_matters": "Names the top reason client AI-agent pilots disappoint — missing business context — and gives you vendor-aware language for that conversation.",
-          "terms": [
-            {
-              "term": "AI agent",
-              "definition": "AI that can take actions and complete multi-step tasks on its own, not just answer questions."
-            },
-            {
-              "term": "Context graph",
-              "definition": "A map of a company's data, definitions, permissions, and workflows that AI systems can consult."
-            }
-          ],
-          "url": "https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/",
-          "source_name": "TechCrunch",
-          "signal_tag": "new",
-          "published_at": "2026-06-10"
-        },
-        {
-          "section": "tools",
-          "headline": "Sandstone raises $30M to automate in-house legal work at mid-sized firms",
-          "summary": "Sandstone announced a $30 million round on June 9 led by Lightspeed, six months after a Sequoia-backed seed round. The tool gathers legal requests arriving through Slack, email, and ticketing systems into one queue, uses AI to sort and route them, and lets legal teams build their own automated workflows for drafting and review — aimed at small and mid-sized businesses rather than big law firms.",
-          "why_it_matters": "Legal ops is an underserved automation niche — flag it to any client whose in-house counsel is drowning in contract requests.",
-          "terms": [
-            {
-              "term": "Triage",
-              "definition": "Sorting incoming requests by urgency and type before working on them."
-            }
-          ],
-          "url": "https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams/",
-          "source_name": "TechCrunch",
-          "signal_tag": "new",
-          "published_at": "2026-06-09"
-        }
-      ]
+     "term": "Procurement",
+     "definition": "How a company buys goods and services from suppliers."
     },
     {
-      "id": "news",
-      "label": "📰 News",
-      "items": [
-        {
-          "section": "news",
-          "headline": "Google cuts its budget AI plan 37% as the subscription price war reaches the US",
-          "summary": "Google dropped its entry-level AI subscription from $7.99 to $4.99 a month in early June while doubling its included storage to 400GB. Cheap AI tiers were previously an emerging-markets play — OpenAI launched ChatGPT Go in India at about $4.60 — but this cut targets US customers, a sign AI assistants are starting to be priced like commodities while standard plans such as ChatGPT Plus still run $20.",
-          "why_it_matters": "Revisit clients' AI subscription stack — consumer-tier pricing is dropping fast and many teams are overpaying for seats they could downgrade.",
-          "terms": [
-            {
-              "term": "Commoditization",
-              "definition": "When competing products become interchangeable, forcing companies to compete mainly on price."
-            }
-          ],
-          "url": "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
-          "source_name": "TechCrunch",
-          "signal_tag": "shift",
-          "published_at": "2026-06-09"
-        },
-        {
-          "section": "news",
-          "headline": "53% of companies were hit by executive impersonation attacks this year",
-          "summary": "A survey of more than 1,100 security and risk leaders by security firm Outtake found 53% of organizations faced attacks impersonating executives or employees in 2026, and 47% saw confirmed or suspected \"synthetic media\" — AI-generated fake audio, video, or text — impersonating an executive or their brand. Only 43% rehearse these scams with their executives, and just 4% say they fully monitor and control their own AI agents.",
-          "why_it_matters": "Add a deepfake-fraud check — verification callbacks and exec-impersonation drills — to every AI advisory engagement; it is now a majority-of-companies problem.",
-          "terms": [
-            {
-              "term": "Deepfake",
-              "definition": "An AI-generated fake of a real person's voice, face, or writing, convincing enough to fool colleagues."
-            }
-          ],
-          "url": "https://www.cfodive.com/news/ai-executive-impersonation-outtake-survey/822350/",
-          "source_name": "CFO Dive",
-          "signal_tag": "shift",
-          "published_at": "2026-06-08"
-        },
-        {
-          "section": "news",
-          "headline": "Gartner: marketing money is rushing to acquisition while 70% of CMOs can't scale AI",
-          "summary": "Gartner's annual survey of 401 chief marketing officers (run January–March 2026, mostly at $1B+ companies) found 62.6% of media budgets now go to winning new customers — conversion and awareness — up 10% from 2024, while loyalty and retention get under 15%. Meanwhile 70% of CMOs say they cannot properly implement and scale AI, only 30% feel they have the right AI infrastructure, and 38% blame a lack of in-house AI expertise.",
-          "why_it_matters": "That 70%-can't-scale-AI gap is precisely the pain an AI consultant solves — cite this survey in your pitch.",
-          "terms": [
-            {
-              "term": "Conversion",
-              "definition": "When a prospect takes the action a marketer wants, like buying or signing up."
-            }
-          ],
-          "url": "https://www.marketingdive.com/news/customer-acquisition-media-spend-accelerates-amid-rush-to-ai-gartner/822274/",
-          "source_name": "Marketing Dive",
-          "signal_tag": "shift",
-          "published_at": "2026-06-09"
-        },
-        {
-          "section": "news",
-          "headline": "US desk workers are the world's biggest AI skeptics",
-          "summary": "More than half of US desk workers consider themselves AI skeptics, according to recent studies covered by ZDNet — making the American workforce more AI-resistant than workers in emerging economies, where trust in AI runs notably higher.",
-          "why_it_matters": "Budget real change-management time into US rollouts — employee skepticism, not the technology, is often what stalls adoption.",
-          "terms": [],
-          "url": "https://www.zdnet.com/article/us-workers-are-worlds-biggest-ai-skeptics/",
-          "source_name": "ZDNet",
-          "signal_tag": "shift",
-          "published_at": "2026-06-09"
-        },
-        {
-          "section": "news",
-          "headline": "Lovable hits $500M annual revenue as non-coders build a million apps a week",
-          "summary": "Lovable, the European \"vibe coding\" platform — building software by chatting with AI instead of programming — says it reached a $500 million annualized revenue run rate in June, up from $400 million in February, with users starting 1 million new projects a week. Its mostly non-technical users are building storefronts and internal tools like CRMs and inventory systems — the kind of software companies used to buy.",
-          "why_it_matters": "Try prototyping a client's internal tool in Lovable before they sign another SaaS contract — \"build vs buy\" just changed for small software.",
-          "terms": [
-            {
-              "term": "Vibe coding",
-              "definition": "Building working software by describing what you want to an AI in plain language."
-            },
-            {
-              "term": "Annualized run rate",
-              "definition": "Current revenue projected out to a full year — a growth-rate snapshot, not money already earned."
-            },
-            {
-              "term": "CRM",
-              "definition": "Customer Relationship Management — software that stores a company's customer and sales data."
-            }
-          ],
-          "url": "https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/",
-          "source_name": "TechCrunch",
-          "signal_tag": "trending",
-          "published_at": "2026-06-09"
-        }
-      ]
-    },
-    {
-      "id": "case_studies",
-      "label": "📊 Case Studies",
-      "items": [
-        {
-          "section": "case_studies",
-          "headline": "Bristol Myers cut supplier-bidding cycles from 6–9 months to under 30 days with AI",
-          "summary": "Pharma giant Bristol Myers Squibb compressed its RFP process — the formal request companies send suppliers to bid on work — from 6–9 months to under 30 days using an AI procurement platform from vendor Globality, running roughly 10× more RFPs in the first year and putting over $1 billion of spend through it with about 50% fewer people than the outsourced process it replaced. Its digital strategy lead's advice on data quality: \"if you wait for perfect data, you'll never get started.\"",
-          "why_it_matters": "A ready-made client story for procurement automation — and ammunition against the \"our data isn't ready\" objection.",
-          "terms": [
-            {
-              "term": "Procurement",
-              "definition": "How a company buys goods and services from suppliers."
-            },
-            {
-              "term": "RFP",
-              "definition": "Request for Proposal — the formal document a company sends suppliers asking them to bid on work."
-            }
-          ],
-          "url": "https://www.cfodive.com/news/inside-bristol-myers-ai-powered-procurement-overhaul/822188/",
-          "source_name": "CFO Dive",
-          "signal_tag": "new",
-          "published_at": "2026-06-09"
-        },
-        {
-          "section": "case_studies",
-          "headline": "Verizon's AI agents beat its old service satisfaction scores by 12.8 points in a 3-month test",
-          "summary": "Verizon CEO Dan Schulman said on June 5 at the Bloomberg Tech conference that AI agents tested over the prior three months scored customer satisfaction 1,280 basis points — 12.8 percentage points — better than what the company had before. Verizon's working split: routine questions go to AI agents, while complex issues go to a human representative working alongside one. Schulman also said plainly that AI will replace \"a large percentage\" of customer service roles.",
-          "why_it_matters": "Use Verizon's split — rote work to AI, complex work to human-AI pairs — as your default service-design recommendation; it is now CEO-validated at telecom scale.",
-          "terms": [
-            {
-              "term": "AI agent",
-              "definition": "AI that can take actions and complete multi-step tasks on its own, not just answer questions."
-            }
-          ],
-          "url": "https://www.customerexperiencedive.com/news/verizon-ceo-ai-take-over-a-large-percentage-of-customer-service/822158/",
-          "source_name": "CX Dive",
-          "signal_tag": "shift",
-          "published_at": "2026-06-05"
-        },
-        {
-          "section": "case_studies",
-          "headline": "Tractor Supply posts double-digit delivery growth after AI took over route planning",
-          "summary": "US rural-retail chain Tractor Supply grew delivery volume by double digits year over year in the quarter ending March 28 after deploying AI that builds delivery routes for territory managers — planning work drivers previously did themselves. AI-generated delivery time estimates are next, its VP of final mile said at the Home Delivery World conference in June. Notably, the company keeps drivers away from performance dashboards on purpose: \"we don't want them focused on all the metrics.\"",
-          "why_it_matters": "A relatable mid-market logistics example where AI moved planning work up a level instead of adding more screens for frontline staff.",
-          "terms": [
-            {
-              "term": "Last-mile delivery",
-              "definition": "The final leg of a delivery, from the local hub to the customer's door — usually the most expensive part."
-            }
-          ],
-          "url": "https://www.supplychaindive.com/news/tractor-supply-taps-ai-to-help-scale-last-mile-delivery-network/822349/",
-          "source_name": "Supply Chain Dive",
-          "signal_tag": "new",
-          "published_at": "2026-06-10"
-        }
-      ]
-    },
-    {
-      "id": "people",
-      "label": "👤 People to Watch",
-      "items": [
-        {
-          "section": "people",
-          "headline": "Ethan Mollick on what it feels like to manage AI instead of using it",
-          "summary": "Wharton professor Ethan Mollick — one of the most-read voices on AI at work — published a hands-on account on June 9 of working with Claude Fable 5. His thesis: with this class of model you stop steering the AI and start commissioning it — you describe the outcome, it spins up its own sub-agents, works for hours, and returns finished products (one of his projects ran 9.5 hours unattended). He is equally clear on the trade-offs: high token costs, oversensitive safety blocks, and no visibility into the hundreds of judgment calls the model makes along the way.",
-          "why_it_matters": "Follow Mollick for client-ready language about the shift from \"using AI tools\" to \"managing AI workers\" — his essays translate frontier capability into business terms.",
-          "terms": [
-            {
-              "term": "Sub-agents",
-              "definition": "Extra AI workers a model launches on its own to split up a big task."
-            },
-            {
-              "term": "Token",
-              "definition": "The small chunks of text an AI model reads and writes; usage is billed per million of them."
-            }
-          ],
-          "url": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
-          "source_name": "One Useful Thing",
-          "signal_tag": "trending",
-          "published_at": "2026-06-09"
-        },
-        {
-          "section": "people",
-          "headline": "Azeem Azhar's three-stage framework for why AI isn't showing up in the P&L",
-          "summary": "Tech analyst Azeem Azhar (Exponential View) and Nathan Warren published a framework arguing most companies are stuck at the \"lightbulb\" stage of AI — speeding up individual tasks — while real returns come from rewiring how decisions get made, the way factories had to redesign themselves around electricity. They cite that only 27% of executives say AI has met ROI expectations, and name the core blocker \"congestion\": faster individual output jamming into unchanged approval layers.",
-          "why_it_matters": "Steal this three-stage story — task speed-up, then workflow redesign, then decision redesign — for any client asking why their AI spend isn't moving the bottom line.",
-          "terms": [
-            {
-              "term": "ROI",
-              "definition": "Return on investment — what you get back versus what you spent."
-            },
-            {
-              "term": "P&L",
-              "definition": "Profit and loss statement — a company's record of income and costs over a period."
-            }
-          ],
-          "url": "https://www.exponentialview.co/p/why-ai-isnt-showing-up-on-your-bottom-line",
-          "source_name": "Exponential View",
-          "signal_tag": "shift",
-          "published_at": "2026-05-27"
-        }
-      ]
+     "term": "RFP",
+     "definition": "Request for Proposal — the formal document a company sends suppliers asking them to bid on work."
     }
-  ]
+   ],
+   "url": "https://www.cfodive.com/news/inside-bristol-myers-ai-powered-procurement-overhaul/822188/",
+   "source_name": "CFO Dive",
+   "signal_tag": "new",
+   "published_at": "2026-06-09"
+  },
+  {
+   "section": "news",
+   "headline": "Google cuts its budget AI plan 37% as the subscription price war reaches the US",
+   "summary": "Google dropped its entry-level AI subscription from $7.99 to $4.99 a month in early June while doubling its included storage to 400GB. Cheap AI tiers were previously an emerging-markets play — OpenAI launched ChatGPT Go in India at about $4.60 — but this cut targets US customers, a sign AI assistants are starting to be priced like commodities while standard plans such as ChatGPT Plus still run $20.",
+   "why_it_matters": "Revisit clients' AI subscription stack — consumer-tier pricing is dropping fast and many teams are overpaying for seats they could downgrade.",
+   "terms": [
+    {
+     "term": "Commoditization",
+     "definition": "When competing products become interchangeable, forcing companies to compete mainly on price."
+    }
+   ],
+   "url": "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
+   "source_name": "TechCrunch",
+   "signal_tag": "shift",
+   "published_at": "2026-06-09"
+  }
+ ],
+ "sections": [
+  {
+   "id": "tools",
+   "label": "🛠 Tools",
+   "items": [
+    {
+     "section": "tools",
+     "headline": "Anthropic opens its most powerful AI to the public with Claude Fable 5",
+     "summary": "Anthropic released Claude Fable 5 on June 9 — the first of its top-tier \"Mythos-class\" models the public can use, priced at $10 per million input tokens and $50 per million output tokens, about double its previous flagship. The model is built for software work, knowledge work, and reading images, and it refuses requests in risky areas like cybersecurity and biology, handing those to the older Opus model instead. It is included free in paid Claude plans from June 9 to 22, after which it draws on usage credits.",
+     "why_it_matters": "Try it on a real client deliverable while it's included in paid Claude plans, so you can speak about Mythos-class AI firsthand.",
+     "terms": [
+      {
+       "term": "Token",
+       "definition": "The small chunks of text an AI model reads and writes; usage is billed per million of them."
+      },
+      {
+       "term": "Mythos-class",
+       "definition": "Anthropic's most powerful tier of AI models, previously limited to vetted partners and critical-infrastructure organizations."
+      }
+     ],
+     "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
+     "source_name": "TechCrunch",
+     "signal_tag": "new",
+     "published_at": "2026-06-09"
+    },
+    {
+     "section": "tools",
+     "headline": "Accenture and Carnegie Mellon release a framework for scoring AI readiness",
+     "summary": "Accenture and Carnegie Mellon University's Software Engineering Institute launched an \"AI Adoption Maturity Model\" on June 8 — a framework that scores an organization across eight dimensions, from strategy and workforce to data, risk, and operations. It was built from over 100 reviewed maturity efforts, about 25 executive interviews, and nearly 600 practitioner surveys. The release cites that 86% of C-suite leaders plan to raise AI spending in 2026, yet only 21% of organizations are redesigning end-to-end processes and nearly half of executives say AI has delivered minimal profit impact.",
+     "why_it_matters": "Borrow this as the backbone of an AI-readiness assessment offering — a credible, citable structure for client audits.",
+     "terms": [
+      {
+       "term": "Maturity model",
+       "definition": "A framework that rates how advanced an organization's capabilities are, so it can see gaps and plan next steps."
+      }
+     ],
+     "url": "https://newsroom.accenture.com/news/2026/accenture-and-the-carnegie-mellon-university-software-engineering-institute-launch-ai-adoption-maturity-model-to-help-organizations-scale-ai-with-predictable-outcomes",
+     "source_name": "Accenture Newsroom",
+     "signal_tag": "new",
+     "published_at": "2026-06-08"
+    },
+    {
+     "section": "tools",
+     "headline": "SoFi launches \"Coach,\" an AI money adviser inside its banking app",
+     "summary": "SoFi, the US online bank with about 14.7 million customers, is rolling out Coach to its SoFi Plus members in June — a chat-based AI adviser that uses a customer's own financial data to help with budgeting, investing, and canceling unused subscriptions. In testing, SoFi says a majority of users took action to improve their finances after talking to Coach. Its head of advice says the AI recommends what people will actually follow through on — like paying off the smallest debts first for visible progress — over what is mathematically optimal.",
+     "why_it_matters": "A fresh example of AI that changes customer behavior rather than just answering questions — useful framing when pitching AI for engagement instead of cost-cutting.",
+     "terms": [],
+     "url": "https://www.customerexperiencedive.com/news/sofi-bank-ai-adviser-coach-financial-planning/822414/",
+     "source_name": "CX Dive",
+     "signal_tag": "new",
+     "published_at": "2026-06-10"
+    },
+    {
+     "section": "tools",
+     "headline": "Jedify raises $24M to teach AI agents how a business actually works",
+     "summary": "Startup Jedify announced a $24 million funding round on June 10, led by Norwest with Snowflake's venture arm participating. Its platform plugs into a company's databases, business apps, and even Slack to build a \"context graph\" — a map of how the business defines things like revenue, who is allowed to see what, and how work flows — so AI agents stop guessing and follow the company's real rules.",
+     "why_it_matters": "Names the top reason client AI-agent pilots disappoint — missing business context — and gives you vendor-aware language for that conversation.",
+     "terms": [
+      {
+       "term": "AI agent",
+       "definition": "AI that can take actions and complete multi-step tasks on its own, not just answer questions."
+      },
+      {
+       "term": "Context graph",
+       "definition": "A map of a company's data, definitions, permissions, and workflows that AI systems can consult."
+      }
+     ],
+     "url": "https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/",
+     "source_name": "TechCrunch",
+     "signal_tag": "new",
+     "published_at": "2026-06-10"
+    },
+    {
+     "section": "tools",
+     "headline": "Sandstone raises $30M to automate in-house legal work at mid-sized firms",
+     "summary": "Sandstone announced a $30 million round on June 9 led by Lightspeed, six months after a Sequoia-backed seed round. The tool gathers legal requests arriving through Slack, email, and ticketing systems into one queue, uses AI to sort and route them, and lets legal teams build their own automated workflows for drafting and review — aimed at small and mid-sized businesses rather than big law firms.",
+     "why_it_matters": "Legal ops is an underserved automation niche — flag it to any client whose in-house counsel is drowning in contract requests.",
+     "terms": [
+      {
+       "term": "Triage",
+       "definition": "Sorting incoming requests by urgency and type before working on them."
+      }
+     ],
+     "url": "https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams/",
+     "source_name": "TechCrunch",
+     "signal_tag": "new",
+     "published_at": "2026-06-09"
+    }
+   ]
+  },
+  {
+   "id": "news",
+   "label": "📰 News",
+   "items": [
+    {
+     "section": "news",
+     "headline": "Google cuts its budget AI plan 37% as the subscription price war reaches the US",
+     "summary": "Google dropped its entry-level AI subscription from $7.99 to $4.99 a month in early June while doubling its included storage to 400GB. Cheap AI tiers were previously an emerging-markets play — OpenAI launched ChatGPT Go in India at about $4.60 — but this cut targets US customers, a sign AI assistants are starting to be priced like commodities while standard plans such as ChatGPT Plus still run $20.",
+     "why_it_matters": "Revisit clients' AI subscription stack — consumer-tier pricing is dropping fast and many teams are overpaying for seats they could downgrade.",
+     "terms": [
+      {
+       "term": "Commoditization",
+       "definition": "When competing products become interchangeable, forcing companies to compete mainly on price."
+      }
+     ],
+     "url": "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
+     "source_name": "TechCrunch",
+     "signal_tag": "shift",
+     "published_at": "2026-06-09"
+    },
+    {
+     "section": "news",
+     "headline": "53% of companies were hit by executive impersonation attacks this year",
+     "summary": "A survey of more than 1,100 security and risk leaders by security firm Outtake found 53% of organizations faced attacks impersonating executives or employees in 2026, and 47% saw confirmed or suspected \"synthetic media\" — AI-generated fake audio, video, or text — impersonating an executive or their brand. Only 43% rehearse these scams with their executives, and just 4% say they fully monitor and control their own AI agents.",
+     "why_it_matters": "Add a deepfake-fraud check — verification callbacks and exec-impersonation drills — to every AI advisory engagement; it is now a majority-of-companies problem.",
+     "terms": [
+      {
+       "term": "Deepfake",
+       "definition": "An AI-generated fake of a real person's voice, face, or writing, convincing enough to fool colleagues."
+      }
+     ],
+     "url": "https://www.cfodive.com/news/ai-executive-impersonation-outtake-survey/822350/",
+     "source_name": "CFO Dive",
+     "signal_tag": "shift",
+     "published_at": "2026-06-08"
+    },
+    {
+     "section": "news",
+     "headline": "Gartner: marketing money is rushing to acquisition while 70% of CMOs can't scale AI",
+     "summary": "Gartner's annual survey of 401 chief marketing officers (run January–March 2026, mostly at $1B+ companies) found 62.6% of media budgets now go to winning new customers — conversion and awareness — up 10% from 2024, while loyalty and retention get under 15%. Meanwhile 70% of CMOs say they cannot properly implement and scale AI, only 30% feel they have the right AI infrastructure, and 38% blame a lack of in-house AI expertise.",
+     "why_it_matters": "That 70%-can't-scale-AI gap is precisely the pain an AI consultant solves — cite this survey in your pitch.",
+     "terms": [
+      {
+       "term": "Conversion",
+       "definition": "When a prospect takes the action a marketer wants, like buying or signing up."
+      }
+     ],
+     "url": "https://www.marketingdive.com/news/customer-acquisition-media-spend-accelerates-amid-rush-to-ai-gartner/822274/",
+     "source_name": "Marketing Dive",
+     "signal_tag": "shift",
+     "published_at": "2026-06-09"
+    },
+    {
+     "section": "news",
+     "headline": "US desk workers are the world's biggest AI skeptics",
+     "summary": "More than half of US desk workers consider themselves AI skeptics, according to recent studies covered by ZDNet — making the American workforce more AI-resistant than workers in emerging economies, where trust in AI runs notably higher.",
+     "why_it_matters": "Budget real change-management time into US rollouts — employee skepticism, not the technology, is often what stalls adoption.",
+     "terms": [],
+     "url": "https://www.zdnet.com/article/us-workers-are-worlds-biggest-ai-skeptics/",
+     "source_name": "ZDNet",
+     "signal_tag": "shift",
+     "published_at": "2026-06-09"
+    },
+    {
+     "section": "news",
+     "headline": "Lovable hits $500M annual revenue as non-coders build a million apps a week",
+     "summary": "Lovable, the European \"vibe coding\" platform — building software by chatting with AI instead of programming — says it reached a $500 million annualized revenue run rate in June, up from $400 million in February, with users starting 1 million new projects a week. Its mostly non-technical users are building storefronts and internal tools like CRMs and inventory systems — the kind of software companies used to buy.",
+     "why_it_matters": "Try prototyping a client's internal tool in Lovable before they sign another SaaS contract — \"build vs buy\" just changed for small software.",
+     "terms": [
+      {
+       "term": "Vibe coding",
+       "definition": "Building working software by describing what you want to an AI in plain language."
+      },
+      {
+       "term": "Annualized run rate",
+       "definition": "Current revenue projected out to a full year — a growth-rate snapshot, not money already earned."
+      },
+      {
+       "term": "CRM",
+       "definition": "Customer Relationship Management — software that stores a company's customer and sales data."
+      }
+     ],
+     "url": "https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/",
+     "source_name": "TechCrunch",
+     "signal_tag": "trending",
+     "published_at": "2026-06-09"
+    }
+   ]
+  },
+  {
+   "id": "case_studies",
+   "label": "📊 Case Studies",
+   "items": [
+    {
+     "section": "case_studies",
+     "headline": "Bristol Myers cut supplier-bidding cycles from 6–9 months to under 30 days with AI",
+     "summary": "Pharma giant Bristol Myers Squibb compressed its RFP process — the formal request companies send suppliers to bid on work — from 6–9 months to under 30 days using an AI procurement platform from vendor Globality, running roughly 10× more RFPs in the first year and putting over $1 billion of spend through it with about 50% fewer people than the outsourced process it replaced. Its digital strategy lead's advice on data quality: \"if you wait for perfect data, you'll never get started.\"",
+     "why_it_matters": "A ready-made client story for procurement automation — and ammunition against the \"our data isn't ready\" objection.",
+     "terms": [
+      {
+       "term": "Procurement",
+       "definition": "How a company buys goods and services from suppliers."
+      },
+      {
+       "term": "RFP",
+       "definition": "Request for Proposal — the formal document a company sends suppliers asking them to bid on work."
+      }
+     ],
+     "url": "https://www.cfodive.com/news/inside-bristol-myers-ai-powered-procurement-overhaul/822188/",
+     "source_name": "CFO Dive",
+     "signal_tag": "new",
+     "published_at": "2026-06-09"
+    },
+    {
+     "section": "case_studies",
+     "headline": "Verizon's AI agents beat its old service satisfaction scores by 12.8 points in a 3-month test",
+     "summary": "Verizon CEO Dan Schulman said on June 5 at the Bloomberg Tech conference that AI agents tested over the prior three months scored customer satisfaction 1,280 basis points — 12.8 percentage points — better than what the company had before. Verizon's working split: routine questions go to AI agents, while complex issues go to a human representative working alongside one. Schulman also said plainly that AI will replace \"a large percentage\" of customer service roles.",
+     "why_it_matters": "Use Verizon's split — rote work to AI, complex work to human-AI pairs — as your default service-design recommendation; it is now CEO-validated at telecom scale.",
+     "terms": [
+      {
+       "term": "AI agent",
+       "definition": "AI that can take actions and complete multi-step tasks on its own, not just answer questions."
+      }
+     ],
+     "url": "https://www.customerexperiencedive.com/news/verizon-ceo-ai-take-over-a-large-percentage-of-customer-service/822158/",
+     "source_name": "CX Dive",
+     "signal_tag": "shift",
+     "published_at": "2026-06-05"
+    },
+    {
+     "section": "case_studies",
+     "headline": "Tractor Supply posts double-digit delivery growth after AI took over route planning",
+     "summary": "US rural-retail chain Tractor Supply grew delivery volume by double digits year over year in the quarter ending March 28 after deploying AI that builds delivery routes for territory managers — planning work drivers previously did themselves. AI-generated delivery time estimates are next, its VP of final mile said at the Home Delivery World conference in June. Notably, the company keeps drivers away from performance dashboards on purpose: \"we don't want them focused on all the metrics.\"",
+     "why_it_matters": "A relatable mid-market logistics example where AI moved planning work up a level instead of adding more screens for frontline staff.",
+     "terms": [
+      {
+       "term": "Last-mile delivery",
+       "definition": "The final leg of a delivery, from the local hub to the customer's door — usually the most expensive part."
+      }
+     ],
+     "url": "https://www.supplychaindive.com/news/tractor-supply-taps-ai-to-help-scale-last-mile-delivery-network/822349/",
+     "source_name": "Supply Chain Dive",
+     "signal_tag": "new",
+     "published_at": "2026-06-10"
+    }
+   ]
+  },
+  {
+   "id": "people",
+   "label": "👤 People to Watch",
+   "items": [
+    {
+     "section": "people",
+     "headline": "Ethan Mollick on what it feels like to manage AI instead of using it",
+     "summary": "Wharton professor Ethan Mollick — one of the most-read voices on AI at work — published a hands-on account on June 9 of working with Claude Fable 5. His thesis: with this class of model you stop steering the AI and start commissioning it — you describe the outcome, it spins up its own sub-agents, works for hours, and returns finished products (one of his projects ran 9.5 hours unattended). He is equally clear on the trade-offs: high token costs, oversensitive safety blocks, and no visibility into the hundreds of judgment calls the model makes along the way.",
+     "why_it_matters": "Follow Mollick for client-ready language about the shift from \"using AI tools\" to \"managing AI workers\" — his essays translate frontier capability into business terms.",
+     "terms": [
+      {
+       "term": "Sub-agents",
+       "definition": "Extra AI workers a model launches on its own to split up a big task."
+      },
+      {
+       "term": "Token",
+       "definition": "The small chunks of text an AI model reads and writes; usage is billed per million of them."
+      }
+     ],
+     "url": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
+     "source_name": "One Useful Thing",
+     "signal_tag": "trending",
+     "published_at": "2026-06-09"
+    },
+    {
+     "section": "people",
+     "headline": "Azeem Azhar's three-stage framework for why AI isn't showing up in the P&L",
+     "summary": "Tech analyst Azeem Azhar (Exponential View) and Nathan Warren published a framework arguing most companies are stuck at the \"lightbulb\" stage of AI — speeding up individual tasks — while real returns come from rewiring how decisions get made, the way factories had to redesign themselves around electricity. They cite that only 27% of executives say AI has met ROI expectations, and name the core blocker \"congestion\": faster individual output jamming into unchanged approval layers.",
+     "why_it_matters": "Steal this three-stage story — task speed-up, then workflow redesign, then decision redesign — for any client asking why their AI spend isn't moving the bottom line.",
+     "terms": [
+      {
+       "term": "ROI",
+       "definition": "Return on investment — what you get back versus what you spent."
+      },
+      {
+       "term": "P&L",
+       "definition": "Profit and loss statement — a company's record of income and costs over a period."
+      }
+     ],
+     "url": "https://www.exponentialview.co/p/why-ai-isnt-showing-up-on-your-bottom-line",
+     "source_name": "Exponential View",
+     "signal_tag": "shift",
+     "published_at": "2026-05-27"
+    }
+   ]
+  }
+ ]
 }
