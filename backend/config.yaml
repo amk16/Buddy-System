@@ -9,48 +9,70 @@ cadence: weekly
 # How many "must-know" items appear in The Brief at the top.
 brief_count: 3
 
-# The lens the curator applies. Broad business-AI for consulting, with an eye
-# toward cost-saving / automation / ROI signal. Edit this to retarget the feed.
+# The lens the curator applies, in ranked order. Edit this to retarget the feed.
 relevance_focus: >
   AI applied across business functions — operations, finance, sales, customer
-  support, and marketing — with emphasis on tools and stories that show
-  measurable cost savings, automation, or ROI. The reader is an AI consultant
-  building credibility: surface what helps them advise companies and spot
-  case-study angles. Marketing-AI is in scope but not the only focus.
+  support, and marketing — for an AI consultant building credibility. Ranked
+  priorities: (1) client-ready talking points she can repeat today (tools to
+  recommend, case studies with numbers, risks to flag); (2) her own learning
+  curve (plain-language understanding that compounds); (3) market radar
+  (pricing shifts, new entrants, rising voices). A weaker story she can USE
+  beats a bigger story she can't.
 
 # Only consider items published within this many days.
 lookback_days: 14
 
-# Sections rendered in the dashboard, in order. Keep to tools/news/people in v1.
+# Sections rendered in the dashboard, in order. Worst case 15 cards total.
 sections:
   - id: tools
     label: "🛠 Tools"
     max_items: 5
   - id: news
     label: "📰 News"
-    max_items: 6
+    max_items: 5
+  - id: case_studies
+    label: "📊 Case Studies"
+    max_items: 3
   - id: people
     label: "👤 People to Watch"
-    max_items: 4
+    max_items: 2
 
 sources:
-  # RSS feeds — free, automation-friendly. Bad/unreachable feeds are skipped.
+  # RSS feeds — free, automation-friendly. Bad/unreachable feeds are skipped at
+  # runtime, but every feed below was verified live before being added.
   rss:
-    # General AI / tech
+    # Tier 1 — practitioner voices (feeds People + Case Studies)
+    - https://www.oneusefulthing.org/feed
+    - https://www.bensbites.com/feed
+    - https://www.lennysnewsletter.com/feed
+    - https://www.exponentialview.co/feed
+    - https://www.marketingaiinstitute.com/blog/rss.xml
+    # Tier 2 — vertical trade press (feeds Case Studies + News across business functions)
+    - https://www.customerexperiencedive.com/feeds/news/
+    - https://www.cfodive.com/feeds/news/
+    - https://www.supplychaindive.com/feeds/news/
+    - https://www.retaildive.com/feeds/news/
+    - https://www.ciodive.com/feeds/news/
+    - https://www.hrdive.com/feeds/news/
+    - https://www.zdnet.com/topic/artificial-intelligence/rss.xml
+    # Tier 3 — general tech, pruned to the highest-signal
     - https://techcrunch.com/category/artificial-intelligence/feed/
     - https://venturebeat.com/category/ai/feed/
-    - https://www.artificialintelligence-news.com/feed/
     - https://www.technologyreview.com/feed/
-    - https://www.theverge.com/rss/index.xml
-    # Marketing-AI / agency angle
-    - https://www.marketingaiinstitute.com/blog/rss.xml
     - https://www.marketingdive.com/feeds/news/
-    - https://feeds.feedburner.com/MarketingTechNews
 
   # Web-search queries — run via Claude's grounded web_search tool (real URLs).
+  # Grouped by the section they mainly feed.
   web_search:
     queries:
-      - "new AI tools for business this week"
-      - "enterprise AI cost savings case study"
-      - "AI marketing tools launch"
-      - "influential people in AI business this month"
+      # tools
+      - "new AI tools for business launched this week"
+      - "AI tool launch for sales customer support finance teams"
+      # case_studies
+      - "enterprise AI case study cost savings results"
+      - "company AI deployment ROI case study percent saved"
+      - "AI customer service cost reduction case study"
+      # news
+      - "enterprise AI adoption news this week"
+      # people
+      - "AI leader interview enterprise automation advice"
