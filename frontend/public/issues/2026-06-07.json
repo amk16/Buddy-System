@@ -1,0 +1,99 @@
+{
+  "id": "2026-06-07",
+  "generated_at": "2026-06-07T23:55:39.467575+00:00",
+  "title": "AI Marketing Pulse (sample)",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "[SAMPLE] Major retailer reports 30% support-cost cut with AI",
+      "why_it_matters": "A concrete ROI case study to cite in cost-saving pitches.",
+      "url": "https://www.technologyreview.com/",
+      "source_name": "MIT Tech Review",
+      "signal_tag": "shift",
+      "published_at": "2026-06-07"
+    },
+    {
+      "section": "tools",
+      "headline": "[SAMPLE] AI meeting-notes tool adds CRM auto-sync",
+      "why_it_matters": "A try-this tool that cuts sales-ops admin time — easy cost-saving demo.",
+      "url": "https://techcrunch.com/",
+      "source_name": "TechCrunch",
+      "signal_tag": "new",
+      "published_at": "2026-06-07"
+    },
+    {
+      "section": "people",
+      "headline": "[SAMPLE] Enterprise-AI founder on where automation pays off",
+      "why_it_matters": "Worth following for case-study angles and pitch framing.",
+      "url": "https://www.theverge.com/",
+      "source_name": "The Verge",
+      "signal_tag": "trending",
+      "published_at": "2026-06-07"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "[SAMPLE] AI meeting-notes tool adds CRM auto-sync",
+          "why_it_matters": "A try-this tool that cuts sales-ops admin time — easy cost-saving demo.",
+          "url": "https://techcrunch.com/",
+          "source_name": "TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-06-07"
+        },
+        {
+          "section": "tools",
+          "headline": "[SAMPLE] Open-source agent framework hits 1.0",
+          "why_it_matters": "Lowers the bar for building internal automations clients ask about.",
+          "url": "https://venturebeat.com/",
+          "source_name": "VentureBeat",
+          "signal_tag": "trending",
+          "published_at": "2026-06-07"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "[SAMPLE] Major retailer reports 30% support-cost cut with AI",
+          "why_it_matters": "A concrete ROI case study to cite in cost-saving pitches.",
+          "url": "https://www.technologyreview.com/",
+          "source_name": "MIT Tech Review",
+          "signal_tag": "shift",
+          "published_at": "2026-06-07"
+        },
+        {
+          "section": "news",
+          "headline": "[SAMPLE] New ad-platform AI targeting rolls out in India",
+          "why_it_matters": "Directly relevant to marketing clients; talking point for socials.",
+          "url": "https://www.socialsamosa.com/",
+          "source_name": "Social Samosa",
+          "signal_tag": "new",
+          "published_at": "2026-06-07"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "[SAMPLE] Enterprise-AI founder on where automation pays off",
+          "why_it_matters": "Worth following for case-study angles and pitch framing.",
+          "url": "https://www.theverge.com/",
+          "source_name": "The Verge",
+          "signal_tag": "trending",
+          "published_at": "2026-06-07"
+        }
+      ]
+    }
+  ]
+}

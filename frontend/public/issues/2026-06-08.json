@@ -1,0 +1,171 @@
+{
+  "id": "2026-06-08",
+  "generated_at": "2026-06-08T01:08:14.839829+00:00",
+  "title": "AI Marketing Pulse",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "Macy's AI shopping assistant lifts basket values within weeks",
+      "why_it_matters": "A concrete, named retail ROI case study you can cite when pitching AI to consumer brands.",
+      "url": "https://www.marketingtechnews.net/news/macys-new-personalising-ai-chatbot-drives-basket-values-inside-a-few-weeks/",
+      "source_name": "Marketing Tech News",
+      "signal_tag": "shift",
+      "published_at": "2026-06-03"
+    },
+    {
+      "section": "news",
+      "headline": "AI costs are outpacing marketing budgets",
+      "why_it_matters": "The budget-vs-AI tension is the conversation you'll have with every client — get ahead of it.",
+      "url": "https://www.marketingaiinstitute.com/blog/podcast-rising-ai-costs",
+      "source_name": "Marketing AI Institute",
+      "signal_tag": "trending",
+      "published_at": "2026-06-03"
+    },
+    {
+      "section": "news",
+      "headline": "Brands move AI ad production in-house — Target India, Kimberly-Clark",
+      "why_it_matters": "India-led in-housing of creative is a direct cost-saving angle for your client conversations.",
+      "url": "https://www.marketingtechnews.net/news/ai-is-moving-more-ad-production-in-house/",
+      "source_name": "Marketing Tech News",
+      "signal_tag": "shift",
+      "published_at": "2026-05-29"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Sitecore acquires Scrunch to monitor brand visibility in AI search",
+          "why_it_matters": "A ready tool for the 'how do we show up in AI answers' question clients are starting to ask.",
+          "url": "https://www.marketingtechnews.net/news/sitecore-scrunch-ai-search-visibility/",
+          "source_name": "Marketing Tech News",
+          "signal_tag": "new",
+          "published_at": "2026-06-04"
+        },
+        {
+          "section": "tools",
+          "headline": "Microsoft unveils new AI models to cut developer costs",
+          "why_it_matters": "Cheaper model options to factor into the build-cost math when scoping client automations.",
+          "url": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+          "source_name": "CNBC",
+          "signal_tag": "new",
+          "published_at": "2026-06-02"
+        },
+        {
+          "section": "tools",
+          "headline": "OpenAI's Lockdown Mode guards data against prompt-injection attacks",
+          "why_it_matters": "The control to point to when advising clients on safely rolling out AI agents.",
+          "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+          "source_name": "TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-06-06"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "Macy's AI shopping assistant lifts basket values within weeks",
+          "why_it_matters": "A concrete, named retail ROI case study you can cite when pitching AI to consumer brands.",
+          "url": "https://www.marketingtechnews.net/news/macys-new-personalising-ai-chatbot-drives-basket-values-inside-a-few-weeks/",
+          "source_name": "Marketing Tech News",
+          "signal_tag": "shift",
+          "published_at": "2026-06-03"
+        },
+        {
+          "section": "news",
+          "headline": "AI costs are outpacing marketing budgets",
+          "why_it_matters": "The budget-vs-AI tension is the conversation you'll have with every client — get ahead of it.",
+          "url": "https://www.marketingaiinstitute.com/blog/podcast-rising-ai-costs",
+          "source_name": "Marketing AI Institute",
+          "signal_tag": "trending",
+          "published_at": "2026-06-03"
+        },
+        {
+          "section": "news",
+          "headline": "Brands move AI ad production in-house — Target India, Kimberly-Clark",
+          "why_it_matters": "India-led in-housing of creative is a direct cost-saving angle for your client conversations.",
+          "url": "https://www.marketingtechnews.net/news/ai-is-moving-more-ad-production-in-house/",
+          "source_name": "Marketing Tech News",
+          "signal_tag": "shift",
+          "published_at": "2026-05-29"
+        },
+        {
+          "section": "news",
+          "headline": "How small businesses can leverage AI to run admin and ops",
+          "why_it_matters": "A practical playbook for the SMB cost-saving pitch — automating the work they can't afford to hire for.",
+          "url": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
+          "source_name": "MIT Technology Review",
+          "signal_tag": "new",
+          "published_at": "2026-06-02"
+        },
+        {
+          "section": "news",
+          "headline": "Google pushes traditional search results further down for AI search",
+          "why_it_matters": "The discovery shift that reshapes every client's SEO and brand-visibility strategy.",
+          "url": "https://www.marketingtechnews.net/news/google-search-optimisation-pushes-traditional-search-results-further-down-the-page/",
+          "source_name": "Marketing Tech News",
+          "signal_tag": "shift",
+          "published_at": "2026-05-27"
+        },
+        {
+          "section": "news",
+          "headline": "The token bill comes due: industry scrambles to control AI's runaway costs",
+          "why_it_matters": "Cost discipline is becoming the headline — frame your AI advice around controllable spend.",
+          "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/",
+          "source_name": "TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-06-05"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Mira Murati steps back into the spotlight",
+          "why_it_matters": "The Thinking Machines founder's positioning signals where applied-AI talent and tooling are heading.",
+          "url": "https://techcrunch.com/2026/06/04/mira-murati-steps-back-into-the-spotlight-carefully/",
+          "source_name": "TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-06-05"
+        },
+        {
+          "section": "people",
+          "headline": "Anthropic's Daniela Amodei shrugs off doubts about AI's returns ahead of IPO",
+          "why_it_matters": "Anthropic's revenue trajectory and IPO is the reference point in any AI-ROI debate with clients.",
+          "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
+          "source_name": "TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-06-04"
+        },
+        {
+          "section": "people",
+          "headline": "Airbnb's Brian Chesky plans to launch a new AI lab",
+          "why_it_matters": "A consumer-brand CEO going deep on in-house AI — a case study to watch and reference.",
+          "url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
+          "source_name": "TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-06-04"
+        },
+        {
+          "section": "people",
+          "headline": "Sriram Krishnan leaves his role as White House AI advisor",
+          "why_it_matters": "AI-policy direction shifts that ripple into how cautiously enterprises adopt — worth tracking.",
+          "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+          "source_name": "TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-06-06"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+# AI Marketing Pulse — the ONLY file you edit to tune the feed.
+# Change cadence, topics, sources, item counts, and curation focus here.
+
+title: "AI Marketing Pulse"
+
+# Informational for v1 (runs are manual). Drives the date label only.
+cadence: weekly
+
+# How many "must-know" items appear in The Brief at the top.
+brief_count: 3
+
+# The lens the curator applies. Broad business-AI for consulting, with an eye
+# toward cost-saving / automation / ROI signal. Edit this to retarget the feed.
+relevance_focus: >
+  AI applied across business functions — operations, finance, sales, customer
+  support, and marketing — with emphasis on tools and stories that show
+  measurable cost savings, automation, or ROI. The reader is an AI consultant
+  building credibility: surface what helps them advise companies and spot
+  case-study angles. Marketing-AI is in scope but not the only focus.
+
+# Only consider items published within this many days.
+lookback_days: 14
+
+# Sections rendered in the dashboard, in order. Keep to tools/news/people in v1.
+sections:
+  - id: tools
+    label: "🛠 Tools"
+    max_items: 5
+  - id: news
+    label: "📰 News"
+    max_items: 6
+  - id: people
+    label: "👤 People to Watch"
+    max_items: 4
+
+sources:
+  # RSS feeds — free, automation-friendly. Bad/unreachable feeds are skipped.
+  rss:
+    # General AI / tech
+    - https://techcrunch.com/category/artificial-intelligence/feed/
+    - https://venturebeat.com/category/ai/feed/
+    - https://www.artificialintelligence-news.com/feed/
+    - https://www.technologyreview.com/feed/
+    - https://www.theverge.com/rss/index.xml
+    # Marketing-AI / agency angle
+    - https://www.marketingaiinstitute.com/blog/rss.xml
+    - https://www.marketingdive.com/feeds/news/
+    - https://feeds.feedburner.com/MarketingTechNews
+
+  # Web-search queries — run via Claude's grounded web_search tool (real URLs).
+  web_search:
+    queries:
+      - "new AI tools for business this week"
+      - "enterprise AI cost savings case study"
+      - "AI marketing tools launch"
+      - "influential people in AI business this month"

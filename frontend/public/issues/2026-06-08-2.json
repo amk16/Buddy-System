@@ -1,0 +1,152 @@
+{
+  "id": "2026-06-08-2",
+  "generated_at": "2026-06-08T01:40:02.711541+00:00",
+  "title": "AI Marketing Pulse",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "Walmart reins in employee AI use as costs hit the balance sheet",
+      "why_it_matters": "A cautionary cost-control case — exactly the budget reality to raise before a client over-commits to AI.",
+      "url": "https://www.artificialintelligence-news.com/news/walmart-limits-ai-use-as-workflows-meet-the-realities-of-the-balance-sheet/",
+      "source_name": "AI News",
+      "signal_tag": "shift",
+      "published_at": "2026-06-03"
+    },
+    {
+      "section": "news",
+      "headline": "Shell deploys C3 AI agents to automate predictive maintenance",
+      "why_it_matters": "A named enterprise automation/ROI case study you can cite when pitching operational AI.",
+      "url": "https://www.artificialintelligence-news.com/news/how-c3-ai-agents-will-automate-predictive-maintenance-for-shell/",
+      "source_name": "AI News",
+      "signal_tag": "shift",
+      "published_at": "2026-06-05"
+    },
+    {
+      "section": "news",
+      "headline": "Marketers must rethink loyalty as AI reshapes consumer connections",
+      "why_it_matters": "Over half of consumers will filter brand comms through AI — a strategic angle to bring to marketing clients.",
+      "url": "https://www.marketingdive.com/news/why-marketers-must-rethink-loyalty-as-ai-reshapes-consumer-connections/822003/",
+      "source_name": "Marketing Dive",
+      "signal_tag": "shift",
+      "published_at": "2026-06-04"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Amazon opens its AI shopping assistant to retailers, starting with Kate Spade",
+          "why_it_matters": "A deployable shopping assistant clients can put on their own storefronts — a ready cost-saving offer.",
+          "url": "https://www.artificialintelligence-news.com/news/amazon-ai-shopping-assistant-kate-spade-retailers/",
+          "source_name": "AI News",
+          "signal_tag": "new",
+          "published_at": "2026-06-04"
+        },
+        {
+          "section": "tools",
+          "headline": "Meta Business Agent automates conversational commerce in Instagram & Messenger",
+          "why_it_matters": "Handles transactions and support without humans — a concrete play for social-commerce clients.",
+          "url": "https://www.artificialintelligence-news.com/news/meta-business-agent-ai-powered-conversational-commerce/",
+          "source_name": "AI News",
+          "signal_tag": "new",
+          "published_at": "2026-06-04"
+        },
+        {
+          "section": "tools",
+          "headline": "Meta rolls out an AI creator assistant on Facebook",
+          "why_it_matters": "Answers 'when should I post?' from a creator's own data — directly useful for the social clients she serves.",
+          "url": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
+          "source_name": "TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-06-04"
+        },
+        {
+          "section": "tools",
+          "headline": "Microsoft Scout: an agentic 'Autopilot' that works across M365",
+          "why_it_matters": "Agentic automation across Office apps — material for the ops-cost-reduction conversation.",
+          "url": "https://www.artificialintelligence-news.com/news/microsofts-autopilot-scout-is-the-agentic-autopilot-that-works-across-m365/",
+          "source_name": "AI News",
+          "signal_tag": "trending",
+          "published_at": "2026-06-04"
+        },
+        {
+          "section": "tools",
+          "headline": "Apple approves Poke as the first AI agent on Messages for Business",
+          "why_it_matters": "A new AI customer-engagement channel to advise brands on early.",
+          "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+          "source_name": "TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-06-04"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "Walmart reins in employee AI use as costs hit the balance sheet",
+          "why_it_matters": "A cautionary cost-control case — exactly the budget reality to raise before a client over-commits to AI.",
+          "url": "https://www.artificialintelligence-news.com/news/walmart-limits-ai-use-as-workflows-meet-the-realities-of-the-balance-sheet/",
+          "source_name": "AI News",
+          "signal_tag": "shift",
+          "published_at": "2026-06-03"
+        },
+        {
+          "section": "news",
+          "headline": "Shell deploys C3 AI agents to automate predictive maintenance",
+          "why_it_matters": "A named enterprise automation/ROI case study you can cite when pitching operational AI.",
+          "url": "https://www.artificialintelligence-news.com/news/how-c3-ai-agents-will-automate-predictive-maintenance-for-shell/",
+          "source_name": "AI News",
+          "signal_tag": "shift",
+          "published_at": "2026-06-05"
+        },
+        {
+          "section": "news",
+          "headline": "GitHub Copilot moves to token-based billing — and users see price hikes",
+          "why_it_matters": "The shift to usage-based AI pricing reshapes every client's cost model and ROI math.",
+          "url": "https://www.artificialintelligence-news.com/news/github-copilots-billing-changes-users-see-use-based-price-hikes/",
+          "source_name": "AI News",
+          "signal_tag": "shift",
+          "published_at": "2026-06-02"
+        },
+        {
+          "section": "news",
+          "headline": "Marketers must rethink loyalty as AI reshapes consumer connections",
+          "why_it_matters": "Over half of consumers will filter brand comms through AI — a strategic angle to bring to marketing clients.",
+          "url": "https://www.marketingdive.com/news/why-marketers-must-rethink-loyalty-as-ai-reshapes-consumer-connections/822003/",
+          "source_name": "Marketing Dive",
+          "signal_tag": "shift",
+          "published_at": "2026-06-04"
+        },
+        {
+          "section": "news",
+          "headline": "DoorDash upgrades its ad platform with a LiveRamp pact and premium formats",
+          "why_it_matters": "Retail-media expansion clients can tap for measurable performance spend.",
+          "url": "https://www.marketingdive.com/news/doordash-upgrades-ad-platform-with-liveramp-pact-premium-ad-formats/821976/",
+          "source_name": "Marketing Dive",
+          "signal_tag": "new",
+          "published_at": "2026-06-04"
+        },
+        {
+          "section": "news",
+          "headline": "Anthropic's IPO filing marks AI maturing into an enterprise utility",
+          "why_it_matters": "Signals AI shifting from experiment to procurement line-item — the framing for enterprise pitches.",
+          "url": "https://www.artificialintelligence-news.com/news/anthropic-ipo-filing-marks-ai-maturing-enterprise-utility/",
+          "source_name": "AI News",
+          "signal_tag": "shift",
+          "published_at": "2026-06-02"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": []
+    }
+  ]
+}
