@@ -3,7 +3,8 @@ shared by BOTH engines (the Claude Code path via `--write`, and the API curator)
 
 Enforces what no engine can be fully trusted to honor: valid section ids/labels,
 per-section max_items, valid signal tags, well-formed URLs, seen-URL exclusion,
-and cross-section dedupe. The Brief is filtered to items that survived in a section.
+and cross-section dedupe. Items with empty summaries are dropped. The Brief is
+resolved by URL against kept section items and inherits their full content.
 """
 
 from __future__ import annotations
@@ -78,8 +79,14 @@ def normalize(
         for raw in sec.get("items", []) or []:
             item = {**raw, "section": raw.get("section", sec_id)}
             c = _clean_item(item, label_by_id, seen)
-            if c:
-                cleaned.append(c)
+            if not c:
+                continue
+            if not c["summary"]:
+                # Curation rules require a summary even for blocked pages (use the
+                # blurb); empty means the rule was violated — never ship it.
+                print(f"Dropped (empty summary): {c['headline'][:70]}")
+                continue
+            cleaned.append(c)
 
     # Dedupe by URL across the whole issue (keep first occurrence).
     seen_local: set[str] = set()
@@ -95,14 +102,18 @@ def normalize(
         items = [it for it in deduped if it["section"] == s.id][: max_by_id[s.id]]
         out_sections.append({"id": s.id, "label": s.label, "items": items})
 
-    kept = {it["url"] for sec in out_sections for it in sec["items"]}
+    # The Brief is a set of pointers into kept section cards: each entry only
+    # needs a url, and always inherits the section card's full content — a
+    # blank Brief card is therefore impossible.
+    kept_by_url = {it["url"]: it for sec in out_sections for it in sec["items"]}
     out_brief: list[dict] = []
     brief_seen: set[str] = set()
     for raw in brief or []:
-        c = _clean_item(raw, label_by_id, seen)
-        if not c or c["url"] not in kept or c["url"] in brief_seen:
+        url = ((raw or {}).get("url") or "").strip()
+        item = kept_by_url.get(url)
+        if not item or url in brief_seen:
             continue
-        brief_seen.add(c["url"])
-        out_brief.append(c)
+        brief_seen.add(url)
+        out_brief.append(dict(item))
 
     return out_brief[: cfg.brief_count], out_sections
