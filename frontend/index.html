@@ -5,7 +5,50 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#faf7f0" />
     <title>AI Marketing Pulse</title>
+    <link
+      rel="preload"
+      href="%BASE_URL%fonts/fraunces-latin-full-normal.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="%BASE_URL%fonts/source-sans-3-latin-wght-normal.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <style>
+      /* Self-hosted variable fonts — no CDN (private feed). Italic Fraunces is
+         intentionally not preloaded: it only styles secondary text. */
+      @font-face {
+        font-family: "Fraunces";
+        src: url("%BASE_URL%fonts/fraunces-latin-full-normal.woff2")
+          format("woff2-variations");
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Fraunces";
+        src: url("%BASE_URL%fonts/fraunces-latin-full-italic.woff2")
+          format("woff2-variations");
+        font-weight: 100 900;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Source Sans 3";
+        src: url("%BASE_URL%fonts/source-sans-3-latin-wght-normal.woff2")
+          format("woff2-variations");
+        font-weight: 200 900;
+        font-style: normal;
+        font-display: swap;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
