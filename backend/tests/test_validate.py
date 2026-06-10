@@ -117,3 +117,10 @@ def test_brief_dedupes_and_respects_brief_count():
     entries = [{"url": it["url"]} for it in items] + [{"url": items[0]["url"]}]
     brief, _ = run(cfg, entries, {"news": items})
     assert [b["url"] for b in brief] == [items[0]["url"], items[1]["url"]]
+
+
+def test_brief_cannot_point_at_item_dropped_for_empty_summary():
+    cfg = make_cfg()
+    bad = make_item("https://x.com/blank", summary="")
+    brief, _ = run(cfg, [{"url": "https://x.com/blank"}], {"news": [bad]})
+    assert brief == []

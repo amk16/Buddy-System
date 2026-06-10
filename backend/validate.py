@@ -9,6 +9,8 @@ resolved by URL against kept section items and inherits their full content.
 
 from __future__ import annotations
 
+import copy
+
 from config import Config
 
 SIGNAL_TAGS = ("trending", "new", "shift")
@@ -114,6 +116,6 @@ def normalize(
         if not item or url in brief_seen:
             continue
         brief_seen.add(url)
-        out_brief.append(dict(item))
+        out_brief.append(copy.deepcopy(item))
 
     return out_brief[: cfg.brief_count], out_sections
