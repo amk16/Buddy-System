@@ -1,8 +1,12 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Issue, IndexEntry } from "./lib/types";
 import { readingTime } from "./lib/readingTime";
+import { parseHash, viewToHash, type View } from "./lib/view";
+import { withViewTransition } from "./lib/transition";
+import * as lastVisited from "./lib/lastVisited";
 import { Brief } from "./components/Brief";
 import { Section } from "./components/Section";
+import { GlanceGrid } from "./components/GlanceGrid";
 import { ArchiveSwitcher } from "./components/ArchiveSwitcher";
 
 // Base-aware so it works locally and under a sub-path (e.g. GitHub Pages) alike.
@@ -30,6 +34,12 @@ export default function App() {
   const [status, setStatus] = useState<"loading" | "ready" | "empty" | "error">(
     "loading",
   );
+  const [view, setView] = useState<View>({ mode: "glance" });
+
+  const glanceHeading = useRef<HTMLHeadingElement | null>(null);
+  const sectionHeading = useRef<HTMLHeadingElement | null>(null);
+  const briefHeading = useRef<HTMLHeadingElement | null>(null);
+  const firstRender = useRef(true);
 
   // Load the index once; default to the latest issue.
   useEffect(() => {
@@ -46,25 +56,81 @@ export default function App() {
       .catch(() => setStatus("empty"));
   }, []);
 
-  // Load the selected issue whenever it changes. The status reset to "loading"
-  // happens in selectIssue (the event), not here — effects only report results.
+  // Load the selected issue whenever it changes; derive the view from the URL
+  // hash once the data is in (so a refreshed "#tools" lands on Tools).
   useEffect(() => {
     if (!currentId) return;
     fetch(issueUrl(currentId))
       .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
       .then((data: Issue) => {
         setIssue(data);
+        setView(parseHash(window.location.hash, data));
         setStatus("ready");
       })
       .catch(() => setStatus("error"));
   }, [currentId]);
 
+  // The hash is the single source of truth for the view. Tile clicks, the
+  // back affordance, AND browser back/forward all funnel through here, so
+  // every path gets the same animated morph.
+  useEffect(() => {
+    const onHashChange = () => {
+      const next = parseHash(window.location.hash, issue);
+      withViewTransition(() => setView(next));
+    };
+    window.addEventListener("hashchange", onHashChange);
+    return () => window.removeEventListener("hashchange", onHashChange);
+  }, [issue]);
+
+  // After a view change: remember section visits, reset scroll, move focus to
+  // the new surface's heading (skipped on first render).
+  useEffect(() => {
+    if (view.mode === "section" && issue) {
+      lastVisited.save(issue.id, view.sectionId);
+    }
+    if (firstRender.current) {
+      firstRender.current = false;
+      return;
+    }
+    window.scrollTo(0, 0);
+    const target =
+      view.mode === "glance"
+        ? glanceHeading.current
+        : view.mode === "section"
+          ? sectionHeading.current
+          : briefHeading.current;
+    target?.focus({ preventScroll: true });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [view]);
+
+  const navigate = (next: View) => {
+    window.location.hash = viewToHash(next);
+  };
+
   const selectIssue = (id: string) => {
+    // Wholesale content swap: no morph, no stale deep-link. Strip the hash
+    // without adding a history entry and land on the new issue's glance.
+    history.replaceState(null, "", window.location.pathname + window.location.search);
+    setView({ mode: "glance" });
     setStatus("loading");
     setCurrentId(id);
   };
 
   const readTime = issue ? readingTime(issue) : null;
+  const currentSection =
+    view.mode === "section" && issue
+      ? (issue.sections.find((s) => s.id === view.sectionId) ?? null)
+      : null;
+
+  const backToGlance = (
+    <button
+      type="button"
+      className="back-link"
+      onClick={() => navigate({ mode: "glance" })}
+    >
+      ← Today at a glance
+    </button>
+  );
 
   return (
     <div className="app">
@@ -95,9 +161,38 @@ export default function App() {
           </p>
         )}
         {status === "error" && <p className="state">Couldn't load this issue.</p>}
-        {status === "ready" && issue && (
+
+        {status === "ready" && issue && view.mode === "glance" && (
+          <GlanceGrid
+            issue={issue}
+            headingRef={glanceHeading}
+            onOpenSection={(sectionId) => navigate({ mode: "section", sectionId })}
+            onOpenFeed={() => navigate({ mode: "feed" })}
+          />
+        )}
+
+        {status === "ready" && issue && view.mode === "section" && currentSection && (
           <>
-            <Brief items={issue.brief} />
+            {backToGlance}
+            <Section
+              section={currentSection}
+              vtName={`pulse-sec-${currentSection.id}`}
+              headingRef={sectionHeading}
+            />
+            <button
+              type="button"
+              className="feed-link"
+              onClick={() => navigate({ mode: "feed" })}
+            >
+              Read everything instead
+            </button>
+          </>
+        )}
+
+        {status === "ready" && issue && view.mode === "feed" && (
+          <>
+            {backToGlance}
+            <Brief items={issue.brief} headingRef={briefHeading} />
             {issue.sections.map((section) => (
               <Section key={section.id} section={section} />
             ))}

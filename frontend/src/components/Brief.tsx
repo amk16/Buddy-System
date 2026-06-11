@@ -1,12 +1,20 @@
 import type { Item } from "../lib/types";
 
+interface Props {
+  items: Item[];
+  headingRef?: React.RefObject<HTMLHeadingElement | null>;
+}
+
 // The 30-second skim: the must-know items at the top of the dashboard.
-export function Brief({ items }: { items: Item[] }) {
+// Also serves as the bento front door's large tile, unchanged.
+export function Brief({ items, headingRef }: Props) {
   if (items.length === 0) return null;
 
   return (
-    <section className="brief">
-      <h2 className="brief-label">The Brief</h2>
+    <section className="brief" style={{ viewTransitionName: "pulse-brief" }}>
+      <h2 className="brief-label" tabIndex={-1} ref={headingRef}>
+        The Brief
+      </h2>
       <p className="brief-sub">If you read nothing else today.</p>
       <ol className="brief-list">
         {items.map((item) => (
