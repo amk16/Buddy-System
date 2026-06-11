@@ -39,7 +39,7 @@ export default function App() {
   const glanceHeading = useRef<HTMLHeadingElement | null>(null);
   const sectionHeading = useRef<HTMLHeadingElement | null>(null);
   const briefHeading = useRef<HTMLHeadingElement | null>(null);
-  const firstRender = useRef(true);
+  const prevView = useRef<View>({ mode: "glance" });
 
   // Load the index once; default to the latest issue.
   useEffect(() => {
@@ -83,15 +83,20 @@ export default function App() {
   }, [issue]);
 
   // After a view change: remember section visits, reset scroll, move focus to
-  // the new surface's heading (skipped on first render).
+  // the new surface's heading. Focus only moves when the view ACTUALLY changed
+  // — the initial load and issue switches re-set an identical view and must
+  // not paint a focus ring on a fresh page.
   useEffect(() => {
     if (view.mode === "section" && issue) {
       lastVisited.save(issue.id, view.sectionId);
     }
-    if (firstRender.current) {
-      firstRender.current = false;
-      return;
-    }
+    const prev = prevView.current;
+    prevView.current = view;
+    const unchanged =
+      prev.mode === view.mode &&
+      (view.mode !== "section" ||
+        (prev.mode === "section" && prev.sectionId === view.sectionId));
+    if (unchanged) return;
     window.scrollTo(0, 0);
     const target =
       view.mode === "glance"

@@ -28,7 +28,7 @@ export function BuddyCorner({ resume, resumeLabel, onResume, onDismiss }: Props)
           <button
             type="button"
             className="resume-dismiss"
-            aria-label="Dismiss"
+            aria-label="Dismiss resume suggestion"
             onClick={onDismiss}
           >
             ×

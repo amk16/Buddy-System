@@ -23,7 +23,7 @@ export function GlanceGrid({ issue, headingRef, onOpenSection, onOpenFeed }: Pro
   return (
     <div className="glance">
       <h2 className="glance-heading" tabIndex={-1} ref={headingRef}>
-        Today at a glance
+        At a glance
       </h2>
 
       <Brief items={issue.brief} />
