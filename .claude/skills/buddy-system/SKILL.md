@@ -77,8 +77,10 @@ Technical content is welcome; intimidating presentation of it is not.
 | `--ink` on `--card` | 14.1:1 |
 | `--ink-soft` on `--paper` | 6.5:1 |
 | `--ink-soft` on `--card` | 6.8:1 |
-| `--accent` on `--paper` | 5.8:1 |
-| `--accent` on `--card` | 6.1:1 |
+| `--accent` on `--paper` | 6.8:1 |
+| `--accent` on `--card` | 7.1:1 |
+| `--accent` on `--brief-bg` (butter) | 6.5:1 |
+| `--ink-soft` on `--brief-bg` (butter) | 6.2:1 |
 | `--tag-trending-fg` on its bg | 5.8:1 |
 | `--tag-new-fg` on its bg | 5.2:1 |
 | `--tag-shift-fg` on its bg | 6.1:1 |
