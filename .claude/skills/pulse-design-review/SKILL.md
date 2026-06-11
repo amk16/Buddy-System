@@ -13,7 +13,7 @@ three lenses report zero must-fix. This loop IS the UI verification for this
 project; never claim frontend work complete without it.
 
 Core principle: **reviewers look at pixels, not code.** Each reviewer gets
-image files and the `pulse-design` skill path — not your opinions about the
+image files and the `buddy-system` skill path — not your opinions about the
 change.
 
 ## Step 1 — Serve & tooling
@@ -62,7 +62,7 @@ const { chromium } = require("playwright");
 ## Step 3 — Spawn 3 reviewers IN PARALLEL (one message, three Agent calls)
 
 Each reviewer prompt must include: the three image paths (they Read the
-images), the path `.claude/skills/pulse-design/SKILL.md` (they read the
+images), the path `.claude/skills/buddy-system/SKILL.md` (they read the
 system they're auditing against), and ONE lens:
 
 1. **Anxious-reader lens** — "You are a smart, busy, anxious reader opening
@@ -74,7 +74,7 @@ system they're auditing against), and ONE lens:
    visible near the top? Does expanded detail stay visually subordinate to
    the collapsed skim layer? Where does your eye stall?"
 3. **Craft lens** — "Audit spacing, typography, alignment, and color against
-   the exact token values in pulse-design. Flag: any off-scale spacing, any
+   the exact token values in buddy-system. Flag: any off-scale spacing, any
    color not in the token set, any contrast pair that looks below 4.5:1, any
    third typeface, misaligned baselines, inconsistent radii/shadows."
 
@@ -84,7 +84,7 @@ Require each reviewer to return findings as: `MUST-FIX:` list and
 ## Step 4 — Merge & triage
 
 Dedupe across reviewers. A finding is **must-fix** when it violates a
-pulse-design token/rule, an accessibility floor, or makes the first glance
+buddy-system token/rule, an accessibility floor, or makes the first glance
 feel heavy/urgent. Everything else is nice-to-have (apply cheap ones, note
 the rest).
 

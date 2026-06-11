@@ -16,7 +16,7 @@ to its source.
 A **Report view** per issue, toggled against the existing card **Feed** in the
 dashboard. A thematic briefing: a one-paragraph lede framing the day, then 2–4
 themes that each connect multiple items into one story. Same warm-paper design
-(`pulse-design` governs). Issues without a report (all pre-existing ones) show
+(`buddy-system` governs). Issues without a report (all pre-existing ones) show
 no toggle and render exactly as today.
 
 ## Data contract

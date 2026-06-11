@@ -1,9 +1,13 @@
 ---
-name: pulse-design
+name: buddy-system
 description: Use when writing or changing any UI in the AI Marketing Pulse frontend — components, CSS, layout, microcopy, or visual decisions of any size.
 ---
 
-# Pulse Design — the AI Marketing Pulse design system
+# The Buddy System — the AI Marketing Pulse design system
+
+Mascot: **RoboBuddy** (`frontend/public/robobuddy.png`) — a companion, never a
+narrator. The system's promise: Kajol is never alone with a wall of
+information, and nothing ever gets between her and reading her own way.
 
 ## The Reader
 
@@ -57,6 +61,10 @@ Technical content is welcome; intimidating presentation of it is not.
   --shadow-card: 0 1px 2px rgba(76,60,35,.06), 0 3px 10px rgba(76,60,35,.05);
   --shadow-card-hover: 0 2px 4px rgba(76,60,35,.08), 0 6px 18px rgba(76,60,35,.07);
   --maxw: 720px;
+
+  /* motion: state feedback only, never decoration */
+  --motion-md: 250ms;
+  --ease-settle: cubic-bezier(0.2, 0, 0, 1);
 }
 ```
 
@@ -91,10 +99,50 @@ summaries and why-it-matters · `--fs-md` card headlines · `--fs-lg` section
 labels · `--fs-xl` masthead only. Body line-height `--lh-body` (1.65);
 headlines `--lh-tight` (1.3).
 
+## View states (the buddy-system's three surfaces)
+
+The URL hash is the single source of truth; all view changes go through
+`withViewTransition` in `frontend/src/lib/transition.ts`.
+
+- **Glance** (default, `""`/`#glance`) — the bento front door: Brief panel,
+  one tile per non-empty section, the "Read everything" tile, the buddy
+  corner. A reserved full-width slot directly under the Brief is held for the
+  future daily-Report tile.
+- **Section** (`#<sectionId>`) — one section's full card list, a back link to
+  the glance, and a quiet "Read everything instead" link at the bottom.
+- **Feed** (`#feed`) — the classic continuous layout: Brief + every section.
+
+**Bento never gates content**: the full feed is always exactly one tap away,
+and no reading mode may constrain how she moves through an issue.
+
+## Motion
+
+- Exactly two motion tokens: `--motion-md` (250ms) and `--ease-settle`.
+- View changes morph via the native View Transitions API
+  (`document.startViewTransition`); tiles carry `view-transition-name:
+  pulse-sec-<id>` in glance view, section headings carry the same name in
+  single-section view, the Brief carries `pulse-brief` always.
+- Reduced motion = instant swap, enforced in BOTH the JS wrapper and a CSS
+  `::view-transition-*` override. Unsupporting browsers get an instant swap.
+- Motion is state feedback only — nothing animates at rest.
+
+## Mascot — RoboBuddy hard rules
+
+RoboBuddy is strictly **ambient**. It may: sit still in the glance grid's
+buddy corner, and anchor the optional "pick up where you left off" chip
+(localStorage, one entry, per-issue). It may NEVER: animate, block content,
+auto-navigate, speak/instruct, show progress, appear modal, or appear outside
+the glance view. The resume chip disappears permanently once used or
+dismissed, and never exists when there's nothing to resume.
+
 ## Layout & spacing
 
-- Single centered column, `max-width: var(--maxw)` (720px). No sidebars, no
-  grids of cards — one calm vertical river.
+- Reading views (section, feed): single centered column,
+  `max-width: var(--maxw)` (720px) — one calm vertical river. The glance
+  bento is the ONLY sanctioned grid, and it lives inside the same column.
+- Glance tiles: whole tile is one `<button>` named by its section label; the
+  preview headline is plain text (real links live in the section view);
+  *"…and more inside"* is the only permitted depth cue — numerals stay banned.
 - 4px spacing scale. Conventions: padding inside cards `--sp-4`/`--sp-5`;
   gap between cards `--sp-4`; gap between sections `--sp-6`/`--sp-7`;
   masthead breathing room `--sp-7` below.
