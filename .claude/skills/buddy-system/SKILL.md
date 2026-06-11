@@ -29,15 +29,16 @@ Technical content is welcome; intimidating presentation of it is not.
   --paper: #faf7f0;        /* page background — warm ivory */
   --card: #fffdf8;         /* item cards — cream */
   --cream-2: #f3eee2;      /* recessed panels: terms glossary, select, code */
-  --brief-bg: #fbf4e6;     /* the Brief — slightly sunlit cream */
+  --brief-bg: #fdf3cd;     /* the Brief — soft butter (brand surface, calmed) */
   --border: #e7e0d2;       /* hairlines */
   --border-strong: #d8cfba;/* section rules */
 
-  /* ink */
+  /* ink — Scribbld "Highlighter & Ink" brand layer */
   --ink: #2c2a26;          /* primary text */
   --ink-soft: #5f594e;     /* secondary text */
-  --accent: #9a4a2a;       /* terracotta — links, rules, markers */
-  --accent-deep: #8f4524;  /* hover/active terracotta */
+  --accent: #6e530e;       /* deep brand gold — links, markers (6.8:1 on paper) */
+  --accent-deep: #574108;  /* hover/active gold */
+  --brand-yellow: #ffd700; /* Scribbld signature marker yellow */
 
   /* signal tints (quiet pills: tinted bg + same-hue dark text) */
   --tag-trending-bg: #f7e8df;  --tag-trending-fg: #8f4524;
@@ -84,6 +85,21 @@ Technical content is welcome; intimidating presentation of it is not.
 
 When introducing ANY new color pair, compute its ratio first; below 4.5:1 it
 does not ship.
+
+### Brand provenance — Scribbld "Highlighter & Ink"
+
+Kajol's agency Scribbld brands in pure marker yellow (#FFD700) + black. The
+buddy-system carries that as an accent language, never a repaint:
+
+- `--brand-yellow` (#FFD700) is **decoration/surface only — NEVER text** (it
+  fails contrast on every light surface). Legal uses: link underlines (the
+  "highlighter" motif), the yellow sliver under ink rules (tiles, section
+  labels — Scribbld's banner DNA miniaturized), and low-saturation surface
+  derivatives like `--brief-bg`.
+- `--accent` is the deep brand gold for link text and markers; terracotta is
+  retired.
+- Full-yellow floods and black bands stay on Scribbld's own properties; the
+  reading surface stays warm paper.
 
 ## Typography
 
@@ -153,15 +169,15 @@ and never exists when there's nothing to resume.
 ## Component conventions
 
 - **Brief** — always fully visible; it IS the skim layer. Never put a
-  disclosure inside the Brief. Cream `--brief-bg` panel with a 3px terracotta
-  left edge.
+  disclosure inside the Brief. Butter `--brief-bg` panel with a 3px deep-gold
+  (`--accent`) left edge.
 - **ItemCard** — collapsed by default: pill, headline (external link),
   why-it-matters, meta row. Expansion is a `<button>` with `aria-expanded` and
   `aria-controls`; expanded region holds summary + terms `<dl>`. A card with
   no summary AND no terms renders no toggle. Never auto-expand.
 - **Section labels** — JSON labels contain a leading emoji; strip it at render
-  time, never show emoji in headings. A short terracotta rule above the label
-  does the anchoring instead.
+  time, never show emoji in headings. A short ink/yellow gradient rule above
+  the label does the anchoring instead.
 - **ArchiveSwitcher** — stays a native `<select>` (keyboard/screen-reader free
   wins). Restyle only.
 - **Reading-time chip** — lives under the masthead date, format
@@ -190,7 +206,7 @@ and never exists when there's nothing to resume.
 
 1. Dark backgrounds of any kind (no dark mode; this is a paper product).
 2. Neon, "AI purple", or gradient washes.
-3. Alarmist red anywhere — even error states use `--accent` terracotta.
+3. Alarmist red anywhere — even error states use `--accent` deep gold.
 4. Dense walls of text in a card's collapsed state.
 5. More than 2 typefaces.
 6. Emoji in pills, buttons, or headings.

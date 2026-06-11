@@ -6,15 +6,16 @@
   --paper: #faf7f0;
   --card: #fffdf8;
   --cream-2: #f3eee2;
-  --brief-bg: #fbf4e6;
+  --brief-bg: #fdf3cd; /* soft butter — the brand surface, calmed */
   --border: #e7e0d2;
   --border-strong: #d8cfba;
 
-  /* ink */
+  /* ink (Scribbld "Highlighter & Ink": deep brand gold + marker yellow) */
   --ink: #2c2a26;
   --ink-soft: #5f594e;
-  --accent: #9a4a2a;
-  --accent-deep: #8f4524;
+  --accent: #6e530e;       /* deep brand gold — 6.8:1 on paper */
+  --accent-deep: #574108;
+  --brand-yellow: #ffd700; /* Scribbld signature — surfaces/decoration ONLY, never text */
 
   /* signal tints */
   --tag-trending-bg: #f7e8df;
@@ -110,15 +111,17 @@ body {
   }
 }
 
+/* the "scribbld" motif: ink-gold text on a marker-yellow highlight line */
 a {
   color: var(--accent);
-  text-decoration-color: color-mix(in srgb, var(--accent) 35%, transparent);
+  text-decoration-color: var(--brand-yellow);
+  text-decoration-thickness: 2px;
   text-underline-offset: 3px;
 }
 
 a:hover {
   color: var(--accent-deep);
-  text-decoration-color: var(--accent-deep);
+  text-decoration-thickness: 3px;
 }
 
 .app {
@@ -190,7 +193,7 @@ a:hover {
   border-radius: var(--radius-sm);
   padding: var(--sp-2) var(--sp-6) var(--sp-2) var(--sp-3);
   appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5 6 6.5 11 1.5' fill='none' stroke='%239a4a2a' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5 6 6.5 11 1.5' fill='none' stroke='%236e530e' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right var(--sp-3) center;
   cursor: pointer;
@@ -239,12 +242,13 @@ a:hover {
   box-shadow: var(--shadow-card-hover);
 }
 
+/* Scribbld banner DNA, miniaturized: ink bar over a marker-yellow sliver */
 .tile::before {
   content: "";
   display: block;
   width: var(--sp-5);
-  height: 3px;
-  background: var(--accent);
+  height: 5px;
+  background: linear-gradient(to bottom, var(--ink) 60%, var(--brand-yellow) 60%);
 }
 
 .tile-label {
@@ -372,6 +376,8 @@ a:hover {
   font-weight: 400;
   color: var(--ink-soft);
   text-decoration: underline;
+  text-decoration-color: var(--brand-yellow);
+  text-decoration-thickness: 2px;
   text-underline-offset: 3px;
 }
 
@@ -426,7 +432,6 @@ a:hover {
 .brief-list a {
   font-weight: 560;
   font-variation-settings: "SOFT" 60, "WONK" 0;
-  text-decoration-thickness: 1px;
   text-underline-offset: 4px;
 }
 
@@ -452,8 +457,8 @@ a:hover {
   content: "";
   display: block;
   width: var(--sp-6);
-  height: 3px;
-  background: var(--accent);
+  height: 5px;
+  background: linear-gradient(to bottom, var(--ink) 60%, var(--brand-yellow) 60%);
   margin-bottom: var(--sp-3);
 }
 
@@ -511,20 +516,18 @@ a:hover {
   font-variation-settings: "SOFT" 60, "WONK" 0;
   line-height: var(--lh-tight);
   color: var(--ink);
-  /* faint resting underline: the headline IS the link to the source,
+  /* highlighter resting underline: the headline IS the link to the source,
      and touch devices have no hover to discover that */
   text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--accent) 25%, transparent);
-  text-decoration-thickness: 1px;
+  text-decoration-color: var(--brand-yellow);
+  text-decoration-thickness: 2px;
   text-underline-offset: 4px;
   margin-bottom: var(--sp-2);
 }
 
 .card-headline:hover {
   color: var(--accent-deep);
-  text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent);
-  text-underline-offset: 3px;
+  text-decoration-thickness: 3px;
 }
 
 .card-why {
