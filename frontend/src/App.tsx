@@ -133,21 +133,21 @@ export default function App() {
       className="back-link"
       onClick={() => navigate({ mode: "glance" })}
     >
-      ← Today at a glance
+      ← At a glance
     </button>
   );
 
   return (
     <div className="app">
       <header className="masthead">
-        <div className="masthead-row">
-          <h1>{issue?.title ?? "AI Marketing Pulse"}</h1>
-          <ArchiveSwitcher
-            entries={index}
-            currentId={currentId}
-            onSelect={selectIssue}
-          />
-        </div>
+        <img
+          className="masthead-buddy"
+          src={`${BASE}robobuddy.png`}
+          alt=""
+          width={96}
+          height={96}
+        />
+        <h1>Buddy-System</h1>
         {issue && (
           <p className="masthead-date">{formatDate(issue.generated_at)}</p>
         )}
@@ -156,6 +156,11 @@ export default function App() {
             {readTime.skimMin} min skim · {readTime.fullMin} min full read
           </p>
         )}
+        <ArchiveSwitcher
+          entries={index}
+          currentId={currentId}
+          onSelect={selectIssue}
+        />
       </header>
 
       <main>

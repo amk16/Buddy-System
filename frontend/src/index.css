@@ -127,18 +127,21 @@ a:hover {
   padding: var(--sp-6) var(--sp-5) var(--sp-8);
 }
 
-/* ---------- masthead ---------- */
+/* ---------- masthead (RoboBuddy + centered title) ---------- */
 
 .masthead {
   margin-bottom: var(--sp-7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--sp-2);
 }
 
-.masthead-row {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: var(--sp-4);
-  flex-wrap: wrap;
+.masthead-buddy {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
 }
 
 .masthead h1 {
@@ -151,17 +154,21 @@ a:hover {
 }
 
 .masthead-date {
-  margin: var(--sp-2) 0 0;
+  margin: 0;
   font-style: italic;
   color: var(--ink-soft);
   font-size: var(--fs-body);
 }
 
 .masthead-read {
-  margin: var(--sp-2) 0 0;
+  margin: 0;
   font-family: var(--font-sans);
   font-size: var(--fs-sm);
   color: var(--ink-soft);
+}
+
+.masthead .archive {
+  margin-top: var(--sp-2);
 }
 
 /* ---------- archive switcher ---------- */
@@ -301,12 +308,6 @@ a:hover {
   justify-content: flex-end;
   gap: var(--sp-3);
   padding-top: var(--sp-2);
-}
-
-.buddy-img {
-  width: 64px;
-  height: 64px;
-  object-fit: contain;
 }
 
 .resume-chip {
@@ -659,9 +660,9 @@ a:hover {
     grid-template-columns: 1fr;
   }
 
-  .buddy-img {
-    width: 48px;
-    height: 48px;
+  .masthead-buddy {
+    width: 72px;
+    height: 72px;
   }
 }
 

@@ -128,12 +128,13 @@ and no reading mode may constrain how she moves through an issue.
 
 ## Mascot — RoboBuddy hard rules
 
-RoboBuddy is strictly **ambient**. It may: sit still in the glance grid's
-buddy corner, and anchor the optional "pick up where you left off" chip
-(localStorage, one entry, per-issue). It may NEVER: animate, block content,
-auto-navigate, speak/instruct, show progress, appear modal, or appear outside
-the glance view. The resume chip disappears permanently once used or
-dismissed, and never exists when there's nothing to resume.
+RoboBuddy is strictly **ambient**. It sits still at the top of the centered
+masthead, above the app title ("Buddy-System"), on every view. Its one
+interactive offer is the optional "pick up where you left off" chip in the
+glance grid's buddy corner (localStorage, one entry, per-issue). It may NEVER:
+animate, block content, auto-navigate, speak/instruct, show progress, or
+appear modal. The resume chip disappears permanently once used or dismissed,
+and never exists when there's nothing to resume.
 
 ## Layout & spacing
 
