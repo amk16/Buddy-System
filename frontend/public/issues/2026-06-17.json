@@ -1,0 +1,327 @@
+{
+  "id": "2026-06-17",
+  "generated_at": "2026-06-17T22:01:12.410263+00:00",
+  "title": "AI Marketing Pulse",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "US blocks Anthropic's top models; 76 security pros call the move 'dangerous'",
+      "summary": "In mid-June 2026, the Trump administration issued an export-control order barring Anthropic from letting foreign nationals — including its own overseas staff — use its Fable 5 and Mythos 5 AI models, after Amazon researchers got around some of Fable 5's safety \"guardrails.\" Anthropic responded by suspending access to both models entirely, even inside the US. By June 16, 76 cybersecurity professionals — including CEOs, security chiefs, and researchers — signed a letter calling the restriction dangerous, arguing many models can find the same flaws and that hobbling US tools only helps rivals like China. Anthropic called the weakness a narrow, already-known issue.",
+      "why_it_matters": "Build a backup plan for clients who depend on Claude — model access can now be cut by government policy overnight, not just by outages.",
+      "terms": [
+        {
+          "term": "Export control",
+          "definition": "Government rules restricting who, especially abroad, can access a technology."
+        },
+        {
+          "term": "Guardrails",
+          "definition": "Built-in safety limits meant to stop an AI model from being misused."
+        },
+        {
+          "term": "Jailbreak",
+          "definition": "A trick that gets an AI to bypass its own safety limits."
+        }
+      ],
+      "url": "https://www.ciodive.com/news/anthropic-us-government-export-ban-mythos-fable/822956/",
+      "source_name": "CIO Dive",
+      "signal_tag": "shift",
+      "published_at": "2026-06-16"
+    },
+    {
+      "section": "news",
+      "headline": "Study: companies sit on ~$18 trillion in untapped AI value, stuck in 'pilot purgatory'",
+      "summary": "A June 16, 2026 study from Genpact and HFS Research estimates the world's 2,000 largest public companies are leaving nearly $18 trillion in AI value on the table, trapped in \"pilot purgatory\" — unable to move AI past experiments. The culprit is \"enterprise debt\": poor data quality, aging technology, broken processes, and skills gaps that reinforce one another. 85% of leaders say this debt actively constrains AI value and over half lack a funded plan to fix it, while only 6% qualify as proven at resolving it. Firms that do, the study says, could see 8% faster revenue growth and 16% lower costs a year.",
+      "why_it_matters": "Lead client conversations with data and process readiness, not models — that is where the stalled value, and your consulting value, actually sits.",
+      "terms": [
+        {
+          "term": "Pilot purgatory",
+          "definition": "When AI projects get stuck in endless trials and never reach full, everyday use."
+        },
+        {
+          "term": "Enterprise debt",
+          "definition": "Built-up problems in a company's data, tech, processes, and skills that slow new initiatives."
+        }
+      ],
+      "url": "https://www.ciodive.com/news/tech-debt-process-gaps-keep-firms-ai-pilot-purgatory-genpact/823038/",
+      "source_name": "CIO Dive",
+      "signal_tag": "trending",
+      "published_at": "2026-06-16"
+    },
+    {
+      "section": "news",
+      "headline": "Survey: 60% of US consumers say 'AI' in brand messaging is a turnoff",
+      "summary": "A WordPress VIP survey of 2,000 people (800 enterprise decision-makers and 1,200 US adults) in April 2026, reported June 16, found that 60% of consumers are turned off when brands play up \"AI\" in their messaging. 86% don't fully trust AI and want to see original sources, 42% trust AI-generated answers less than airline fees or privacy policies, and 73% say the internet feels \"less human\" than a decade ago. Yet 74% of enterprise leaders are prioritizing getting found by AI search engines — a clear gap between what companies push and what customers want.",
+      "why_it_matters": "Advise marketing clients to lead with concrete outcomes and human authorship, not the word \"AI\" — saying it out loud can cost trust.",
+      "terms": [
+        {
+          "term": "AI search engines",
+          "definition": "Tools that answer with AI-written summaries instead of a list of links."
+        }
+      ],
+      "url": "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/",
+      "source_name": "TechCrunch",
+      "signal_tag": "trending",
+      "published_at": "2026-06-16"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "AWS launches Continuum and Context to secure and feed enterprise AI agents",
+          "summary": "At its New York summit on June 17, 2026, Amazon Web Services unveiled two tools for companies running AI agents — software that carries out tasks on its own. Continuum hunts for security weaknesses, ranks them for leaders, tests fixes in an isolated sandbox, and recommends repairs; Context builds a \"knowledge graph\" from a company's own documents and business rules so agents can find correct answers inside internal data, with governance built in. They arrive alongside updates to AWS's agent-building service, Bedrock AgentCore.",
+          "why_it_matters": "Recommend Continuum and Context to enterprise clients who worry their AI agents will leak data or act on bad information before they scale up.",
+          "terms": [
+            {
+              "term": "AI agent",
+              "definition": "Software that pursues a goal and completes multi-step tasks with little human input."
+            },
+            {
+              "term": "Knowledge graph",
+              "definition": "A structured map of how a company's facts and data connect, so software can navigate it."
+            },
+            {
+              "term": "Sandbox",
+              "definition": "An isolated test space where changes can be tried safely without touching real systems."
+            }
+          ],
+          "url": "https://www.ciodive.com/news/AWS-continuum-AI-security-claude-mythos/823184/",
+          "source_name": "CIO Dive",
+          "signal_tag": "new",
+          "published_at": "2026-06-17"
+        },
+        {
+          "section": "tools",
+          "headline": "Pinterest launches 'Ask Pinterest,' an experimental AI shopping app",
+          "summary": "On June 17, 2026, Pinterest released \"Ask Pinterest\" (at ask.pinterest.com), an experimental app where shoppers type questions in plain language and get personalized product picks instead of a keyword search. It handles messy, multi-step requests like planning a dinner party or furnishing a room over time, drawing on Pinterest's \"Taste Graph\" — its data linking people to their style and interests — plus a signed-in user's saved Pins. Pinterest also added an AI assistant for its Ads Manager and a \"Performance+\" tool that picks top-performing ad creative.",
+          "why_it_matters": "Try Ask Pinterest to see how conversational, taste-driven discovery could reshape how your retail clients approach product search and ads.",
+          "terms": [
+            {
+              "term": "Taste Graph",
+              "definition": "Pinterest's database connecting each user to their style preferences and interests."
+            },
+            {
+              "term": "MCP (Model Context Protocol)",
+              "definition": "A shared standard that lets outside tools plug into an AI system."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+          "source_name": "TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-06-17"
+        },
+        {
+          "section": "tools",
+          "headline": "Apptio adds a plain-language AI assistant to track runaway cloud spend",
+          "summary": "On June 16, 2026, Apptio (an IBM unit) upgraded its Cloudability platform with \"Conversational Insights,\" an AI assistant that answers plain-language questions about a company's technology spending, plus \"Advanced Containers\" for real-time, line-item cloud-cost visibility. The goal is to close blind spots and prove whether cloud and AI investments are worth it — pressing as global IT spending is projected to reach $6.15 trillion in 2026 and 90% of leaders cite uncertain returns. Apptio delayed the assistant's wide release over customer concerns about trusting it for financial decisions, so it remains in preview.",
+          "why_it_matters": "Flag tools like this to finance clients who still can't answer the basic question of what their cloud and AI spend is actually buying them.",
+          "terms": [
+            {
+              "term": "FinOps",
+              "definition": "A practice that brings finance, tech, and business teams together to control and justify cloud spending."
+            },
+            {
+              "term": "Containers",
+              "definition": "Bundles of software run in the cloud; how much they run drives variable cloud bills."
+            }
+          ],
+          "url": "https://www.cfodive.com/news/apptio-boosts-tool-tracking-cloud-spend-finops-expansion/822997/",
+          "source_name": "CFO Dive",
+          "signal_tag": "new",
+          "published_at": "2026-06-16"
+        },
+        {
+          "section": "tools",
+          "headline": "A walkthrough: building a 250-email cold-outreach campaign with an AI agent",
+          "summary": "In a June 10, 2026 episode, the Marketing AI Institute walks through using an AI agent — software that completes tasks on its own — to build a cold-outreach campaign end to end. Pointed at a promotional webpage, the agent (here, Anthropic's Claude Code) defines the ideal audience, researches and estimates prospect emails, drafts a template, and generates 250 personalized emails into a simple browser hub with send buttons, finished in about 20 minutes. The hosts suggest a tool like Clay for building verified prospect lists.",
+          "why_it_matters": "Pilot this agent workflow on a client's sales outreach to show concrete time savings, while keeping a human on the send button to catch errors.",
+          "terms": [
+            {
+              "term": "AI agent",
+              "definition": "Autonomous software that pursues an open-ended goal and completes tasks with minimal human input."
+            }
+          ],
+          "url": "https://www.marketingaiinstitute.com/blog/podcast-ai-agents",
+          "source_name": "Marketing AI Institute",
+          "signal_tag": "trending",
+          "published_at": "2026-06-10"
+        },
+        {
+          "section": "tools",
+          "headline": "Google's new $99.99 Home Speaker puts Gemini AI in the smart speaker",
+          "summary": "On June 17, 2026, Google unveiled the $99.99 Google Home Speaker — its first standalone smart speaker since 2020 — built around its Gemini AI rather than the older Google Assistant. It drops rigid phrasing for natural, multi-step requests like \"turn off all lights except my bedside lamp,\" allows mid-sentence corrections, adds 10 conversational voices, and briefly keeps the mic open for follow-ups. It ships later in June 2026; advanced features such as free-flowing chat and Nest camera summaries require Google Home Premium at $10 a month after a six-month trial.",
+          "why_it_matters": "Watch this as a mainstream signal that conversational AI is becoming the default interface — useful context when advising clients on voice and assistant strategy.",
+          "terms": [
+            {
+              "term": "Gemini",
+              "definition": "Google's generative AI system — its ChatGPT-style assistant."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/",
+          "source_name": "TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-06-17"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "US blocks Anthropic's top models; 76 security pros call the move 'dangerous'",
+          "summary": "In mid-June 2026, the Trump administration issued an export-control order barring Anthropic from letting foreign nationals — including its own overseas staff — use its Fable 5 and Mythos 5 AI models, after Amazon researchers got around some of Fable 5's safety \"guardrails.\" Anthropic responded by suspending access to both models entirely, even inside the US. By June 16, 76 cybersecurity professionals — including CEOs, security chiefs, and researchers — signed a letter calling the restriction dangerous, arguing many models can find the same flaws and that hobbling US tools only helps rivals like China. Anthropic called the weakness a narrow, already-known issue.",
+          "why_it_matters": "Build a backup plan for clients who depend on Claude — model access can now be cut by government policy overnight, not just by outages.",
+          "terms": [
+            {
+              "term": "Export control",
+              "definition": "Government rules restricting who, especially abroad, can access a technology."
+            },
+            {
+              "term": "Guardrails",
+              "definition": "Built-in safety limits meant to stop an AI model from being misused."
+            },
+            {
+              "term": "Jailbreak",
+              "definition": "A trick that gets an AI to bypass its own safety limits."
+            }
+          ],
+          "url": "https://www.ciodive.com/news/anthropic-us-government-export-ban-mythos-fable/822956/",
+          "source_name": "CIO Dive",
+          "signal_tag": "shift",
+          "published_at": "2026-06-16"
+        },
+        {
+          "section": "news",
+          "headline": "At the G7, world leaders want American AI — but not a US 'kill switch'",
+          "summary": "At the G7 summit on June 17, 2026, French President Macron and Indian Prime Minister Modi warned that the US could \"turn off the switch\" on American AI overnight — a fear made concrete days earlier when Washington blocked Anthropic's Mythos 5 and Fable 5. Macron said sudden cutoffs could hurt European economies and the AI firms themselves; Modi argued democracies need \"unfettered access\" to top models to protect critical infrastructure; Cohere's CEO stressed \"digital sovereignty.\" Leaders floated a \"trusted partners\" scheme to keep access open, though details are unclear.",
+          "why_it_matters": "Raise digital sovereignty with clients building on US AI — leaning on a single vendor or country is now a board-level risk worth flagging.",
+          "terms": [
+            {
+              "term": "Digital sovereignty",
+              "definition": "A country's ability to control its own technology rather than depend on another nation's."
+            },
+            {
+              "term": "Kill switch",
+              "definition": "The ability to remotely shut off access to a service."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/",
+          "source_name": "TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-06-17"
+        },
+        {
+          "section": "news",
+          "headline": "Study: companies sit on ~$18 trillion in untapped AI value, stuck in 'pilot purgatory'",
+          "summary": "A June 16, 2026 study from Genpact and HFS Research estimates the world's 2,000 largest public companies are leaving nearly $18 trillion in AI value on the table, trapped in \"pilot purgatory\" — unable to move AI past experiments. The culprit is \"enterprise debt\": poor data quality, aging technology, broken processes, and skills gaps that reinforce one another. 85% of leaders say this debt actively constrains AI value and over half lack a funded plan to fix it, while only 6% qualify as proven at resolving it. Firms that do, the study says, could see 8% faster revenue growth and 16% lower costs a year.",
+          "why_it_matters": "Lead client conversations with data and process readiness, not models — that is where the stalled value, and your consulting value, actually sits.",
+          "terms": [
+            {
+              "term": "Pilot purgatory",
+              "definition": "When AI projects get stuck in endless trials and never reach full, everyday use."
+            },
+            {
+              "term": "Enterprise debt",
+              "definition": "Built-up problems in a company's data, tech, processes, and skills that slow new initiatives."
+            }
+          ],
+          "url": "https://www.ciodive.com/news/tech-debt-process-gaps-keep-firms-ai-pilot-purgatory-genpact/823038/",
+          "source_name": "CIO Dive",
+          "signal_tag": "trending",
+          "published_at": "2026-06-16"
+        },
+        {
+          "section": "news",
+          "headline": "Survey: 60% of US consumers say 'AI' in brand messaging is a turnoff",
+          "summary": "A WordPress VIP survey of 2,000 people (800 enterprise decision-makers and 1,200 US adults) in April 2026, reported June 16, found that 60% of consumers are turned off when brands play up \"AI\" in their messaging. 86% don't fully trust AI and want to see original sources, 42% trust AI-generated answers less than airline fees or privacy policies, and 73% say the internet feels \"less human\" than a decade ago. Yet 74% of enterprise leaders are prioritizing getting found by AI search engines — a clear gap between what companies push and what customers want.",
+          "why_it_matters": "Advise marketing clients to lead with concrete outcomes and human authorship, not the word \"AI\" — saying it out loud can cost trust.",
+          "terms": [
+            {
+              "term": "AI search engines",
+              "definition": "Tools that answer with AI-written summaries instead of a list of links."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/",
+          "source_name": "TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-06-16"
+        },
+        {
+          "section": "news",
+          "headline": "Pew: only 16% of Americans think AI will be good for society",
+          "summary": "A Pew Research study reported June 17, 2026 found just 16% of Americans believe AI will have a positive impact on society over the next 20 years, while 40% expect a negative one and nearly two-thirds think AI is moving too fast. That is despite rising use: about 44% of US adults now use ChatGPT, more than double 2023, with Gemini at 24%, Copilot 17%, and Claude 6%. Adults under 30 are the most pessimistic (14% positive), and 59% distrust companies to build AI safely.",
+          "why_it_matters": "Factor public skepticism into client rollouts — adoption is climbing but trust isn't, so transparency and easy opt-outs matter.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/",
+          "source_name": "TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-06-17"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "Cooklist's AI cart-builder, used by Kroger and Wegmans, now spans 700+ stores",
+          "summary": "Cooklist, an \"agentic\" AI grocery assistant that fills online carts from a shopper's plain-language description, is now live with Kroger and Wegmans across more than 700 US stores (including Kroger banners like Ralphs, QFC, and Fred Meyer). CEO Daniel Vitiello says it blends a personal shopper, chef, and nutritionist to anticipate needs, and notes shoppers give it about five times more context than they type into a search box. In results reported June 17, 2026, the assistant handles nearly one-third of customer-support queries, about half of users finish their purchase in a physical store, and retailers can integrate it in roughly six weeks.",
+          "why_it_matters": "Use this as a concrete retail case study: agentic AI that lifts both online and in-store sales while deflecting a third of support tickets.",
+          "terms": [
+            {
+              "term": "Agentic AI",
+              "definition": "AI that takes actions on its own toward a goal — here, building and filling a shopping cart."
+            }
+          ],
+          "url": "https://www.customerexperiencedive.com/news/cooklist-agentic-ai-grocery-shopping-supermarkets-kroger-wegmans/823092/",
+          "source_name": "CX Dive",
+          "signal_tag": "new",
+          "published_at": "2026-06-17"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Tony Fadell on protecting taste and judgment in the AI era",
+          "summary": "Tony Fadell — creator of the iPod, co-creator of the iPhone, and founder of Nest (sold to Google for $3.2 billion) — joined Lenny's Podcast on June 7, 2026 to argue that first-version products need opinion-based, conviction-driven decisions, not just data, recalling heated internal debates such as whether the iPhone should have a physical keyboard. He stresses that marketing matters as much as the product itself (the iPod nearly failed), predicts voice will become the main way people interact with AI, and warns against \"cognitive surrender\" — letting AI quietly erode our own thinking.",
+          "why_it_matters": "Follow Fadell for language to help clients keep human judgment and taste at the center as they hand more work to AI.",
+          "terms": [],
+          "url": "https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on",
+          "source_name": "Lenny's Newsletter",
+          "signal_tag": "new",
+          "published_at": "2026-06-07"
+        },
+        {
+          "section": "people",
+          "headline": "NEA's Tiffany Luck: enterprises are still figuring out their AI ROI",
+          "summary": "Tiffany Luck, a partner at the venture-capital firm NEA, joined TechCrunch's Equity podcast on June 17, 2026 to argue that companies are still working out the return on their AI spending. She points to the \"tokenmaxxing\" trend earlier in 2026 — when executives pushed staff to maximize AI usage — and its fallout: Uber reportedly burned through its annual AI budget in months, some firms cut their Claude licenses, and Meta scrapped an internal usage leaderboard. She also weighs in on where AI IPOs and personal AI agents are heading.",
+          "why_it_matters": "Follow Luck for an investor's grounded read on which AI spending actually pays back — useful ammunition for client ROI conversations.",
+          "terms": [
+            {
+              "term": "Tokenmaxxing",
+              "definition": "Pushing AI tool usage as high as possible without watching the cost."
+            },
+            {
+              "term": "ROI",
+              "definition": "Return on investment — what you get back relative to what you spent."
+            }
+          ],
+          "url": "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
+          "source_name": "TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-06-17"
+        }
+      ]
+    }
+  ]
+}
