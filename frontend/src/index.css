@@ -52,7 +52,8 @@
   --radius-sm: 6px;
   --shadow-card: 0 1px 2px rgba(76, 60, 35, 0.06), 0 3px 10px rgba(76, 60, 35, 0.05);
   --shadow-card-hover: 0 2px 4px rgba(76, 60, 35, 0.08), 0 6px 18px rgba(76, 60, 35, 0.07);
-  --maxw: 720px;
+  --maxw: 720px;        /* reading column: section + feed */
+  --maxw-glance: 1040px;/* the bento front door widens past the reading column */
 
   /* motion (buddy-system): state feedback only, never decoration */
   --motion-md: 250ms;
@@ -76,6 +77,47 @@
   }
 }
 
+/* Section morph keyframes. The growing box uses the browser's built-in group
+   morph; these drive the OTHER named elements + the box's content fade.
+   Per-element --vx/--vy (vector toward the glance-area center) are injected at
+   transition time in lib/transition.ts. scale(0.04) not 0 — a literal zero is
+   a degenerate matrix some engines drop. */
+@keyframes pulse-collapse {
+  to {
+    transform: translate(var(--vx, 0), var(--vy, 0)) scale(0.04);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-expand {
+  from {
+    transform: translate(var(--vx, 0), var(--vy, 0)) scale(0.04);
+    opacity: 0;
+  }
+}
+
+/* The morphing box's content: old fades out by mid-morph, new fades in late,
+   so the two stretched snapshots are never both fully visible. */
+@keyframes pulse-morph-old {
+  0% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-morph-new {
+  0%,
+  35% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -85,6 +127,12 @@ body,
 #root {
   margin: 0;
   padding: 0;
+}
+
+/* The takeover bleeds to the viewport edges; clip any resulting x-overflow
+   without creating a scroll container (keeps sticky/focus behaviour intact). */
+body {
+  overflow-x: clip;
 }
 
 body {
@@ -130,6 +178,11 @@ a:hover {
   padding: var(--sp-6) var(--sp-5) var(--sp-8);
 }
 
+/* The glance is the only view that uses the wider bento canvas. */
+.app-glance {
+  max-width: var(--maxw-glance);
+}
+
 /* ---------- masthead (RoboBuddy + centered title) ---------- */
 
 .masthead {
@@ -141,12 +194,6 @@ a:hover {
   gap: var(--sp-2);
 }
 
-.masthead-buddy {
-  width: 96px;
-  height: 96px;
-  object-fit: contain;
-}
-
 .masthead h1 {
   margin: 0;
   font-size: var(--fs-xl);
@@ -156,22 +203,100 @@ a:hover {
   letter-spacing: -0.01em;
 }
 
-.masthead-date {
-  margin: 0;
-  font-style: italic;
-  color: var(--ink-soft);
-  font-size: var(--fs-body);
+/* ---------- RoboBuddy dialogue box (RPG-style masthead) ---------- */
+
+/* Issue selector lives top-right now — a global utility reachable from every
+   view, out of the centered title's way. */
+.topbar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: var(--sp-5);
 }
 
-.masthead-read {
+/* Full-width dialogue bar, matching the glance content column. */
+.buddy-dialog {
+  display: flex;
+  align-items: stretch;
+  gap: var(--sp-3);
+  width: 100%;
+  margin-top: var(--sp-1);
+  text-align: left;
+}
+
+/* Portrait stretches to the box's height so their 2px ink borders line up. */
+.bd-portrait {
+  flex: none;
+  width: 76px;
+  height: auto;
+  align-self: stretch;
+  object-fit: contain;
+  background: var(--card);
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+}
+
+.bd-box {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-2) var(--sp-4);
+  background: var(--brief-bg);
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+  padding: var(--sp-4) var(--sp-5);
+}
+
+/* Scribbld wordmark style: marker-yellow on ink — the one sanctioned
+   brand-yellow-as-text surface (≈10.9:1 on --ink, AAA). */
+.bd-nameplate {
+  position: absolute;
+  top: -12px;
+  left: var(--sp-3);
+  background: var(--ink);
+  color: var(--brand-yellow);
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 2px var(--sp-2);
+  border-radius: var(--radius-sm);
+}
+
+.bd-text {
   margin: 0;
+  flex: 1 1 auto;
+  min-width: 0;
+  font-family: var(--font-serif);
+  font-size: var(--fs-md);
+  font-weight: 560;
+  font-variation-settings: "SOFT" 60, "WONK" 0;
+  line-height: var(--lh-tight);
+  color: var(--ink);
+}
+
+/* resting caret — a static block, never blinking (the one-time typewriter
+   is the only motion; nothing loops at rest). */
+.bd-cursor {
+  display: inline-block;
+  width: 0.5ch;
+  height: 1.05em;
+  margin-left: 1px;
+  vertical-align: -0.15em;
+  background: var(--accent);
+}
+
+.bd-meta {
+  margin: 0;
+  flex: 0 0 auto;
+  text-align: right;
   font-family: var(--font-sans);
   font-size: var(--fs-sm);
   color: var(--ink-soft);
-}
-
-.masthead .archive {
-  margin-top: var(--sp-2);
 }
 
 /* ---------- archive switcher ---------- */
@@ -192,6 +317,7 @@ a:hover {
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: var(--sp-2) var(--sp-6) var(--sp-2) var(--sp-3);
+  min-height: 40px;
   appearance: none;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5 6 6.5 11 1.5' fill='none' stroke='%236e530e' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
@@ -203,8 +329,9 @@ a:hover {
 
 .glance {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--sp-4);
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  align-items: start;
+  gap: var(--sp-5);
 }
 
 .glance-heading {
@@ -217,9 +344,24 @@ a:hover {
   color: var(--ink-soft);
 }
 
+/* Brief tall on the left — always-open, never gated. */
 .glance .brief {
-  grid-column: 1 / -1;
+  grid-column: 1;
   margin-bottom: 0;
+}
+
+/* The asymmetric section wall on the right. */
+.glance-bento {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-4);
+  align-content: start;
+}
+
+.glance-bento .tile-wide,
+.glance-bento .tile-feed {
+  grid-column: 1 / -1;
 }
 
 .tile {
@@ -240,6 +382,31 @@ a:hover {
 
 .tile:hover {
   box-shadow: var(--shadow-card-hover);
+}
+
+/* Signature box: a soft wash of its hue + a colored left edge; the label
+   carries the same hue (the edge replaces the ink/yellow sliver here). */
+.tile-sig {
+  background: var(--sig-bg);
+  border-left: 3px solid var(--sig);
+}
+
+.tile-sig::before {
+  display: none;
+}
+
+.tile-sig .tile-label {
+  color: var(--sig);
+}
+
+/* The hero (and trailing odd) box has room to breathe and show more. */
+.tile-wide {
+  padding: var(--sp-5);
+}
+
+.tile-wide .tile-headline {
+  font-size: var(--fs-body);
+  -webkit-line-clamp: 3;
 }
 
 /* Scribbld banner DNA, miniaturized: ink bar over a marker-yellow sliver */
@@ -384,6 +551,44 @@ a:hover {
 .back-link:hover,
 .feed-link:hover {
   color: var(--accent-deep);
+}
+
+/* ---------- the fill-screen takeover (single-section view) ---------- */
+
+/* The clicked box grows to fill the glance content area (not full-bleed),
+   washed in its section's signature tint; the cards still read in the calm
+   720px column. Rounded like the tile it morphed from. */
+.takeover {
+  background: var(--sig-bg, var(--paper));
+  border-radius: var(--radius);
+  padding: var(--sp-6) var(--sp-5) var(--sp-8);
+  min-height: 72vh;
+}
+
+.takeover-inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+
+/* The section label is the takeover's identity: it wears the signature hue
+   and a longer ink/yellow anchor rule so "which section am I in" reads at a
+   glance. Elsewhere the label stays ink — this is scoped here. */
+.takeover .section-label {
+  color: var(--sig, var(--ink));
+  margin-bottom: var(--sp-5);
+}
+
+/* Same ink/yellow DNA as the glance sliver (5px tall), just longer to anchor
+   the takeover's section identity. */
+.takeover .section-label::before {
+  width: var(--sp-8);
+}
+
+/* The back link is the only way out of the takeover — give it real presence
+   (body size, clear gap below) rather than the quiet meta-link treatment. */
+.takeover .back-link {
+  margin-bottom: var(--sp-6);
+  font-size: var(--fs-body);
 }
 
 /* ---------- the Brief ---------- */
@@ -659,13 +864,22 @@ a:hover {
 /* ---------- small screens ---------- */
 
 @media (max-width: 560px) {
+  /* Collapse the bento: Brief on top, section boxes stacked full-width. */
   .glance {
     grid-template-columns: 1fr;
   }
 
-  .masthead-buddy {
-    width: 72px;
-    height: 72px;
+  .glance .brief,
+  .glance-bento {
+    grid-column: 1;
+  }
+
+  .glance-bento {
+    grid-template-columns: 1fr;
+  }
+
+  .bd-portrait {
+    width: 64px;
   }
 }
 
@@ -676,5 +890,33 @@ a:hover {
 
   .card {
     padding: var(--sp-4);
+  }
+
+  /* Stack RoboBuddy above its dialogue box on the narrowest screens, and ease
+     the greeting down a step so it doesn't rival the wordmark above it. */
+  .buddy-dialog {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--sp-4);
+  }
+
+  .bd-portrait {
+    width: 64px;
+    height: 64px;
+    align-self: auto;
+  }
+
+  .bd-box {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bd-text {
+    font-size: var(--fs-body);
+  }
+
+  .bd-meta {
+    text-align: left;
   }
 }

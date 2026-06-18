@@ -11,7 +11,11 @@ export function Brief({ items, headingRef }: Props) {
   if (items.length === 0) return null;
 
   return (
-    <section className="brief" style={{ viewTransitionName: "pulse-brief" }}>
+    <section
+      className="brief"
+      data-vt="pulse-brief"
+      style={{ viewTransitionName: "pulse-brief" }}
+    >
       <h2 className="brief-label" tabIndex={-1} ref={headingRef}>
         The Brief
       </h2>

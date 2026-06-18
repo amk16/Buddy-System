@@ -4,23 +4,17 @@ import { ItemCard } from "./ItemCard";
 
 interface Props {
   section: SectionType;
-  // Set only in the single-section view so the tile morphs into this heading.
-  // Feed view passes none — glance↔feed cross-fades instead of five morphs.
-  vtName?: string;
   headingRef?: React.RefObject<HTMLHeadingElement | null>;
 }
 
-export function Section({ section, vtName, headingRef }: Props) {
+// In the single-section (takeover) view the morphing box is the whole panel,
+// which carries the shared pulse-sec-<id> name — the heading no longer does.
+export function Section({ section, headingRef }: Props) {
   if (section.items.length === 0) return null;
 
   return (
     <section className="section">
-      <h2
-        className="section-label"
-        tabIndex={-1}
-        ref={headingRef}
-        style={vtName ? { viewTransitionName: vtName } : undefined}
-      >
+      <h2 className="section-label" tabIndex={-1} ref={headingRef}>
         {stripEmoji(section.label)}
       </h2>
       <div className="section-items">

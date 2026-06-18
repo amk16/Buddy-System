@@ -1,23 +1,36 @@
+import type { CSSProperties } from "react";
 import type { Section } from "../lib/types";
+import type { Signature } from "../lib/signature";
 import { stripEmoji } from "../lib/strings";
 
 interface Props {
   section: Section;
+  signature: Signature;
+  // Wide boxes span the full bento width (the hero, plus a trailing odd box).
+  wide: boolean;
   onOpen: (sectionId: string) => void;
 }
 
-// One bento tile = one button. The preview headline is plain text (the real
-// source link lives inside the section view). "…and more inside" is the only
-// permitted depth cue — numerals are banned by the buddy-system.
-export function SectionTile({ section, onOpen }: Props) {
+// One bento tile = one button, carrying its section's signature colour as
+// --sig (edge + label) and --sig-bg (surface). The preview headline is plain
+// text (the real source link lives inside the takeover). "…and more inside"
+// is the only permitted depth cue — numerals are banned by the buddy-system.
+export function SectionTile({ section, signature, wide, onOpen }: Props) {
   const top = section.items[0];
   if (!top) return null;
+
+  const style = {
+    viewTransitionName: `pulse-sec-${section.id}`,
+    "--sig": signature.accent,
+    "--sig-bg": signature.tint,
+  } as CSSProperties;
 
   return (
     <button
       type="button"
-      className="tile"
-      style={{ viewTransitionName: `pulse-sec-${section.id}` }}
+      className={`tile tile-sig${wide ? " tile-wide" : ""}`}
+      style={style}
+      data-vt={`pulse-sec-${section.id}`}
       onClick={() => onOpen(section.id)}
     >
       <span className="tile-label">{stripEmoji(section.label)}</span>

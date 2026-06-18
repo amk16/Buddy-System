@@ -2,9 +2,12 @@ import { useEffect, useRef, useState } from "react";
 import type { Issue, IndexEntry } from "./lib/types";
 import { readingTime } from "./lib/readingTime";
 import { parseHash, viewToHash, type View } from "./lib/view";
-import { withViewTransition } from "./lib/transition";
+import { withViewTransition, type MorphSpec } from "./lib/transition";
+import { signatureFor } from "./lib/signature";
+import { getCollapseVectors } from "./lib/glanceGeometry";
 import * as lastVisited from "./lib/lastVisited";
 import { Brief } from "./components/Brief";
+import { BuddyDialog } from "./components/BuddyDialog";
 import { Section } from "./components/Section";
 import { GlanceGrid } from "./components/GlanceGrid";
 import { ArchiveSwitcher } from "./components/ArchiveSwitcher";
@@ -75,8 +78,21 @@ export default function App() {
   // every path gets the same animated morph.
   useEffect(() => {
     const onHashChange = () => {
+      // prevView.current tracks the on-screen view we're leaving (the effect
+      // below sets it after every commit), so direction is leaving → next.
+      const leaving = prevView.current;
       const next = parseHash(window.location.hash, issue);
-      withViewTransition(() => setView(next));
+
+      let morph: MorphSpec | undefined;
+      if (leaving.mode === "glance" && next.mode === "section") {
+        const activeName = `pulse-sec-${next.sectionId}`;
+        morph = { activeName, direction: "forward", vectors: getCollapseVectors(activeName) };
+      } else if (leaving.mode === "section" && next.mode === "glance") {
+        const activeName = `pulse-sec-${leaving.sectionId}`;
+        morph = { activeName, direction: "back", vectors: getCollapseVectors(activeName) };
+      }
+
+      withViewTransition(() => setView(next), morph);
     };
     window.addEventListener("hashchange", onHashChange);
     return () => window.removeEventListener("hashchange", onHashChange);
@@ -122,9 +138,15 @@ export default function App() {
   };
 
   const readTime = issue ? readingTime(issue) : null;
-  const currentSection =
+  const currentIndex =
     view.mode === "section" && issue
-      ? (issue.sections.find((s) => s.id === view.sectionId) ?? null)
+      ? issue.sections.findIndex((s) => s.id === view.sectionId)
+      : -1;
+  const currentSection =
+    currentIndex >= 0 && issue ? issue.sections[currentIndex] : null;
+  const currentSig =
+    currentSection && currentIndex >= 0
+      ? signatureFor(currentSection.id, currentIndex)
       : null;
 
   const backToGlance = (
@@ -138,28 +160,29 @@ export default function App() {
   );
 
   return (
-    <div className="app">
+    <div
+      className={`app${
+        view.mode === "glance" || view.mode === "section" ? " app-glance" : ""
+      }`}
+    >
       <header className="masthead">
-        <img
-          className="masthead-buddy"
-          src={`${BASE}robobuddy.png`}
-          alt=""
-          width={96}
-          height={96}
-        />
+        <div className="topbar">
+          <ArchiveSwitcher
+            entries={index}
+            currentId={currentId}
+            onSelect={selectIssue}
+          />
+        </div>
         <h1>Buddy-System</h1>
-        {issue && (
-          <p className="masthead-date">{formatDate(issue.generated_at)}</p>
-        )}
-        {status === "ready" && readTime && (
-          <p className="masthead-read">
-            {readTime.skimMin} min skim · {readTime.fullMin} min full read
-          </p>
-        )}
-        <ArchiveSwitcher
-          entries={index}
-          currentId={currentId}
-          onSelect={selectIssue}
+        <BuddyDialog
+          name="Kajol"
+          portraitSrc={`${BASE}robobuddy.png`}
+          dateText={issue ? formatDate(issue.generated_at) : undefined}
+          readText={
+            status === "ready" && readTime
+              ? `${readTime.skimMin} min skim · ${readTime.fullMin} min full read`
+              : undefined
+          }
         />
       </header>
 
@@ -182,21 +205,29 @@ export default function App() {
         )}
 
         {status === "ready" && issue && view.mode === "section" && currentSection && (
-          <>
-            {backToGlance}
-            <Section
-              section={currentSection}
-              vtName={`pulse-sec-${currentSection.id}`}
-              headingRef={sectionHeading}
-            />
-            <button
-              type="button"
-              className="feed-link"
-              onClick={() => navigate({ mode: "feed" })}
-            >
-              Read everything instead
-            </button>
-          </>
+          <div
+            className="takeover"
+            style={
+              {
+                viewTransitionName: `pulse-sec-${currentSection.id}`,
+                ...(currentSig
+                  ? { "--sig": currentSig.accent, "--sig-bg": currentSig.tint }
+                  : {}),
+              } as React.CSSProperties
+            }
+          >
+            <div className="takeover-inner">
+              {backToGlance}
+              <Section section={currentSection} headingRef={sectionHeading} />
+              <button
+                type="button"
+                className="feed-link"
+                onClick={() => navigate({ mode: "feed" })}
+              >
+                Read everything instead
+              </button>
+            </div>
+          </div>
         )}
 
         {status === "ready" && issue && view.mode === "feed" && (
