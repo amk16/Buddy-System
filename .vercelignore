@@ -1,0 +1,6 @@
+# Only the Vite app in frontend/ is deployed — keep the upload lean.
+backend/
+docs/
+.claude/
+.superpowers/
+*.md
