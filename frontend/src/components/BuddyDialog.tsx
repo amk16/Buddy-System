@@ -46,13 +46,15 @@ export function BuddyDialog({ name, portraitSrc, dateText, readText }: Props) {
 
   return (
     <div className="buddy-dialog">
-      <img
-        className="bd-portrait"
-        src={portraitSrc}
-        alt=""
-        width={76}
-        height={76}
-      />
+      <span className="bd-portrait">
+        <img
+          className="bd-portrait-img"
+          src={portraitSrc}
+          alt=""
+          width={418}
+          height={597}
+        />
+      </span>
       <div className="bd-box">
         <span className="bd-nameplate">ROBOBUDDY</span>
         <p className="bd-text" aria-label={full}>

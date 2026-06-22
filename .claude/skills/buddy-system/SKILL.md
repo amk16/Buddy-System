@@ -146,13 +146,36 @@ and no reading mode may constrain how she moves through an issue.
 
 ## Mascot — RoboBuddy hard rules
 
-RoboBuddy is strictly **ambient**. It sits still at the top of the centered
-masthead, above the app title ("Buddy-System"), on every view. Its one
-interactive offer is the optional "pick up where you left off" chip in the
-glance grid's buddy corner (localStorage, one entry, per-issue). It may NEVER:
-animate, block content, auto-navigate, speak/instruct, show progress, or
-appear modal. The resume chip disappears permanently once used or dismissed,
-and never exists when there's nothing to resume.
+The **masthead** RoboBuddy is strictly **ambient**. It sits still at the top of
+the centered masthead, above the app title ("Buddy-System"), on every view. Its
+one interactive offer is the optional "pick up where you left off" chip in the
+glance grid's buddy corner (localStorage, one entry, per-issue). The masthead
+buddy may NEVER: animate, block content, auto-navigate, speak/instruct, show
+progress, or appear modal. The resume chip disappears permanently once used or
+dismissed, and never exists when there's nothing to resume.
+
+### Sanctioned exception — the bento tile-peek (`BuddyPeek`)
+
+The same RoboBuddy may **peek into a glance bento tile on hover/focus** — a
+small inline-SVG version that leans in from the tile's right edge, one pixel
+emotion per section (the four-box story: eager / surprised / cool / proud).
+This is the ONE place the buddy is allowed to move, and it is bounded by hard
+rules so it stays a companion, not a distraction:
+
+- **Hidden at rest** — fully off-frame (`overflow: hidden` crops it); idle tiles
+  are calm and empty. It only appears on `:hover` / `:focus-within`.
+- **Never covers text** — tiles reserve a right safe-zone (`padding-right`); the
+  buddy peeks only into that empty gutter. Reading is never impeded.
+- **State feedback, not decoration** — triggered by the pointer/keyboard, ≤300ms,
+  `--ease-settle` (settles, never bounces), and it does NOT loop.
+- **Honors `prefers-reduced-motion`** — stays hidden at rest, appears instantly
+  on hover/focus with no slide or tilt.
+- **Decorative only** — `aria-hidden`, `pointer-events: none`; never in the a11y
+  tree, never gates or replaces content.
+
+Source: `components/BuddyPeek.tsx` + `lib/buddy.ts` (face/palette data),
+styled in `index.css` (`.tile-buddy`). Anything outside these bounds is still a
+violation.
 
 ## Layout & spacing
 

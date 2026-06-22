@@ -2,6 +2,7 @@ import type { CSSProperties } from "react";
 import type { Section } from "../lib/types";
 import type { Signature } from "../lib/signature";
 import { stripEmoji } from "../lib/strings";
+import { BuddyPeek } from "./BuddyPeek";
 
 interface Props {
   section: Section;
@@ -38,6 +39,9 @@ export function SectionTile({ section, signature, wide, onOpen }: Props) {
       {section.items.length > 1 && (
         <span className="tile-more">…and more inside</span>
       )}
+      <span className="tile-buddy" aria-hidden="true">
+        <BuddyPeek sectionId={section.id} accent={signature.accent} />
+      </span>
     </button>
   );
 }

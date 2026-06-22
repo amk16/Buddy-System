@@ -224,16 +224,25 @@ a:hover {
   text-align: left;
 }
 
-/* Portrait stretches to the box's height so their 2px ink borders line up. */
+/* Fixed-size frame (matching the dialogue box's ink border), no fill. It clips
+   an over-sized RoboBuddy so he reads large and spills past the frame edges. */
 .bd-portrait {
   flex: none;
-  width: 76px;
-  height: auto;
+  width: 112px;
   align-self: stretch;
-  object-fit: contain;
-  background: var(--card);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: transparent;
   border: 2px solid var(--ink);
   border-radius: var(--radius);
+}
+
+.bd-portrait-img {
+  display: block;
+  width: 150%; /* bigger than the frame; edges crop against it */
+  height: auto;
 }
 
 .bd-box {
@@ -365,6 +374,8 @@ a:hover {
 }
 
 .tile {
+  position: relative; /* anchor for the peeking buddy */
+  overflow: hidden; /* crops the buddy off-frame at rest */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -382,6 +393,78 @@ a:hover {
 
 .tile:hover {
   box-shadow: var(--shadow-card-hover);
+}
+
+/* Peeking RoboBuddy: a cream pixel-screen mascot that leans in from the tile's
+   right edge on hover/focus. Fully off-frame at rest; settles, never bounces.
+   Gated to hover-capable devices — touch has no hover, so we neither render the
+   buddy nor reserve its safe-zone there (keeps mobile text full-width). */
+.tile-buddy {
+  display: none;
+}
+
+@media (hover: hover) {
+  /* reserve a right safe-zone so the peek never covers tile text */
+  .tile {
+    padding-right: 76px;
+  }
+
+  .tile-buddy {
+    display: block;
+    position: absolute;
+    top: 8%;
+    right: 0;
+    width: 88px;
+    height: 120px;
+    transform-origin: bottom right;
+    transform: translateX(122%) rotate(8deg); /* hidden, cropped by overflow */
+    transition: transform 300ms var(--ease-settle);
+    pointer-events: none;
+  }
+
+  .buddy-svg {
+    display: block;
+    width: 88px;
+    height: 120px;
+    filter: drop-shadow(0 6px 8px rgba(76, 60, 35, 0.18));
+  }
+
+  .tile:hover .tile-buddy,
+  .tile:focus-within .tile-buddy {
+    transform: translateX(22%) rotate(5deg); /* peeks into the safe-zone only */
+  }
+
+  .tile:hover .buddy-head,
+  .tile:focus-within .buddy-head {
+    animation: buddy-tilt 620ms var(--ease-settle);
+    transform-origin: 60px 102px;
+  }
+}
+
+@keyframes buddy-tilt {
+  0% {
+    transform: rotate(6deg);
+  }
+  55% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@media (hover: hover) and (prefers-reduced-motion: reduce) {
+  .tile-buddy {
+    transition: none;
+    transform: translateX(122%) rotate(8deg); /* still hidden when idle */
+  }
+  .tile:hover .tile-buddy,
+  .tile:focus-within .tile-buddy {
+    transform: translateX(22%) rotate(5deg); /* appears instantly, no slide */
+  }
+  .buddy-head {
+    animation: none !important;
+  }
 }
 
 /* Signature box: a soft wash of its hue + a colored left edge; the label
@@ -879,7 +962,7 @@ a:hover {
   }
 
   .bd-portrait {
-    width: 64px;
+    width: 92px;
   }
 }
 
@@ -901,8 +984,8 @@ a:hover {
   }
 
   .bd-portrait {
-    width: 64px;
-    height: 64px;
+    width: 92px;
+    height: 92px;
     align-self: auto;
   }
 
