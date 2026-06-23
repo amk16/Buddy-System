@@ -54,6 +54,18 @@ python backend/pipeline.py
 
 **Just want to see the dashboard?** Write demo data: `python backend/pipeline.py --sample`.
 
+### Publish it to the live site
+
+The dashboard deploys on Vercel from the `main` branch, so a new issue goes live only
+after its files are pushed. Once `/pulse` (or `--write`) has written the dated issue,
+ship it in one step:
+
+```bash
+./publish.sh        # commits frontend/public/issues/* and pushes → Vercel redeploys
+```
+
+It no-ops if there's nothing new, and only runs on the deploy branch (`main`).
+
 ---
 
 ## Reading it
