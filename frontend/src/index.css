@@ -935,6 +935,50 @@ a:hover {
   padding: var(--sp-1) var(--sp-2);
 }
 
+/* Recovery panel: a calm contained card so a failed load reads as a gentle
+   hiccup, not a dead-end void. Message and action read as one unit. */
+.recovery {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-3);
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  padding: var(--sp-6) var(--sp-7);
+}
+
+.recovery-msg {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+/* Recovery action: calm deep gold, never alarmist red (buddy-system rule);
+   sans UI control like every other button. */
+.state-retry {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--accent);
+  background: none;
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: var(--sp-2) var(--sp-3);
+  min-height: 40px;
+  cursor: pointer;
+  /* highlighter motif marks it unmistakably as the one action to take */
+  text-decoration: underline;
+  text-decoration-color: var(--brand-yellow);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.state-retry:hover {
+  color: var(--accent-deep);
+  text-decoration-thickness: 3px;
+}
+
 .foot {
   margin-top: var(--sp-8);
   text-align: center;

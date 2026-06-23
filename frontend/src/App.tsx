@@ -38,6 +38,8 @@ export default function App() {
     "loading",
   );
   const [view, setView] = useState<View>({ mode: "glance" });
+  // Bumped to re-run the issue fetch after a load failure (the retry path).
+  const [reloadNonce, setReloadNonce] = useState(0);
 
   const glanceHeading = useRef<HTMLHeadingElement | null>(null);
   const sectionHeading = useRef<HTMLHeadingElement | null>(null);
@@ -71,7 +73,7 @@ export default function App() {
         setStatus("ready");
       })
       .catch(() => setStatus("error"));
-  }, [currentId]);
+  }, [currentId, reloadNonce]);
 
   // The hash is the single source of truth for the view. Tile clicks, the
   // back affordance, AND browser back/forward all funnel through here, so
@@ -126,6 +128,12 @@ export default function App() {
 
   const navigate = (next: View) => {
     window.location.hash = viewToHash(next);
+  };
+
+  // Re-attempt a failed issue load without leaving the page or losing the hash.
+  const retry = () => {
+    setStatus("loading");
+    setReloadNonce((n) => n + 1);
   };
 
   const selectIssue = (id: string) => {
@@ -193,7 +201,16 @@ export default function App() {
             No issues yet. Run <code>python backend/pipeline.py</code> to generate one.
           </p>
         )}
-        {status === "error" && <p className="state">Couldn't load this issue.</p>}
+        {status === "error" && (
+          <div className="state">
+            <div className="recovery">
+              <p className="recovery-msg">Couldn't load this issue.</p>
+              <button type="button" className="state-retry" onClick={retry}>
+                Try again
+              </button>
+            </div>
+          </div>
+        )}
 
         {status === "ready" && issue && view.mode === "glance" && (
           <GlanceGrid
