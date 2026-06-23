@@ -1,0 +1,281 @@
+{
+  "id": "2026-06-23",
+  "generated_at": "2026-06-23T23:39:50.759194+00:00",
+  "title": "AI Marketing Pulse",
+  "brief": [
+    {
+      "section": "case_studies",
+      "headline": "Scale AI made payment reconciliation instant and cut its month-end close by two weeks with an AI accounting agent",
+      "summary": "Scale AI deployed Maxima's new accounting agent, \"Max,\" which automates recurring finance prep — payroll entries, balance-sheet reconciliations and variance explanations — then routes it to a human accountant for approval before anything posts. Scale AI's chief accounting officer Josh Waldron says reconciling international payments is now instantaneous, down from up to two weeks, and the company now closes its books in the first two weeks of the month, a record for it. Maxima, which launched Max on June 23 and has processed over $400 billion in transactions, says early users save as much as 60 hours of labor per employee each month. Unlike a general chatbot, Max keeps audit trails, role-based permissions and human approval steps.",
+      "why_it_matters": "Use this as your go-to ROI story when finance clients ask what an AI agent actually saves in hours and close time.",
+      "terms": [
+        {
+          "term": "Reconciliation",
+          "definition": "Checking that two sets of financial records match — for example, bank statements against the company's own books."
+        },
+        {
+          "term": "Month-end close",
+          "definition": "The monthly process of finalizing all accounting records so the company can report accurate financials."
+        },
+        {
+          "term": "Human-in-the-loop",
+          "definition": "A setup where AI does the work but a person reviews and approves it before it takes effect."
+        }
+      ],
+      "url": "https://www.cfodive.com/news/maxima-rolls-out-ai-agent-enterprise-accounting/823567/",
+      "source_name": "CFO Dive",
+      "signal_tag": "new",
+      "published_at": "2026-06-23"
+    },
+    {
+      "section": "tools",
+      "headline": "Adobe expands its AI \"Creative Agent\" across Photoshop, Premiere and Firefly",
+      "summary": "On June 18, Adobe widened the rollout of its Creative Agent — an AI that carries out multi-step creative jobs from a plain-English description instead of manual clicks — across Creative Cloud apps including Photoshop, Premiere, Illustrator and InDesign. A new \"AI Assistant\" in its Firefly app can generate a full brand kit (logo, colors and identity) from a short description, turn product photos into short cinematic videos, and assemble video cuts around narration. The features are in public beta today in Firefly and most Creative Cloud apps, and Adobe's tools are also reachable from ChatGPT, Claude, Copilot, Gemini and Slack. No pricing was announced.",
+      "why_it_matters": "Try the Firefly brand-kit and product-video tools on a small-business client's content before recommending a full Adobe rollout.",
+      "terms": [
+        {
+          "term": "Creative Agent / agentic AI",
+          "definition": "AI that can plan and carry out a multi-step task on its own from a goal you describe, rather than needing each step clicked manually."
+        },
+        {
+          "term": "Brand kit",
+          "definition": "A saved set of a brand's logo, colors and identity that design tools reuse to keep everything on-brand."
+        }
+      ],
+      "url": "https://news.adobe.com/news/2026/06/adobe-unveils-major-expansion",
+      "source_name": "Adobe",
+      "signal_tag": "new",
+      "published_at": "2026-06-18"
+    },
+    {
+      "section": "news",
+      "headline": "Customers will repeat themselves to a bot exactly once before giving up",
+      "summary": "A Parloa study of 1,001 U.S. consumers, released June 22, shows how thin patience for automated support has worn. 60% will repeat themselves only once before abandoning an automated system, 11% bail the very first time they're asked to repeat anything, and 56% spend under three minutes with a bot before demanding a human. Only 14% completely trust future AI to handle complex requests better than people — yet 75% say they would prefer automation if it could anticipate their needs and act proactively. Just 7% say phone-menu (IVR) systems consistently resolve their issue.",
+      "why_it_matters": "Tell support clients the bar is proactive resolution in under three minutes, or a fast, clean handoff to a human.",
+      "terms": [
+        {
+          "term": "IVR",
+          "definition": "Interactive Voice Response — the automated phone menu (\"press 1 for…\") that routes or answers calls."
+        }
+      ],
+      "url": "https://www.customerexperiencedive.com/news/customers-losing-patience-automated-customer-support/823434/",
+      "source_name": "Customer Experience Dive",
+      "signal_tag": "shift",
+      "published_at": "2026-06-22"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Adobe expands its AI \"Creative Agent\" across Photoshop, Premiere and Firefly",
+          "summary": "On June 18, Adobe widened the rollout of its Creative Agent — an AI that carries out multi-step creative jobs from a plain-English description instead of manual clicks — across Creative Cloud apps including Photoshop, Premiere, Illustrator and InDesign. A new \"AI Assistant\" in its Firefly app can generate a full brand kit (logo, colors and identity) from a short description, turn product photos into short cinematic videos, and assemble video cuts around narration. The features are in public beta today in Firefly and most Creative Cloud apps, and Adobe's tools are also reachable from ChatGPT, Claude, Copilot, Gemini and Slack. No pricing was announced.",
+          "why_it_matters": "Try the Firefly brand-kit and product-video tools on a small-business client's content before recommending a full Adobe rollout.",
+          "terms": [
+            {
+              "term": "Creative Agent / agentic AI",
+              "definition": "AI that can plan and carry out a multi-step task on its own from a goal you describe, rather than needing each step clicked manually."
+            },
+            {
+              "term": "Brand kit",
+              "definition": "A saved set of a brand's logo, colors and identity that design tools reuse to keep everything on-brand."
+            }
+          ],
+          "url": "https://news.adobe.com/news/2026/06/adobe-unveils-major-expansion",
+          "source_name": "Adobe",
+          "signal_tag": "new",
+          "published_at": "2026-06-18"
+        },
+        {
+          "section": "tools",
+          "headline": "DoorDash launches \"Ask DoorDash,\" an AI assistant that builds your cart",
+          "summary": "On June 23, DoorDash introduced Ask DoorDash, a conversational shopping assistant (a chatbot you type requests to) that turns a plain request like \"healthy dinner for four under $40, no salad or chicken\" into a built shopping cart. It accepts text, recipe links, cookbook photos or images of a shopping list, and it checks whether you already have staples like butter so you don't double-buy, drawing on live merchant data about inventory, prices and hours. It is live in select U.S. areas on Apple phones for restaurant and grocery search, rolling out to more users in the coming weeks.",
+          "why_it_matters": "Point retail and grocery clients to this as a concrete example of \"conversational commerce\" they'll soon be asked to match.",
+          "terms": [
+            {
+              "term": "Conversational commerce",
+              "definition": "Shopping done by chatting in plain language with an AI assistant that finds and adds products for you."
+            }
+          ],
+          "url": "https://www.retaildive.com/news/doordash-grocery-tools-conversational-shopping-assistant-ai/822995/",
+          "source_name": "Retail Dive",
+          "signal_tag": "new",
+          "published_at": "2026-06-23"
+        },
+        {
+          "section": "tools",
+          "headline": "Anthropic's \"Claude Tag\" sits in Slack and learns how your company works",
+          "summary": "Anthropic released Claude Tag, an \"always-on\" version of its Claude AI that lives inside a Slack channel, follows the conversation, and builds up memory of a team's work so anyone can @-mention it for answers or tasks. It runs in two modes: a \"task\" mode that breaks an assignment into steps and does it with connected tools, and an \"ambient\" mode that proactively flags issues and chases forgotten to-dos. Everyone in a channel shares one Claude that remembers where the last person left off. It is in beta for Claude Enterprise and Team customers, with admins controlling which channels and tools it can reach; pricing wasn't disclosed.",
+          "why_it_matters": "Flag the cross-channel memory and admin permissions as the first governance questions to settle before any client puts Claude in their Slack.",
+          "terms": [
+            {
+              "term": "Ambient mode",
+              "definition": "An AI that quietly watches a workspace and speaks up on its own, rather than only answering when directly asked."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+          "source_name": "TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-06-23"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "Customers will repeat themselves to a bot exactly once before giving up",
+          "summary": "A Parloa study of 1,001 U.S. consumers, released June 22, shows how thin patience for automated support has worn. 60% will repeat themselves only once before abandoning an automated system, 11% bail the very first time they're asked to repeat anything, and 56% spend under three minutes with a bot before demanding a human. Only 14% completely trust future AI to handle complex requests better than people — yet 75% say they would prefer automation if it could anticipate their needs and act proactively. Just 7% say phone-menu (IVR) systems consistently resolve their issue.",
+          "why_it_matters": "Tell support clients the bar is proactive resolution in under three minutes, or a fast, clean handoff to a human.",
+          "terms": [
+            {
+              "term": "IVR",
+              "definition": "Interactive Voice Response — the automated phone menu (\"press 1 for…\") that routes or answers calls."
+            }
+          ],
+          "url": "https://www.customerexperiencedive.com/news/customers-losing-patience-automated-customer-support/823434/",
+          "source_name": "Customer Experience Dive",
+          "signal_tag": "shift",
+          "published_at": "2026-06-22"
+        },
+        {
+          "section": "news",
+          "headline": "Three numbers on what bad AI support actually costs",
+          "summary": "Customer Experience Dive pulled three figures on the cost of AI getting it wrong. In a Kim.cc survey of 1,000 U.S. consumers, 50% blame company leadership — not the technology — when an AI chatbot fails. Google's search AI runs about 91% accurate, but across more than 5 trillion searches a year that still leaves billions of wrong answers. And a single slip can bite: a BMW dealership's chatbot, \"Quinn,\" misquoted a car's buyback price, and the dealer ended up paying around CA$7,000 more than intended after media attention forced it to honor the offer.",
+          "why_it_matters": "Use these three numbers to make the business case to clients for human review on any customer-facing AI.",
+          "terms": [],
+          "url": "https://www.customerexperiencedive.com/news/3-numbers-on-the-cost-of-ai-failures/823572/",
+          "source_name": "Customer Experience Dive",
+          "signal_tag": "trending",
+          "published_at": "2026-06-23"
+        },
+        {
+          "section": "news",
+          "headline": "Only 21% of CFOs call their AI \"advanced\" — and most can't measure its ROI: EY",
+          "summary": "A new EY study finds finance chiefs are lagging on AI just as pressure to prove returns rises: only 21% rate their AI as \"leading\" or \"advanced\" (just 5% \"leading\"), while 30% are still \"developing\" and 15% at an early stage. 71% of CFOs say traditional metrics can't properly evaluate technology initiatives, and 47% admit they can't effectively measure the value created by emerging-tech projects. Readiness skews with size — at companies above $10 billion in revenue, 25% are \"advanced\" versus 12% at smaller firms — and fewer than half of all CFOs apply AI to growth areas like forecasting or pricing. The report was released in June 2026.",
+          "why_it_matters": "Lead finance pitches with a simple ROI-measurement framework, since most CFOs admit that is exactly what they're missing.",
+          "terms": [
+            {
+              "term": "ROI",
+              "definition": "Return on investment — whether the money and effort spent on something earns back more than it costs."
+            }
+          ],
+          "url": "https://www.cfodive.com/news/cfos-lag-ai-readiness-roi-pressures-rise-ey/823475/",
+          "source_name": "CFO Dive",
+          "signal_tag": "trending",
+          "published_at": "2026-06-23"
+        },
+        {
+          "section": "news",
+          "headline": "73% of enterprises use AI regularly; only 10% say it's core to how they operate",
+          "summary": "Publicis Sapient's 2026 Global Enterprise AI Report, released June 17 from a survey of 1,550 AI decision-makers, lays out the gap between using AI and being built for it. 73% now use AI regularly across business processes, but only 10% say it's core to how the business operates, and while 47% think AI meets today's needs, 42% admit their organization isn't set up to capture its value. In the U.S., 71% expect significant progress scaling AI in the next 12 to 24 months, yet only 20% feel fully equipped today; 22% name the way their organization operates — not the technology — as the top barrier.",
+          "why_it_matters": "Sell the operating-model and workflow redesign work, since that gap — not the tech — is where clients are stuck.",
+          "terms": [],
+          "url": "https://www.publicissapient.com/company/news/ai-adoption-enterprise-readiness-report-2026",
+          "source_name": "Publicis Sapient",
+          "signal_tag": "trending",
+          "published_at": "2026-06-17"
+        },
+        {
+          "section": "news",
+          "headline": "Gap is rebuilding its brands' marketing around AI agents",
+          "summary": "Gap Inc. is bringing AI across the owned marketing channels of its brands — Gap, Old Navy, Banana Republic and Athleta — to personalize experiences, speed up campaigns and turn marketing into what it calls a \"real-time growth engine.\" It is leaning on named partners: Google Cloud (its Gemini models plus the Nano image and Veo video generators, and \"Agent Studio\" for building AI agents), Zeta Global's Athena intelligence layer, and Publicis Sapient for the transformation work. The effort, announced June 23, builds on a Google Cloud partnership that began in 2025; Gap marketing SVP Damon Berger framed it as freeing teams for strategy and storytelling. No performance metrics were shared.",
+          "why_it_matters": "Show marketing clients this stack as a real template for what an \"AI-modernized\" brand marketing org now looks like.",
+          "terms": [
+            {
+              "term": "AI agent",
+              "definition": "Software that can carry out a multi-step task toward a goal on its own, not just answer one question at a time."
+            },
+            {
+              "term": "Owned marketing channels",
+              "definition": "Channels a brand controls directly — its site, app and email — versus paid ads or social platforms."
+            }
+          ],
+          "url": "https://www.marketingdive.com/news/gap-brings-ai-to-owned-marketing-channels-across-brand-portfolio/823491/",
+          "source_name": "Marketing Dive",
+          "signal_tag": "new",
+          "published_at": "2026-06-23"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "Scale AI made payment reconciliation instant and cut its month-end close by two weeks with an AI accounting agent",
+          "summary": "Scale AI deployed Maxima's new accounting agent, \"Max,\" which automates recurring finance prep — payroll entries, balance-sheet reconciliations and variance explanations — then routes it to a human accountant for approval before anything posts. Scale AI's chief accounting officer Josh Waldron says reconciling international payments is now instantaneous, down from up to two weeks, and the company now closes its books in the first two weeks of the month, a record for it. Maxima, which launched Max on June 23 and has processed over $400 billion in transactions, says early users save as much as 60 hours of labor per employee each month. Unlike a general chatbot, Max keeps audit trails, role-based permissions and human approval steps.",
+          "why_it_matters": "Use this as your go-to ROI story when finance clients ask what an AI agent actually saves in hours and close time.",
+          "terms": [
+            {
+              "term": "Reconciliation",
+              "definition": "Checking that two sets of financial records match — for example, bank statements against the company's own books."
+            },
+            {
+              "term": "Month-end close",
+              "definition": "The monthly process of finalizing all accounting records so the company can report accurate financials."
+            },
+            {
+              "term": "Human-in-the-loop",
+              "definition": "A setup where AI does the work but a person reviews and approves it before it takes effect."
+            }
+          ],
+          "url": "https://www.cfodive.com/news/maxima-rolls-out-ai-agent-enterprise-accounting/823567/",
+          "source_name": "CFO Dive",
+          "signal_tag": "new",
+          "published_at": "2026-06-23"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Navy Federal cut survey turnaround from 5 days to 4 hours with synthetic data",
+          "summary": "Navy Federal Credit Union ran a pilot with Qualtrics using \"synthetic data\" — AI-generated survey responses meant to mimic real people — to reach active-duty military members who rarely have free time. Across the same survey, 498 synthetic responses and 501 human ones differed in mean scores by just 0.25%, and the synthetic batch took 4 hours versus 5 days, at roughly $20,000 versus $90,000 (per Gartner figures). The catch: synthetics were reliable on rational, functional questions but underestimated emotion — on one credit-card reluctance question, 41% of humans agreed versus only 21% of synthetics. Research lead Kathleen Myers said human research stays better for emotional and brand-loyalty questions.",
+          "why_it_matters": "Pitch synthetic data to clients for fast, cheap functional research, but warn them to keep humans for anything emotion-driven.",
+          "terms": [
+            {
+              "term": "Synthetic data",
+              "definition": "Data generated by AI to imitate real people's responses, used to supplement or stand in for surveying actual humans."
+            }
+          ],
+          "url": "https://www.customerexperiencedive.com/news/what-navy-federal-credit-union-found-in-its-synthetic-data-pilot/823429/",
+          "source_name": "Customer Experience Dive",
+          "signal_tag": "trending",
+          "published_at": "2026-06-23"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "LiveRamp CEO Scott Howe on betting with OpenAI and selling to Publicis",
+          "summary": "At Cannes Lions on June 23, LiveRamp CEO Scott Howe talked up two big moves. He cast LiveRamp's OpenAI partnership as a natural fit and praised OpenAI's willingness to prove advertising returns, saying \"here's a company that's right on the leading edge saying we're going to prove that the ROI pans out,\" with transparent measurement rather than blind trust. On Publicis's $2.2 billion deal to acquire LiveRamp (expected to close by year-end), he acknowledged agency skepticism but pledged continued neutrality, and admitted he has \"probably disappointed\" some by not moving faster into global markets. LiveRamp is a data-connection company that helps brands match and use customer data across platforms.",
+          "why_it_matters": "Follow Howe to track how ad measurement and customer-data plumbing shift as OpenAI pushes into advertising.",
+          "terms": [],
+          "url": "https://www.marketingdive.com/news/liveramp-ceo-dishes-on-openai-partnership-looming-publicis-acquisition/823481/",
+          "source_name": "Marketing Dive",
+          "signal_tag": "trending",
+          "published_at": "2026-06-23"
+        },
+        {
+          "section": "people",
+          "headline": "Signal's Meredith Whittaker: \"These are not your friends\"",
+          "summary": "In a Bloomberg interview in June 2026, Signal president Meredith Whittaker pushed back on treating AI chatbots as companions, saying \"these are not your friends… not conscious beings… not sentient interlocutors.\" Her sharper warning was about privacy: as \"companion\" assistants gain broad access across apps — she cited Microsoft Copilot reaching credit cards, browsers, messages, home addresses and calendars — that reach becomes \"a kind of a backdoor,\" even into encrypted services like Signal. Whittaker says she uses AI minimally herself, mainly for basic document formatting, avoiding it for real thinking or writing.",
+          "why_it_matters": "Cite her as the credible privacy counterweight when advising clients how much access to grant \"companion\" AI assistants.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+          "source_name": "TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-06-20"
+        }
+      ]
+    }
+  ]
+}
