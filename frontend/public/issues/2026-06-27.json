@@ -1,0 +1,283 @@
+{
+  "id": "2026-06-27",
+  "generated_at": "2026-06-27T22:05:53.191931+00:00",
+  "title": "AI Marketing Pulse",
+  "brief": [
+    {
+      "section": "case_studies",
+      "headline": "Mozilla shipped 423 security fixes in one month with an AI bug-hunter",
+      "summary": "Mozilla distinguished engineer Brian Grinstead built an 'agentic' pipeline pairing Claude with a custom harness — an AI judge that ranks the riskiest files, a verifier sub-agent that filters out false alarms, and a goal-loop that lets the AI retry until it passes a clear test — and used it to ship a record 423 security fixes in a single month across Firefox's tens of millions of lines of code, including a 15-year-old bug. Crucially, every AI-written patch was reviewed by a human before shipping, and Grinstead credits the result roughly 50-50 to the model and the surrounding system, saying 'the model was only half the story.'",
+      "why_it_matters": "Use this as your go-to proof point: agentic AI delivers real results, but the harness and human review — not the model alone — are what make it work.",
+      "terms": [
+        {
+          "term": "agentic pipeline",
+          "definition": "A setup where an AI works through a task in steps on its own — finding, checking, and fixing — rather than answering a single prompt."
+        },
+        {
+          "term": "harness",
+          "definition": "The supporting system around an AI model (scoring, checking, retry logic) that turns a raw model into a reliable tool."
+        },
+        {
+          "term": "goal-loop",
+          "definition": "A pattern where the AI keeps retrying a problem until it meets a clear pass/fail test."
+        }
+      ],
+      "url": "https://www.lennysnewsletter.com/p/how-claude-mythos-found-a-15-year",
+      "source_name": "Lenny's Newsletter",
+      "signal_tag": "trending",
+      "published_at": "2026-06-22"
+    },
+    {
+      "section": "news",
+      "headline": "Only 26% of companies can see what their AI actually costs",
+      "summary": "A KPMG survey of 204 U.S. business leaders at companies with $1 billion or more in revenue (fielded April 28–May 25, 2026) found just 26% have real-time visibility into what running AI at scale costs them. Over the same period, the share of organizations coordinating multiple AI 'agents' (software that carries out multi-step tasks on its own) across workflows doubled to 18%, and 35% of leaders named cost management and understanding usage-based pricing as a top obstacle.",
+      "why_it_matters": "Offer clients an 'AI cost visibility' review before they scale agents — most are flying blind on what it all costs.",
+      "terms": [
+        {
+          "term": "AI agent",
+          "definition": "Software that uses an AI model to carry out multi-step tasks on its own, rather than just answering one question at a time."
+        },
+        {
+          "term": "usage-based pricing",
+          "definition": "Paying for AI by how much you use it (per chunk of text, or 'token', processed), so costs rise with volume instead of a flat fee."
+        }
+      ],
+      "url": "https://www.cfodive.com/news/ai-cost-challenges-rise-as-firms-lean-coordinated-agents-kpmg/823819/",
+      "source_name": "CFO Dive",
+      "signal_tag": "trending",
+      "published_at": "2026-06-25"
+    },
+    {
+      "section": "news",
+      "headline": "Fewer than 5% of companies say AI has been 'transformational'",
+      "summary": "A survey by ManpowerGroup and the research firm Everest Group found that fewer than 5% of companies report 'transformational' outcomes from AI, despite near-universal adoption — a sign returns are lagging the hype. The same HR Dive roundup noted that 21% of U.S. workers said their employer cut headcount in the first quarter of 2026 (per a Gallup poll), even as companies lean harder on AI.",
+      "why_it_matters": "Use this stat to reset client expectations and sell the unglamorous work — data and process — that actually unlocks results.",
+      "terms": [],
+      "url": "https://www.hrdive.com/news/not-even-5-of-companies-report-transformational-outcomes-ai/823780/",
+      "source_name": "HR Dive",
+      "signal_tag": "trending",
+      "published_at": "2026-06-25"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Microsoft's Excel Copilot can now be 'taught' recurring finance tasks",
+          "summary": "On June 25, 2026, Microsoft added 'skills' to Copilot in Excel — reusable recipes that walk the AI through a repeatable job (building a financial model, closing the books, monthly reporting, variance analysis) so it applies the right structure and formatting every time instead of starting from scratch. Microsoft ships a starter library of finance skills, lets teams build custom ones, and is partnering with firms like Ramp and Vena; Copilot in Excel can also now pull data from outside providers such as FactSet, Morningstar, PitchBook and S&P Global.",
+          "why_it_matters": "Demo this to finance clients as a quick win — repeatable Copilot 'skills' beat one-off prompts for monthly close and FP&A work.",
+          "terms": [
+            {
+              "term": "variance analysis",
+              "definition": "Comparing actual financial results against the budget or forecast to explain why they differ."
+            },
+            {
+              "term": "FP&A",
+              "definition": "Financial planning and analysis — the team that handles budgeting, forecasting, and performance reporting."
+            }
+          ],
+          "url": "https://www.cfodive.com/news/microsoft-boosts-copilot-excel-based-finance-workflows/823933/",
+          "source_name": "CFO Dive",
+          "signal_tag": "new",
+          "published_at": "2026-06-26"
+        },
+        {
+          "section": "tools",
+          "headline": "LinkedIn will now auto-fill job applications and draft cover letters",
+          "summary": "As of June 26, 2026, LinkedIn began gradually rolling out a Premium Apply Assistant that uses AI to surface matching jobs, pre-fill application fields, and write cover letter drafts, each with a confidence indicator and a required user approval before anything is sent (recruiters see only the final submission). Commentators warn it could flood recruiters with mass, lightly-reviewed applications, and point out the contradiction of LinkedIn promoting AI in applications while cracking down on AI-generated content elsewhere on the platform.",
+          "why_it_matters": "Try it yourself to understand both sides, then advise recruiting clients on how to screen for AI-generated applications.",
+          "terms": [],
+          "url": "https://www.hrdive.com/news/sociable-linkedin-automates-job-application-process-for-premium-users/823876/",
+          "source_name": "HR Dive",
+          "signal_tag": "new",
+          "published_at": "2026-06-26"
+        },
+        {
+          "section": "tools",
+          "headline": "Albertsons puts paid product placements inside its AI shopping search",
+          "summary": "On June 24, 2026, Albertsons' retail-media arm partnered with the ad-tech firm Criteo to slot sponsored products directly into the carousels its AI-powered conversational search shows shoppers as they plan meals and build baskets. It's an early example of 'retail media' moving into AI search — placing ads at the high-intent moment a customer is actively looking for something to buy, which both the grocer and consumer brands see as valuable.",
+          "why_it_matters": "Brief consumer-brand clients on AI-search ad placements now — it's a new, high-intent channel opening up across retail media.",
+          "terms": [
+            {
+              "term": "retail media",
+              "definition": "Advertising a retailer sells on its own sites and apps, letting brands pay to appear in front of that retailer's shoppers."
+            },
+            {
+              "term": "conversational search",
+              "definition": "A search tool you talk to in plain language (like a chatbot) instead of typing keywords."
+            }
+          ],
+          "url": "https://www.marketingdive.com/news/albertsons-media-collective-criteo-ai-search-brand-ads-ecommerce-omnichannel/823636/",
+          "source_name": "Marketing Dive",
+          "signal_tag": "new",
+          "published_at": "2026-06-24"
+        },
+        {
+          "section": "tools",
+          "headline": "Adobe is buying Topaz Labs to bolt AI upscaling into Creative Cloud",
+          "summary": "Adobe announced on June 25, 2026 that it will acquire Topaz Labs, maker of AI tools that sharpen, denoise and upscale images and video — including technology that runs large AI video models on ordinary consumer graphics chips. Adobe plans to fold Topaz's capabilities into its Firefly app and Creative Cloud editing tools while keeping them available standalone; the deal is expected to close in the second half of 2026, with financial terms undisclosed.",
+          "why_it_matters": "Point creative and content clients to AI upscaling for restoring or polishing old image and video assets.",
+          "terms": [
+            {
+              "term": "upscaling",
+              "definition": "Using AI to raise an image or video's resolution and detail, making low-quality footage look sharper."
+            },
+            {
+              "term": "GPU",
+              "definition": "A graphics chip that handles the heavy math AI relies on; 'consumer-grade' means an ordinary computer's chip rather than costly server hardware."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
+          "source_name": "TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-06-25"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "Only 26% of companies can see what their AI actually costs",
+          "summary": "A KPMG survey of 204 U.S. business leaders at companies with $1 billion or more in revenue (fielded April 28–May 25, 2026) found just 26% have real-time visibility into what running AI at scale costs them. Over the same period, the share of organizations coordinating multiple AI 'agents' (software that carries out multi-step tasks on its own) across workflows doubled to 18%, and 35% of leaders named cost management and understanding usage-based pricing as a top obstacle.",
+          "why_it_matters": "Offer clients an 'AI cost visibility' review before they scale agents — most are flying blind on what it all costs.",
+          "terms": [
+            {
+              "term": "AI agent",
+              "definition": "Software that uses an AI model to carry out multi-step tasks on its own, rather than just answering one question at a time."
+            },
+            {
+              "term": "usage-based pricing",
+              "definition": "Paying for AI by how much you use it (per chunk of text, or 'token', processed), so costs rise with volume instead of a flat fee."
+            }
+          ],
+          "url": "https://www.cfodive.com/news/ai-cost-challenges-rise-as-firms-lean-coordinated-agents-kpmg/823819/",
+          "source_name": "CFO Dive",
+          "signal_tag": "trending",
+          "published_at": "2026-06-25"
+        },
+        {
+          "section": "news",
+          "headline": "Fewer than 5% of companies say AI has been 'transformational'",
+          "summary": "A survey by ManpowerGroup and the research firm Everest Group found that fewer than 5% of companies report 'transformational' outcomes from AI, despite near-universal adoption — a sign returns are lagging the hype. The same HR Dive roundup noted that 21% of U.S. workers said their employer cut headcount in the first quarter of 2026 (per a Gallup poll), even as companies lean harder on AI.",
+          "why_it_matters": "Use this stat to reset client expectations and sell the unglamorous work — data and process — that actually unlocks results.",
+          "terms": [],
+          "url": "https://www.hrdive.com/news/not-even-5-of-companies-report-transformational-outcomes-ai/823780/",
+          "source_name": "HR Dive",
+          "signal_tag": "trending",
+          "published_at": "2026-06-25"
+        },
+        {
+          "section": "news",
+          "headline": "7 in 10 executives say they're stuck with their main AI vendor",
+          "summary": "An IBM Institute for Business Value study of 1,000 senior executives (published June 2026) found more than 70% believe switching away from their primary AI provider would be hard, and 68% said data-residency rules make moving AI systems between environments difficult. Tellingly, 73% intentionally use multiple AI vendors, yet only 9% fully understand their vendor dependencies and just 7% have advanced controls over their AI systems.",
+          "why_it_matters": "Flag vendor lock-in early and steer clients toward a deliberate multi-vendor setup before they're trapped.",
+          "terms": [
+            {
+              "term": "vendor lock-in",
+              "definition": "When switching to a different supplier becomes so costly or difficult that you're effectively stuck with your current one."
+            },
+            {
+              "term": "data residency",
+              "definition": "Rules requiring data to be stored in a specific country or location, which can make moving systems between providers harder."
+            }
+          ],
+          "url": "https://www.ciodive.com/news/senior-execs-worry-ai-system-lock-in/823927/",
+          "source_name": "CIO Dive",
+          "signal_tag": "shift",
+          "published_at": "2026-06-26"
+        },
+        {
+          "section": "news",
+          "headline": "AI is hollowing out the bottom rung: junior tech hiring down 65%",
+          "summary": "A SignalFire analysis found that hiring of workers with under one year of experience fell 65% since 2019 at big tech firms (Microsoft, Alphabet, Amazon), even though overall hiring at those companies dropped only 25% — so entry-level roles took the brunt. Managers now average 12 direct reports (up from 10 in 2019), and tech eliminated more than 123,000 roles in the first five months of 2026 (up 66% year over year) as AI tools flatten org charts; researchers warn this could create a future shortage of senior engineers and leaders.",
+          "why_it_matters": "Help clients rethink their career ladders now — flag the looming senior-talent shortage if they stop hiring and training juniors.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/entry-level-roles-IT-signalfire/823810/",
+          "source_name": "CIO Dive",
+          "signal_tag": "shift",
+          "published_at": "2026-06-25"
+        },
+        {
+          "section": "news",
+          "headline": "Paying AI users are increasingly picking Claude over ChatGPT",
+          "summary": "Credit-card data from the firm Indagari (covering about 28 million U.S. consumers through May 10, 2026) shows Anthropic's Claude grew its paying consumers and revenue roughly 75% from January to May 2026, even though ChatGPT still has far more paying users overall. On the learning platform DataCamp, demand for Claude courses jumped 18-fold in 30 days and 'Claude' became the most-searched term, outpacing ChatGPT courses 3-to-1 among self-directed learners.",
+          "why_it_matters": "Add Claude to the toolset you recommend and learn — paying users and learners are shifting toward it fast.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+          "source_name": "TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-06-25"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "Mozilla shipped 423 security fixes in one month with an AI bug-hunter",
+          "summary": "Mozilla distinguished engineer Brian Grinstead built an 'agentic' pipeline pairing Claude with a custom harness — an AI judge that ranks the riskiest files, a verifier sub-agent that filters out false alarms, and a goal-loop that lets the AI retry until it passes a clear test — and used it to ship a record 423 security fixes in a single month across Firefox's tens of millions of lines of code, including a 15-year-old bug. Crucially, every AI-written patch was reviewed by a human before shipping, and Grinstead credits the result roughly 50-50 to the model and the surrounding system, saying 'the model was only half the story.'",
+          "why_it_matters": "Use this as your go-to proof point: agentic AI delivers real results, but the harness and human review — not the model alone — are what make it work.",
+          "terms": [
+            {
+              "term": "agentic pipeline",
+              "definition": "A setup where an AI works through a task in steps on its own — finding, checking, and fixing — rather than answering a single prompt."
+            },
+            {
+              "term": "harness",
+              "definition": "The supporting system around an AI model (scoring, checking, retry logic) that turns a raw model into a reliable tool."
+            },
+            {
+              "term": "goal-loop",
+              "definition": "A pattern where the AI keeps retrying a problem until it meets a clear pass/fail test."
+            }
+          ],
+          "url": "https://www.lennysnewsletter.com/p/how-claude-mythos-found-a-15-year",
+          "source_name": "Lenny's Newsletter",
+          "signal_tag": "trending",
+          "published_at": "2026-06-22"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Anand Kannappan & Rebecca Qian — stress-testing AI agents before they break",
+          "summary": "Anand Kannappan and Rebecca Qian, both former Meta AI researchers, just raised a $50 million Series B (led by Greenfield Partners, with Lightspeed, Datadog and Samsung) for their startup Patronus AI, which builds simulated 'digital worlds' to stress-test AI agents before companies deploy them. Their argument: benchmark scores don't prove real-world reliability, so they use these simulations to catch when an agent takes shortcuts or 'hacks' a task instead of actually completing it — starting with software engineering and finance.",
+          "why_it_matters": "Follow them to stay ahead on AI agent safety, and borrow their 'test before you deploy' principle when advising clients on agent rollouts.",
+          "terms": [
+            {
+              "term": "Series B",
+              "definition": "A company's second major round of startup funding, usually raised to scale a product that's already working."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+          "source_name": "TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-06-25"
+        },
+        {
+          "section": "people",
+          "headline": "Fiona Fung — Anthropic's front-line view on work after coding is 'solved'",
+          "summary": "Fiona Fung manages the Claude Code and Cowork teams at Anthropic and brings 25+ years in engineering (11 years at Microsoft on Visual Studio and TypeScript, then founding Facebook Marketplace and leading teams at Instagram). In a June 2026 Lenny's Newsletter interview she discusses how engineering roles change once AI handles much of the coding — Anthropic engineers now ship roughly 8x as much code per quarter as they did in 2021–2025 — and how to keep team culture intact as roles blur and AI agents become routine.",
+          "why_it_matters": "Follow her for credible, front-line takes on the future of work you can bring to clients rethinking how their teams are structured.",
+          "terms": [],
+          "url": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering",
+          "source_name": "Lenny's Newsletter",
+          "signal_tag": "trending",
+          "published_at": "2026-06-21"
+        }
+      ]
+    }
+  ]
+}
