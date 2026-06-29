@@ -15,7 +15,10 @@ function formatDate(iso: string): string {
 }
 
 export function ArchiveSwitcher({ entries, currentId, onSelect }: Props) {
-  if (entries.length <= 1) return null;
+  // Hidden only when an engine has no issues at all. A single-issue engine still
+  // shows the dropdown (one dated option) so the control cluster stays symmetric
+  // across the Claude / Gemini tabs — an empty corner would read as a bug.
+  if (entries.length === 0) return null;
 
   return (
     <div className="archive">

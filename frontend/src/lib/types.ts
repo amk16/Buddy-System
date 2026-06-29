@@ -3,6 +3,10 @@
 
 export type SignalTag = "trending" | "new" | "shift";
 
+// Which engine produced an issue. Both Claude paths (Claude Code --write and the
+// Anthropic API) read as "claude"; the autonomous stream is "gemini".
+export type Engine = "claude" | "gemini";
+
 // A plain-English definition for a technical term on a card.
 export interface Term {
   term: string;
@@ -34,6 +38,8 @@ export interface Issue {
   id: string;
   generated_at: string;
   title: string;
+  // Producing engine. Optional so pre-tagging issues still type-check.
+  engine?: Engine;
   brief: Item[];
   sections: Section[];
 }
@@ -43,4 +49,6 @@ export interface IndexEntry {
   generated_at: string;
   title: string;
   item_count: number;
+  // Producing engine; older entries are backfilled to "claude" by the index.
+  engine: Engine;
 }

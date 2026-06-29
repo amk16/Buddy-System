@@ -1,16 +1,18 @@
 import { useEffect, useRef, useState } from "react";
-import type { Issue, IndexEntry } from "./lib/types";
+import type { Engine, Issue, IndexEntry } from "./lib/types";
 import { readingTime } from "./lib/readingTime";
 import { parseHash, viewToHash, type View } from "./lib/view";
 import { withViewTransition, type MorphSpec } from "./lib/transition";
 import { signatureFor } from "./lib/signature";
 import { getCollapseVectors } from "./lib/glanceGeometry";
 import * as lastVisited from "./lib/lastVisited";
+import * as enginePref from "./lib/enginePref";
 import { Brief } from "./components/Brief";
 import { BuddyDialog } from "./components/BuddyDialog";
 import { Section } from "./components/Section";
 import { GlanceGrid } from "./components/GlanceGrid";
 import { ArchiveSwitcher } from "./components/ArchiveSwitcher";
+import { EngineTabs, ENGINE_ORDER } from "./components/EngineTabs";
 
 // Base-aware so it works locally and under a sub-path (e.g. GitHub Pages) alike.
 const BASE = import.meta.env.BASE_URL;
@@ -32,6 +34,7 @@ function formatDate(iso: string): string {
 
 export default function App() {
   const [index, setIndex] = useState<IndexEntry[]>([]);
+  const [engine, setEngine] = useState<Engine | "">("");
   const [currentId, setCurrentId] = useState<string>("");
   const [issue, setIssue] = useState<Issue | null>(null);
   const [status, setStatus] = useState<"loading" | "ready" | "empty" | "error">(
@@ -46,7 +49,8 @@ export default function App() {
   const briefHeading = useRef<HTMLHeadingElement | null>(null);
   const prevView = useRef<View>({ mode: "glance" });
 
-  // Load the index once; default to the latest issue.
+  // Load the index once. Restore the last-viewed engine tab (falling back to the
+  // engine of the newest issue overall), then open that engine's latest issue.
   useEffect(() => {
     fetch(indexUrl)
       .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
@@ -56,7 +60,12 @@ export default function App() {
           return;
         }
         setIndex(entries);
-        setCurrentId(entries[0].id);
+        const present = entries.map((e) => e.engine);
+        const stored = enginePref.load();
+        const initial = stored && present.includes(stored) ? stored : entries[0].engine;
+        const latest = entries.find((e) => e.engine === initial) ?? entries[0];
+        setEngine(initial);
+        setCurrentId(latest.id);
       })
       .catch(() => setStatus("empty"));
   }, []);
@@ -145,6 +154,22 @@ export default function App() {
     setCurrentId(id);
   };
 
+  // Engines that actually have issues (preserves Claude-first tab order), and
+  // the entries for the currently-selected engine — what the date dropdown lists.
+  const availableEngines = ENGINE_ORDER.filter((e) =>
+    index.some((entry) => entry.engine === e),
+  );
+  const engineEntries = index.filter((entry) => entry.engine === engine);
+
+  const selectEngine = (next: Engine) => {
+    if (next === engine) return;
+    const latest = index.find((entry) => entry.engine === next);
+    if (!latest) return; // disabled tab — nothing to show
+    enginePref.save(next);
+    setEngine(next);
+    selectIssue(latest.id);
+  };
+
   const readTime = issue ? readingTime(issue) : null;
   const currentIndex =
     view.mode === "section" && issue
@@ -175,8 +200,15 @@ export default function App() {
     >
       <header className="masthead">
         <div className="topbar">
+          {engine && (
+            <EngineTabs
+              available={availableEngines}
+              active={engine}
+              onSelect={selectEngine}
+            />
+          )}
           <ArchiveSwitcher
-            entries={index}
+            entries={engineEntries}
             currentId={currentId}
             onSelect={selectIssue}
           />
