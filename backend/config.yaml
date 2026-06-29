@@ -7,7 +7,7 @@ title: "AI Marketing Pulse"
 cadence: weekly
 
 # How many "must-know" items appear in The Brief at the top.
-brief_count: 3
+brief_count: 5
 
 # The lens the curator applies, in ranked order. Edit this to retarget the feed.
 relevance_focus: >
@@ -36,20 +36,23 @@ min_items_to_publish: 4
 gemini:
   model: gemini-3.1-pro-preview
 
-# Sections rendered in the dashboard, in order. Worst case 15 cards total.
+# Sections rendered in the dashboard, in order. A high ceiling (not a target):
+# the curator includes every item that clears the relevance bar, strongest first,
+# so each section is as deep as the pool genuinely supports. The glance stays calm
+# regardless (one tile per section) — the depth lives in the opt-in section views.
 sections:
   - id: tools
     label: "🛠 Tools"
-    max_items: 5
+    max_items: 30
   - id: news
     label: "📰 News"
-    max_items: 5
+    max_items: 30
   - id: case_studies
     label: "📊 Case Studies"
-    max_items: 3
+    max_items: 30
   - id: people
     label: "👤 People to Watch"
-    max_items: 2
+    max_items: 30
 
 sources:
   # RSS feeds — free, automation-friendly. Bad/unreachable feeds are skipped at

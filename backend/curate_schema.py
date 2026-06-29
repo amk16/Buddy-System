@@ -89,5 +89,11 @@ HARD RULES — this feed exists to make the reader credible in front of clients:
 2. If a field isn't supported by the item, omit it (null) rather than guessing.
 3. Drop any item whose url appears in the provided "already seen" list.
 4. Deduplicate near-identical stories; keep the best single source.
-5. Rank by relevance to the focus AND topicality. Quality over quantity — it is fine
-   to return fewer than the max if the pool is thin."""
+5. Rank by relevance to the focus AND topicality. The pool is deep, so be generous:
+   include EVERY item that clears the relevance bar, up to each section's cap — a
+   fuller issue is the goal. Never pad with weak or off-focus items to hit a number,
+   and never drop a strong one just to stay small. Returning fewer than the max is
+   only for a genuinely thin pool.
+6. Within EACH section, order the items strongest/most-relevant FIRST and weakest
+   last — the dashboard reads top-down and any overflow is trimmed from the bottom,
+   so the most useful items must lead."""
