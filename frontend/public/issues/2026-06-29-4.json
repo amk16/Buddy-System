@@ -1,0 +1,679 @@
+{
+  "id": "2026-06-29-4",
+  "generated_at": "2026-06-29T21:39:01.149760+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "Deloitte Predicts AI Will Replace the Hourly Billing Model",
+      "summary": "An internal presentation at Deloitte projects that the consulting industry's traditional hourly billing model will drastically shrink by 2035. The firm expects AI agents to replace human hours for many standard tasks, effectively turning the current \"billable hour\" model into a thin sliver of the total market. One consultant bluntly noted that their existing business model is \"toast.\"",
+      "why_it_matters": "This is a fundamental shift in how professional services make money, signaling that AI consultants should prepare to bill for value and software outcomes rather than raw hours.",
+      "terms": [],
+      "url": "https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/",
+      "source_name": "The Decoder",
+      "signal_tag": "shift",
+      "published_at": "2026-06-29"
+    },
+    {
+      "section": "case_studies",
+      "headline": "Klarna Replaces Two-Thirds of Support Tickets with AI",
+      "summary": "A breakdown of customer service automation reveals that Klarna successfully deployed a global AI agent to handle its incoming requests. Within its first month, the AI autonomously resolved 66% of the company's 2.3 million monthly customer queries. The case study highlights how quickly agentic AI can reduce overhead at massive scale.",
+      "why_it_matters": "An undeniable benchmark for clients, proving that AI customer support is no longer a novelty, but a primary engine for massive cost savings.",
+      "terms": [
+        {
+          "term": "agentic AI",
+          "definition": "Artificial intelligence systems designed to pursue goals and complete tasks autonomously without needing step-by-step human prompts."
+        }
+      ],
+      "url": "https://www.getmyai.ai/blog/ai-customer-support-automation-rates/",
+      "source_name": "GetMyAI",
+      "signal_tag": "trending",
+      "published_at": "2026-06-17"
+    },
+    {
+      "section": "news",
+      "headline": "Microsoft Shifts to Pay-As-You-Go Pricing for New AI Agent",
+      "summary": "Microsoft has introduced its \"Copilot Cowork\" AI agent with a new consumption-based pricing model rather than fixed monthly subscriptions. This shift is driven by the soaring computing costs required to run advanced AI models. Users will now pay directly based on how much they actually use the tool.",
+      "why_it_matters": "A major warning for client budgets that the era of flat-fee software might be ending as AI computing costs force vendors into usage-based billing.",
+      "terms": [
+        {
+          "term": "consumption-based pricing",
+          "definition": "A billing model where customers pay based on how much of a product or service they actually use, rather than a flat recurring fee."
+        }
+      ],
+      "url": "https://www.dawn.com/news/2008363",
+      "source_name": "DAWN.COM",
+      "signal_tag": "shift",
+      "published_at": "2026-06-16"
+    },
+    {
+      "section": "tools",
+      "headline": "Zocks Introduces AI Assistant to Uncover Sales Gaps",
+      "summary": "Wealth technology startup Zocks has launched a new AI capability for financial advisors. It allows them to query their entire client database using plain English to instantly identify service gaps and new revenue opportunities. This replaces hours of manual account reviews with immediate, actionable sales leads.",
+      "why_it_matters": "A prime example of how conversational AI can be used to instantly mine existing client databases for immediate revenue opportunities.",
+      "terms": [],
+      "url": "https://www.investmentnews.com/fintech/zocks-launches-agentic-ai-tool-to-surface-growth-gaps-across-advisor-books/267030",
+      "source_name": "Zocks",
+      "signal_tag": "new",
+      "published_at": "2026-06-16"
+    },
+    {
+      "section": "news",
+      "headline": "Security Researchers Expose Major Flaw in AI Coding Tools",
+      "summary": "Security researchers demonstrated how a compromised software repository can hijack a developer's computer when accessed by an AI coding tool like Claude Code. The malicious code is hidden during setup and only activates during a DNS query, making it invisible to standard security scans. Because the AI tool executes the code without verification, it effectively hands attackers full control of the machine.",
+      "why_it_matters": "A critical warning to share with technical clients about the severe security risks of allowing AI agents to run downloaded code autonomously.",
+      "terms": [
+        {
+          "term": "DNS query",
+          "definition": "The process a computer uses to translate a human-readable website name into the numerical IP address needed to locate it on the internet."
+        }
+      ],
+      "url": "https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control/",
+      "source_name": "The Decoder",
+      "signal_tag": "new",
+      "published_at": "2026-06-29"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Zocks Introduces AI Assistant to Uncover Sales Gaps",
+          "summary": "Wealth technology startup Zocks has launched a new AI capability for financial advisors. It allows them to query their entire client database using plain English to instantly identify service gaps and new revenue opportunities. This replaces hours of manual account reviews with immediate, actionable sales leads.",
+          "why_it_matters": "A prime example of how conversational AI can be used to instantly mine existing client databases for immediate revenue opportunities.",
+          "terms": [],
+          "url": "https://www.investmentnews.com/fintech/zocks-launches-agentic-ai-tool-to-surface-growth-gaps-across-advisor-books/267030",
+          "source_name": "Zocks",
+          "signal_tag": "new",
+          "published_at": "2026-06-16"
+        },
+        {
+          "section": "tools",
+          "headline": "Adobe Rolls Out AI Agent on Premiere Pro",
+          "summary": "Adobe introduced an autonomous AI assistant for its Premiere Pro video editing software. The new tool performs early editing tasks, such as building first cuts and creating storyboards, based entirely on plain-language text prompts. This significantly cuts down the manual labor required to start a new video project.",
+          "why_it_matters": "A massive time-saver for content marketing teams, allowing them to rapidly prototype and edit video campaigns without needing a dedicated editor.",
+          "terms": [],
+          "url": "https://www.broadcastnow.co.uk/production-and-post/adobe-rolls-out-ai-agent-on-premiere/5217912.article",
+          "source_name": "Broadcast",
+          "signal_tag": "new",
+          "published_at": "2026-06-22"
+        },
+        {
+          "section": "tools",
+          "headline": "UnifyGTM Launches Claude-Powered AI Tool for Outbound Sales Teams",
+          "summary": "UnifyGTM debuted a new AI tool powered by Anthropic's Claude model to help sales development representatives and account executives. The tool allows sales teams to use chat commands to seamlessly query over 40 distinct data sources at once. It helps identify target accounts and gather contextual data for outreach in seconds.",
+          "why_it_matters": "A highly practical recommendation for B2B sales clients looking to speed up prospect research and eliminate manual data gathering.",
+          "terms": [
+            {
+              "term": "outbound sales",
+              "definition": "A sales strategy where a company proactively reaches out to potential customers who have not expressed prior interest."
+            }
+          ],
+          "url": "https://digg.com/tech/40bzweqw",
+          "source_name": "Digg",
+          "signal_tag": "new",
+          "published_at": "2026-06-24"
+        },
+        {
+          "section": "tools",
+          "headline": "Shopify Launches an AI Tool That Runs Your Ads",
+          "summary": "E-commerce platform Shopify released a built-in AI tool to help small business owners manage and optimize their paid marketing campaigns. The tool autonomously adjusts ad budgets and targets audiences across multiple platforms. It is designed to act as an automated media buyer for businesses that lack dedicated marketing teams.",
+          "why_it_matters": "Gives you a perfect recommendation for smaller retail clients who need digital marketing scale but can't afford expensive agency retainers.",
+          "terms": [
+            {
+              "term": "media buyer",
+              "definition": "A person or system responsible for purchasing advertising space and negotiating rates to get the best possible return on investment."
+            }
+          ],
+          "url": "https://almcorp.com/news/shopify-campaign-autopilot-ai-ads-tool-meta-sidekick/",
+          "source_name": "ALM Corp",
+          "signal_tag": "new",
+          "published_at": "2026-06-25"
+        },
+        {
+          "section": "tools",
+          "headline": "DeepIntent Gives Helix an AI Twist to Help Marketers Query Data",
+          "summary": "Healthcare advertising platform DeepIntent rolled out Helix AI, a tool enabling pharmaceutical marketing teams to analyze complex patient data using natural language. The tool can query a massive database of 250 million patient records and return insights in minutes instead of days. It democratizes data access so non-technical marketers can build highly targeted campaigns.",
+          "why_it_matters": "Shows how highly regulated industries like healthcare are securely using AI to turn slow data analysis into an instantaneous process.",
+          "terms": [],
+          "url": "https://www.fiercepharma.com/marketing/deepintent-gives-helix-ai-twist-help-marketers-query-data",
+          "source_name": "Fierce Pharma",
+          "signal_tag": "new",
+          "published_at": "2026-06-16"
+        },
+        {
+          "section": "tools",
+          "headline": "Introducing Ask Ad Manager, the AI Agent That Will Help You Get More Done",
+          "summary": "Google launched Ask Ad Manager, a new AI agent powered by its Gemini model for digital publishers. The tool helps ad operations teams dynamically troubleshoot delivery issues and generate custom performance reports through simple conversation. It aims to streamline the often complex process of managing digital ad inventory.",
+          "why_it_matters": "A must-know feature for clients who rely on Google to monetize their websites, helping them find lost revenue and fix errors instantly.",
+          "terms": [
+            {
+              "term": "ad inventory",
+              "definition": "The total amount of space a publisher has available on their website or app to sell to advertisers."
+            }
+          ],
+          "url": "https://blog.google/products/admanager/ask-ad-manager/",
+          "source_name": "Google Blog",
+          "signal_tag": "new",
+          "published_at": "2026-06-18"
+        },
+        {
+          "section": "tools",
+          "headline": "Agentic AI Tool Autonomously Builds Complex Email Campaigns",
+          "summary": "Software firm Hightouch released Lifecycle Studio, a workspace that uses AI to autonomously build email marketing campaigns. The system pulls compliant, on-brand content directly from product catalogs to assemble targeted emails. It eliminates the need for marketers to manually copy and paste images, links, and copy across platforms.",
+          "why_it_matters": "A game-changer for digital marketing teams looking to scale personalized outreach without hiring an army of junior copywriters and designers.",
+          "terms": [],
+          "url": "https://www.mediapost.com/publications/article/416130/agentics-big-footprint-the-ai-tool-is-affecting.html",
+          "source_name": "MediaPost",
+          "signal_tag": "new",
+          "published_at": "2026-06-26"
+        },
+        {
+          "section": "tools",
+          "headline": "NTT DATA Launches AI Agent Service for Consumer Goods Companies",
+          "summary": "NTT DATA introduced a specialized AI agent service designed to drastically cut product planning cycles for consumer goods brands. The tool instantly generates new product concepts, suggested names, and initial sales forecasts based on market data. It allows brand managers to iterate on ideas in minutes rather than weeks.",
+          "why_it_matters": "An innovative use case for physical product companies, showing how AI can speed up the traditionally slow, manual process of market research and ideation.",
+          "terms": [],
+          "url": "https://www.nttdata.com/global/en/news/press-release/2026/june/062200",
+          "source_name": "NTT DATA",
+          "signal_tag": "new",
+          "published_at": "2026-06-22"
+        },
+        {
+          "section": "tools",
+          "headline": "New AI Copilot Plug-in is a Breakthrough for Financial Institutions",
+          "summary": "Lucinity unveiled a generative AI copilot plug-in focused on financial crime prevention. The system is designed to integrate with any existing enterprise application and can boost investigator productivity by up to 90%. It reviews siloed financial systems in seconds to flag suspicious activity and write initial reports.",
+          "why_it_matters": "Demonstrates that \"copilots\" are moving beyond basic chat interfaces into highly specialized compliance and security workflows.",
+          "terms": [
+            {
+              "term": "copilot",
+              "definition": "An AI assistant that works alongside a human user in a specific software application to help them complete tasks more efficiently."
+            }
+          ],
+          "url": "https://ffnews.com/newsarticle/new-ai-copilot-plug-in-is-a-breakthrough-for-financial-institutions-transforming-existing-siloed-systems-in-seconds",
+          "source_name": "Fintech Finance",
+          "signal_tag": "new",
+          "published_at": "2026-06-23"
+        },
+        {
+          "section": "tools",
+          "headline": "Anthropic Drops ‘Workplace AI Agents’ Directly Inside Slack",
+          "summary": "Anthropic launched a beta version of its Claude Tag feature, bringing its AI model directly into shared Slack channels for enterprise teams. Instead of using a separate chat window, team members can tag the AI in a group thread to delegate tasks or review shared documents. This integration makes the AI function more like a participating coworker in group discussions.",
+          "why_it_matters": "A highly visible shift toward collaborative AI that you can recommend to clients wanting to increase team adoption without forcing them to learn a new software platform.",
+          "terms": [],
+          "url": "https://www.artificialintelligence-news.com/news/anthropic-slack-workplace-ai-agents/",
+          "source_name": "AI News",
+          "signal_tag": "trending",
+          "published_at": "2026-06-24"
+        },
+        {
+          "section": "tools",
+          "headline": "AI Founder Growth Tools: Position, Launch, and Promote Your AI App",
+          "summary": "Kingy AI has released a suite of growth tools aimed specifically at AI startup founders. The platform helps technical builders refine their product positioning, plan their model launches, and execute distribution strategies. It bridges the gap between building a good AI product and actually getting it in front of paying customers.",
+          "why_it_matters": "A helpful resource to pass along to entrepreneurial clients or startup teams struggling to market their technical AI solutions.",
+          "terms": [],
+          "url": "https://kingy.ai/ai-founder-growth-tools/",
+          "source_name": "Kingy AI",
+          "signal_tag": "new",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "tools",
+          "headline": "Build an Agentic AI Healthcare Claims Pipeline with Amazon Bedrock",
+          "summary": "Amazon Web Services (AWS) published a guide on automating medical claims processing using its Bedrock AI platform. The system uses intelligent document extraction to read incoming healthcare claim forms and an AI agent to validate and format the data. This end-to-end workflow severely reduces the manual paperwork burden in medical offices.",
+          "why_it_matters": "Provides a tangible, step-by-step example you can show healthcare clients to prove that AI can handle tedious administrative pipelines securely.",
+          "terms": [],
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-an-agentic-ai-healthcare-claims-pipeline-with-amazon-bedrock-and-aws-healthlake/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "new",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "tools",
+          "headline": "AI-Powered BI with Snowflake and Amazon Quick",
+          "summary": "Amazon detailed a new integration that connects Snowflake databases with its Quick intelligence dashboards using natural language. Users can type plain English questions into the system, which then automatically generates a visual data dashboard based on the query. This removes the need for a dedicated data scientist to write complex search commands.",
+          "why_it_matters": "A great use case for finance and operations clients, showing how AI is making enterprise data visualization accessible to non-technical staff.",
+          "terms": [],
+          "url": "https://aws.amazon.com/blogs/machine-learning/ai-powered-bi-with-snowflake-and-amazon-quick/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "new",
+          "published_at": "2026-06-24"
+        },
+        {
+          "section": "tools",
+          "headline": "PMB - Stop Re-Explaining Your Project to AI Coding Agents",
+          "summary": "PMB launched a local-first memory tool designed to help AI coding agents remember the context of a project. Instead of developers having to re-explain the rules and history of their code every time they start a new session, the tool saves a persistent memory file. This cuts down on repetitive prompting and keeps the AI focused.",
+          "why_it_matters": "A smart productivity booster for developers, addressing one of the most frustrating bottlenecks in using AI for long-term projects.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/pmb-local-first-memory-for-ai",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-06-28"
+        },
+        {
+          "section": "tools",
+          "headline": "Outpaint - Ad Reframe: Turn Vertical UGC Into Widescreen Ads",
+          "summary": "Outpaint launched an AI tool that automatically converts vertical user-generated videos (like those from TikTok) into widescreen formats suitable for television or desktop ads. It uses generative AI to intelligently fill in the missing visual space on the sides of the video, matching the original lighting and background.",
+          "why_it_matters": "A massive cost-saver for social media marketers, allowing them to instantly repurpose cheap vertical influencer content for premium, horizontal ad placements.",
+          "terms": [
+            {
+              "term": "UGC",
+              "definition": "User-generated content, meaning videos, text, or images created by everyday consumers or influencers rather than a brand."
+            }
+          ],
+          "url": "https://www.producthunt.com/products/outpaint-com-ad-reframe",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-06-24"
+        },
+        {
+          "section": "tools",
+          "headline": "Intelli - Convert Leads Into Customers With AI Conversations",
+          "summary": "Intelli debuted a tool focused entirely on top-of-funnel sales conversions through automated chatting. The AI steps in when a prospective customer visits a website, engaging them in natural conversation to answer product questions and qualify them as a lead. It aims to prevent interested shoppers from bouncing away before speaking to a human.",
+          "why_it_matters": "An easy-to-understand AI entry point for small business clients who are losing website traffic due to slow response times.",
+          "terms": [
+            {
+              "term": "top-of-funnel",
+              "definition": "The earliest stage of the sales process, focused on capturing the attention of potential customers and gathering their contact information."
+            }
+          ],
+          "url": "https://www.producthunt.com/products/intelli",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-06-24"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "Deloitte Predicts AI Will Replace the Hourly Billing Model",
+          "summary": "An internal presentation at Deloitte projects that the consulting industry's traditional hourly billing model will drastically shrink by 2035. The firm expects AI agents to replace human hours for many standard tasks, effectively turning the current \"billable hour\" model into a thin sliver of the total market. One consultant bluntly noted that their existing business model is \"toast.\"",
+          "why_it_matters": "This is a fundamental shift in how professional services make money, signaling that AI consultants should prepare to bill for value and software outcomes rather than raw hours.",
+          "terms": [],
+          "url": "https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "news",
+          "headline": "Microsoft Shifts to Pay-As-You-Go Pricing for New AI Agent",
+          "summary": "Microsoft has introduced its \"Copilot Cowork\" AI agent with a new consumption-based pricing model rather than fixed monthly subscriptions. This shift is driven by the soaring computing costs required to run advanced AI models. Users will now pay directly based on how much they actually use the tool.",
+          "why_it_matters": "A major warning for client budgets that the era of flat-fee software might be ending as AI computing costs force vendors into usage-based billing.",
+          "terms": [
+            {
+              "term": "consumption-based pricing",
+              "definition": "A billing model where customers pay based on how much of a product or service they actually use, rather than a flat recurring fee."
+            }
+          ],
+          "url": "https://www.dawn.com/news/2008363",
+          "source_name": "DAWN.COM",
+          "signal_tag": "shift",
+          "published_at": "2026-06-16"
+        },
+        {
+          "section": "news",
+          "headline": "Security Researchers Expose Major Flaw in AI Coding Tools",
+          "summary": "Security researchers demonstrated how a compromised software repository can hijack a developer's computer when accessed by an AI coding tool like Claude Code. The malicious code is hidden during setup and only activates during a DNS query, making it invisible to standard security scans. Because the AI tool executes the code without verification, it effectively hands attackers full control of the machine.",
+          "why_it_matters": "A critical warning to share with technical clients about the severe security risks of allowing AI agents to run downloaded code autonomously.",
+          "terms": [
+            {
+              "term": "DNS query",
+              "definition": "The process a computer uses to translate a human-readable website name into the numerical IP address needed to locate it on the internet."
+            }
+          ],
+          "url": "https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control/",
+          "source_name": "The Decoder",
+          "signal_tag": "new",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "news",
+          "headline": "40% of Companies Miss AI ROI Targets — Here's the Fix",
+          "summary": "A recent Bain & Company survey found that nearly 40% of enterprises missed their financial targets for AI implementation, falling short of expected 11-20% returns. The data highlights that this failure is largely due to a massive gap in deployment strategy rather than the actual technological capability of the AI. Companies are buying the tools but failing to integrate them into daily workflows.",
+          "why_it_matters": "Provides a strong justification for your consulting services—clients need strategic guidance, not just software, to actually see a return on their AI investments.",
+          "terms": [
+            {
+              "term": "ROI",
+              "definition": "Return on Investment; a measure used to evaluate how much profit or value is gained compared to the cost of an initiative."
+            }
+          ],
+          "url": "https://www.beri.net/article/ai-roi-miss-enterprise-fix-2026",
+          "source_name": "THE D*AI*LY BRIEF",
+          "signal_tag": "trending",
+          "published_at": "2026-06-28"
+        },
+        {
+          "section": "news",
+          "headline": "Why Modern Businesses Are Replacing Traditional CRM Workflows with AI Agents",
+          "summary": "Sales technology is undergoing a major shift as AI agents are increasingly embedded directly within customer relationship management (CRM) software. These agents are autonomously replacing manual data entry, writing follow-up emails, and updating deal statuses. The result is measurably faster sales cycles because human representatives can focus purely on closing deals.",
+          "why_it_matters": "A powerful talking point for sales leaders showing how AI is shifting from a side-tool to the core engine running their database.",
+          "terms": [
+            {
+              "term": "CRM",
+              "definition": "Customer Relationship Management software, which is a system companies use to track interactions, emails, and sales deals with their clients."
+            }
+          ],
+          "url": "https://aktok.com/blog/ai-agents-replacing-traditional-crm-workflows/",
+          "source_name": "Aktok",
+          "signal_tag": "shift",
+          "published_at": "2026-06-23"
+        },
+        {
+          "section": "news",
+          "headline": "The ROI of a Company Brain: What the Evidence Actually Shows Executives",
+          "summary": "A new industry analysis found that 99% of organizations have reported financial losses stemming from silent errors made by unmonitored AI systems. However, enterprises that implement a governed \"semantic layer\"—a structured, highly managed foundation of company knowledge—achieved a 3x lift in accuracy. Proper data governance is separating the winners from the losers in enterprise AI.",
+          "why_it_matters": "Highlights the massive risk of deploying AI without proper guardrails, emphasizing why clients must organize their internal data before buying chat tools.",
+          "terms": [],
+          "url": "https://colrows.com/blogs/company-brain-roi-evidence-for-executives/",
+          "source_name": "Colrows",
+          "signal_tag": "trending",
+          "published_at": "2026-06-22"
+        },
+        {
+          "section": "news",
+          "headline": "Facebook Launches Search Engine AI Tool That Could Make Meta $10 Billion A Year",
+          "summary": "Analysts project that Meta's newly launched AI search engine tool could inject $10 billion annually into the company's revenue streams. The tool allows users to find information and generate answers directly within Facebook and Instagram, keeping them on the platforms longer and increasing their exposure to advertising.",
+          "why_it_matters": "Signals a shift in consumer search habits away from traditional Google searches and toward in-app AI assistants, changing where marketers need to place their ads.",
+          "terms": [],
+          "url": "https://www.forbes.com/sites/maryroeloffs/2026/06/15/facebook-launches-search-engine-ai-tool-that-could-make-meta-10-billion-a-year-analyst-says/",
+          "source_name": "Forbes",
+          "signal_tag": "trending",
+          "published_at": "2026-06-15"
+        },
+        {
+          "section": "news",
+          "headline": "Gartner Says CHROs Must Identify Hidden Workforce Costs to Protect AI ROI",
+          "summary": "Gartner warns that skyrocketing compensation demands for top-tier AI talent are becoming a major hidden cost for enterprises. Additionally, the rapid obsolescence of AI skills means companies are constantly paying to retrain staff. These combined human resources costs are actively undermining the financial return on enterprise AI investments.",
+          "why_it_matters": "A critical risk to flag for clients: the cost of AI isn't just the software subscription, it's the premium salary required to hire people who know how to use it.",
+          "terms": [
+            {
+              "term": "CHRO",
+              "definition": "Chief Human Resources Officer; the executive in charge of a company's hiring, employee relations, and workforce strategy."
+            }
+          ],
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-06-29-gartner-says-chros-must-identify-hidden-workforce-costs-to-protect-ai-roi",
+          "source_name": "Gartner",
+          "signal_tag": "shift",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "news",
+          "headline": "AI Won't Become a Real Coworker Until It Stops Answering and Starts Finishing Tasks",
+          "summary": "A research paper from Tencent and several universities traces the evolution of AI from simple chatbots to reliable \"digital colleagues.\" The researchers argue that AI systems are currently limited because they only answer questions in isolation. To be truly useful, they must be able to finish entire, multi-step tasks within persistent work environments without needing constant human supervision.",
+          "why_it_matters": "A great conceptual framework to share with clients who are confused about the difference between basic chat tools and the next wave of autonomous AI agents.",
+          "terms": [],
+          "url": "https://the-decoder.com/ai-wont-become-a-real-coworker-until-it-stops-answering-and-starts-finishing-tasks/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-06-28"
+        },
+        {
+          "section": "news",
+          "headline": "Governor Newsom Announces Partnership Providing Anthropic Tools to State Agencies",
+          "summary": "The state of California has established a sweeping partnership with AI firm Anthropic to provide state workers with heavily discounted access to the Claude AI model. The initiative aims to use the tool for drafting documents and improving operational workflows within the government. This marks a major endorsement of AI utility at the state level.",
+          "why_it_matters": "Proves that even highly regulated, risk-averse government entities are fully embracing generative AI for daily operational efficiency.",
+          "terms": [],
+          "url": "https://www.gov.ca.gov/2026/06/29/governor-newsom-announces-a-first-of-its-kind-partnership-providing-anthropic-tools-to-state-agencies-and-improving-services-for-californians/",
+          "source_name": "California Governor",
+          "signal_tag": "new",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "news",
+          "headline": "Samsung and SK Hynix Plan $590 Billion Chip Investment as AI Demand Sends Memory Prices Soaring",
+          "summary": "Backed by the South Korean government, tech giants Samsung and SK Hynix are pouring $590 billion into new computer chip factories. The massive investment is a response to surging demand from AI data centers, which require vast amounts of memory to operate. Analysts project that this hardware shortage could drive memory prices up 50 percent per quarter through 2027.",
+          "why_it_matters": "Highlights the staggering physical infrastructure costs driving the AI boom, which will eventually trickle down to software pricing for your clients.",
+          "terms": [],
+          "url": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "news",
+          "headline": "Meta Restricts Use of Claude Code and Codex to Keep Rival AI Out of Its Training Data",
+          "summary": "Meta is actively restricting its software engineers from using rival AI coding tools like Anthropic's Claude and OpenAI's Codex. The company wants to prevent the output generated by these external tools from bleeding into its own proprietary codebase. This is a defensive move to ensure Meta's own AI training data remains legally clean and uncontaminated by competitors.",
+          "why_it_matters": "A stark reminder to clients about data sovereignty and the intellectual property risks of mixing different AI vendors in their internal workflows.",
+          "terms": [],
+          "url": "https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/",
+          "source_name": "The Decoder",
+          "signal_tag": "trending",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "news",
+          "headline": "Amazon Engineers Are Reportedly Distilling Anthropic Models to Cut Costs",
+          "summary": "Amazon engineers are reportedly \"distilling\" advanced AI models from partner Anthropic into smaller, cheaper versions. This process involves using the massive, expensive model to train a smaller, more efficient one to perform specific tasks. Amazon is rushing to implement this before a new token-based pricing structure dramatically increases their operating costs.",
+          "why_it_matters": "Demonstrates a key cost-saving tactic (model distillation) that savvy enterprises use to get high-end AI performance without paying premium prices per query.",
+          "terms": [
+            {
+              "term": "distilling",
+              "definition": "A technique where a large, complex AI model is used to train a smaller, faster model so it can perform specific tasks much more cheaply."
+            }
+          ],
+          "url": "https://the-decoder.com/amazon-engineers-are-reportedly-distilling-anthropic-models-to-cut-costs-before-new-token-based-pricing-kicks-in/",
+          "source_name": "The Decoder",
+          "signal_tag": "trending",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "news",
+          "headline": "OpenAI and Broadcom Announce Chip Designed for LLM Inference at Scale",
+          "summary": "OpenAI has partnered with hardware manufacturer Broadcom to introduce \"Jalapeño,\" a custom computer chip built specifically for running large language models. The chip is designed to improve the speed and energy efficiency of AI systems operating at massive scale. This marks a major move by OpenAI to reduce its reliance on single-supplier hardware.",
+          "why_it_matters": "A signal that top AI companies are vertically integrating their hardware to lower operating costs, which could lead to better pricing and performance for end-users.",
+          "terms": [
+            {
+              "term": "inference",
+              "definition": "The phase where a trained AI model is actually used to answer questions or generate text in real-time, as opposed to the initial training phase."
+            }
+          ],
+          "url": "https://arstechnica.com/gadgets/2026/06/openai-and-broadcom-announce-chip-designed-for-llm-inference-at-scale/",
+          "source_name": "AI - Ars Technica",
+          "signal_tag": "new",
+          "published_at": "2026-06-24"
+        },
+        {
+          "section": "news",
+          "headline": "Top Spy Agencies Say AI Cyber Threats Will Impact You Within Months",
+          "summary": "The Five Eyes intelligence alliance—comprising cybersecurity chiefs from the US, UK, Canada, Australia, and New Zealand—issued a rare joint warning regarding artificial intelligence. They stated that advanced AI-driven cyber threats are escalating rapidly and will begin impacting corporate data centers in a matter of months. The briefing urges immediate defensive preparations.",
+          "why_it_matters": "Gives you a highly credible, urgent talking point to convince hesitant clients that they must invest in AI security and governance immediately.",
+          "terms": [],
+          "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats/",
+          "source_name": "AI News",
+          "signal_tag": "trending",
+          "published_at": "2026-06-23"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "Klarna Replaces Two-Thirds of Support Tickets with AI",
+          "summary": "A breakdown of customer service automation reveals that Klarna successfully deployed a global AI agent to handle its incoming requests. Within its first month, the AI autonomously resolved 66% of the company's 2.3 million monthly customer queries. The case study highlights how quickly agentic AI can reduce overhead at massive scale.",
+          "why_it_matters": "An undeniable benchmark for clients, proving that AI customer support is no longer a novelty, but a primary engine for massive cost savings.",
+          "terms": [
+            {
+              "term": "agentic AI",
+              "definition": "Artificial intelligence systems designed to pursue goals and complete tasks autonomously without needing step-by-step human prompts."
+            }
+          ],
+          "url": "https://www.getmyai.ai/blog/ai-customer-support-automation-rates/",
+          "source_name": "GetMyAI",
+          "signal_tag": "trending",
+          "published_at": "2026-06-17"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How to Roll Out Claude for Enterprise to All Employees and Get 73x ROI",
+          "summary": "Technology services firm CBTS published a playbook detailing their global rollout of the Claude for Enterprise AI model to all employees. By integrating the AI into daily workflows across departments, the company achieved a measured 73x return on investment within just eight weeks. The case study outlines the specific training and adoption strategies used to reach these numbers.",
+          "why_it_matters": "Provides a hard, numerical case study you can hand to executives who want proof that company-wide AI deployments actually pay off.",
+          "terms": [
+            {
+              "term": "ROI",
+              "definition": "Return on Investment; a measure used to evaluate how much profit or value is gained compared to the cost of an initiative."
+            }
+          ],
+          "url": "https://www.cbts.com/insights-blog/how-to-roll-out-claude-for-enterprise-to-all-employees-and-get-73x-roi",
+          "source_name": "CBTS",
+          "signal_tag": "trending",
+          "published_at": "2026-06-25"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Coinbase Joins the Rush to Chinese AI Models as Western Labs Face a Pricing Stress Test",
+          "summary": "Coinbase CEO Brian Armstrong revealed that his company is actively switching to Chinese AI models like GLM 5.2 to reduce costs. Coinbase implemented an automated routing system that selects the most cost-effective AI model for each specific task. This approach, combined with better memory caching, pushed their success rate from 5% to 60% while dramatically cutting overall AI spending.",
+          "why_it_matters": "A perfect example to share with clients about how smart companies are dynamically routing tasks to cheaper AI models rather than paying premium prices for everything.",
+          "terms": [
+            {
+              "term": "caching",
+              "definition": "Storing previously generated answers or data so the AI doesn't have to spend time and computing power calculating them again."
+            }
+          ],
+          "url": "https://the-decoder.com/coinbase-joins-the-rush-to-chinese-ai-models-as-western-labs-face-a-pricing-stress-test/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-06-28"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Customer Service Automation ROI: How to Calculate and What to Expect",
+          "summary": "A new analysis outlines key return-on-investment metrics for support teams implementing AI. The report shows that while an average human-handled support ticket costs between $15 and $20, AI routing and automated resolution drastically reduce that figure. It breaks down exactly how to measure these savings across different business scales.",
+          "why_it_matters": "Gives you a plug-and-play financial framework to help clients calculate exactly how much money an AI support chatbot will save them.",
+          "terms": [],
+          "url": "https://www.dashly.io/blog/customer-service-automation-roi/",
+          "source_name": "Dashly",
+          "signal_tag": "trending",
+          "published_at": "2026-06-25"
+        },
+        {
+          "section": "case_studies",
+          "headline": "AI in Sales Examples Driving Revenue Results in 2026",
+          "summary": "Enterprise vendors are sharing proven use cases where AI automation is directly executing complex sales playbooks to drive measurable revenue. The shift into the \"agentic AI\" era means these tools are no longer just drafting emails; they are qualifying leads, scheduling meetings, and updating pipelines autonomously based on firm guidelines.",
+          "why_it_matters": "Provides concrete examples to show sales leaders that AI is moving from a basic writing assistant to a tool that actively closes operational gaps.",
+          "terms": [],
+          "url": "https://www.outreach.ai/resources/blog/ai-in-sales-examples",
+          "source_name": "Outreach",
+          "signal_tag": "trending",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "case_studies",
+          "headline": "The US Military Used AI to Pick Thousands of Targets But Missed a Note Saying One Was a School",
+          "summary": "A probe into a US military missile strike revealed serious flaws in their AI targeting infrastructure. The system processed massive amounts of data to select targets but critically overlooked a text note indicating that one of the locations was a school. The incident exposes the dangerous gaps that occur when humans over-rely on automated data processing.",
+          "why_it_matters": "A sobering cautionary tale for business leaders emphasizing that \"human-in-the-loop\" oversight is mandatory, as AI will confidently miss crucial context.",
+          "terms": [],
+          "url": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school/",
+          "source_name": "The Decoder",
+          "signal_tag": "new",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Only Three AI Models Finished Above Starting Capital in a 500-Day Startup Survival Test",
+          "summary": "Researchers at Princeton University created \"CEO-Bench,\" a simulation where AI agents were tasked with running a fictional software company for 500 days. Most of the current advanced AI models made poor strategic decisions and went broke. In fact, a simple rule-based software program with no AI outperformed nearly all of the models.",
+          "why_it_matters": "A great reality check for clients who think AI is ready to make high-level strategic business decisions without human guidance.",
+          "terms": [],
+          "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test/",
+          "source_name": "The Decoder",
+          "signal_tag": "new",
+          "published_at": "2026-06-28"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Omio Scales Travel Product Development Using OpenAI Models",
+          "summary": "Multimodal travel platform Omio integrated OpenAI models across its engineering operations to accelerate product development. The company, which coordinates with over 3,000 transportation providers, required all internal functions to completely redesign their workflows rather than just superficially adding chat tools. The result was a significantly faster launch cycle for new booking interfaces.",
+          "why_it_matters": "Shows clients that the real value of AI comes from fundamentally redesigning workflows from the ground up, not just bolting a chatbot onto old processes.",
+          "terms": [],
+          "url": "https://www.artificialintelligence-news.com/news/omio-scales-travel-product-development-using-openai-models/",
+          "source_name": "AI News",
+          "signal_tag": "trending",
+          "published_at": "2026-06-23"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Generative AI Examples: Real Business Use Cases & ROI",
+          "summary": "An implementation guide details how companies should sequence their AI adoption to ensure a positive financial return. The guide advises starting with low-stakes, human-reviewed internal processes—like drafting sales emails—before scaling up to high-impact but riskier deployments, such as autonomous customer support deflection.",
+          "why_it_matters": "Gives you a structured, step-by-step roadmap to pitch to clients who want to adopt AI but don't know where to start safely.",
+          "terms": [],
+          "url": "https://www.unlockingtech.com/blog-posts/generative-ai-examples",
+          "source_name": "Unlocking Tech",
+          "signal_tag": "trending",
+          "published_at": "2026-06-25"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Samsung Electronics Brings ChatGPT and Codex to Employees",
+          "summary": "Samsung Electronics has officially deployed ChatGPT Enterprise and the Codex coding assistant to its employees globally. The rollout covers all staff in Korea and all Device eXperience employees worldwide. This marks one of the largest enterprise AI deployments to date, equipping staff with tools for both technical coding and everyday non-technical workflows.",
+          "why_it_matters": "A massive validation signal to corporate clients that the biggest technology companies in the world are standardizing these tools across their entire workforce.",
+          "terms": [],
+          "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+          "source_name": "OpenAI News",
+          "signal_tag": "trending",
+          "published_at": "2026-06-21"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Margaret Atwood Says the Problem With AI Is 'Garbage In, Garbage Out'",
+          "summary": "Renowned author Margaret Atwood recently spoke at a cultural festival in Portugal about her perspective on artificial intelligence. She emphasized that AI is only as good as the data it is trained on, using the classic computing phrase \"garbage in, garbage out.\" She warned that relying on flawed or biased data will inevitably lead AI systems to produce flawed results.",
+          "why_it_matters": "A relatable, high-profile quote you can use to explain data quality concepts to non-technical marketing clients.",
+          "terms": [],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+          "source_name": "AI | The Verge",
+          "signal_tag": "trending",
+          "published_at": "2026-06-27"
+        },
+        {
+          "section": "people",
+          "headline": "Why Ex-Meta CTO Mike Schroepfer Says It’s A Great Time To Build A Hard Tech Company",
+          "summary": "Mike Schroepfer, the former Chief Technology Officer of Meta and founder of Gigascale Capital, discussed the coming power crunch driven by the AI boom. He explained that physical infrastructure—like batteries and data centers—has become the ultimate strategic advantage for tech companies. He believes the next decade of AI growth will be constrained heavily by energy access.",
+          "why_it_matters": "Provides elite executive insight on why the cost of running AI (and therefore software pricing) is tied directly to physical power grids.",
+          "terms": [],
+          "url": "https://news.crunchbase.com/venture/hard-tech-infrastructure-moat-schroepfer-gigascale/",
+          "source_name": "Crunchbase News",
+          "signal_tag": "trending",
+          "published_at": "2026-06-24"
+        },
+        {
+          "section": "people",
+          "headline": "BD’s Bilal Muhsin Talks AI in Connected Care",
+          "summary": "Bilal Muhsin, an executive at medical technology firm BD, discussed how the company is rolling out new AI-powered medication dispensers. He explained how they are using a software platform to pull together data from various devices to reduce \"alert fatigue\" among clinicians. The goal is to make healthcare hardware smarter and less overwhelming for hospital staff.",
+          "why_it_matters": "A strong example of a leader applying AI to solve practical human problems (like alarm fatigue) rather than just generating text.",
+          "terms": [],
+          "url": "https://www.medtechdive.com/news/bds-bilal-muhsin-talks-ai-in-connected-care/823781/",
+          "source_name": "MedTech Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-06-25"
+        },
+        {
+          "section": "people",
+          "headline": "Why Is Apple Asking Me to Pay More for Big Tech’s AI Obsession?",
+          "summary": "Apple CEO Tim Cook recently defended the company's price increases across its product lines, calling current pricing models \"unsustainable.\" The cost of Apple's flagship products, including iPads and MacBooks, has jumped significantly. Commentators attribute this directly to the massive internal investments Big Tech is making to catch up in the AI hardware race.",
+          "why_it_matters": "A useful narrative to explain to clients why their overall technology budgets are inflating, as vendors pass the immense costs of AI development down to consumers.",
+          "terms": [],
+          "url": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
+          "source_name": "AI | The Verge",
+          "signal_tag": "shift",
+          "published_at": "2026-06-27"
+        }
+      ]
+    }
+  ]
+}
