@@ -93,9 +93,31 @@ editorial judgment.
 7. Rank by relevance to `relevance_focus` AND topicality. Quality over quantity — fewer
    than the max is fine if the pool is thin.
 
+## Engines
+
+There are three ways to produce an issue; they share the same rules
+(`validate.py`), storage (`store.py`), and output schema (`curate_schema.py`):
+
+1. **Claude Code (default, no API cost)** — the `--collect` / curate / `--write`
+   flow above. You are the curation engine.
+2. **Gemini (autonomous stream)** — `python backend/pipeline.py --gemini`. Uses
+   `gemini-3.1-pro-preview` (set in `config.yaml`) with grounded Google Search to
+   find trending items and curate them with no human in the loop. Needs
+   `GEMINI_API_KEY`. This is what the scheduled **GitHub Action** runs
+   (`.github/workflows/pulse.yml`): it generates an issue and pushes to `main`, so
+   Vercel rebuilds and publishes automatically. Change cadence by editing the one
+   `cron:` line; trigger ad-hoc runs from the Actions tab ("Run workflow").
+3. **Anthropic API (optional)** — `python backend/pipeline.py` (no args). The
+   original autonomous fallback.
+
+Both autonomous engines obey `min_items_to_publish` (in `config.yaml`): a run that
+produces fewer items aborts and publishes nothing, so an unattended stream never
+ships a threadbare issue. The Gemini grounding path resolves Google's expiring
+`vertexaisearch` redirect URLs to real publisher links and keeps **only**
+grounding-cited URLs (`url_resolve.py` + `collectors/web_gemini.py`) — same
+anti-hallucination guarantee as the Anthropic `web` collector.
+
 ## Notes
 
-- Tune sources/focus/counts in `backend/config.yaml` (the only tuning file).
-- The Anthropic-API engine (`backend/curator.py`, run via `python backend/pipeline.py`
-  with no args) still exists as an optional autonomous fallback — not the default.
+- Tune sources/focus/counts/model/floor in `backend/config.yaml` (the only tuning file).
 - `enrich.py` is the seam for the future ROI/case-study layer; leave it a pass-through.

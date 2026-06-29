@@ -71,6 +71,9 @@ def _rebuild_index() -> None:
                 "generated_at": data.get("generated_at", ""),
                 "title": data.get("title", ""),
                 "item_count": item_count,
+                # Engine that produced the issue; issues written before engine
+                # tagging existed predate Gemini, so they default to "claude".
+                "engine": data.get("engine", "claude"),
             }
         )
     # Newest first.

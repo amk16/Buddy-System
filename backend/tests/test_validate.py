@@ -17,6 +17,8 @@ def make_cfg(brief_count=3):
         ],
         rss_feeds=[],
         web_search_queries=[],
+        gemini_model="gemini-3.1-pro-preview",
+        min_items_to_publish=4,
     )
 
 

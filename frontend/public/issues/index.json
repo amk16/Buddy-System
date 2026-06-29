@@ -1,50 +1,65 @@
 [
   {
+    "id": "2026-06-29",
+    "generated_at": "2026-06-29T17:35:34.008316+00:00",
+    "title": "AI Marketing Pulse",
+    "item_count": 11,
+    "engine": "gemini"
+  },
+  {
     "id": "2026-06-27",
     "generated_at": "2026-06-27T22:05:53.191931+00:00",
     "title": "AI Marketing Pulse",
-    "item_count": 12
+    "item_count": 12,
+    "engine": "claude"
   },
   {
     "id": "2026-06-23",
     "generated_at": "2026-06-23T23:39:50.759194+00:00",
     "title": "AI Marketing Pulse",
-    "item_count": 12
+    "item_count": 12,
+    "engine": "claude"
   },
   {
     "id": "2026-06-17",
     "generated_at": "2026-06-17T22:01:12.410263+00:00",
     "title": "AI Marketing Pulse",
-    "item_count": 13
+    "item_count": 13,
+    "engine": "claude"
   },
   {
     "id": "2026-06-10",
     "generated_at": "2026-06-10T15:19:51.026641+00:00",
     "title": "AI Marketing Pulse",
-    "item_count": 15
+    "item_count": 15,
+    "engine": "claude"
   },
   {
     "id": "2026-06-08-3",
     "generated_at": "2026-06-08T02:44:45.198682+00:00",
     "title": "AI Marketing Pulse",
-    "item_count": 5
+    "item_count": 5,
+    "engine": "claude"
   },
   {
     "id": "2026-06-08-2",
     "generated_at": "2026-06-08T01:40:02.711541+00:00",
     "title": "AI Marketing Pulse",
-    "item_count": 11
+    "item_count": 11,
+    "engine": "claude"
   },
   {
     "id": "2026-06-08",
     "generated_at": "2026-06-08T01:08:14.839829+00:00",
     "title": "AI Marketing Pulse",
-    "item_count": 13
+    "item_count": 13,
+    "engine": "claude"
   },
   {
     "id": "2026-06-07",
     "generated_at": "2026-06-07T23:55:39.467575+00:00",
     "title": "AI Marketing Pulse (sample)",
-    "item_count": 5
+    "item_count": 5,
+    "engine": "claude"
   }
 ]

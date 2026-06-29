@@ -1,0 +1,233 @@
+{
+  "id": "2026-06-29",
+  "generated_at": "2026-06-29T17:35:34.008316+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "case_studies",
+      "headline": "Gusto Ships New Product Line in 10 Weeks Using AI",
+      "summary": "Eddie Kim, the chief technology officer at payroll provider Gusto, shared how a lean five-person team built an entire new product line in just ten weeks. They achieved this rapid turnaround by relying heavily on Claude Code, an artificial intelligence assistant designed for software development. The team skipped traditional planning tools and formal documentation entirely, opting instead to build on continuous video calls while the AI handled the coding.",
+      "why_it_matters": "This serves as a powerful client-facing example of how AI tools can drastically reduce product development time and eliminate traditional project management overhead.",
+      "terms": [
+        {
+          "term": "Claude Code",
+          "definition": "An artificial intelligence assistant developed by Anthropic that helps software developers write, edit, and test code."
+        }
+      ],
+      "url": "https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto",
+      "source_name": "Lenny's Newsletter",
+      "signal_tag": "trending",
+      "published_at": "2026-06-29"
+    },
+    {
+      "section": "case_studies",
+      "headline": "Ford Rehires Veteran Engineers After AI Falls Short on Quality",
+      "summary": "Automaker Ford has brought back experienced engineers to address quality issues after initially relying too heavily on artificial intelligence. The company admitted to mistakenly believing that simply introducing AI into their workflows would automatically result in a high-quality product. This overreliance on automation without sufficient human oversight led to a drop in standards, forcing the automaker to reverse course and lean back on veteran expertise.",
+      "why_it_matters": "This is a perfect cautionary tale to share with clients who think they can replace senior talent with AI to save money.",
+      "terms": [],
+      "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "source_name": "TechCrunch",
+      "signal_tag": "shift",
+      "published_at": "2026-06-28"
+    },
+    {
+      "section": "news",
+      "headline": "Runaway AI Usage Triggers Tech Budget Overruns",
+      "summary": "Nearly two-thirds of organizations currently lack the visibility needed to properly track and control how much they are spending on artificial intelligence. According to a new report from IT management firm Flexera, the decentralized adoption of AI tools and the high cost of data processing are causing companies to quietly blow past their technology budgets. This \"AI sprawl\" is forcing finance teams to scramble for better oversight as individual employees expense various subscriptions and cloud services.",
+      "why_it_matters": "Highlighting the hidden costs of unmanaged AI adoption is an excellent way to pitch governance and cost-auditing services to chief financial officers.",
+      "terms": [
+        {
+          "term": "AI sprawl",
+          "definition": "The uncontrolled and uncoordinated adoption of various artificial intelligence tools and services across different departments in a company."
+        }
+      ],
+      "url": "https://www.ciodive.com/news/flexera-itam-ai-cost-tracking-tokenmaxxing/823901/",
+      "source_name": "CIO Dive",
+      "signal_tag": "shift",
+      "published_at": "2026-06-29"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Cursor Launches Mobile App for Managing AI Coders on the Go",
+          "summary": "The popular AI-assisted programming platform Cursor has released a new mobile application that allows developers to manage their automated coding agents remotely. Users can now oversee tasks, review progress, and guide their AI systems from their phones rather than being chained to a desktop computer. This expands the flexibility of autonomous software development by letting managers approve or redirect work while entirely away from the office.",
+          "why_it_matters": "For clients interested in hyper-efficiency, this app demonstrates how development workflows are transitioning from manual typing to mobile, high-level project management.",
+          "terms": [
+            {
+              "term": "Coding agent",
+              "definition": "An advanced artificial intelligence program that can autonomously write, review, and test software code based on human instructions."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/",
+          "source_name": "TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "tools",
+          "headline": "Cost-Effective Open-Weight AI Completes 45-Minute Coding Task for $3.36",
+          "summary": "A new open-weight artificial intelligence model called GLM-5.2, developed by Z.AI, is showing impressive capabilities at a fraction of the cost of premium competitors. In a recent test, the model successfully conducted codebase audits and executed a 45-minute autonomous bug-hunting session using popular developer tools, costing a total of just $3.36 in computing power. This low price point is prompting some developers to replace expensive, proprietary models with this highly capable alternative.",
+          "why_it_matters": "Recommending cheaper, highly capable open-weight models is an easy way to build credibility with clients worried about the escalating costs of AI subscriptions.",
+          "terms": [
+            {
+              "term": "Open-weight model",
+              "definition": "An artificial intelligence system where the core mathematical structures are made publicly available, allowing developers to run and modify it locally without paying a central provider."
+            }
+          ],
+          "url": "https://www.lennysnewsletter.com/p/glm-52-why-im-replacing-opus-in-claude",
+          "source_name": "Lenny's Newsletter",
+          "signal_tag": "trending",
+          "published_at": "2026-06-24"
+        },
+        {
+          "section": "tools",
+          "headline": "New Guide Details How to Build Autonomous AI Agent Loops",
+          "summary": "A new tutorial breaks down how to design autonomous artificial intelligence workflows—known as agent loops—using Claude Code and Codex. The guide explains technical concepts like schedules and subagents in plain language, complete with two live demonstrations. By setting up these automated loops, engineering teams can configure AI programs to continuously review code and submit updates without needing a human to manually monitor the process.",
+          "why_it_matters": "Understanding how autonomous loops work helps you explain to clients that AI is moving from a simple chat interface to systems that work continuously in the background.",
+          "terms": [
+            {
+              "term": "Agent loop",
+              "definition": "A continuous, automated process where an AI system repeatedly evaluates a situation, makes a decision, and takes action to achieve a specific goal without human prompting."
+            }
+          ],
+          "url": "https://www.lennysnewsletter.com/p/how-to-design-ai-agent-loops-schedules",
+          "source_name": "Lenny's Newsletter",
+          "signal_tag": "trending",
+          "published_at": "2026-06-17"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "Runaway AI Usage Triggers Tech Budget Overruns",
+          "summary": "Nearly two-thirds of organizations currently lack the visibility needed to properly track and control how much they are spending on artificial intelligence. According to a new report from IT management firm Flexera, the decentralized adoption of AI tools and the high cost of data processing are causing companies to quietly blow past their technology budgets. This \"AI sprawl\" is forcing finance teams to scramble for better oversight as individual employees expense various subscriptions and cloud services.",
+          "why_it_matters": "Highlighting the hidden costs of unmanaged AI adoption is an excellent way to pitch governance and cost-auditing services to chief financial officers.",
+          "terms": [
+            {
+              "term": "AI sprawl",
+              "definition": "The uncontrolled and uncoordinated adoption of various artificial intelligence tools and services across different departments in a company."
+            }
+          ],
+          "url": "https://www.ciodive.com/news/flexera-itam-ai-cost-tracking-tokenmaxxing/823901/",
+          "source_name": "CIO Dive",
+          "signal_tag": "shift",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "news",
+          "headline": "AI Coding Could Soon Cost More Than Human Developers",
+          "summary": "Technology research firm Gartner warns that enterprises relying heavily on automated coding tools may soon see their budgets eclipse the cost of traditional human developers. Without proper audits and clear operational goals, companies are racking up massive usage fees as AI systems continuously generate and test software. The research suggests that while these tools speed up development, the computing power required makes them surprisingly expensive at scale.",
+          "why_it_matters": "This data point helps you push back on the popular myth that AI makes software development practically free, emphasizing the need for strategic deployment.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/ai-spending-outpacing-human-developers/823690/",
+          "source_name": "CIO Dive",
+          "signal_tag": "trending",
+          "published_at": "2026-06-24"
+        },
+        {
+          "section": "news",
+          "headline": "OpenAI Restricts Latest AI Model Rollout After Government Request",
+          "summary": "OpenAI has limited the public release of its highly anticipated GPT-5.6 model following a request from the Trump administration regarding safety concerns. Instead of a broad launch, the company is only sharing the new system with a select group of approved corporate and government partners. OpenAI publicly pushed back on the intervention, stating that keeping the best tools from global developers and enterprise defenders should not become the long-term default for the industry.",
+          "why_it_matters": "This signals a major shift toward government intervention in commercial AI releases, meaning clients cannot rely on having immediate access to the newest models.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+          "source_name": "TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "Gusto Ships New Product Line in 10 Weeks Using AI",
+          "summary": "Eddie Kim, the chief technology officer at payroll provider Gusto, shared how a lean five-person team built an entire new product line in just ten weeks. They achieved this rapid turnaround by relying heavily on Claude Code, an artificial intelligence assistant designed for software development. The team skipped traditional planning tools and formal documentation entirely, opting instead to build on continuous video calls while the AI handled the coding.",
+          "why_it_matters": "This serves as a powerful client-facing example of how AI tools can drastically reduce product development time and eliminate traditional project management overhead.",
+          "terms": [
+            {
+              "term": "Claude Code",
+              "definition": "An artificial intelligence assistant developed by Anthropic that helps software developers write, edit, and test code."
+            }
+          ],
+          "url": "https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto",
+          "source_name": "Lenny's Newsletter",
+          "signal_tag": "trending",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Ford Rehires Veteran Engineers After AI Falls Short on Quality",
+          "summary": "Automaker Ford has brought back experienced engineers to address quality issues after initially relying too heavily on artificial intelligence. The company admitted to mistakenly believing that simply introducing AI into their workflows would automatically result in a high-quality product. This overreliance on automation without sufficient human oversight led to a drop in standards, forcing the automaker to reverse course and lean back on veteran expertise.",
+          "why_it_matters": "This is a perfect cautionary tale to share with clients who think they can replace senior talent with AI to save money.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+          "source_name": "TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-06-28"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Walmart and Fanatics Share Lessons on Implementing AI in Call Centers",
+          "summary": "At a recent customer contact event in Las Vegas, leaders from retail giants Walmart and Fanatics discussed their real-world experiences using artificial intelligence for customer service. The executives stressed the importance of viewing AI as just one tool in a broader strategy rather than a magic fix. They advised other business leaders to prioritize transparency with customers and to know exactly when to escalate a problem past a customer-facing chatbot to a human agent.",
+          "why_it_matters": "These insights give you concrete talking points on how major brands are balancing cost-saving automated bots with the need for authentic human customer support.",
+          "terms": [
+            {
+              "term": "Chatbot",
+              "definition": "A computer program designed to simulate conversation with human users, often used online for basic customer service."
+            }
+          ],
+          "url": "https://www.customerexperiencedive.com/news/3-ways-cut-hype-evaluating-contact-center-ai/823693/",
+          "source_name": "CX Dive",
+          "signal_tag": "trending",
+          "published_at": "2026-06-24"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Andrew Ambrosino on the New Economics of Software Development",
+          "summary": "Andrew Ambrosino, the lead behind OpenAI's Codex project, recently discussed how artificial intelligence is permanently reducing the cost of building software. On a recent podcast, he argued that as coding becomes cheaper and highly automated, a product leader's personal taste and design instincts will matter far more than raw technical execution. He also hinted at what is coming next for the Codex desktop application, which assists developers directly in their local environments.",
+          "why_it_matters": "Ambrosino is a key architect of the AI coding revolution; following his perspective helps you advise clients on shifting their hiring focus from technical execution to product design.",
+          "terms": [
+            {
+              "term": "Codex",
+              "definition": "An artificial intelligence model created by OpenAI that translates natural language instructions into functional software code."
+            }
+          ],
+          "url": "https://www.lennysnewsletter.com/p/openai-codex-lead-on-the-new-shape",
+          "source_name": "Lenny's Newsletter",
+          "signal_tag": "trending",
+          "published_at": "2026-06-28"
+        },
+        {
+          "section": "people",
+          "headline": "Former Infosys CEO Vishal Sikka Launches New AI Automation Startup",
+          "summary": "Vishal Sikka, the former chief executive of Indian multinational IT company Infosys, has launched a new artificial intelligence venture called Hang Ten Systems. The startup is explicitly designed to disrupt the massive $300 billion traditional IT services market by using AI to heavily automate corporate tech work. Sikka's move signals a growing belief among industry veterans that legacy IT consulting firms are vulnerable to faster, AI-native competitors.",
+          "why_it_matters": "Sikka's pivot provides a strong talking point about how even the highest-level insiders believe AI automation is poised to aggressively replace traditional outsourced IT services.",
+          "terms": [],
+          "url": "https://www.youtube.com/watch?v=ofUWGxGoWRU",
+          "source_name": "AIM Network",
+          "signal_tag": "new",
+          "published_at": "2026-06-25"
+        }
+      ]
+    }
+  ]
+}

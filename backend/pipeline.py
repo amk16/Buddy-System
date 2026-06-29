@@ -8,6 +8,11 @@ Two engines for the LLM step:
         # ...Claude Code reads pool.json, curates, writes backend/curated.json...
         python backend/pipeline.py --write backend/curated.json
 
+  • Gemini API (autonomous, ~cents/issue) — the hands-off stream engine; grounded
+    Google Search + curation, no human in the loop. Needs GEMINI_API_KEY. This is
+    what the scheduled GitHub Action runs:
+        python backend/pipeline.py --gemini            # collect + curate + write
+
   • Anthropic API (optional, ~cents/issue) — fully autonomous, needs a key:
         python backend/pipeline.py                     # collect + curate + write
 
@@ -39,8 +44,10 @@ import validate
 from config import Config, load_config
 from collectors.rss import collect_rss
 from collectors.web import collect_web_search
+from collectors.web_gemini import collect_web_search_gemini
 from curator import curate
 from enrich import enrich
+from gemini_curator import gemini_curate
 from notify import notify
 
 POOL_PATH = Path(__file__).resolve().parent / "pool.json"
@@ -62,22 +69,39 @@ def _dedupe_pool(items: list[dict]) -> list[dict]:
     return out
 
 
-def _build_issue(cfg: Config, issue_id: str, body: dict) -> dict:
+def _build_issue(cfg: Config, issue_id: str, body: dict, engine: str = "claude") -> dict:
     return {
         "id": issue_id,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "title": cfg.title,
+        # Which engine produced this issue ("claude" | "gemini") — the frontend
+        # tab filters on it. Both Claude paths (Claude Code --write and the
+        # Anthropic API) read as "claude" to the reader.
+        "engine": engine,
         "brief": body.get("brief", []),
         "sections": body.get("sections", []),
     }
 
 
-def _persist(cfg: Config, body: dict) -> int:
+def _persist(
+    cfg: Config, body: dict, min_items: int = 1, engine: str = "claude"
+) -> int:
     body = enrich(body)
-    if not any(sec.get("items") for sec in body.get("sections", [])):
+    total = sum(len(sec.get("items", [])) for sec in body.get("sections", []))
+    if total == 0:
         print("No valid items after validation. Nothing written.")
         return 1
-    issue = _build_issue(cfg, store.next_issue_id(_today()), body)
+    # Quality floor for the AUTONOMOUS engines — never let an unattended run
+    # publish a threadbare issue. Matters most for the Gemini stream, which can be
+    # triggered many times a day and gets thinner each run as seen_urls grows. The
+    # human --write path passes min_items=1 (the curator is already reviewing).
+    if total < min_items:
+        print(
+            f"Only {total} item(s) after validation (need {min_items}). "
+            "Nothing written — try again later."
+        )
+        return 1
+    issue = _build_issue(cfg, store.next_issue_id(_today()), body, engine)
     path = store.write_issue(issue)
     notify(issue)
     total = sum(len(s["items"]) for s in issue["sections"])
@@ -147,7 +171,28 @@ def run_api() -> int:
     if body is None:
         print("No issue produced (see warnings above). Nothing written.")
         return 1
-    return _persist(cfg, body)
+    return _persist(cfg, body, min_items=cfg.min_items_to_publish)
+
+
+# --- Autonomous Gemini run (free of human curation) --------------------------
+def run_gemini() -> int:
+    cfg = load_config()
+    print(f"AI Marketing Pulse — Gemini run for {_today()} ({cfg.gemini_model})")
+    print("Collecting…")
+    rss_items = collect_rss(cfg.rss_feeds, cfg.lookback_days)
+    web_items = collect_web_search_gemini(
+        cfg.web_search_queries, cfg.lookback_days, cfg.relevance_focus, cfg.gemini_model
+    )
+    pool = _dedupe_pool([it.to_dict() for it in rss_items] + web_items)
+    print(f"Pool: {len(pool)} unique candidate items")
+
+    seen = store.load_seen_urls()
+    print(f"Curating (excluding {len(seen)} previously-seen URLs)…")
+    body = gemini_curate(cfg, pool, seen)
+    if body is None:
+        print("No issue produced (see warnings above). Nothing written.")
+        return 1
+    return _persist(cfg, body, min_items=cfg.min_items_to_publish, engine="gemini")
 
 
 # --- Sample (demo data, no key) ----------------------------------------------
@@ -228,6 +273,8 @@ if __name__ == "__main__":
     args = sys.argv[1:]
     if "--sample" in args:
         raise SystemExit(write_sample())
+    if "--gemini" in args:
+        raise SystemExit(run_gemini())
     if "--collect" in args:
         raise SystemExit(collect_only())
     if "--write" in args:

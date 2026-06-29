@@ -22,6 +22,20 @@ relevance_focus: >
 # Only consider items published within this many days.
 lookback_days: 14
 
+# Floor for the autonomous engines: if a run produces fewer than this many items
+# after validation, it ABORTS and publishes nothing (no threadbare issues). The
+# autonomous Gemini stream can be triggered many times a day, and each run gets
+# thinner as more URLs land in seen_urls — this gate is what keeps quality up.
+min_items_to_publish: 4
+
+# Gemini autonomous engine (python backend/pipeline.py --gemini). Cost is pennies
+# per issue at any tier; pick for quality. Options seen mid-2026:
+#   gemini-3.1-pro-preview  — best editorial judgment (default)
+#   gemini-3-flash-preview  — near-Pro quality, cheaper/faster
+#   gemini-3.1-flash-lite   — cheapest workhorse
+gemini:
+  model: gemini-3.1-pro-preview
+
 # Sections rendered in the dashboard, in order. Worst case 15 cards total.
 sections:
   - id: tools

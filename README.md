@@ -26,8 +26,9 @@ config.yaml → collect (RSS + grounded web_search) → curate (read & write bri
 
 ## How an issue is made
 
-There are two engines. The **Claude Code engine is the default** — it costs nothing per
-issue, because Claude Code (not a paid API call) does the trending + editorial work.
+There are three engines. The **Claude Code engine is the default** — it costs nothing per
+issue, because Claude Code (not a paid API call) does the trending + editorial work. The
+**Gemini engine** is the hands-off one: it runs on a schedule and publishes on its own.
 
 **A) Claude Code engine — default, no API cost.** In a Claude Code session:
 
@@ -51,6 +52,24 @@ python backend/pipeline.py --write backend/curated.json # validate + persist the
 echo 'ANTHROPIC_API_KEY=sk-ant-...' > backend/.env
 python backend/pipeline.py
 ```
+
+**C) Gemini engine — autonomous stream (~cents/issue).** The no-human-in-the-loop path.
+It uses grounded Google Search to find trending items and `gemini-3.1-pro-preview` (set in
+`config.yaml`) to curate them, with the same real-URL and grounding guarantees. Run it
+locally with a key in `backend/.env`:
+
+```bash
+echo 'GEMINI_API_KEY=...' >> backend/.env   # key from https://aistudio.google.com/apikey
+python backend/pipeline.py --gemini
+```
+
+…but its real home is the scheduled **GitHub Action** (`.github/workflows/pulse.yml`): it
+generates an issue and pushes to `main`, so Vercel rebuilds and the issue goes live with no
+one touching it. **Setup:** add your key as the repo secret `GEMINI_API_KEY` (Settings →
+Secrets → Actions). **Cadence:** edit the single `cron:` line in the workflow. **On demand:**
+Actions tab → *Publish AI Marketing Pulse* → *Run workflow* (Kajol can fire one any time;
+multiple a day is fine). A `min_items_to_publish` floor in `config.yaml` makes a thin run
+abort rather than publish a threadbare issue.
 
 **Just want to see the dashboard?** Write demo data: `python backend/pipeline.py --sample`.
 
@@ -89,14 +108,19 @@ accents, warm paper — codified in the **Buddy-System** design language.
 ```
 backend/                  Python pipeline — the engine
   config.yaml             ← the ONLY file you edit to tune the feed
-  pipeline.py             entrypoint (--collect / --write / --sample / no-args)
+  pipeline.py             entrypoint (--collect / --write / --gemini / --sample / no-args)
   collectors/rss.py       RSS feeds → candidate items
-  collectors/web.py       grounded web_search → trending items (real URLs only)
-  curator.py              optional Anthropic API path: dedupe / classify / summarize
+  collectors/web.py       Anthropic grounded web_search → trending items (real URLs only)
+  collectors/web_gemini.py Gemini Google-Search grounding → trending items (real URLs only)
+  curate_schema.py        shared output schema + system prompt (both autonomous engines)
+  curator.py              Anthropic API path: dedupe / classify / summarize
+  gemini_curator.py       Gemini API path: the autonomous-stream curator
+  url_resolve.py          resolve Google grounding redirects; canonicalize URLs
   validate.py             the rules — enforced on every --write
   store.py                writes issues + index.json; tracks seen URLs for dedup
   enrich.py               pass-through seam (future ROI / case-study layer)
   notify.py               no-op seam (future "new issue is up" ping)
+.github/workflows/pulse.yml  scheduled + on-demand autonomous publish (Gemini → main → Vercel)
 frontend/                 React 19 + Vite + TypeScript — the dashboard
   public/issues/          generated issue JSON → bundled on build
   src/components/         Glance, Brief, Section, ItemCard, Archive, RoboBuddy (Buddy*)

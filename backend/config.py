@@ -27,6 +27,8 @@ class Config:
     sections: list[SectionConfig]
     rss_feeds: list[str]
     web_search_queries: list[str]
+    gemini_model: str
+    min_items_to_publish: int
 
     @property
     def section_ids(self) -> list[str]:
@@ -41,6 +43,7 @@ def load_config(path: Path = CONFIG_PATH) -> Config:
         for s in raw["sections"]
     ]
     sources = raw.get("sources", {})
+    gemini = raw.get("gemini", {}) or {}
 
     cfg = Config(
         title=raw["title"],
@@ -51,6 +54,8 @@ def load_config(path: Path = CONFIG_PATH) -> Config:
         sections=sections,
         rss_feeds=list(sources.get("rss", [])),
         web_search_queries=list(sources.get("web_search", {}).get("queries", [])),
+        gemini_model=str(gemini.get("model", "gemini-3.1-pro-preview")),
+        min_items_to_publish=int(raw.get("min_items_to_publish", 4)),
     )
 
     if not cfg.sections:

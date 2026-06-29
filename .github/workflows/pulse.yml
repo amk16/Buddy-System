@@ -1,0 +1,63 @@
+name: Publish AI Marketing Pulse
+
+# Autonomous "stream": generate an issue with the Gemini engine and push it to
+# main, which triggers Vercel to rebuild and publish. No human in the loop.
+on:
+  # ── CADENCE — edit this one line to change how often it runs ──────────────
+  # Cron is UTC. Examples:
+  #   weekly, Monday 13:00 UTC ............ '0 13 * * 1'   (default)
+  #   twice a week, Mon + Thu ............. '0 13 * * 1,4'
+  #   every weekday morning .............. '0 13 * * 1-5'
+  #   twice a day (13:00 and 21:00 UTC) .. '0 13,21 * * *'
+  # See https://crontab.guru to build your own.
+  schedule:
+    - cron: '0 13 * * 1'
+  # Kajol can also fire an issue on demand any time (Actions tab → this workflow
+  # → "Run workflow"). Same-day runs auto-suffix (-2, -3, …), so multiple a day
+  # is fine.
+  workflow_dispatch:
+
+# Allow the job to push the generated issue back to the repo.
+permissions:
+  contents: write
+
+# One run at a time so two issues can't race the same commit.
+concurrency:
+  group: pulse-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install backend deps
+        run: pip install -r backend/requirements.txt
+
+      - name: Generate issue (Gemini engine)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python backend/pipeline.py --gemini
+
+      - name: Commit & publish if a new issue was written
+        run: |
+          set -euo pipefail
+          ISSUES_DIR="frontend/public/issues"
+          if git diff --quiet -- "$ISSUES_DIR" \
+             && [ -z "$(git ls-files --others --exclude-standard -- "$ISSUES_DIR")" ]; then
+            echo "No new or changed issue — nothing to publish (likely below the min-items floor)."
+            exit 0
+          fi
+          LATEST="$(python3 -c "import json; print(json.load(open('$ISSUES_DIR/index.json'))[0]['id'])")"
+          git config user.name  "pulse-bot"
+          git config user.email "pulse-bot@users.noreply.github.com"
+          git add "$ISSUES_DIR"
+          git commit -m "content: publish issue ${LATEST}" \
+                     -m "Autonomous Gemini run via scheduled workflow."
+          git push origin HEAD:main
+          echo "Pushed issue ${LATEST}. Vercel will rebuild and go live in ~1–2 min."
