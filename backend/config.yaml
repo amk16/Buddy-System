@@ -77,6 +77,14 @@ sources:
     - https://venturebeat.com/category/ai/feed/
     - https://www.technologyreview.com/feed/
     - https://www.marketingdive.com/feeds/news/
+    # Tier 4 — category boosters for the scarce sections (verified live, AI-filtered)
+    # Tools — product/feature launches
+    - https://www.producthunt.com/feed?category=artificial-intelligence
+    - https://openai.com/news/rss.xml
+    - https://blog.google/technology/ai/rss/
+    # Case Studies — named deployments, customer stories, funding
+    - https://aws.amazon.com/blogs/machine-learning/feed/
+    - https://news.crunchbase.com/feed/
 
   # Web-search queries — run via Claude's grounded web_search tool (real URLs).
   # Grouped by the section they mainly feed.
@@ -85,11 +93,20 @@ sources:
       # tools
       - "new AI tools for business launched this week"
       - "AI tool launch for sales customer support finance teams"
+      - "new AI agent or copilot launched for business teams this week"
+      - "AI productivity automation tool launch small business this week"
+      - "AI tool for marketing operations finance just released"
       # case_studies
       - "enterprise AI case study cost savings results"
       - "company AI deployment ROI case study percent saved"
       - "AI customer service cost reduction case study"
+      - "named company saved hours or dollars with AI automation this month"
+      - "business generative AI rollout measurable results revenue saved"
       # news
       - "enterprise AI adoption news this week"
+      - "AI model or pricing launch affecting businesses this week"
       # people
       - "AI leader interview enterprise automation advice"
+      - "AI founder or operator building agents announcement this week"
+      - "executive hire or move AI strategy at a company this week"
+      - "marketer or consultant sharing AI workflow advice this week"
