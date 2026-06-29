@@ -72,6 +72,16 @@ sources:
     - https://www.ciodive.com/feeds/news/
     - https://www.hrdive.com/feeds/news/
     - https://www.zdnet.com/topic/artificial-intelligence/rss.xml
+    # Tier 2b — more Industry Dive verticals (same format, surface AI-in-business
+    # deployments = Case Study material). Verified live.
+    - https://www.bankingdive.com/feeds/news/
+    - https://www.paymentsdive.com/feeds/news/
+    - https://www.healthcaredive.com/feeds/news/
+    - https://www.medtechdive.com/feeds/news/
+    - https://www.manufacturingdive.com/feeds/news/
+    - https://www.cybersecuritydive.com/feeds/news/
+    - https://www.restaurantdive.com/feeds/news/
+    - https://www.grocerydive.com/feeds/news/
     # Tier 3 — general tech, pruned to the highest-signal
     - https://techcrunch.com/category/artificial-intelligence/feed/
     - https://venturebeat.com/category/ai/feed/
@@ -85,6 +95,14 @@ sources:
     # Case Studies — named deployments, customer stories, funding
     - https://aws.amazon.com/blogs/machine-learning/feed/
     - https://news.crunchbase.com/feed/
+    # Tier 5 — AI-native news (pure AI, business-accessible). Verified live.
+    - https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    - https://www.artificialintelligence-news.com/feed/
+    - https://the-decoder.com/feed/
+    - https://arstechnica.com/ai/feed/
+    - https://www.wired.com/feed/tag/ai/latest/rss
+    - https://blogs.nvidia.com/feed/
+    - https://importai.substack.com/feed
 
   # Web-search queries — run via Claude's grounded web_search tool (real URLs).
   # Grouped by the section they mainly feed.

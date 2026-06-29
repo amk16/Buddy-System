@@ -34,7 +34,7 @@ Rules:
   person's move, a cost-saving result) over vague trend pieces.
 
 After searching, output ONLY a JSON array (no prose, no markdown fences) of up to
-20 objects with exactly these keys:
+40 objects with exactly these keys:
   "title"        - the item's headline
   "url"          - the real source URL from search
   "source_name"  - the publication or site name

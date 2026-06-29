@@ -65,7 +65,7 @@ Rules:
 - Prefer concrete, high-signal items (a tool launch, a funding round, a named
   person's move, a cost-saving result) over vague trend pieces.
 
-Return up to 20 items in the required JSON schema. For each: a factual `title`, the
+Return up to 40 items in the required JSON schema. For each: a factual `title`, the
 source `url`, the `source_name` (publication), `published_at` (YYYY-MM-DD if known,
 else null), and a one-sentence factual `summary`."""
 
