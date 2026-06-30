@@ -1,0 +1,716 @@
+{
+  "id": "2026-06-30",
+  "generated_at": "2026-06-30T15:30:47.506614+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "OpenAI Reports 189-Fold Increase in AI Agent Usage Among Business Workers",
+      "summary": "OpenAI has published internal metrics revealing that non-technical business professionals are rapidly adopting AI agents for their daily tasks. Since August 2025, organizational usage by non-developers has multiplied 189 times over. The newly released research paper highlights how these autonomous software tools are handling longer, more complex assignments and expanding employee productivity across various business roles.",
+      "why_it_matters": "This staggering growth metric proves to hesitant clients that AI agent adoption is already going mainstream across non-technical departments.",
+      "terms": [
+        {
+          "term": "AI agents",
+          "definition": "Artificial intelligence programs that can autonomously plan and execute a series of tasks to achieve a specific goal without constant human prompting."
+        }
+      ],
+      "url": "https://openai.com/index/how-agents-are-transforming-work/",
+      "source_name": "OpenAI News",
+      "signal_tag": "trending",
+      "published_at": "2026-06-25"
+    },
+    {
+      "section": "news",
+      "headline": "Amazon Launches $1 Billion Organization to Deploy AI Agents Inside Companies",
+      "summary": "Amazon has established a new $1 billion division dedicated to embedding its own engineers directly within client companies to build custom AI agents. Following similar moves by competitors OpenAI and Anthropic, this forward-deployed engineering team focuses on rapidly integrating artificial intelligence into customer operations. The ultimate goal is to get clients up and running quickly so they can manage their own AI systems independently.",
+      "why_it_matters": "Amazon’s massive investment signals a shift toward 'done-for-you' AI implementation, setting a new expectation that consultants will need to either match or collaborate with.",
+      "terms": [
+        {
+          "term": "Forward-deployed engineering",
+          "definition": "A business model where a technology provider sends its own software engineers to work directly inside a client's business to build custom solutions."
+        }
+      ],
+      "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
+      "source_name": "AI News & Artificial Intelligence | TechCrunch",
+      "signal_tag": "shift",
+      "published_at": "2026-06-30"
+    },
+    {
+      "section": "news",
+      "headline": "Enterprise AI Adoption Shifts from Pilot Projects to Core Business Strategy",
+      "summary": "Large corporations are transitioning away from running isolated generative AI pilot projects and are instead redesigning their core business workflows around the technology. A new report highlights that major software providers like Microsoft are pushing transformation strategies that permanently embed AI across search, productivity, and infrastructure operations. This marks a maturation in the market where companies demand strict financial returns rather than just experimenting with chatbots.",
+      "why_it_matters": "Consultants must pivot their pitch from 'let's run a small AI experiment' to 'let's restructure your core operations for measurable ROI'.",
+      "terms": [],
+      "url": "https://www.marketscale.com/industries/software-and-technology/enterprise-ai-adoption-shifts-from-pilot-projects-to-core-business-strategy-5bb8cd",
+      "source_name": "MarketScale",
+      "signal_tag": "shift",
+      "published_at": "2026-06-20"
+    },
+    {
+      "section": "news",
+      "headline": "AI Agents Now Hitting 70% Autonomous Resolution in Customer Service",
+      "summary": "Recent data from June 2026 reveals that high-quality AI agents used in customer service are now successfully resolving between 55% and 70% of customer inquiries entirely on their own. These production-grade systems have directly contributed to a 20% to 40% drop in overall operational support costs for small and medium businesses. Procurement has shifted away from basic chatbots toward secure, compliant systems with outcome-based pricing.",
+      "why_it_matters": "This provides hard numbers to convince hesitant clients that customer support AI is no longer a frustrated novelty, but a reliable cost-saving mechanism.",
+      "terms": [],
+      "url": "https://www.openhermit.com/blog/customer-service-ai-agents-smb-2026",
+      "source_name": "Blog",
+      "signal_tag": "trending",
+      "published_at": "2026-06-24"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Atlas by Nanonets: An AI Tool That Learns Your Company's Context",
+          "summary": "Nanonets has launched Atlas, a new platform designed to solve the problem of AI tools not understanding internal company workflows. The tool connects securely to a company's existing data and acts as a central brain, ensuring that every AI application used by the business understands how the company actually operates. This allows employees to get more accurate, context-aware answers from their AI assistants.",
+          "why_it_matters": "A perfect recommendation for clients complaining that generic AI tools like ChatGPT don't understand their specific business rules or internal data.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/nanonets",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-06-19"
+        },
+        {
+          "section": "tools",
+          "headline": "Claude Code in Slack",
+          "summary": "A new integration allows users to run Claude Code, an AI programming assistant, directly inside the Slack messaging platform. This brings the coding assistant's user interface directly into the chat environments where teams already collaborate. It offers a more accessible way for non-technical team members to interact with coding tools without leaving their daily workspace.",
+          "why_it_matters": "This lowers the barrier to entry for marketing and product teams who want to interface with engineering tools in a familiar chat setting.",
+          "terms": [],
+          "url": "https://www.bensbites.com/p/claude-code-in-slack",
+          "source_name": "Ben's Bites",
+          "signal_tag": "new",
+          "published_at": "2026-06-25"
+        },
+        {
+          "section": "tools",
+          "headline": "Foresight by Lightning Rod: Predict Anything with AI",
+          "summary": "Lightning Rod has introduced Foresight, a tool designed to generate training data and predict future outcomes using artificial intelligence. The platform allows businesses to feed in their existing data to create models that forecast trends, behaviors, or operational needs. This makes predictive analytics accessible to companies that don't have large in-house data science teams.",
+          "why_it_matters": "A highly practical tool to recommend to marketing clients who want to use AI to forecast campaign performance or consumer trends.",
+          "terms": [
+            {
+              "term": "Training data",
+              "definition": "The initial set of information fed into an artificial intelligence system so it can learn patterns and make future predictions."
+            }
+          ],
+          "url": "https://www.producthunt.com/products/training-data-generator",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-06-22"
+        },
+        {
+          "section": "tools",
+          "headline": "Skills Marketplace by Databox for AI Analytics",
+          "summary": "Databox has launched a Skills Marketplace featuring ready-made AI analytics capabilities for business data. Instead of building custom dashboards from scratch, users can deploy pre-configured AI \"skills\" that automatically analyze their business metrics and surface insights. This speeds up the process of turning raw data into actionable business intelligence.",
+          "why_it_matters": "This is an instant value-add for clients struggling to make sense of their marketing and sales data without hiring an analyst.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/databox",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-06-22"
+        },
+        {
+          "section": "tools",
+          "headline": "Clade: The AI Chief Operating Officer for Your Tools",
+          "summary": "Clade has launched an AI platform positioned as an artificial intelligence \"Chief Operating Officer\" that manages your team directly within your existing software tools. The system connects to everyday applications and autonomously orchestrates tasks, updates statuses, and keeps projects moving. It aims to reduce the manual overhead of managing software stacks across different departments.",
+          "why_it_matters": "A great operational upgrade to suggest to agency owners or marketing leads looking to automate their project management overhead.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/cleo-4",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-06-24"
+        },
+        {
+          "section": "tools",
+          "headline": "Spira for Product Hunt Makers: Social Media Growth Agents",
+          "summary": "Spira has released a suite of artificial intelligence agents specifically designed to build social media momentum for product launches. The tool acts as an automated social media manager, generating content and engaging with users to drive visibility. It is tailored for founders and marketers who need to scale their digital presence quickly during a launch window.",
+          "why_it_matters": "An immediate, practical recommendation for clients looking to automate the heavy lifting of social media engagement during a new product launch.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/spira-ai",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-06-18"
+        },
+        {
+          "section": "tools",
+          "headline": "Basedash for Excel: Turn Spreadsheets into Live Dashboards",
+          "summary": "Basedash has introduced a tool that instantly transforms any static Excel file into a live, interactive dashboard. The platform uses AI to understand the spreadsheet's structure and automatically generates a visual interface that teams can easily read and interact with. This bridges the gap between raw data files and professional-looking business intelligence displays.",
+          "why_it_matters": "A massive time-saver for finance and marketing teams who currently waste hours manually building reports from Excel data.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/basedash",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-06-26"
+        },
+        {
+          "section": "tools",
+          "headline": "How to Design AI Agent Loops in Claude Code and Codex",
+          "summary": "A new video guide breaks down the different ways to design operational \"loops\" for AI agents using tools like Claude Code and Codex. The tutorial explains how to set up schedules, establish goals, and use sub-agents so that the AI can run autonomously without constant human supervision. It includes live demonstrations of automated workflows that handle code reviews independently.",
+          "why_it_matters": "This helps non-technical consultants understand the mechanics of how AI actually operates in the background, allowing them to explain automation realistically to clients.",
+          "terms": [
+            {
+              "term": "Agent loops",
+              "definition": "The continuous cycle an AI program runs through to assess a situation, make a decision, take an action, and evaluate the result without human input."
+            }
+          ],
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-to-write-ai-agent-loops",
+          "source_name": "Lenny's Newsletter",
+          "signal_tag": "trending",
+          "published_at": "2026-06-22"
+        },
+        {
+          "section": "tools",
+          "headline": "Testing the Best AI Features Across Chrome, Edge, and Firefox",
+          "summary": "A new hands-on comparison breaks down the native artificial intelligence tools built into the major web browsers: Google Chrome, Microsoft Edge, and Mozilla Firefox. The review looks at how each browser integrates AI for everyday tasks like summarizing web pages, drafting emails, and answering search queries. The piece helps users decide which browser ecosystem offers the most practical AI benefits for daily work.",
+          "why_it_matters": "A quick, accessible piece of advice for clients asking which web browser their teams should standardize on for everyday AI productivity.",
+          "terms": [],
+          "url": "https://www.zdnet.com/article/chrome-vs-edge-vs-firefox-ai-browsers/",
+          "source_name": "Latest news",
+          "signal_tag": "trending",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "tools",
+          "headline": "Limiting What Gemini Learns in Android Auto",
+          "summary": "Google's Gemini AI offers substantial convenience in the car, but it also collects significant amounts of sensitive personal information. A new guide explains exactly which settings to adjust within Android Auto to prevent the AI from indiscriminately recording and learning from your conversations and locations. This allows users to retain the helpful voice commands while locking down their privacy.",
+          "why_it_matters": "A vital security tip to share with executive clients who use voice AI in their cars but deal with confidential business information.",
+          "terms": [],
+          "url": "https://www.zdnet.com/article/stop-gemini-from-listening-in-android-auto/",
+          "source_name": "Latest news",
+          "signal_tag": "new",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "tools",
+          "headline": "Aidoc Wins Breakthrough Status for AI Chest X-Ray Analysis",
+          "summary": "Medical technology company Aidoc has received a breakthrough designation from regulators for an artificial intelligence tool that analyzes chest X-rays. The AI is designed to read the scans and automatically generate preliminary medical reports for over 100 different findings. This technology promises to dramatically speed up the workflow for radiologists by handling the initial drafting of patient reports.",
+          "why_it_matters": "A powerful example of AI moving beyond novelty and into highly regulated, life-saving operational workflows that consultants can reference.",
+          "terms": [],
+          "url": "https://www.healthcaredive.com/news/aidoc-wins-breakthrough-nod-for-ai-that-reads-chest-x-rays/823948/",
+          "source_name": "Healthcare Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-06-26"
+        },
+        {
+          "section": "tools",
+          "headline": "AWS Unveils Agent Security and Data Access Tools",
+          "summary": "Amazon Web Services has introduced new security tools specifically designed to monitor and control artificial intelligence agents in corporate environments. The updates focus on how quickly AI models like Anthropic's Mythos can surface vulnerabilities and access sensitive data. These new guardrails ensure that autonomous AI systems do not accidentally leak or manipulate confidential company information.",
+          "why_it_matters": "Essential knowledge for consultants advising IT and compliance departments on the risks of letting AI agents access internal corporate data.",
+          "terms": [],
+          "url": "https://www.cybersecuritydive.com/news/aws-continuum-ai-security-claude-mythos/823393/",
+          "source_name": "Cybersecurity Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-06-26"
+        },
+        {
+          "section": "tools",
+          "headline": "Nashra: Turn Followers into Clients",
+          "summary": "Nashra is a new software tool designed to bridge the gap between social media engagement and actual sales conversions. It uses AI to analyze follower interactions and automatically tailor outreach to turn casual audience members into paying clients. This provides a direct path to monetization for brands with large, untapped social media audiences.",
+          "why_it_matters": "A great software recommendation for marketing clients looking to prove a direct ROI from their top-of-funnel social media efforts.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/nashra-turn-followers-into-clients",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-06-24"
+        },
+        {
+          "section": "tools",
+          "headline": "AI Slide Editor by CubeOne",
+          "summary": "CubeOne has released a new AI-powered slide editor that promises to fix the clunky user experience of traditional presentation software like PowerPoint. The tool allows users to generate, format, and edit presentation slides using natural language commands rather than manual formatting. It aims to drastically reduce the hours professionals spend adjusting text boxes and aligning graphics.",
+          "why_it_matters": "A major productivity boost for your own consulting work, and a quick-win tool to recommend to sales teams who constantly build pitch decks.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/cubeone",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-06-24"
+        },
+        {
+          "section": "tools",
+          "headline": "Brain² by ClickUp",
+          "summary": "Project management platform ClickUp has launched Brain², a central artificial intelligence system that understands a company's entire digital workspace. The AI reads through all tasks, documents, and communication within the platform, allowing employees to ask complex questions about project statuses or internal knowledge. It aims to eliminate time wasted searching for fragmented information across different departments.",
+          "why_it_matters": "Shows how modern project management software is evolving from a place to store data into an active AI participant that manages the data for you.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/clickup",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-06-19"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "OpenAI Reports 189-Fold Increase in AI Agent Usage Among Business Workers",
+          "summary": "OpenAI has published internal metrics revealing that non-technical business professionals are rapidly adopting AI agents for their daily tasks. Since August 2025, organizational usage by non-developers has multiplied 189 times over. The newly released research paper highlights how these autonomous software tools are handling longer, more complex assignments and expanding employee productivity across various business roles.",
+          "why_it_matters": "This staggering growth metric proves to hesitant clients that AI agent adoption is already going mainstream across non-technical departments.",
+          "terms": [
+            {
+              "term": "AI agents",
+              "definition": "Artificial intelligence programs that can autonomously plan and execute a series of tasks to achieve a specific goal without constant human prompting."
+            }
+          ],
+          "url": "https://openai.com/index/how-agents-are-transforming-work/",
+          "source_name": "OpenAI News",
+          "signal_tag": "trending",
+          "published_at": "2026-06-25"
+        },
+        {
+          "section": "news",
+          "headline": "Amazon Launches $1 Billion Organization to Deploy AI Agents Inside Companies",
+          "summary": "Amazon has established a new $1 billion division dedicated to embedding its own engineers directly within client companies to build custom AI agents. Following similar moves by competitors OpenAI and Anthropic, this forward-deployed engineering team focuses on rapidly integrating artificial intelligence into customer operations. The ultimate goal is to get clients up and running quickly so they can manage their own AI systems independently.",
+          "why_it_matters": "Amazon’s massive investment signals a shift toward 'done-for-you' AI implementation, setting a new expectation that consultants will need to either match or collaborate with.",
+          "terms": [
+            {
+              "term": "Forward-deployed engineering",
+              "definition": "A business model where a technology provider sends its own software engineers to work directly inside a client's business to build custom solutions."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "news",
+          "headline": "Enterprise AI Adoption Shifts from Pilot Projects to Core Business Strategy",
+          "summary": "Large corporations are transitioning away from running isolated generative AI pilot projects and are instead redesigning their core business workflows around the technology. A new report highlights that major software providers like Microsoft are pushing transformation strategies that permanently embed AI across search, productivity, and infrastructure operations. This marks a maturation in the market where companies demand strict financial returns rather than just experimenting with chatbots.",
+          "why_it_matters": "Consultants must pivot their pitch from 'let's run a small AI experiment' to 'let's restructure your core operations for measurable ROI'.",
+          "terms": [],
+          "url": "https://www.marketscale.com/industries/software-and-technology/enterprise-ai-adoption-shifts-from-pilot-projects-to-core-business-strategy-5bb8cd",
+          "source_name": "MarketScale",
+          "signal_tag": "shift",
+          "published_at": "2026-06-20"
+        },
+        {
+          "section": "news",
+          "headline": "AI Agents Now Hitting 70% Autonomous Resolution in Customer Service",
+          "summary": "Recent data from June 2026 reveals that high-quality AI agents used in customer service are now successfully resolving between 55% and 70% of customer inquiries entirely on their own. These production-grade systems have directly contributed to a 20% to 40% drop in overall operational support costs for small and medium businesses. Procurement has shifted away from basic chatbots toward secure, compliant systems with outcome-based pricing.",
+          "why_it_matters": "This provides hard numbers to convince hesitant clients that customer support AI is no longer a frustrated novelty, but a reliable cost-saving mechanism.",
+          "terms": [],
+          "url": "https://www.openhermit.com/blog/customer-service-ai-agents-smb-2026",
+          "source_name": "Blog",
+          "signal_tag": "trending",
+          "published_at": "2026-06-24"
+        },
+        {
+          "section": "news",
+          "headline": "HP Inc. Launches Frontier Strategic Partnership with OpenAI",
+          "summary": "Hardware giant HP has expanded its partnership with OpenAI to deploy artificial intelligence across its entire global operation. After successfully testing the AI in software engineering and cybersecurity earlier this year, HP is now embedding the technology into its customer experiences and internal enterprise workflows. This large-scale deployment serves as a major endorsement of OpenAI's enterprise capabilities.",
+          "why_it_matters": "A clear indicator to corporate clients that massive, legacy hardware companies are fully committing to organization-wide AI deployments.",
+          "terms": [],
+          "url": "https://openai.com/index/hp-frontier-partnership",
+          "source_name": "OpenAI News",
+          "signal_tag": "shift",
+          "published_at": "2026-06-28"
+        },
+        {
+          "section": "news",
+          "headline": "The AI Jobs Debate Just Got Messier: Adopters See Headcount Increase",
+          "summary": "Contrary to the narrative that artificial intelligence destroys jobs, a new report shows that companies heavily adopting AI actually saw their total headcount increase by 10.2%. Even more surprisingly, entry-level hiring at these \"high-intensity\" AI companies rose by 12%. The data suggests that deploying AI is currently fueling business expansion and job creation rather than mass layoffs.",
+          "why_it_matters": "A vital statistic to calm executives and employees who fear that implementing AI will immediately force them to downsize their teams.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "news",
+          "headline": "OpenAI Voluntarily Limits New AI Models at Government’s Request",
+          "summary": "OpenAI has agreed to delay the public release of its new GPT-5.6 artificial intelligence models following a direct request from the White House. The company is currently working with government officials to establish a more formal security review process for future model releases. This comes shortly after rival Anthropic faced similar government interventions regarding its own advanced AI models.",
+          "why_it_matters": "Shows that federal regulation and security interventions are now actively dictating the timeline for when businesses can access new AI capabilities.",
+          "terms": [],
+          "url": "https://www.cybersecuritydive.com/news/openai-model-government-limit-request/823966/",
+          "source_name": "Cybersecurity Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "news",
+          "headline": "Anthropic Regains Approval to Deploy Mythos AI to Trusted US Organizations",
+          "summary": "Following a two-week suspension driven by national security concerns, the U.S. government has partially lifted restrictions on Anthropic's advanced Mythos 5 AI model. The company is now permitted to deploy the technology to a select group of trusted corporate partners and critical infrastructure operators. The public-facing version of the model, however, remains heavily restricted.",
+          "why_it_matters": "Highlights the growing reality that the most powerful enterprise AI tools may soon be gated behind government security clearances, affecting which vendors clients can choose.",
+          "terms": [],
+          "url": "https://www.computing.co.uk/news/2026/ai/anthropic-regains-approval-to-deploy-mythos-ai-to-trusted-us-organisations",
+          "source_name": "Computing UK",
+          "signal_tag": "new",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "news",
+          "headline": "Google Dropped a New Open Standard for AI Agents Called OKF",
+          "summary": "Google Cloud has quietly released the Open Knowledge Format (OKF), a new text-based standard designed to help AI agents read and understand corporate data. The open standard unifies a company's codebase and documentation into a single directory that any AI can easily process. By making data universally readable, OKF prevents businesses from being locked into a single AI vendor's proprietary ecosystem.",
+          "why_it_matters": "A technical shift that consultants must track to ensure clients structure their internal data in a way that remains compatible with multiple AI vendors.",
+          "terms": [],
+          "url": "https://www.reddit.com/r/PromptEngineering/comments/1ujq6cm/google_dropped_a_new_open_standard_for_ai_agents/",
+          "source_name": "Reddit",
+          "signal_tag": "new",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "news",
+          "headline": "South Korea to Spend $1 Trillion on Memory Chip Production and Humanoid Robots",
+          "summary": "South Korea has announced a massive $1 trillion national investment plan targeting dominance in physical artificial intelligence and commercial humanoid robots by 2028. The funds will heavily subsidize the mass production of memory chips, which are critical components for running AI systems. This positions the country to secure the global hardware supply chain as global AI compute demands soar.",
+          "why_it_matters": "Signals to hardware-reliant clients that the supply chain for AI computing power is shifting, and new international players are heavily subsidizing the market.",
+          "terms": [],
+          "url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
+          "source_name": "AI - Ars Technica",
+          "signal_tag": "shift",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "news",
+          "headline": "Software and AI Companies Form Alliance to Tackle Open-Source Security Flaws",
+          "summary": "Major technology companies including Anthropic, Amazon Web Services, and Microsoft have formed a coalition to address vulnerabilities in open-source software. The alliance was created in response to the growing threat of malicious hackers using advanced AI models to quickly find and exploit security flaws. The group aims to use their own AI systems to spot and patch these vulnerabilities before bad actors can strike.",
+          "why_it_matters": "Provides a strong counter-narrative for clients worried about AI security risks, showing that top tech firms are actively using AI for collective defense.",
+          "terms": [
+            {
+              "term": "Open-source software",
+              "definition": "Computer software with a source code that anyone can inspect, modify, and enhance, often maintained by a community of volunteers."
+            }
+          ],
+          "url": "https://www.ciodive.com/news/software-ai-alliance-open-source-security-flaws/824026/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "news",
+          "headline": "The Energy Transition Just Hit The Wall AI Compute Cannot Ignore",
+          "summary": "The Federal Energy Regulatory Commission has issued new orders requiring electrical grid operators to revise rules for connecting large power loads, directly impacting the booming AI data center industry. As artificial intelligence requires massive amounts of electricity, grid upgrades are taking years to complete, causing severe bottlenecks for tech companies trying to scale their infrastructure. The energy shortage is becoming a primary physical constraint on how fast AI can grow.",
+          "why_it_matters": "Consultants should warn enterprise clients that physical power shortages—not software limits—might delay their long-term, large-scale AI infrastructure deployments.",
+          "terms": [],
+          "url": "https://www.forbes.com/sites/guneyyildiz/2026/06/30/the-energy-transition-just-hit-the-wall-ai-compute-cannot-ignore/",
+          "source_name": "Forbes",
+          "signal_tag": "shift",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "news",
+          "headline": "Meta Secretly Tested Chatbots with Minor-Perspective Crisis Prompts",
+          "summary": "Meta recently hired hundreds of contractors to pose as minors and test the safety boundaries of rival AI chatbots from OpenAI, Google, and Character.AI. The testers bombarded the systems with tens of thousands of prompts regarding suicide, sex, and drugs to see how the AI would respond. The rival tech companies were completely unaware that Meta was conducting these stress tests on their platforms.",
+          "why_it_matters": "A stark reminder for enterprise clients that the AI tools they rely on are constantly being probed for brand-damaging safety failures by aggressive competitors.",
+          "terms": [
+            {
+              "term": "Prompts",
+              "definition": "The text instructions or questions that a human types into an artificial intelligence system to get a response."
+            }
+          ],
+          "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts/",
+          "source_name": "The Decoder",
+          "signal_tag": "trending",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "news",
+          "headline": "Crypto Exchange OKX Wants AI Agents to Hire and Pay Each Other",
+          "summary": "Cryptocurrency exchange OKX is building a marketplace designed specifically for artificial intelligence agents to transact with one another. The platform combines digital payments, identity verification, and reputation tracking so that autonomous AI programs can hire other specialized AI programs to complete tasks. This creates a machine-to-machine economy where software handles the financial exchange without human intervention.",
+          "why_it_matters": "A futuristic but real example of how AI autonomy is moving beyond generating text and into executing actual financial transactions.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "news",
+          "headline": "US Campaigns Now Run on AI at Nearly Every Step",
+          "summary": "Political campaigns in the United States are now deeply reliant on artificial intelligence for operations ranging from vetting opponents to micro-targeting voters. Both Republican and Democratic organizations are embedding AI into their daily workflows to scale their messaging and analyze vast amounts of voter data. Meanwhile, European regulators are pushing back, drawing a much harder line on how political campaigns can legally deploy these tools.",
+          "why_it_matters": "The political arena is serving as a high-stakes testing ground for aggressive AI marketing tactics that will eventually spill over into the corporate world.",
+          "terms": [],
+          "url": "https://the-decoder.com/us-campaigns-now-run-on-ai-at-nearly-every-step-and-europe-is-drawing-a-harder-line/",
+          "source_name": "The Decoder",
+          "signal_tag": "trending",
+          "published_at": "2026-06-30"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "Agentic AI in Pharma Sales: Sanofi and Snowflake Cortex",
+          "summary": "Pharmaceutical giant Sanofi has deployed an AI-driven sales support tool called 'Concierge for Field' to assist its sales representatives. Built on the Snowflake Cortex platform, the system acts as an intelligent assistant that analyzes complex medical data and customer histories. This drastically cuts down the hours sales reps spend preparing for meetings with doctors, allowing them to focus on relationship building.",
+          "why_it_matters": "A stellar example of how enterprise AI is moving out of the IT department and directly empowering frontline sales teams to close deals faster.",
+          "terms": [],
+          "url": "https://intuitionlabs.ai/articles/agentic-ai-pharma-sales-sanofi-snowflake-cortex",
+          "source_name": "IntuitionLabs",
+          "signal_tag": "new",
+          "published_at": "2026-06-19"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Ramp Hits $44 Billion Valuation Using AI Agentic Workflows",
+          "summary": "Corporate travel and spend management platform Navan successfully integrated an AI agent named 'Ava' to handle its complex enterprise workflows. Operating via Google Cloud, the AI assistant was able to autonomously resolve 50% of the company's corporate travel support queries without human intervention. This massive boost in operational efficiency helped drive the company to a $44 billion valuation.",
+          "why_it_matters": "Provides a massive, high-profile valuation anchor to prove that deploying autonomous AI directly impacts a company's financial worth.",
+          "terms": [],
+          "url": "https://industry-lens.com/reports/bill-ramp-hits-44-billion-june-2026",
+          "source_name": "IndustryLens",
+          "signal_tag": "trending",
+          "published_at": "2026-06-23"
+        },
+        {
+          "section": "case_studies",
+          "headline": "HelloFresh Boosts Chilled Fulfillment Capacity via Robotics Deployment",
+          "summary": "Meal kit company HelloFresh has successfully deployed Locus Origin robots at its fulfillment facility in Phoenix, Arizona. The robotics integration allows the facility to handle a greater variety of products while operating in chilled environments. This automation helps the company scale its complex grocery supply chain while keeping labor costs manageable.",
+          "why_it_matters": "A tangible logistics case study demonstrating how physical AI and robotics are solving supply chain bottlenecks in the food industry.",
+          "terms": [],
+          "url": "https://www.supplychaindive.com/news/hellofresh-boosts-chilled-fulfillment-capacity-via-robotics-deployment/823994/",
+          "source_name": "Supply Chain Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Albertsons Works to Scale Merchandising Intelligence Platform",
+          "summary": "Grocery giant Albertsons is rolling out a new merchandising intelligence platform equipped with agentic AI tools and strict data governance. The system aims to optimize how products are priced, placed, and promoted across the grocer's massive network of stores. The company plans to have the AI fully deployed and managing these complex retail decisions by the end of the year.",
+          "why_it_matters": "Shows retail clients that major competitors are already trusting AI to handle core merchandising and pricing strategies at scale.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/albertsons-scale-merchandising-intelligence-platform/824027/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How Loka Built a Natural, Low-Latency Voice Agent with Amazon Nova 2 Sonic",
+          "summary": "Technology firm Loka utilized Amazon's Nova 2 Sonic model to build a highly responsive voice assistant that sounds natural to users. The engineering team focused on eliminating the frustrating delays and robotic tones that typically cause customers to hang up on automated support calls. By optimizing the system architecture, they created a voice agent that protects brand reputation and lowers support center costs.",
+          "why_it_matters": "A blueprint for CX leaders who want to upgrade their outdated, frustrating phone trees into fluid, conversational AI experiences.",
+          "terms": [
+            {
+              "term": "Latency",
+              "definition": "The delay before a transfer of data begins following an instruction; in AI voice systems, it is the awkward pause before the AI responds."
+            }
+          ],
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-loka-built-a-natural-low-latency-voice-agent-with-amazon-nova-2-sonic/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "new",
+          "published_at": "2026-06-24"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Using AI to Help Physicians Diagnose Rare Genetic Diseases",
+          "summary": "Medical researchers recently employed an advanced reasoning model from OpenAI to help diagnose rare and puzzling genetic diseases in children. The artificial intelligence analyzed complex patient histories and genetic markers to suggest potential answers for unsolved medical cases. The system successfully identified 18 new, accurate diagnoses that human doctors had previously missed.",
+          "why_it_matters": "A profound example of AI acting as an expert collaborative tool to solve problems that exceed human processing capacity.",
+          "terms": [],
+          "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+          "source_name": "OpenAI News",
+          "signal_tag": "new",
+          "published_at": "2026-06-18"
+        },
+        {
+          "section": "case_studies",
+          "headline": "A Near-Autonomous AI Chemist Improves a Challenging Reaction",
+          "summary": "OpenAI collaborated with Molecule.one to test an artificial intelligence system acting as a near-autonomous chemist. Using the GPT-5.4 model, the AI successfully directed and improved a complex chemical reaction used in making pharmaceutical drugs. This demonstrates how AI is advancing beyond text generation to actively conduct and optimize physical scientific research.",
+          "why_it_matters": "Proves to R&D executives that AI models can now actively optimize complex physical processes, not just analyze data.",
+          "terms": [],
+          "url": "https://openai.com/index/ai-chemist-improves-reaction",
+          "source_name": "OpenAI News",
+          "signal_tag": "shift",
+          "published_at": "2026-06-17"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How Omio is Building the Future of Conversational Travel",
+          "summary": "The global travel platform Omio is deeply integrating OpenAI models to change how users book transportation across 47 countries. Instead of just adding a superficial chatbot, the company's CTO mandated a complete redesign of internal operations to support AI. The new systems accelerate how fast Omio can develop products and allow customers to plan complex, multi-leg journeys using natural conversation.",
+          "why_it_matters": "Demonstrates the difference between slapping a chatbot onto an old product versus rebuilding a business from the ground up to be AI-native.",
+          "terms": [],
+          "url": "https://openai.com/index/omio",
+          "source_name": "OpenAI News",
+          "signal_tag": "trending",
+          "published_at": "2026-06-23"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Wimbledon Adds IBM AI Tools for Live Match Coverage",
+          "summary": "The All England Lawn Tennis Club has partnered with IBM to roll out new AI-powered features for fans tracking the Wimbledon tournament. The digital platforms now include an upgraded conversational assistant and a tool that automatically highlights key match moments in real-time. This allows the sports organization to deliver highly personalized, instant sports coverage without a massive human editorial team.",
+          "why_it_matters": "A great reference point for marketing clients on how to use AI to generate real-time, engaging content during live events.",
+          "terms": [],
+          "url": "https://www.artificialintelligence-news.com/news/wimbledon-ibm-ai-tools-live-match-coverage/",
+          "source_name": "AI News",
+          "signal_tag": "new",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "case_studies",
+          "headline": "NTT DATA Launches AI Agent Service for Product Planning",
+          "summary": "Global IT provider NTT DATA has introduced a specialized AI agent built specifically to help consumer goods companies. The AI autonomously generates new product concepts, produces sales forecasts, and checks marketing materials for brand compliance in minutes. It aims to radically accelerate the traditionally slow, early-stage product planning cycle.",
+          "why_it_matters": "A tangible workflow automation tool that consultants can show to brand managers desperate to speed up their product ideation process.",
+          "terms": [],
+          "url": "https://services.global.ntt/en-us/newsroom/ntt-data-launches-ai-agent-service",
+          "source_name": "NTT DATA",
+          "signal_tag": "new",
+          "published_at": "2026-06-22"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How to Build an AI Agent for the Month-End Financial Close",
+          "summary": "Financial software provider Puzzle has published a detailed blueprint showing accounting teams how to automate their dreaded month-end close. The guide outlines a four-stage workflow where an AI agent autonomously processes transactions and prepares the books, pausing only for a human to review and approve the final numbers. This demonstrates a practical, secure way to inject AI into highly sensitive financial operations.",
+          "why_it_matters": "Finance leaders are naturally risk-averse; this step-by-step blueprint shows exactly how to implement AI safely with built-in human checkpoints.",
+          "terms": [],
+          "url": "https://puzzle.io/blog/ai-agents-month-end-close-guide",
+          "source_name": "Puzzle",
+          "signal_tag": "trending",
+          "published_at": "2026-06-24"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How Top PMs Increase Their Leverage with AI",
+          "summary": "A new framework details exactly how elite product managers are currently using artificial intelligence to handle their day-to-day workload. Instead of generic advice, the guide breaks down specific techniques for using AI to summarize user feedback, draft product requirements, and analyze market trends. It serves as a practical playbook for tech workers looking to dramatically increase their personal output.",
+          "why_it_matters": "An invaluable resource for consultants to share with client management teams looking for structured ways to train their staff on practical AI use.",
+          "terms": [],
+          "url": "https://www.lennysnewsletter.com/p/how-top-pms-increase-their-leverage",
+          "source_name": "Lenny's Newsletter",
+          "signal_tag": "trending",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How Qatar Became FIFA’s Technology Test Lab",
+          "summary": "Qatar is serving as a massive experimental testing ground for FIFA to deploy the next generation of artificial intelligence in sports. From managing stadium logistics to optimizing how referees make calls, the soccer organization is using the location to trial cutting-edge AI systems before rolling them out globally. The successful deployments are already visibly influencing how the 2026 World Cup operates.",
+          "why_it_matters": "A high-profile example of how major global brands use contained \"test lab\" environments to vet risky AI technologies before a global rollout.",
+          "terms": [],
+          "url": "https://www.wired.com/story/how-qatar-became-fifas-technology-test-lab/",
+          "source_name": "Feed: Artificial Intelligence Latest",
+          "signal_tag": "shift",
+          "published_at": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Jaiveer Singh Is Helping Robots — and Developers — Move Faster",
+          "summary": "NVIDIA robotics software engineer Jaiveer Singh leads the team developing the core infrastructure that enables artificial intelligence to operate physical machines. Instead of focusing on flashy demonstrations, his team works on the foundational circuit boards and software interfaces that let developers view camera feeds and program robots. His work bridges the gap between simulated lab models and actual robots performing useful work on the factory floor.",
+          "why_it_matters": "Singh is a key figure to track for consultants advising manufacturing or logistics clients on when physical AI will become commercially viable.",
+          "terms": [],
+          "url": "https://blogs.nvidia.com/blog/nvidia-life-jaiveer-singh/",
+          "source_name": "NVIDIA Blog",
+          "signal_tag": "trending",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "people",
+          "headline": "Kelly Mahoney on Blending Brand Building and Omnichannel Marketing",
+          "summary": "Ulta's Chief Marketing Officer Kelly Mahoney is executing a highly successful strategy that blends traditional brand building with modern digital commerce. She is driving the beauty retailer's growth by integrating artificial intelligence, TikTok shopping features, and retail media networks into a unified customer experience. Her playbook is a prime example of how legacy retailers can successfully modernize their marketing operations.",
+          "why_it_matters": "Mahoney provides a working blueprint for CMOs looking to merge AI-driven retail media with traditional brand marketing.",
+          "terms": [
+            {
+              "term": "Retail media",
+              "definition": "Advertising placed directly on a retailer's website or app, allowing brands to target shoppers exactly when they are looking to buy."
+            }
+          ],
+          "url": "https://www.marketingdive.com/news/ulta-cmo-on-blending-brand-building-omnichannel-marketing/824056/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "people",
+          "headline": "Bill Savitt: The Lawyer Who Beat Elon Musk — Twice",
+          "summary": "Corporate litigator Bill Savitt is gaining prominence after successfully facing off against Elon Musk in high-profile tech lawsuits. Most recently, Savitt played a key role during the legal battle where Musk sued Sam Altman and OpenAI over the company's direction. His aggressive questioning and deep understanding of the tech industry's legal vulnerabilities have made him a formidable force in AI-related litigation.",
+          "why_it_matters": "A critical legal mind to monitor as the battles over AI copyright, corporate structure, and data usage head into the courtroom.",
+          "terms": [],
+          "url": "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
+          "source_name": "AI | The Verge",
+          "signal_tag": "new",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "people",
+          "headline": "Dave Munichiello on Qualcomm’s Modular Purchase and AI Software Shifts",
+          "summary": "Dave Munichiello, a managing partner at the venture capital firm GV, recently discussed the massive shifts happening in the artificial intelligence hardware market. Following Qualcomm's acquisition of AI startup Modular, Munichiello broke down the reality of managing scarce AI computing power and what the current wave of corporate consolidation means for independent startups. His insights highlight how major tech companies are scrambling to control the physical infrastructure that powers AI.",
+          "why_it_matters": "Munichiello's insights are essential for consultants who need to explain the shifting landscape of AI hardware and vendor consolidation to their executive clients.",
+          "terms": [],
+          "url": "https://news.crunchbase.com/venture/ma-ai-semiconductors-hardware-qa-munichiello-gvs/",
+          "source_name": "Crunchbase News",
+          "signal_tag": "shift",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "people",
+          "headline": "Eddie Kim: How Gusto Built a New Product Line with Claude Code",
+          "summary": "Gusto's Chief Technology Officer Eddie Kim recently showcased how his lean, five-person engineering team shipped a complete AI product line in just ten weeks. By heavily utilizing Anthropic's Claude Code assistant and maintaining a constant video call, the team bypassed traditional documentation and project management entirely. Kim's approach is becoming a highly cited example of the new, ultra-fast era of software engineering.",
+          "why_it_matters": "Kim is proving that technical leadership in the AI era is less about managing large teams and more about leveraging AI agents for raw speed.",
+          "terms": [],
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-glm-52-review-and-how-gusto",
+          "source_name": "Lenny's Newsletter",
+          "signal_tag": "trending",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "people",
+          "headline": "Contact Center Executives Highlight the Real Challenges of AI",
+          "summary": "Four prominent executives managing large-scale customer contact centers recently shared their unvarnished experiences trying to implement artificial intelligence. They discussed the very real hurdles their teams face, including amplified burnout among human workers and a severe disconnect with overly optimistic corporate leaders. Their ground-level perspective reveals that rolling out AI in customer service is far more complicated than simply buying new software.",
+          "why_it_matters": "These voices provide the necessary reality check consultants need to temper a client's unrealistic expectations about instantly automating customer service.",
+          "terms": [],
+          "url": "https://www.customerexperiencedive.com/news/4-contact-center-executives-challenges-solutions-ai/823877/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "people",
+          "headline": "Ulta and Tapestry Executives on Modernizing Omnichannel Experiences",
+          "summary": "Leadership from major retail brands Ulta and Tapestry recently spoke at the CommerceNext Growth Show about navigating the new retail landscape. They emphasized that while artificial intelligence offers novel ways to drive online traffic, physical stores must still prioritize high-quality customer experiences to maintain brand loyalty. The executives warned against letting shiny new AI tools distract from fundamental retail operations.",
+          "why_it_matters": "A strong reminder for retail marketing clients that AI should enhance, not replace, the core human experience of shopping.",
+          "terms": [
+            {
+              "term": "Omnichannel",
+              "definition": "A retail strategy that provides a seamless shopping experience whether the customer is shopping online from a desktop or mobile device, by telephone, or in a physical store."
+            }
+          ],
+          "url": "https://www.customerexperiencedive.com/news/ulta-stitch-fix-tapestry-retail-omnichannel-ai-age/823828/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-06-26"
+        },
+        {
+          "section": "people",
+          "headline": "AMN Healthcare and Later Bring On New HR Talent",
+          "summary": "Major companies like healthcare recruiter AMN and influencer marketing firm Later are aggressively bringing on new human resources leadership. The hires point to a broader trend where industries heavily reliant on AI-based technology are seeking HR professionals who know how to manage a rapidly changing workforce. These new leaders are tasked with navigating the cultural shifts brought on by increased automation.",
+          "why_it_matters": "Consultants should watch these HR leaders to see how top companies successfully manage employee anxiety and restructuring during massive AI rollouts.",
+          "terms": [],
+          "url": "https://www.hrdive.com/news/amn-healthcare-later-bring-on-new-HR-talent/823574/",
+          "source_name": "HR Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "people",
+          "headline": "6 Startup Investors on What It Will Take to Fund More Black Founders",
+          "summary": "A panel of six prominent venture capital investors recently shared their strategies for broadening access to capital for overlooked founders in the tech space. They argue that the venture industry must fundamentally rethink its sourcing methods, expand beyond insular networks, and break long-held investing patterns. The investors also offered direct advice to Black founders navigating the current, AI-dominated funding environment.",
+          "why_it_matters": "Important perspectives for understanding how venture capital is shifting its diversity strategies amid the massive rush to fund AI startups.",
+          "terms": [],
+          "url": "https://news.crunchbase.com/venture/investors-funding-black-founder-recommendations/",
+          "source_name": "Crunchbase News",
+          "signal_tag": "new",
+          "published_at": "2026-06-26"
+        },
+        {
+          "section": "people",
+          "headline": "Prosecutors Use ChatGPT Logs as Evidence Against Jonathan Rinderknecht",
+          "summary": "In a precedent-setting legal move, prosecutors utilized ChatGPT conversation logs as evidence against Jonathan Rinderknecht, who was facing arson charges for a deadly Los Angeles wildfire. Along with location data and security footage, the prosecution argued that his interactions with the AI chatbot demonstrated his intent and state of mind. The case highlights how casual interactions with generative AI can be legally scrutinized in a court of law.",
+          "why_it_matters": "A stark warning for corporate clients regarding data retention: employees' prompts to AI systems can be subpoenaed and used as legal evidence.",
+          "terms": [],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+          "source_name": "AI | The Verge",
+          "signal_tag": "trending",
+          "published_at": "2026-06-28"
+        }
+      ]
+    }
+  ]
+}
