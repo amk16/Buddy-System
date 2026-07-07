@@ -1,0 +1,641 @@
+{
+  "id": "2026-07-07",
+  "generated_at": "2026-07-07T15:47:59.692896+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "case_studies",
+      "headline": "The 2026 Shadow AI Case Study on Tool Sprawl",
+      "summary": "A new data-driven report reveals that unmanaged, employee-expensed 'Shadow AI' tools now cost mid-market and enterprise organizations an average of $4,800 per employee. This uncontrolled spending is leading to lost productivity and severe software sprawl across businesses. Employees are adopting their own artificial intelligence subscriptions faster than IT departments can track them.",
+      "why_it_matters": "Consultants can use this $4,800-per-head statistic to instantly justify the need for centralized AI governance and auditing services to new clients.",
+      "terms": [
+        {
+          "term": "Shadow AI",
+          "definition": "Artificial intelligence software and tools that employees use for work without the knowledge, approval, or security oversight of their company's IT department."
+        }
+      ],
+      "url": "https://coommit.com/blog/shadow-ai-case-study",
+      "source_name": "Coommit",
+      "signal_tag": "shift",
+      "published_at": "2026-06-29"
+    },
+    {
+      "section": "case_studies",
+      "headline": "Agentic AI Penetrates the Enterprise, but Some ROI Questions Remain",
+      "summary": "A comprehensive survey spanning $66 billion in enterprise technology spending shows that 49% of companies are now deploying agentic workflows (processes where AI systems act independently). This marks a massive leap from just 33% six months ago. Despite the rapid adoption, many business leaders are still struggling to definitively prove the return on investment (ROI) of these advanced systems.",
+      "why_it_matters": "This data proves that autonomous AI is moving from experimental to mainstream, creating a massive consulting opportunity to help executives measure and prove the actual financial returns.",
+      "terms": [
+        {
+          "term": "Agentic workflows",
+          "definition": "Business processes where AI systems independently make decisions, trigger actions, and complete multi-step tasks without requiring a human to prompt every step."
+        }
+      ],
+      "url": "https://www.battery.com/blog/survey-says-agentic-ai-penetrates-the-enterprise-but-some-roi-questions-remain/",
+      "source_name": "Battery Ventures",
+      "signal_tag": "shift",
+      "published_at": "2026-06-30"
+    },
+    {
+      "section": "case_studies",
+      "headline": "An AI Now Closes 76% of Customer Service Tickets by Itself",
+      "summary": "Salesforce recently acquired the customer service automation company Fin (formerly Intercom) for $3.6 billion. An analysis of the acquisition highlights that Fin's AI agents can fully resolve 76% of customer support tickets from start to finish without any human intervention. This staggering resolution rate is forcing support teams to completely rethink their hiring models and focus remaining staff entirely on complex edge cases.",
+      "why_it_matters": "This 76% resolution benchmark is the ultimate client-ready proof point that AI customer service is no longer just a basic chatbot, but a complete replacement for tier-one support labor.",
+      "terms": [
+        {
+          "term": "Edge cases",
+          "definition": "Unusual or complex problems that fall outside of standard, predictable scenarios and require human critical thinking to solve."
+        }
+      ],
+      "url": "https://www.youtube.com/watch?v=KYbyCbssNNg",
+      "source_name": "YouTube",
+      "signal_tag": "shift",
+      "published_at": "2026-07-01"
+    },
+    {
+      "section": "news",
+      "headline": "Chinese AI models regularly pass 30 percent on OpenRouter as cost gap widens",
+      "summary": "Chinese AI models are rapidly gaining market share among US companies because they operate at a fraction of the cost of systems from leading American labs like OpenAI and Anthropic. According to CNBC, these models are now frequently capturing over 30% of the usage volume on OpenRouter (a platform that lets developers easily switch between different AI models). The aggressive pricing strategy is putting immense pressure on Western AI developers.",
+      "why_it_matters": "Marketers advising startups on AI integration must be aware of this pricing war, as recommending cheaper offshore models could dramatically lower a client's software overhead.",
+      "terms": [
+        {
+          "term": "OpenRouter",
+          "definition": "A unified interface that allows software developers to access and route their requests through many different AI models from a single account."
+        }
+      ],
+      "url": "https://the-decoder.com/chinese-ai-models-regularly-pass-30-percent-on-openrouter-as-cost-gap-widens/",
+      "source_name": "The Decoder",
+      "signal_tag": "shift",
+      "published_at": "2026-07-07"
+    },
+    {
+      "section": "news",
+      "headline": "Cloudflare replaces its blanket AI bot block with granular controls",
+      "summary": "Cloudflare, a major web security and infrastructure provider, is giving all its website customers the ability to block specific types of AI web crawlers (bots that scan sites to collect data). Instead of a single 'block all' button, site owners can now separately manage bots used for search engines, bots used to train AI models, and bots acting as personal assistants. By default, training and agent bots will be blocked on ad-supported pages starting in September 2026.",
+      "why_it_matters": "Content marketers and SEO strategists need this on their radar immediately, as these new settings dictate whether a client's website will be visible to the AI assistants their customers are using.",
+      "terms": [
+        {
+          "term": "Web crawlers",
+          "definition": "Automated programs that browse the internet to index content, historically used by search engines but now widely used by AI companies to gather training data."
+        }
+      ],
+      "url": "https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/",
+      "source_name": "The Decoder",
+      "signal_tag": "shift",
+      "published_at": "2026-07-06"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Klaviyo unveils AI marketing and customer service agents",
+          "summary": "Marketing platform Klaviyo has launched two new AI assistants: 'Composer' for marketing and 'Customer Agent' for support. These tools work together in a connected system where the marketing and support programs continuously exchange real-time customer data. This allows the AI to automatically adjust marketing campaigns based on recent support tickets or complaints.",
+          "why_it_matters": "This is a prime example to show e-commerce clients how AI breaks down the traditional walls between marketing and customer service, creating a unified customer experience.",
+          "terms": [],
+          "url": "https://marketingreport.one/ai-for-marketing/klaviyo-unveils-ai-marketing-and-customer-service-agents.html",
+          "source_name": "Industry News",
+          "signal_tag": "new",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "tools",
+          "headline": "Scribble Network: The product that makes AI recommend your brand",
+          "summary": "Scribble Network is a newly launched tool designed specifically to influence how artificial intelligence models talk about your company. It acts as a marketing platform tailored for the AI era, helping brands ensure they are cited as top recommendations when consumers ask chatbots for product suggestions.",
+          "why_it_matters": "As search traffic shifts from Google to AI chatbots, this tool represents the bleeding edge of 'AI-SEO'—a critical new service line for any marketing consultant.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/scribble-network",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "tools",
+          "headline": "Claude + NotebookLM: Ultimate AI Automation Workflow",
+          "summary": "A new tutorial demonstrates how to link Anthropic's 'Claude Cowork' with Google's 'NotebookLM' (a tool that organizes notes and documents) entirely within a web browser. This setup creates a fully automated workflow that can schedule and generate content without needing complex code.",
+          "why_it_matters": "This is a zero-code workflow that a consultant can easily set up for a marketing client to automate their daily content creation and research tasks.",
+          "terms": [],
+          "url": "https://www.youtube.com/watch?v=8tOfGkddPNM",
+          "source_name": "YouTube",
+          "signal_tag": "trending",
+          "published_at": "2026-06-23"
+        },
+        {
+          "section": "tools",
+          "headline": "BeyondTrust Launches AI Agent Security Platform",
+          "summary": "Cybersecurity firm BeyondTrust has introduced a new platform to monitor and secure autonomous AI agents operating on company computers. The tool provides live controls to audit the actions of popular enterprise assistants, such as Microsoft Copilot or Anthropic's Claude, preventing them from accessing or sharing sensitive files without permission.",
+          "why_it_matters": "When pitching AI rollouts to hesitant corporate clients, mentioning tools like this proves you understand their data security fears and have enterprise-grade solutions ready.",
+          "terms": [
+            {
+              "term": "Autonomous AI agents",
+              "definition": "Advanced AI programs that are given a goal and can independently click through software, read files, and execute tasks on a user's computer without step-by-step instructions."
+            }
+          ],
+          "url": "https://techxmedia.com/en/beyondtrust-launches-ai-agent-security-platform/",
+          "source_name": "TECHx Media",
+          "signal_tag": "new",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "tools",
+          "headline": "Amazon vets launch Primitive Labs, using AI to model customer behavior",
+          "summary": "Former Amazon executives have launched a startup called Primitive Labs. The company's AI tool creates simulated 'behavioral agents'—virtual customer personas—that interact with a product to test user interface changes and new features before they are actually built or shipped to real humans.",
+          "why_it_matters": "Marketers can use this tool to instantly simulate A/B testing on new campaign landing pages or app designs without burning actual advertising budget on live traffic.",
+          "terms": [
+            {
+              "term": "A/B testing",
+              "definition": "A marketing experiment where two versions of a webpage or campaign are shown to users to see which one performs better."
+            }
+          ],
+          "url": "https://www.geekwire.com/2026/an-agent-in-the-empty-chair-amazon-vets-launch-primitive-labs-using-ai-to-model-customer-behavior/",
+          "source_name": "GeekWire",
+          "signal_tag": "new",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "tools",
+          "headline": "7 Best AI Agents for Customer Service to Streamline Support Operations",
+          "summary": "A roundup of the top AI customer service agents highlights tools like 'Hugo', which connects directly into a company's existing customer relationship manager (CRM). Hugo can autonomously execute multi-step transactions, such as locating an order and issuing a refund, without human help.",
+          "why_it_matters": "Provides a curated list of vetted AI support vendors that you can confidently recommend to clients looking to upgrade their customer service desks.",
+          "terms": [
+            {
+              "term": "Model Context Protocol",
+              "definition": "A standardized way for AI assistants to securely connect to and pull data from a company's internal software systems and databases."
+            }
+          ],
+          "url": "https://www.advisoryexcellence.com/7-best-ai-agents-for-customer-service-to-streamline-support-operations-in-2026/",
+          "source_name": "Industry Review",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "tools",
+          "headline": "Revolutionizing Customer Support: Helo Convo by Vivaconnect Debuts AI Agent",
+          "summary": "Tech firm Vivaconnect has launched a new enterprise AI agent designed to live natively inside the WhatsApp messaging platform. The system is built to ingest complex customer support issues and resolve them entirely via text message in under 60 seconds.",
+          "why_it_matters": "A great solution to recommend to international or mobile-first clients who conduct the vast majority of their customer interactions over WhatsApp.",
+          "terms": [],
+          "url": "https://www.devdiscourse.com/article/business/3946261-revolutionizing-customer-support-helo-convo-by-vivaconnect-debuts-ai-agent",
+          "source_name": "Devdiscourse",
+          "signal_tag": "new",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "tools",
+          "headline": "Use AI Workflow Builder | Build - n8n Docs",
+          "summary": "Automation platform n8n has introduced a new feature that lets operations teams build complex software connections using plain English. Instead of manually linking different apps together, a user can simply type what they want to happen, and the AI builds the workflow pipeline automatically.",
+          "why_it_matters": "This radically lowers the technical barrier for marketing consultants, allowing you to build custom automated workflows for clients without knowing how to code.",
+          "terms": [],
+          "url": "https://docs.n8n.io/build/ways-of-building-workflows/ai-workflow-builder",
+          "source_name": "n8n Docs",
+          "signal_tag": "new",
+          "published_at": "2026-06-23"
+        },
+        {
+          "section": "tools",
+          "headline": "A Seller's Guide to Copilot and AI Agents in Dynamics 365 Sales",
+          "summary": "Microsoft has released a suite of pre-built AI agents for its Dynamics 365 sales software, including specialized bots for researching prospects and qualifying sales leads. A new deep-dive webinar explains how sales teams can safely deploy these tools while maintaining strict data security.",
+          "why_it_matters": "Essential viewing if you have clients operating in the Microsoft ecosystem who want to deploy AI but are terrified of data privacy leaks.",
+          "terms": [],
+          "url": "https://www.youtube.com/watch?v=7ZWI8GFKlCg",
+          "source_name": "C5 Insight",
+          "signal_tag": "trending",
+          "published_at": "2026-06-25"
+        },
+        {
+          "section": "tools",
+          "headline": "Zhipu AI launches ZCode to challenge Claude Code",
+          "summary": "Chinese AI company Zhipu AI has integrated its powerful new GLM-5.2 model into a development environment to challenge Western coding assistants like OpenAI's Codex. The tool offers a massive memory for long coding tasks and is being heavily subsidized with free trials to undercut American competitors on price.",
+          "why_it_matters": "A crucial radar item: global price wars are making top-tier AI coding tools cheaper and more accessible, rapidly driving down the cost of building custom software for clients.",
+          "terms": [],
+          "url": "https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/",
+          "source_name": "The Decoder",
+          "signal_tag": "new",
+          "published_at": "2026-07-06"
+        },
+        {
+          "section": "tools",
+          "headline": "Mira: AI moderated interviews that read how people feel",
+          "summary": "Mira is an AI moderator tool designed for conducting user research and interviews. The software claims to be able to 'read how people feel' during a session, analyzing emotional cues to provide deeper qualitative insights to product and marketing teams.",
+          "why_it_matters": "A cutting-edge market research tool that allows you to offer clients deep, emotionally aware focus-group data at a fraction of the traditional cost.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/mira-the-ai-moderator",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "tools",
+          "headline": "Savi’s app aims to protect consumers from realistic AI scams",
+          "summary": "Savi has launched a new mobile app designed to protect consumers from highly realistic AI-generated voice scams. The software runs in the background to detect when a caller might be using a deepfake voice—such as a scammer mimicking a loved one to demand ransom.",
+          "why_it_matters": "Highlights the growing consumer anxiety around AI impersonation, a critical trust factor that modern brands must navigate carefully when using synthetic voices in their marketing.",
+          "terms": [
+            {
+              "term": "Deepfake",
+              "definition": "Highly realistic, AI-generated audio or video that mimics a real person's voice or appearance, often used maliciously."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-07-07"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "Chinese AI models regularly pass 30 percent on OpenRouter as cost gap widens",
+          "summary": "Chinese AI models are rapidly gaining market share among US companies because they operate at a fraction of the cost of systems from leading American labs like OpenAI and Anthropic. According to CNBC, these models are now frequently capturing over 30% of the usage volume on OpenRouter (a platform that lets developers easily switch between different AI models). The aggressive pricing strategy is putting immense pressure on Western AI developers.",
+          "why_it_matters": "Marketers advising startups on AI integration must be aware of this pricing war, as recommending cheaper offshore models could dramatically lower a client's software overhead.",
+          "terms": [
+            {
+              "term": "OpenRouter",
+              "definition": "A unified interface that allows software developers to access and route their requests through many different AI models from a single account."
+            }
+          ],
+          "url": "https://the-decoder.com/chinese-ai-models-regularly-pass-30-percent-on-openrouter-as-cost-gap-widens/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "news",
+          "headline": "Cloudflare replaces its blanket AI bot block with granular controls",
+          "summary": "Cloudflare, a major web security and infrastructure provider, is giving all its website customers the ability to block specific types of AI web crawlers (bots that scan sites to collect data). Instead of a single 'block all' button, site owners can now separately manage bots used for search engines, bots used to train AI models, and bots acting as personal assistants. By default, training and agent bots will be blocked on ad-supported pages starting in September 2026.",
+          "why_it_matters": "Content marketers and SEO strategists need this on their radar immediately, as these new settings dictate whether a client's website will be visible to the AI assistants their customers are using.",
+          "terms": [
+            {
+              "term": "Web crawlers",
+              "definition": "Automated programs that browse the internet to index content, historically used by search engines but now widely used by AI companies to gather training data."
+            }
+          ],
+          "url": "https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-07-06"
+        },
+        {
+          "section": "news",
+          "headline": "OpenAI and Anthropic are giving away millions in computing power to attract startups",
+          "summary": "Major AI labs like OpenAI and Anthropic are currently engaged in a massive bidding war, giving away millions of dollars in free computing credits to attract startups to their platforms. Startups in the Y Combinator accelerator alone are being offered a combined pool of up to $800 million in free AI access.",
+          "why_it_matters": "If you are consulting for early-stage companies, you can save them a fortune by helping them aggressively negotiate for these massive pools of free AI credits.",
+          "terms": [],
+          "url": "https://the-decoder.com/openai-and-anthropic-are-giving-away-millions-in-computing-power-to-attract-startups/",
+          "source_name": "The Decoder",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "news",
+          "headline": "Data ‘tollgating’ compounds SaaS cost headaches for CFOs",
+          "summary": "Organizations are discovering unexpected costs when adopting AI, a phenomenon analysts are calling 'data tollgating'. Companies are finding that they are effectively being forced to pay third-party software vendors to buy back access to their own corporate data just to feed it into their AI models.",
+          "why_it_matters": "This is a critical financial risk to flag for clients: ensure their existing software contracts allow them to freely export their own data before committing to an expensive AI build.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/data-tollgating-compounds-saas-cost-risks-cfos-deloitte-ai/824520/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "news",
+          "headline": "AI-Linked Bond Sales Hit $220 Billion as Credit Risk Concerns Grow",
+          "summary": "Technology companies building massive AI data centers have sold a staggering $220 billion in AI-linked corporate bonds so far in 2026. This massive debt accumulation is starting to spook financial markets, raising fears about what happens if enterprise customers don't see a fast return on investment.",
+          "why_it_matters": "Provides vital macroeconomic context to share with executive clients, showing that the entire tech industry is under immense pressure to prove AI can actually generate revenue.",
+          "terms": [
+            {
+              "term": "Bonds",
+              "definition": "A type of loan where investors give money to a company in exchange for regular interest payments and the return of their original money at a later date."
+            }
+          ],
+          "url": "https://www.tradingview.com/news/gurufocus:5020f2f3b094b:0-ai-linked-bond-sales-hit-220-billion-as-credit-risk-concerns-grow/",
+          "source_name": "TradingView",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "news",
+          "headline": "Every major tech layoff in 2026 that has name-checked AI",
+          "summary": "A running tracker reveals that the technology sector has seen a surge in layoffs throughout 2026, with over 127,000 workers cut so far. Crucially, a growing number of major employers are explicitly citing 'artificial intelligence' as the reason for restructuring and eliminating roles.",
+          "why_it_matters": "A sobering reality check on the immediate human impact of AI adoption, useful for grounding conversations with clients about workforce restructuring.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-07-06"
+        },
+        {
+          "section": "news",
+          "headline": "The B2B payments infrastructure gap: Most platforms weren’t built for agentic AI",
+          "summary": "A new industry report argues that legacy business-to-business (B2B) payment software is fundamentally incompatible with the new wave of 'agentic AI' (AI that makes autonomous decisions). Older tech stacks were built for rigid, rule-based automation, not software agents that adapt and negotiate on the fly.",
+          "why_it_matters": "A clear warning to B2B clients that they cannot simply plug advanced AI agents into their outdated billing software without causing catastrophic errors.",
+          "terms": [],
+          "url": "https://www.paymentsdive.com/spons/the-b2b-payments-infrastructure-gap-most-platforms-werent-built-for-agent/824370/",
+          "source_name": "Payments Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-06"
+        },
+        {
+          "section": "news",
+          "headline": "AI in retail is only as good as its data foundation",
+          "summary": "Retailers rushing to implement advanced AI shopping agents are hitting a wall due to messy, unstructured product databases. Industry experts warn that 'agentic commerce'—where AI buys and sells on behalf of users—is completely impossible to scale unless a brand's underlying product data is perfectly clean and categorized.",
+          "why_it_matters": "This gives you a powerful upsell angle: convince retail clients they must pay for a massive data-cleanup project before they can buy the flashy AI tools they actually want.",
+          "terms": [],
+          "url": "https://www.retaildive.com/spons/ai-in-retail-is-only-as-good-as-its-data-foundation/824409/",
+          "source_name": "Retail Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-06"
+        },
+        {
+          "section": "news",
+          "headline": "GPT-4's dominance lasted a year while today's top models barely survive seven weeks at the top",
+          "summary": "A historical analysis of AI benchmarks shows that while OpenAI's GPT-4 held the title of 'world's best model' for a full year, the industry moves much faster today. The lead position has changed hands 17 times recently, with the top model holding its crown for an average of just seven weeks before being beaten.",
+          "why_it_matters": "Proves to clients why they should never lock themselves into a long-term contract with a single AI provider, as the 'best' model changes almost monthly.",
+          "terms": [],
+          "url": "https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-07-06"
+        },
+        {
+          "section": "news",
+          "headline": "Apollo economist warns AI profit gains outside tech could take 'well beyond' what Wall Street expects",
+          "summary": "Torsten Slok, chief economist at Apollo Global Management, has warned that the widespread corporate profits expected from AI adoption will take 'well beyond' what Wall Street currently anticipates. He cautions that while tech companies are making money selling the tools, non-tech businesses are struggling to translate AI into actual bottom-line growth.",
+          "why_it_matters": "Sets realistic expectations for impatient executives who expect AI to instantly double their profits overnight.",
+          "terms": [],
+          "url": "https://the-decoder.com/apollo-economist-warns-ai-profit-gains-outside-tech-could-take-well-beyond-what-wall-street-expects/",
+          "source_name": "The Decoder",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "news",
+          "headline": "How ChatGPT adoption has expanded",
+          "summary": "New internal data released by OpenAI shows that global adoption of ChatGPT continues to accelerate across all regions and languages. Users are moving beyond basic text generation and are increasingly relying on the platform's advanced capabilities, such as data analysis and coding.",
+          "why_it_matters": "Data you can point to when reassuring hesitant clients that consumer and employee comfort with AI interfaces is growing massively across the board.",
+          "terms": [],
+          "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+          "source_name": "OpenAI News",
+          "signal_tag": "trending",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "news",
+          "headline": "A Significant Increase in Digital Labor Automation",
+          "summary": "Recent benchmark testing shows that Anthropic's new Fable 5 model achieved a 16.1% full-automation rate on the 'Remote Labor Index'. This proves that artificial intelligence is rapidly mastering the ability to complete economically valuable, multi-step digital tasks without any human supervision.",
+          "why_it_matters": "Provides a hard, numerical metric for clients wondering exactly what percentage of their remote workforce's routine tasks could be automated today.",
+          "terms": [],
+          "url": "https://safe.ai/blog/significant-increase-in-digital-labor-automation",
+          "source_name": "Center for AI Safety (CAIS)",
+          "signal_tag": "shift",
+          "published_at": "2026-07-01"
+        },
+        {
+          "section": "news",
+          "headline": "Agentic AI Isn't One Workload. It's an End-to-End Workflow.",
+          "summary": "Chipmaker AMD published an analysis explaining that complex, multi-step AI workflows require a totally different hardware approach than simple chatbots. Instead of relying on a single massive graphics chip, companies deploying AI agents need a diverse portfolio of computing profiles to handle different parts of the task efficiently.",
+          "why_it_matters": "A plain-language guide that helps you sound credible when discussing the underlying IT infrastructure required to support your client's grand AI ambitions.",
+          "terms": [],
+          "url": "https://www.amd.com/en/blogs/2026/agentic-ai-isnt-one-workload-its-an-end-to-end-workflow.html",
+          "source_name": "AMD",
+          "signal_tag": "shift",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "news",
+          "headline": "Gemini Developer API pricing",
+          "summary": "Google has updated the pricing structure for developers using its Gemini AI models, introducing a new 'Batch API' feature. This allows enterprise operations teams to process massive volumes of data at a 50% discount, drastically lowering the cost of running large-scale, non-urgent AI workflows.",
+          "why_it_matters": "A huge cost-saving angle to present to clients: by delaying non-urgent AI tasks (like end-of-month data sorting) to off-peak hours, you can instantly cut their AI bills in half.",
+          "terms": [
+            {
+              "term": "API",
+              "definition": "A software bridge that allows two different computer programs to talk to each other and share data."
+            }
+          ],
+          "url": "https://ai.google.dev/gemini-api/docs/pricing",
+          "source_name": "Google AI Studio",
+          "signal_tag": "shift",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "news",
+          "headline": "Microsoft Frontier Company: AI engineering that amplifies and protects your intelligence",
+          "summary": "Microsoft has launched 'Frontier Company', a brand new operating division backed by a $2.5 billion investment and 6,000 specialized engineers. This team will embed directly with enterprise customers to help them deploy complex AI systems and prove actual return on investment.",
+          "why_it_matters": "Shows that even the biggest tech companies realize software isn't enough; successful AI requires hands-on consulting and engineering, validating your own service model.",
+          "terms": [],
+          "url": "https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/",
+          "source_name": "Microsoft",
+          "signal_tag": "new",
+          "published_at": "2026-07-02"
+        },
+        {
+          "section": "news",
+          "headline": "DXC Opens Flagship AI-first Customer Experience Center in Bengaluru",
+          "summary": "Global IT services firm DXC Technology has opened a massive 200,000-square-foot 'AI Hub' in Bengaluru, India. The facility is explicitly designed as a customer experience center to help large corporate clients move past small AI experiments and successfully scale the technology across their entire business.",
+          "why_it_matters": "A signal that the global IT outsourcing industry is pivoting heavily toward AI implementation, creating a massive wave of market education that independent consultants can piggyback on.",
+          "terms": [],
+          "url": "https://www.prnewswire.com/news-releases/dxc-opens-flagship-ai-first-customer-experience-center-in-bengaluru-302819420.html",
+          "source_name": "PR Newswire",
+          "signal_tag": "new",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "news",
+          "headline": "Kinetic IT deepens AI expertise with new division launch",
+          "summary": "Kinetic IT has launched a specialized engineering division dedicated to building highly reliable AI tools for government agencies and critical infrastructure operators. The division utilizes a 'forward deployed' model, embedding engineers directly alongside the client to ensure the AI meets strict security requirements.",
+          "why_it_matters": "Demonstrates that highly regulated industries are officially open for AI business, provided consultants can offer extreme security and hands-on guidance.",
+          "terms": [],
+          "url": "https://www.arnnet.com.au/article/4193590/kinetic-it-deepens-ai-expertise-with-new-division-launch.html",
+          "source_name": "ARNnet",
+          "signal_tag": "new",
+          "published_at": "2026-07-07"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "The 2026 Shadow AI Case Study on Tool Sprawl",
+          "summary": "A new data-driven report reveals that unmanaged, employee-expensed 'Shadow AI' tools now cost mid-market and enterprise organizations an average of $4,800 per employee. This uncontrolled spending is leading to lost productivity and severe software sprawl across businesses. Employees are adopting their own artificial intelligence subscriptions faster than IT departments can track them.",
+          "why_it_matters": "Consultants can use this $4,800-per-head statistic to instantly justify the need for centralized AI governance and auditing services to new clients.",
+          "terms": [
+            {
+              "term": "Shadow AI",
+              "definition": "Artificial intelligence software and tools that employees use for work without the knowledge, approval, or security oversight of their company's IT department."
+            }
+          ],
+          "url": "https://coommit.com/blog/shadow-ai-case-study",
+          "source_name": "Coommit",
+          "signal_tag": "shift",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Agentic AI Penetrates the Enterprise, but Some ROI Questions Remain",
+          "summary": "A comprehensive survey spanning $66 billion in enterprise technology spending shows that 49% of companies are now deploying agentic workflows (processes where AI systems act independently). This marks a massive leap from just 33% six months ago. Despite the rapid adoption, many business leaders are still struggling to definitively prove the return on investment (ROI) of these advanced systems.",
+          "why_it_matters": "This data proves that autonomous AI is moving from experimental to mainstream, creating a massive consulting opportunity to help executives measure and prove the actual financial returns.",
+          "terms": [
+            {
+              "term": "Agentic workflows",
+              "definition": "Business processes where AI systems independently make decisions, trigger actions, and complete multi-step tasks without requiring a human to prompt every step."
+            }
+          ],
+          "url": "https://www.battery.com/blog/survey-says-agentic-ai-penetrates-the-enterprise-but-some-roi-questions-remain/",
+          "source_name": "Battery Ventures",
+          "signal_tag": "shift",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "case_studies",
+          "headline": "An AI Now Closes 76% of Customer Service Tickets by Itself",
+          "summary": "Salesforce recently acquired the customer service automation company Fin (formerly Intercom) for $3.6 billion. An analysis of the acquisition highlights that Fin's AI agents can fully resolve 76% of customer support tickets from start to finish without any human intervention. This staggering resolution rate is forcing support teams to completely rethink their hiring models and focus remaining staff entirely on complex edge cases.",
+          "why_it_matters": "This 76% resolution benchmark is the ultimate client-ready proof point that AI customer service is no longer just a basic chatbot, but a complete replacement for tier-one support labor.",
+          "terms": [
+            {
+              "term": "Edge cases",
+              "definition": "Unusual or complex problems that fall outside of standard, predictable scenarios and require human critical thinking to solve."
+            }
+          ],
+          "url": "https://www.youtube.com/watch?v=KYbyCbssNNg",
+          "source_name": "YouTube",
+          "signal_tag": "shift",
+          "published_at": "2026-07-01"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Enterprise AI Agent Use Cases: Real Examples and ROI (2026)",
+          "summary": "A roundup of massive corporate AI deployments reveals staggering numbers. Klarna has replaced 853 distinct staff workflows with AI, chipmaker AMD slashed their human resources ticket resolution times by 80%, and General Mills saved $20 million by letting AI make shipping and logistics decisions.",
+          "why_it_matters": "When a client asks 'who is actually using this at scale?', this article gives you household names and hard dollar figures to drop in the meeting.",
+          "terms": [],
+          "url": "https://aihive.global/blog/enterprise-ai-agent-use-cases/",
+          "source_name": "Industry Blog",
+          "signal_tag": "trending",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How Ornn built 8-figures in active pipeline across a new market with 11x",
+          "summary": "Financial startup Ornn deployed an AI sales representative named 'Alice' to handle their cold outreach. The AI agent reduced a brutal 30-hour manual outbound sales process down to just one hour of work, while simultaneously scaling up the number of meetings booked with potential clients.",
+          "why_it_matters": "Outbound sales is one of the highest-friction areas in marketing; this is a perfect case study for recommending AI sales development reps (SDRs) to B2B clients.",
+          "terms": [],
+          "url": "https://www.11x.ai/case-study/ornn",
+          "source_name": "11x Case Study",
+          "signal_tag": "trending",
+          "published_at": null
+        },
+        {
+          "section": "case_studies",
+          "headline": "How AI Is Reshaping International Business Operations: 5 Case Studies",
+          "summary": "PepsiCo deployed the AutoScheduler AI platform to manage its complex warehouse operations. The artificial intelligence system took over labor scheduling and logistics planning, resulting in a 12% increase in how fast inventory moves through the warehouse every hour.",
+          "why_it_matters": "Shows that AI isn't just for writing emails—it generates massive hard-cost savings in physical supply chains and operations.",
+          "terms": [
+            {
+              "term": "Orchestration platform",
+              "definition": "A central software system that coordinates and manages multiple different programs or automated tasks to work together efficiently."
+            }
+          ],
+          "url": "https://online.utpb.edu/about-us/articles/business/how-ai-is-reshaping-international-business-operations-5-case-studies/",
+          "source_name": "Business Operations Review",
+          "signal_tag": "shift",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Taco Bell revs up drive-thru AI deployment",
+          "summary": "Fast-food giant Taco Bell is rapidly expanding its use of voice-based artificial intelligence in drive-thrus through a partnership with tech vendor Omilia. The automated voice ordering technology is already deployed in nearly 900 locations across the United States.",
+          "why_it_matters": "Demonstrates to retail and franchise clients that conversational AI is reliable enough to handle live, messy, high-volume consumer interactions.",
+          "terms": [],
+          "url": "https://www.restaurantdive.com/news/taco-bell-omilia-drive-thru-ai-deployment/824564/",
+          "source_name": "Restaurant Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Why Conair is moving fast to adopt AI-driven video ads",
+          "summary": "Appliance maker Conair tested Amazon's new AI video generation tool to create an advertisement for a Cuisinart product. The artificial intelligence system reduced the standard production timeline by several months, though human editors were still required to polish the final cut.",
+          "why_it_matters": "A realistic, grounded example of AI in creative marketing—it slashes production timelines drastically but still requires human taste to cross the finish line.",
+          "terms": [],
+          "url": "https://www.marketingdive.com/news/why-conair-is-moving-fast-to-adopt-ai-driven-video-ads/824270/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-06"
+        },
+        {
+          "section": "case_studies",
+          "headline": "5 ways hospitals can use AI to save money",
+          "summary": "Healthcare network Kaiser Permanente deployed an ambient documentation AI tool called Abridge across 40 of its hospitals. By automatically listening to patient visits and writing the medical notes, the software saved doctors 16,000 hours of administrative work over a 15-month period.",
+          "why_it_matters": "A perfect illustration of how AI can remove drudgery from highly-paid professionals, a pitch that resonates with law firms, agencies, and consultancies.",
+          "terms": [],
+          "url": "https://aegishealth.us/blog/5-ways-hospitals-can-use-ai-to-save-money",
+          "source_name": "Aegis Health",
+          "signal_tag": "trending",
+          "published_at": "2026-07-03"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Lightbulb Credit Case Study - RayTen | Proposal Automation Success",
+          "summary": "A specialized automation firm built a custom AI proposal generator for a credit company. The new system dropped the time required to draft a complex financial proposal from two hours down to just 15 minutes, representing an 80% reduction in manual effort.",
+          "why_it_matters": "Proposal writing is a universal pain point in B2B service businesses; automating it is an easy, high-value win to pitch to new consulting clients.",
+          "terms": [],
+          "url": "https://www.rayten.ai/case-study/lightbulb-credit",
+          "source_name": "RayTen",
+          "signal_tag": "trending",
+          "published_at": null
+        },
+        {
+          "section": "case_studies",
+          "headline": "Reclaim.ai Case Study | Embedded Recruiting Success | Invenio",
+          "summary": "Software company Reclaim.ai used an 'embedded AI' recruiting model to handle the messy logistics of scheduling candidate interviews. The automated system streamlined the entire hiring pipeline, saving the company $162,000 that would have otherwise gone to external recruitment agencies.",
+          "why_it_matters": "Highlights a highly specific, repeatable operations use case—automating HR logistics—that saves immediate, measurable cash.",
+          "terms": [],
+          "url": "https://www.inveniotalent.com/case-studies/reclaim-ai",
+          "source_name": "Invenio",
+          "signal_tag": "new",
+          "published_at": "2026-07-02"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Reddit is using LLMs to solve a problem LLMs largely created",
+          "summary": "In response to a flood of spam generated by artificial intelligence, Reddit is now deploying its own Large Language Models (LLMs) to scan and moderate the platform. The company found that fighting fire with fire—using AI to catch AI—is the only way to manage the sheer volume of synthetic junk content.",
+          "why_it_matters": "A warning flag to raise with community managers and forum operators: if you aren't using AI to moderate your channels, you will be overwhelmed by AI-generated spam.",
+          "terms": [
+            {
+              "term": "Large Language Models (LLMs)",
+              "definition": "The underlying technology behind modern AI chatbots, trained on vast amounts of text to understand and generate human-like writing."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
+          "summary": "The CEO of web infrastructure giant Vercel is leading the conversation on how to make AI economically viable for real businesses. He argues that developers must split complex AI 'agents' away from the massive, expensive foundational models, focusing instead on optimizing the price-to-performance ratio for everyday production tasks.",
+          "why_it_matters": "Rauch is a key voice in the tech community; following him will give you the vocabulary needed to explain to clients why 'bigger AI' isn't always 'better AI'.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-07-06"
+        }
+      ]
+    }
+  ]
+}
