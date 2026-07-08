@@ -1,0 +1,435 @@
+{
+  "id": "2026-07-08",
+  "generated_at": "2026-07-08T15:19:01.249369+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "Microsoft Replaces External AI Models with In-House Tech to Cut Costs",
+      "summary": "Microsoft is actively replacing artificial intelligence models from OpenAI and Anthropic with its own internally developed software across products like Excel and Outlook. The company’s AI leadership aims to drastically reduce the massive computing costs associated with running millions of user queries. This strategic shift will help Microsoft maintain profit margins on its fixed-price Copilot subscriptions.",
+      "why_it_matters": "You must warn clients that the underlying AI powering their enterprise software may change as big tech companies prioritize cost-cutting over maximum capability.",
+      "terms": [
+        {
+          "term": "Copilot",
+          "definition": "Microsoft's brand name for its suite of artificial intelligence assistants integrated into everyday software like Word and Excel."
+        }
+      ],
+      "url": "https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/",
+      "source_name": "The Decoder",
+      "signal_tag": "shift",
+      "published_at": "2026-07-07"
+    },
+    {
+      "section": "case_studies",
+      "headline": "Construction Firms Use AI to Cut Estimation Time from 60 Hours to 8",
+      "summary": "Construction companies are achieving major returns on investment by adopting artificial intelligence to handle project estimations. The technology has reduced the time required to complete manual material takeoffs from up to 60 hours down to just eight hours. This massive reduction in labor allows firms to bid on more projects while significantly lowering their overhead costs.",
+      "why_it_matters": "This provides a highly specific, numbers-driven case study proving that AI can deliver immediate ROI in traditional, non-tech industries.",
+      "terms": [
+        {
+          "term": "Takeoff",
+          "definition": "The process in construction where estimators review blueprints to determine the exact quantities of materials needed for a project."
+        }
+      ],
+      "url": "https://www.ruh.ai/blogs/construction-takeoff-ai-roi-estimators",
+      "source_name": "Ruh AI",
+      "signal_tag": "trending",
+      "published_at": "2026-07-08"
+    },
+    {
+      "section": "tools",
+      "headline": "Clockwork.ai Launches Mira, an AI CFO for Small Businesses",
+      "summary": "Clockwork.ai has introduced Mira, an autonomous financial planning analyst that connects directly to accounting software like QuickBooks and Xero. The tool can automatically generate financial forecasts, analyze cash flow, and run scenario planning without requiring manual spreadsheet updates. By handling these complex data tasks, Mira is designed to give smaller companies access to high-level financial insights they normally couldn't afford.",
+      "why_it_matters": "This is a perfect, tangible tool to recommend to small and mid-sized clients looking to automate back-office financial tasks.",
+      "terms": [
+        {
+          "term": "FP&A",
+          "definition": "Financial Planning and Analysis refers to the budgeting, forecasting, and analytical processes that support a company's financial health."
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/clockworkai-launches-mira-the-ai-giving-3-000-businesses-a-cfo-they-could-never-afford-302820886.html",
+      "source_name": "PR Newswire",
+      "signal_tag": "new",
+      "published_at": "2026-07-08"
+    },
+    {
+      "section": "news",
+      "headline": "AI Agents Projected to Disrupt $234 Billion in Software Spending",
+      "summary": "Research firm Gartner predicts that autonomous artificial intelligence agents will soon upend $234 billion in traditional software spending. Because these agents can independently operate software on behalf of users, businesses may no longer need standard visual dashboards or traditional user interfaces. This shift is expected to fundamentally alter how software companies price and design their products.",
+      "why_it_matters": "This is a massive market shift that you can use to explain why clients should rethink long-term software contracts and vendor relationships.",
+      "terms": [
+        {
+          "term": "SaaS",
+          "definition": "Software as a Service is a model where software is licensed on a subscription basis and hosted centrally."
+        }
+      ],
+      "url": "https://www.ciodive.com/news/agentic-ai-disrupt-234-billion-saas-spending/824530/",
+      "source_name": "CIO Dive - Latest News",
+      "signal_tag": "shift",
+      "published_at": "2026-07-06"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Clockwork.ai Launches Mira, an AI CFO for Small Businesses",
+          "summary": "Clockwork.ai has introduced Mira, an autonomous financial planning analyst that connects directly to accounting software like QuickBooks and Xero. The tool can automatically generate financial forecasts, analyze cash flow, and run scenario planning without requiring manual spreadsheet updates. By handling these complex data tasks, Mira is designed to give smaller companies access to high-level financial insights they normally couldn't afford.",
+          "why_it_matters": "This is a perfect, tangible tool to recommend to small and mid-sized clients looking to automate back-office financial tasks.",
+          "terms": [
+            {
+              "term": "FP&A",
+              "definition": "Financial Planning and Analysis refers to the budgeting, forecasting, and analytical processes that support a company's financial health."
+            }
+          ],
+          "url": "https://www.prnewswire.com/news-releases/clockworkai-launches-mira-the-ai-giving-3-000-businesses-a-cfo-they-could-never-afford-302820886.html",
+          "source_name": "PR Newswire",
+          "signal_tag": "new",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "tools",
+          "headline": "Startup Pie Raises $19.5 Million for AI Marketing Tools Built for Local Shops",
+          "summary": "Pie has secured $19.5 million in funding to launch Front Desk, an artificial intelligence assistant tailored for local merchants. The software autonomously handles incoming phone calls, manages customer reservations, and runs automated marketing campaigns. The platform aims to give small physical businesses the same advanced customer engagement tools typically reserved for larger tech-savvy enterprises.",
+          "why_it_matters": "This highlights a growing market of AI tools specifically designed for brick-and-mortar clients, offering a clear use case for local business recommendations.",
+          "terms": [],
+          "url": "https://siliconangle.com/2026/06/30/pie-launches-19-5m-bring-ai-marketing-small-businesses/",
+          "source_name": "SiliconANGLE",
+          "signal_tag": "new",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "tools",
+          "headline": "Microsoft 365 Copilot Adds Service Agent for Customer Support Teams",
+          "summary": "Microsoft has officially released its Service Agent for Microsoft 365 Copilot, making it widely available to businesses. The update provides customer service teams with over 70 new automated tools to summarize customer interactions and take direct actions within the Dynamics 365 platform. This allows support representatives to bypass manual data entry and focus directly on resolving customer issues.",
+          "why_it_matters": "You can use this to show enterprise clients exactly how Microsoft's AI integrations are maturing to handle specific departmental workflows like customer support.",
+          "terms": [
+            {
+              "term": "Copilot",
+              "definition": "Microsoft's brand name for its suite of artificial intelligence assistants integrated into everyday software like Word and Excel."
+            }
+          ],
+          "url": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/06/30/service-agent-general-availability/",
+          "source_name": "Microsoft",
+          "signal_tag": "new",
+          "published_at": "2026-06-30"
+        },
+        {
+          "section": "tools",
+          "headline": "Anthropic Expands Claude Cowork to Mobile and Web Browsers",
+          "summary": "Anthropic is rolling out its Claude Cowork artificial intelligence platform to mobile devices and web browsers, moving beyond its desktop-only application. The system can now continue working on complex tasks in the background even if a user closes their laptop. When the AI needs a human decision to proceed, it simply pings the user's phone for approval.",
+          "why_it_matters": "This shift toward background, always-on AI agents demonstrates to clients how workflows are moving away from active chatting to delegating and monitoring.",
+          "terms": [],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+          "source_name": "AI | The Verge",
+          "signal_tag": "shift",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "tools",
+          "headline": "Google Upgrades Gemini Agents to Run Tasks in the Background",
+          "summary": "Google DeepMind has updated its Gemini artificial intelligence platform to allow its software agents to run tasks independently in the background. The update also enables these agents to connect directly to remote servers and refresh their own security credentials without losing track of their current work. These changes make it significantly easier for developers to build AI tools that operate without constant human supervision.",
+          "why_it_matters": "This technical upgrade signals a rapid industry shift toward highly autonomous AI that can complete complex, long-running tasks for businesses without hand-holding.",
+          "terms": [
+            {
+              "term": "MCP",
+              "definition": "Model Context Protocol is an open standard that allows artificial intelligence models to securely connect to external data sources and tools."
+            }
+          ],
+          "url": "https://the-decoder.com/google-deepmind-adds-background-execution-and-mcp-support-to-gemini-api-managed-agents/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "tools",
+          "headline": "Meta Launches Muse Image Generator with Instagram Integration",
+          "summary": "Meta has released Muse Image, a new artificial intelligence image generator integrated directly into its social apps like Instagram and WhatsApp. The tool can create high-quality images based on text prompts and includes a controversial feature that allows users to pull photos of other Instagram accounts into their generations. Public account holders must actively opt out if they do not want their likeness used by the AI.",
+          "why_it_matters": "Marketers need to understand these new visual generation tools for ad creative, while also navigating the brand safety and privacy risks associated with user-generated imagery.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "tools",
+          "headline": "Knowledge Atlas by Fini Creates Self-Updating Company Databases",
+          "summary": "Knowledge Atlas by Fini is a new tool designed to serve as an intelligent, self-learning company knowledge base. It ingests a company's internal documents and automatically updates its understanding as new information is added or old policies change. This ensures that when employees or AI agents query the system for answers, they receive the most accurate and up-to-date business context.",
+          "why_it_matters": "Data fragmentation is a massive hurdle for enterprise AI; recommending tools that automatically organize internal knowledge is a high-value service for consultants.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/fini-2",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "tools",
+          "headline": "Ogment AI Brings an Autonomous Coworker Directly into Slack",
+          "summary": "Ogment AI has released a tool that embeds an artificial intelligence agent directly into Slack, acting as a virtual team member. Employees can tag the agent in conversations to have it fetch data, summarize threads, or trigger workflows in other connected software platforms. This seamless integration aims to bring AI capabilities directly into the chat interfaces where teams already work.",
+          "why_it_matters": "Recommending an AI tool that lives inside Slack is one of the easiest ways to drive immediate, low-friction adoption for hesitant clients.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/ogment-mcp-builder",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "Microsoft Replaces External AI Models with In-House Tech to Cut Costs",
+          "summary": "Microsoft is actively replacing artificial intelligence models from OpenAI and Anthropic with its own internally developed software across products like Excel and Outlook. The company’s AI leadership aims to drastically reduce the massive computing costs associated with running millions of user queries. This strategic shift will help Microsoft maintain profit margins on its fixed-price Copilot subscriptions.",
+          "why_it_matters": "You must warn clients that the underlying AI powering their enterprise software may change as big tech companies prioritize cost-cutting over maximum capability.",
+          "terms": [
+            {
+              "term": "Copilot",
+              "definition": "Microsoft's brand name for its suite of artificial intelligence assistants integrated into everyday software like Word and Excel."
+            }
+          ],
+          "url": "https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "news",
+          "headline": "AI Agents Projected to Disrupt $234 Billion in Software Spending",
+          "summary": "Research firm Gartner predicts that autonomous artificial intelligence agents will soon upend $234 billion in traditional software spending. Because these agents can independently operate software on behalf of users, businesses may no longer need standard visual dashboards or traditional user interfaces. This shift is expected to fundamentally alter how software companies price and design their products.",
+          "why_it_matters": "This is a massive market shift that you can use to explain why clients should rethink long-term software contracts and vendor relationships.",
+          "terms": [
+            {
+              "term": "SaaS",
+              "definition": "Software as a Service is a model where software is licensed on a subscription basis and hosted centrally."
+            }
+          ],
+          "url": "https://www.ciodive.com/news/agentic-ai-disrupt-234-billion-saas-spending/824530/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-07-06"
+        },
+        {
+          "section": "news",
+          "headline": "OpenAI Set to Launch GPT-5.6 Following Government Delay",
+          "summary": "OpenAI is scheduled to release its GPT-5.6 model this Thursday after the U.S. government lifted a temporary ban following additional safety testing. The new model, nicknamed 'Sol,' reportedly beats competitor Anthropic's top models on coding tests while costing about half as much to operate. However, binding federal standards for future artificial intelligence approvals still remain undefined.",
+          "why_it_matters": "The release of a cheaper, more powerful model alters the cost-benefit math that you use when advising clients on which AI provider to adopt.",
+          "terms": [],
+          "url": "https://the-decoder.com/openais-gpt-5-6-launches-thursday-after-a-delay-forced-by-the-u-s-government/",
+          "source_name": "The Decoder",
+          "signal_tag": "new",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "news",
+          "headline": "Accenture and Google Launch AI Services specifically for Mid-Market Businesses",
+          "summary": "Accenture has launched a new division called Accenture Edge in collaboration with Google Cloud, aimed directly at mid-sized businesses. The service is designed to help companies that lack massive enterprise budgets deploy highly autonomous AI agents and upgrade their technology systems. The leadership noted that mid-market companies face unique scaling setbacks that require tailored, more affordable consulting solutions.",
+          "why_it_matters": "This validates the massive consulting opportunity in the mid-market space, showing that even global giants are pivoting to serve the exact clients you target.",
+          "terms": [],
+          "url": "https://newsroom.accenture.com/news/2026/accenture-edge-and-google-cloud-bring-scalable-agentic-ai-solutions-to-mid-market-companies",
+          "source_name": "Accenture",
+          "signal_tag": "new",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "news",
+          "headline": "AIsa Secures $6.5 Million to Build a Payment Network for AI Agents",
+          "summary": "AIsa has raised $6.5 million in a funding round co-led by Alibaba and Tribe Capital to build a transaction network explicitly for artificial intelligence agents. The platform creates a unified layer that allows autonomous software to discover, access, and pay for external data and software tools without human intervention. This infrastructure aims to solve the upcoming problem of how AI agents will handle corporate budgets and expenses.",
+          "why_it_matters": "As clients deploy AI agents to do real work, they will inevitably ask how these bots can securely spend money; this shows the infrastructure is already being built.",
+          "terms": [],
+          "url": "https://markets.businessinsider.com/news/stocks/aisa-raises-6-5m-co-led-by-alibaba-and-tribe-capital-to-build-the-transaction-network-for-ai-agents-1036305081",
+          "source_name": "Markets Insider",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "news",
+          "headline": "Survey: Over Half of CEOs Fear Falling Behind Due to AI Underinvestment",
+          "summary": "A recent survey of chief executives reveals that more than 50% are actively concerned their businesses will lose competitive ground due to underinvesting in artificial intelligence. The primary fear among leadership is that their current technology foundations are too outdated to support modern AI scaling. This anxiety highlights a growing pressure on executives to modernize infrastructure immediately to avoid being outpaced.",
+          "why_it_matters": "This statistic is excellent leverage for your consulting pitches, validating executive anxiety and creating urgency to start foundational AI work.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/ceos-fear-ai-underinvestment/824598/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "news",
+          "headline": "UK Financial Watchdog Warns Regulators Must Adapt to Autonomous AI",
+          "summary": "The Bank of England is actively reviewing whether current financial regulations are sufficient to cover the rise of highly autonomous AI agents in banking and trading. Deputy Governor Sarah Breeden noted that existing frameworks simply were not designed for software that can execute transactions without direct human instruction. Regulators are now treating the oversight of AI autonomy as a primary challenge for the coming years.",
+          "why_it_matters": "For clients in heavily regulated industries like finance, this serves as an important warning to build strict human oversight into their AI workflows before regulators mandate it.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/ai-reshape-financial-services-regulation/824534/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-07-06"
+        },
+        {
+          "section": "news",
+          "headline": "AI Energy Demands Threaten US Manufacturing Growth Plans",
+          "summary": "The massive electricity requirements of new artificial intelligence data centers are beginning to squeeze the U.S. power grid, particularly in manufacturing-heavy regions. The soaring cost of electricity is threatening the profitability of traditional manufacturers in the Rust Belt. Analysts warn that this energy conflict directly threatens political initiatives aimed at reviving domestic manufacturing.",
+          "why_it_matters": "Understanding the physical constraints of AI (like energy costs) gives you a deeper, more sophisticated perspective to share with operations and supply chain clients.",
+          "terms": [],
+          "url": "https://arstechnica.com/tech-policy/2026/07/us-manufacturers-energy-costs-soar-because-of-ai-data-center-demand/",
+          "source_name": "AI - Ars Technica",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "news",
+          "headline": "AI Costs More Than The People It Replaced",
+          "summary": "A growing number of businesses are discovering a profitability gap where using artificial intelligence actually costs more than human labor for certain tasks. Current data shows that roughly 95% of enterprise AI usage relies on expensive, premium models for incredibly simple actions. This mismatch in task complexity and processing power is wiping out the financial benefits of automation for many companies.",
+          "why_it_matters": "This is a powerful reality check for clients; you can add immense value by helping them map cheaper, smaller AI models to simple tasks to actually achieve cost savings.",
+          "terms": [],
+          "url": "https://www.forbes.com/sites/jemmagreen/2026/07/02/ai-costs-more-than-the-people-it-replaced/",
+          "source_name": "Forbes",
+          "signal_tag": "shift",
+          "published_at": "2026-07-02"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "Construction Firms Use AI to Cut Estimation Time from 60 Hours to 8",
+          "summary": "Construction companies are achieving major returns on investment by adopting artificial intelligence to handle project estimations. The technology has reduced the time required to complete manual material takeoffs from up to 60 hours down to just eight hours. This massive reduction in labor allows firms to bid on more projects while significantly lowering their overhead costs.",
+          "why_it_matters": "This provides a highly specific, numbers-driven case study proving that AI can deliver immediate ROI in traditional, non-tech industries.",
+          "terms": [
+            {
+              "term": "Takeoff",
+              "definition": "The process in construction where estimators review blueprints to determine the exact quantities of materials needed for a project."
+            }
+          ],
+          "url": "https://www.ruh.ai/blogs/construction-takeoff-ai-roi-estimators",
+          "source_name": "Ruh AI",
+          "signal_tag": "trending",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Australian Payments Plus Accelerates Operations with ChatGPT",
+          "summary": "Australian Payments Plus has integrated ChatGPT Enterprise and the Codex coding tool to navigate the extreme complexity of the financial payments sector. The organization uses these artificial intelligence systems to speed up workflows and improve the quality of their technical output. Crucially, the company maintains human oversight to ensure accuracy in highly sensitive financial operations.",
+          "why_it_matters": "This is a solid, recognizable case study showing how a major financial entity uses AI to increase speed without sacrificing critical human judgment.",
+          "terms": [],
+          "url": "https://openai.com/index/australian-payments-plus",
+          "source_name": "OpenAI News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "case_studies",
+          "headline": "L’Oreal and Nestle Deploy AI to Accelerate New Product Development",
+          "summary": "Major consumer goods companies like L'Oreal and Nestle are using artificial intelligence to dramatically shorten their product development timelines. L'Oreal has integrated AI into its laboratories to predict how different cosmetic ingredients will interact, reducing the need for physical trial and error. This allows the companies to bring new formulations and flavors to market much faster than traditional research methods permit.",
+          "why_it_matters": "Using AI for physical product innovation, rather than just software or marketing, is a powerful angle to pitch to manufacturing and retail clients.",
+          "terms": [],
+          "url": "https://www.artificialintelligence-news.com/news/ai-product-development-loreal-mondelez-nestle/",
+          "source_name": "AI News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "case_studies",
+          "headline": "AWS Finance Team Reclaims Hundreds of Hours Using Amazon Quick Chat",
+          "summary": "The internal finance team at Amazon Web Services successfully automated two of their most time-consuming financial workflows using their own Quick Chat AI agents. By utilizing natural language to query massive datasets, the team eliminated the need for manual spreadsheet aggregation and endless report generation. The implementation ultimately saved the department hundreds of hours of manual labor per month.",
+          "why_it_matters": "Sharing how a tech giant uses its own AI to optimize internal finance operations is a highly persuasive story for CFOs skeptical of the technology.",
+          "terms": [],
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-aws-finance-teams-reclaimed-hundreds-of-hours-with-amazon-quick/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Gamifying AI Usage Leads to Wasteful 'Tokenmaxxing' by Employees",
+          "summary": "Major companies like Amazon and Meta have reportedly abandoned internal leaderboards that tracked how much employees used artificial intelligence tools. They discovered that gamifying AI adoption led workers to waste resources on trivial tasks just to boost their usage numbers—a practice dubbed 'tokenmaxxing.' As a result, businesses are shifting their focus away from raw usage metrics and toward actual productivity gains.",
+          "why_it_matters": "This highlights a critical pitfall in AI adoption rollouts, giving you a real-world example to advise clients on how not to measure internal success.",
+          "terms": [
+            {
+              "term": "Token",
+              "definition": "The basic unit of data processed by an AI model, often roughly equivalent to a word or part of a word, which companies are billed for."
+            }
+          ],
+          "url": "https://www.fastcompany.com/91555955/most-businesses-are-measuring-ai-wrong-and-its-costing-them-ai-tokens-strategy",
+          "source_name": "Fast Company",
+          "signal_tag": "shift",
+          "published_at": "2026-06-24"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Financial Experts Warn AI Evaluation Consumes Up to 18% of Total System Costs",
+          "summary": "A new framework tailored for corporate finance leaders reveals that building AI agents involves significant hidden expenses beyond just running the models. Financial experts caution that the processes of evaluating output quality and maintaining system observability can consume 14% to 18% of the total project budget. The framework recommends a four-step approach to properly calculate these ongoing operational costs before fully committing to an AI rollout.",
+          "why_it_matters": "Having concrete cost-breakdown frameworks allows you to speak confidently with CFOs about the hidden operational costs of maintaining AI over time.",
+          "terms": [
+            {
+              "term": "Observability",
+              "definition": "The ability to monitor, measure, and understand the internal state and decision-making processes of an AI system."
+            }
+          ],
+          "url": "https://golabstech.com/insights/how-do-you-measure-roi-on-ai-a-cfo-ready-framework",
+          "source_name": "Golabs Tech",
+          "signal_tag": "trending",
+          "published_at": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "AI Coding Startup Cursor Launches Council to Define AI ROI",
+          "summary": "Cursor, the artificial intelligence coding platform currently being acquired by SpaceX, has established a new council of Chief Financial Officers. The group's primary goal is to crack the puzzle of measuring returns on AI investments. By bringing finance leaders together, Cursor hopes to create a shared framework that makes corporate AI spending more predictable, measurable, and efficient.",
+          "why_it_matters": "This initiative signals that the tech industry is finally taking the financial concerns of enterprise buyers seriously, providing frameworks you can adopt in your own consulting.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/spacex-acquisition-target-launches-cfo-council-to-crack-ais-roi-puzzle/824548/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "people",
+          "headline": "Former OpenAI Executive Kevin Weil Joins Stoke Space Board",
+          "summary": "Kevin Weil, a former high-level executive at OpenAI, has joined the board of directors for the aerospace startup Stoke Space. The move highlights a growing intersection between top-tier artificial intelligence talent and the private space industry. Industry watchers suggest that Weil's involvement signals that reusable rocket technology is becoming the next major frontier for Silicon Valley investments.",
+          "why_it_matters": "Tracking where top AI executives land provides clues to which adjacent industries (like aerospace and hard tech) are about to see massive AI integration.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/08/former-openai-exec-kevin-weil-is-now-on-the-board-of-stoke-space/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "people",
+          "headline": "OpenAI Chief Futurist Joshua Achiam Departs After Nine Years",
+          "summary": "Joshua Achiam, who served as OpenAI's Chief Futurist, is leaving the company after nearly nine years of focusing on artificial intelligence safety. Achiam was a highly visible figure at the organization, notably appearing in the high-profile lawsuit between Elon Musk and CEO Sam Altman. His departure marks another significant exit of early safety-focused researchers from the prominent AI lab.",
+          "why_it_matters": "The ongoing talent drain of safety experts from OpenAI is a critical narrative to monitor, as clients frequently ask about the long-term reliability and safety of the platform.",
+          "terms": [],
+          "url": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/",
+          "source_name": "Feed: Artificial Intelligence Latest",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "people",
+          "headline": "Former GitHub CEO Launches Infrastructure Startup for AI Coding Agents",
+          "summary": "The former CEO of GitHub has launched a new startup aimed at creating a distributed network specifically built for the era of agentic coding. The company focuses on building better underlying infrastructure for a future where autonomous AI agents write the majority of software code. This move underscores the belief among top developers that current tools are insufficient for managing AI-driven software creation.",
+          "why_it_matters": "Knowing the vision of legacy tech founders helps you spot where the development ecosystem is heading, keeping your advice to tech clients ahead of the curve.",
+          "terms": [],
+          "url": "https://www.zdnet.com/article/githubs-former-ceo-launches-a-distributed-git-network-built-for-the-agentic-coding-age/",
+          "source_name": "Latest news",
+          "signal_tag": "new",
+          "published_at": "2026-07-08"
+        }
+      ]
+    }
+  ]
+}
