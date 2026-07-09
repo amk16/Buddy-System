@@ -1,0 +1,557 @@
+{
+  "id": "2026-07-09",
+  "generated_at": "2026-07-09T15:59:16.106344+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "Nearly 80% of Generative AI Deployments Show No Real Return",
+      "summary": "Nearly 80% of companies report no significant bottom-line impact from their generative AI implementations to date. The primary issue is a reliance on broad, generalized AI tools rather than focusing on specific, industry-relevant applications. Experts recommend shifting away from horizontal AI models to vertical use cases that are explicitly designed to solve particular business bottlenecks.",
+      "why_it_matters": "This staggering failure rate is the ultimate sales pitch for an AI consultant—clients need targeted guidance, not just generic AI subscriptions, to actually see a return on investment.",
+      "terms": [
+        {
+          "term": "Generative AI",
+          "definition": "Artificial intelligence capable of creating text, images, or other data in response to specific prompts."
+        },
+        {
+          "term": "Horizontal AI",
+          "definition": "General-purpose AI systems designed to perform a wide variety of tasks across many different industries."
+        },
+        {
+          "term": "Vertical AI",
+          "definition": "AI systems specifically trained and designed for a particular industry or niche task."
+        }
+      ],
+      "url": "https://www.fullstack.com/labs/resources/blog/generative-ai-roi-why-80-of-companies-see-no-results",
+      "source_name": "FullStack Blog",
+      "signal_tag": "shift",
+      "published_at": "2026-07-01"
+    },
+    {
+      "section": "case_studies",
+      "headline": "Databricks Replaces Expensive AI Models with a Cheaper Open-Source Alternative",
+      "summary": "Data software giant Databricks recently tested various AI coding assistants across its massive internal codebase to evaluate cost and performance. The company found that the Chinese open-source model GLM 5.2 performed just as well as Anthropic's top-tier Opus 4.8 model, but at a significantly lower cost of $1.28 per task compared to $1.94. As a result, Databricks is rolling out GLM 5.2 as its primary daily coding workhorse.",
+      "why_it_matters": "Knowing that open-source models can match premium commercial models for significantly less money gives you a powerful cost-saving recommendation for clients looking to scale their AI usage.",
+      "terms": [
+        {
+          "term": "Open-source model",
+          "definition": "An AI model whose underlying code and architecture are made freely available for anyone to use or modify."
+        }
+      ],
+      "url": "https://the-decoder.com/databricks-makes-chinese-open-source-model-glm-5-2-its-default-coding-engine-after-it-matched-opus-at-lower-cost/",
+      "source_name": "The Decoder",
+      "signal_tag": "shift",
+      "published_at": "2026-07-09"
+    },
+    {
+      "section": "news",
+      "headline": "The 'Token Binge' is Over as CFOs Demand Proof of AI Value",
+      "summary": "Corporate finance leaders are tightening their belts on enterprise artificial intelligence spending after a period of unchecked experimentation. Internal AI pilot programs are no longer being judged by how often they are used, but strictly by their ability to tangibly improve workflow outcomes. Budgets are increasingly requiring proof that AI deployments are actually saving money or generating revenue before receiving further funding.",
+      "why_it_matters": "Understanding this financial shift allows you to position your consulting services as a necessity for proving business value, rather than just helping clients play with new technology.",
+      "terms": [
+        {
+          "term": "Token",
+          "definition": "The basic unit of data (like a word or syllable) that AI models use to process and generate text, which is how vendors calculate usage costs."
+        }
+      ],
+      "url": "https://erp.today/ai-token-binge-enterprise-ai-roi-budgets/",
+      "source_name": "ERP Today",
+      "signal_tag": "shift",
+      "published_at": "2026-07-07"
+    },
+    {
+      "section": "news",
+      "headline": "Why Traditional PR is Now Essential for Showing Up in AI Search",
+      "summary": "Traditional public relations and earned media mentions are becoming critical for brands trying to show up in AI search results. Artificial intelligence platforms rely heavily on community discussion and organic media coverage to determine which brands have authority in a given space. Without these strong, unpaid signals, businesses risk being entirely ignored when AI tools recommend products or services to users.",
+      "why_it_matters": "This provides a direct, actionable marketing strategy for your clients: investing in traditional PR is now a technical requirement for remaining visible in an AI-driven search landscape.",
+      "terms": [
+        {
+          "term": "Earned media",
+          "definition": "Publicity gained through promotional efforts other than paid advertising, such as news coverage or organic social media mentions."
+        }
+      ],
+      "url": "https://www.marketingdive.com/news/why-unpaid-media-is-now-essential-to-ai-visibility/822485/",
+      "source_name": "Marketing Dive - Latest News",
+      "signal_tag": "trending",
+      "published_at": "2026-07-09"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "OpenAI Releases Upgraded Voice Mode for Natural Live Conversations",
+          "summary": "OpenAI is rolling out a new voice mode for ChatGPT, powered by the GPT-Live-1 model, which is designed to make interactions feel more like talking to a real person. The system can listen and speak simultaneously, meaning it will wait if you pause mid-sentence and allows users to interrupt it naturally. The update is currently available for paying ChatGPT users and greatly improves the app's ability to handle live translation.",
+          "why_it_matters": "This makes ChatGPT a viable, hands-free conversational tool for clients who need on-the-go brainstorming, meeting prep, or live language translation.",
+          "terms": [],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
+          "source_name": "AI | The Verge",
+          "signal_tag": "new",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "tools",
+          "headline": "Zoom Launches Calculator to Prove the ROI of AI Meeting Notes",
+          "summary": "Video conferencing platform Zoom has released an interactive AI Return on Investment (ROI) calculator for businesses. The tool allows companies to input their specific meeting patterns, employee headcounts, and average salaries. In return, it provides a personalized estimate of the time and financial savings they could achieve by using AI to automate meeting notes and summaries.",
+          "why_it_matters": "You can use this free calculator during client pitches to instantly translate the abstract benefits of AI note-taking into hard, dollar-based savings.",
+          "terms": [
+            {
+              "term": "ROI",
+              "definition": "Return on Investment; a financial metric used to calculate how much profit or cost-savings an investment generates relative to its cost."
+            }
+          ],
+          "url": "https://www.zoom.com/en/blog/ai-meeting-notes-time-savings-roi/?cms_guid=false",
+          "source_name": "Zoom",
+          "signal_tag": "new",
+          "published_at": "2026-07-09"
+        },
+        {
+          "section": "tools",
+          "headline": "Anthropic Brings its Background 'Cowork' Agent to Smartphones",
+          "summary": "Anthropic has expanded its Claude Cowork AI platform, making it available on mobile devices and the web for the first time. The tool acts as a digital assistant that continues to process tasks and monitor systems even after a user closes their laptop. It is currently rolling out to top-tier subscribers, marking a major push toward smartphone-controlled AI agents.",
+          "why_it_matters": "For clients seeking operational efficiency, this tool allows their employees to trigger and manage complex, long-running AI workflows entirely from their phones.",
+          "terms": [
+            {
+              "term": "AI agents",
+              "definition": "Artificial intelligence systems that can autonomously make decisions and complete multi-step tasks without constant human prompting."
+            }
+          ],
+          "url": "https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone/",
+          "source_name": "Feed: Artificial Intelligence Latest",
+          "signal_tag": "shift",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "tools",
+          "headline": "Bloom IA Launches AI Sales Coaching Platform Analyzing Phone Calls",
+          "summary": "Montreal-based startup Bloom IA has launched a new platform designed to coach business-to-business sales teams. The AI system analyzes phone conversations in real-time, providing sales managers with deep insights into how their reps are structuring calls and handling customer objections. This allows for hyper-personalized coaching based on actual conversational data rather than just sales outcomes.",
+          "why_it_matters": "Sales leaders are a prime target for AI consulting, and recommending a tool that automatically coaches reps on objection handling is a high-value, easy-to-understand win.",
+          "terms": [],
+          "url": "https://ecommercenews.ca/story/bloom-ia-launches-ai-sales-coaching-platform-for-b2b-teams",
+          "source_name": "Commerce",
+          "signal_tag": "new",
+          "published_at": "2026-06-25"
+        },
+        {
+          "section": "tools",
+          "headline": "Google Photos Adds 'Video Remix' for AI Video Editing",
+          "summary": "Google has added a new 'Video Remix' artificial intelligence tool to its Google Photos application. The feature allows everyday users to drastically alter their video clips with simple commands. Users can seamlessly swap out plain backgrounds, apply cinematic lighting to dark clips, or completely change the artistic style of their videos without needing professional editing software.",
+          "why_it_matters": "For small business clients or social media managers, this tool eliminates the need for expensive video editing software, allowing them to create polished marketing assets instantly.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "tools",
+          "headline": "Just Ask by SEORCE Brings SEO Data Directly to WhatsApp",
+          "summary": "A new tool called 'Just Ask by SEORCE' allows marketers to interact with their search engine optimization (SEO) data directly through the WhatsApp messaging app. Instead of navigating complex dashboards to check website traffic or keyword rankings, users simply text their questions to the AI. The system pulls the relevant data and responds conversationally within the chat interface.",
+          "why_it_matters": "This is a great example of how AI is making dense data accessible to non-technical executives, serving as a quick win for clients who hate navigating complex analytics dashboards.",
+          "terms": [
+            {
+              "term": "SEO",
+              "definition": "Search Engine Optimization; the practice of improving a website to increase its visibility when people search for products or services related to that business."
+            }
+          ],
+          "url": "https://www.producthunt.com/products/seorce",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "tools",
+          "headline": "Narmi Debuts AI Decision Assist for Banking Compliance",
+          "summary": "Digital banking provider Narmi has launched an AI tool designed to speed up the process of opening new financial accounts. The 'Decision Assist' software automatically analyzes compliance risks associated with new applicants. This allows financial institutions to quickly audit and approve new customers while maintaining strict regulatory standards.",
+          "why_it_matters": "If you consult for highly regulated industries like finance or insurance, highlighting tools that safely automate compliance checks proves that AI can handle strict governance.",
+          "terms": [],
+          "url": "https://www.retailbankerinternational.com/news/narmi-launch-ai-decision-assist/",
+          "source_name": "Retail Banker International",
+          "signal_tag": "new",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "tools",
+          "headline": "Ollama Reaches 9 Million Users by Simplifying Local AI Execution",
+          "summary": "Ollama, an open-source developer tool that makes it incredibly easy to run AI models directly on a personal computer, has secured $65 million in funding. The tool has grown rapidly, boasting nearly 9 million users who appreciate the ability to bypass cloud-based AI providers. By running AI locally, developers can experiment with powerful models without paying subscription fees or sharing sensitive data with tech giants.",
+          "why_it_matters": "For clients deeply concerned about data privacy, Ollama represents a way to experiment with powerful AI without ever sending proprietary company data to the cloud.",
+          "terms": [
+            {
+              "term": "Local AI execution",
+              "definition": "Running an artificial intelligence program directly on your own physical computer hardware, rather than accessing it over the internet via a cloud provider."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-07-09"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "Nearly 80% of Generative AI Deployments Show No Real Return",
+          "summary": "Nearly 80% of companies report no significant bottom-line impact from their generative AI implementations to date. The primary issue is a reliance on broad, generalized AI tools rather than focusing on specific, industry-relevant applications. Experts recommend shifting away from horizontal AI models to vertical use cases that are explicitly designed to solve particular business bottlenecks.",
+          "why_it_matters": "This staggering failure rate is the ultimate sales pitch for an AI consultant—clients need targeted guidance, not just generic AI subscriptions, to actually see a return on investment.",
+          "terms": [
+            {
+              "term": "Generative AI",
+              "definition": "Artificial intelligence capable of creating text, images, or other data in response to specific prompts."
+            },
+            {
+              "term": "Horizontal AI",
+              "definition": "General-purpose AI systems designed to perform a wide variety of tasks across many different industries."
+            },
+            {
+              "term": "Vertical AI",
+              "definition": "AI systems specifically trained and designed for a particular industry or niche task."
+            }
+          ],
+          "url": "https://www.fullstack.com/labs/resources/blog/generative-ai-roi-why-80-of-companies-see-no-results",
+          "source_name": "FullStack Blog",
+          "signal_tag": "shift",
+          "published_at": "2026-07-01"
+        },
+        {
+          "section": "news",
+          "headline": "The 'Token Binge' is Over as CFOs Demand Proof of AI Value",
+          "summary": "Corporate finance leaders are tightening their belts on enterprise artificial intelligence spending after a period of unchecked experimentation. Internal AI pilot programs are no longer being judged by how often they are used, but strictly by their ability to tangibly improve workflow outcomes. Budgets are increasingly requiring proof that AI deployments are actually saving money or generating revenue before receiving further funding.",
+          "why_it_matters": "Understanding this financial shift allows you to position your consulting services as a necessity for proving business value, rather than just helping clients play with new technology.",
+          "terms": [
+            {
+              "term": "Token",
+              "definition": "The basic unit of data (like a word or syllable) that AI models use to process and generate text, which is how vendors calculate usage costs."
+            }
+          ],
+          "url": "https://erp.today/ai-token-binge-enterprise-ai-roi-budgets/",
+          "source_name": "ERP Today",
+          "signal_tag": "shift",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "news",
+          "headline": "Why Traditional PR is Now Essential for Showing Up in AI Search",
+          "summary": "Traditional public relations and earned media mentions are becoming critical for brands trying to show up in AI search results. Artificial intelligence platforms rely heavily on community discussion and organic media coverage to determine which brands have authority in a given space. Without these strong, unpaid signals, businesses risk being entirely ignored when AI tools recommend products or services to users.",
+          "why_it_matters": "This provides a direct, actionable marketing strategy for your clients: investing in traditional PR is now a technical requirement for remaining visible in an AI-driven search landscape.",
+          "terms": [
+            {
+              "term": "Earned media",
+              "definition": "Publicity gained through promotional efforts other than paid advertising, such as news coverage or organic social media mentions."
+            }
+          ],
+          "url": "https://www.marketingdive.com/news/why-unpaid-media-is-now-essential-to-ai-visibility/822485/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-09"
+        },
+        {
+          "section": "news",
+          "headline": "North American Startup Funding Shatters Records, Driven Entirely by AI",
+          "summary": "Investment in United States and Canadian startups reached a staggering $392 billion in the first half of 2026, breaking previous funding records. This massive influx of capital is being almost entirely driven by the boom in artificial intelligence technology. The surge indicates that despite some skepticism in the broader market, private investors still view AI as a generational wealth-creation opportunity.",
+          "why_it_matters": "This data point validates the urgency of AI adoption; you can use it to prove to hesitant clients that the market views AI as a permanent shift, not a passing trend.",
+          "terms": [],
+          "url": "https://news.crunchbase.com/venture/na-startup-funding-ma-shattered-records-ai-q2-2026/",
+          "source_name": "Crunchbase News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "news",
+          "headline": "Microsoft Commits $2.5 Billion to Push AI Deployment in Enterprises",
+          "summary": "Microsoft is aggressively investing $2.5 billion into dedicated teams designed to help organizations deploy artificial intelligence. These teams will assist businesses in redesigning their internal workflows to actually measure and extract tangible business value from Microsoft's AI tools. The move highlights the software giant's realization that simply selling AI access isn't enough; companies need hands-on help to make it useful.",
+          "why_it_matters": "Microsoft essentially validating the need for AI implementation support is a massive endorsement for your own consulting business model.",
+          "terms": [],
+          "url": "https://redmondmag.com/articles/2026/07/07/enterprise-ai-deployment-push.aspx",
+          "source_name": "Redmondmag.com",
+          "signal_tag": "shift",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "news",
+          "headline": "OpenAI Retracts Endorsement of Popular AI Coding Benchmark",
+          "summary": "OpenAI reviewed SWE-Bench Pro, a widely trusted test used to measure how well artificial intelligence models can program software. The company found that roughly 30 percent of the tasks within the benchmark were broken or flawed. As a result, OpenAI is pulling its previous endorsement of the test, raising broad industry concerns about how accurately AI capabilities are currently being measured.",
+          "why_it_matters": "This is a great talking point to remind clients that the AI industry is still in its infancy, and they shouldn't blindly trust marketing claims or automated performance tests.",
+          "terms": [
+            {
+              "term": "Benchmark",
+              "definition": "A standardized test used to evaluate and compare the performance of different artificial intelligence models."
+            }
+          ],
+          "url": "https://the-decoder.com/openai-finds-roughly-30-percent-of-popular-ai-coding-test-is-broken/",
+          "source_name": "The Decoder",
+          "signal_tag": "new",
+          "published_at": "2026-07-09"
+        },
+        {
+          "section": "news",
+          "headline": "Hackers Weaponize AI's Inability to Say 'I Don't Know'",
+          "summary": "Cybersecurity researchers have discovered a technique called 'HalluSquatting' that allows hackers to build massive networks of infected computers using popular AI tools. The attack preys on the tendency of AI language models to invent answers rather than admit ignorance. By tricking the AI into generating links to malicious software packages, attackers can easily distribute viruses to unsuspecting users.",
+          "why_it_matters": "You must be able to warn clients about the very real security risks of deploying AI; this is a clear, understandable example of how unchecked AI outputs can lead to data breaches.",
+          "terms": [
+            {
+              "term": "Botnet",
+              "definition": "A network of private computers infected with malicious software and controlled as a group without the owners' knowledge."
+            }
+          ],
+          "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+          "source_name": "AI - Ars Technica",
+          "signal_tag": "new",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "news",
+          "headline": "Meta Updates Disclosure Tags for AI-Generated Advertisements",
+          "summary": "Meta, the parent company of Facebook and Instagram, is rolling out updated disclosure tags for advertisements that use artificial intelligence. The new tags will provide consumers with clearer information on which parts of a promotion include AI-generated elements. This applies regardless of whether the AI imagery was created using Meta's internal tools or external third-party software.",
+          "why_it_matters": "Marketing clients need to know that relying on AI for ad creative will now come with visible consumer disclosures, which could impact ad performance and brand trust.",
+          "terms": [],
+          "url": "https://www.marketingdive.com/news/sociable-meta-adds-updated-disclosure-tags-for-ai-generated-ads/824833/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-07-09"
+        },
+        {
+          "section": "news",
+          "headline": "Meta Automatically Enrolls Instagram Photos into AI Training",
+          "summary": "Meta has announced that any public Instagram account is now fair game to be used as data for its new AI image generation models. Users whose accounts are public must manually navigate through the app's settings to opt out if they do not want their photos manipulated or replicated by the AI. This aggressive data collection strategy has drawn sharp criticism regarding user privacy and consent.",
+          "why_it_matters": "When advising clients on corporate social media policy, you must highlight the intellectual property risk of public posting now that tech giants are aggressively scraping data.",
+          "terms": [],
+          "url": "https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/",
+          "source_name": "Feed: Artificial Intelligence Latest",
+          "signal_tag": "shift",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "news",
+          "headline": "IT Leaders Fear Security Controls Are Falling Behind AI Expansion",
+          "summary": "A recent survey reveals that information technology leaders are increasingly anxious that their cybersecurity measures cannot keep pace with the rapid adoption of artificial intelligence. As businesses rush to modernize their networks and integrate AI tools, they are inadvertently expanding the number of vulnerabilities hackers can exploit. IT departments report struggling with limited visibility into how these new AI systems operate across their networks.",
+          "why_it_matters": "This highlights the friction between a marketing team's desire to deploy AI fast and the IT department's need for security—a gap you can help bridge.",
+          "terms": [],
+          "url": "https://www.cybersecuritydive.com/news/ai-network-expansion-security-concerns-cisco/824581/",
+          "source_name": "Cybersecurity Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "news",
+          "headline": "AI Skills Identified as Most Critical for the Next Five Years",
+          "summary": "Recruiters are reporting notable shortages in the workforce for skills related to artificial intelligence capabilities, according to a new market report. The data suggests that AI proficiency, combined with emotional intelligence and grit, will be the most highly sought-after traits in employees over the next five years. Companies are increasingly prioritizing candidates who can comfortably manage and direct AI systems.",
+          "why_it_matters": "This is a great data point to share with clients regarding organizational design; they need to upskill their current marketing and operations staff today to avoid a talent gap tomorrow.",
+          "terms": [],
+          "url": "https://www.hrdive.com/news/which-skills-will-matter-most-in-the-next-five-years/824529/",
+          "source_name": "HR Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "Databricks Replaces Expensive AI Models with a Cheaper Open-Source Alternative",
+          "summary": "Data software giant Databricks recently tested various AI coding assistants across its massive internal codebase to evaluate cost and performance. The company found that the Chinese open-source model GLM 5.2 performed just as well as Anthropic's top-tier Opus 4.8 model, but at a significantly lower cost of $1.28 per task compared to $1.94. As a result, Databricks is rolling out GLM 5.2 as its primary daily coding workhorse.",
+          "why_it_matters": "Knowing that open-source models can match premium commercial models for significantly less money gives you a powerful cost-saving recommendation for clients looking to scale their AI usage.",
+          "terms": [
+            {
+              "term": "Open-source model",
+              "definition": "An AI model whose underlying code and architecture are made freely available for anyone to use or modify."
+            }
+          ],
+          "url": "https://the-decoder.com/databricks-makes-chinese-open-source-model-glm-5-2-its-default-coding-engine-after-it-matched-opus-at-lower-cost/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-07-09"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How to Achieve a 30% Lift in Sales Conversion Using AI",
+          "summary": "A recent industry breakdown reveals exactly how sales teams are utilizing artificial intelligence to see massive gains in efficiency. By targeting specific bottlenecks in the sales process—such as drafting follow-up emails, analyzing call sentiment, and scoring leads—companies are lifting their conversion rates by over 30 percent. The guide emphasizes that prioritizing specific workflow issues is far more effective than buying a generic AI subscription.",
+          "why_it_matters": "This gives you a highly specific, percentage-based success metric to pitch to sales leaders who want to know exactly what AI can do for their bottom line.",
+          "terms": [
+            {
+              "term": "Lead scoring",
+              "definition": "A methodology used to rank prospects against a scale that represents the perceived value each lead represents to the organization."
+            }
+          ],
+          "url": "https://www.tommasomariaricci.com/blog/ai-for-sales-guide",
+          "source_name": "Tommaso Maria Ricci",
+          "signal_tag": "trending",
+          "published_at": "2026-07-01"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Anthropic Recommends Delegating Tasks to Cheaper Models to Cut Costs",
+          "summary": "Because running operations on Anthropic's powerful Claude Fable 5 model is incredibly expensive, the company is officially advising users to change their architecture. Anthropic recommends using the pricey Fable 5 strictly as a 'manager' that plans out tasks, and then delegating the actual execution to the much cheaper Sonnet 5 model. This setup achieves 92 percent of the performance quality at only 63 percent of the cost.",
+          "why_it_matters": "This \"delegation\" strategy is an actionable, highly practical cost-saving architecture you can immediately implement for clients worried about skyrocketing AI software bills.",
+          "terms": [],
+          "url": "https://the-decoder.com/anthropics-fix-for-fable-5s-high-cost-is-turning-it-into-a-manager-that-delegates-to-sonnet-5/",
+          "source_name": "The Decoder",
+          "signal_tag": "new",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Zinnov Details the 10 Decisions That Determine AI ROI Success",
+          "summary": "With only 10 to 20 percent of artificial intelligence pilot programs ever reaching full production, consulting firm Zinnov has released a framework for ensuring success. They advise that organizations must strictly define the business outcomes they want before ever selecting a technology tool. To avoid failure, companies need to agree on specific Return on Investment benchmarks and measurement strategies up front.",
+          "why_it_matters": "You can directly adapt this framework to structure your own consulting engagements, ensuring your clients don't get stuck in 'pilot purgatory'.",
+          "terms": [
+            {
+              "term": "Pilot programs",
+              "definition": "Small-scale, short-term experiments that help an organization learn how a large-scale project might work in practice."
+            }
+          ],
+          "url": "https://zinnov.com/centers-of-excellence/gcc-ai-roi-the-10-decisions-that-determine-whether-your-ai-investments-deliver-value-blog/",
+          "source_name": "Industry Blog",
+          "signal_tag": "new",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "case_studies",
+          "headline": "PNC Bank Debuts Customizable Mobile App Built on Agentic AI",
+          "summary": "Pittsburgh-based PNC Bank has launched a highly customizable mobile banking app powered by artificial intelligence. The bank wanted to offer customers more features and deep personalization without making the app feel slow or overly complicated to navigate. By utilizing autonomous AI agents running in the background, the app dynamically adapts to individual user needs and preferences.",
+          "why_it_matters": "This is a great reference case to show clients how AI can drastically improve user experience and personalization without cluttering the interface with too many buttons.",
+          "terms": [
+            {
+              "term": "Agentic AI",
+              "definition": "Artificial intelligence systems that can act independently, making their own decisions to achieve a goal rather than just responding to user prompts."
+            }
+          ],
+          "url": "https://www.customerexperiencedive.com/news/pnc-new-mobile-banking-app-personalization-agentic-ai/824757/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-09"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Brookshire Brothers Rolls Out AI Tool to Plan Grocery Promotions",
+          "summary": "Texas-based grocery chain Brookshire Brothers has implemented a new artificial intelligence system to handle its promotional planning. The grocer states the technology will help them better execute discount deals and accurately measure how well those promotions perform with customers. The AI acts as a central brain to optimize pricing strategies across the company's retail locations.",
+          "why_it_matters": "For retail or marketing clients, this demonstrates how AI is moving beyond content creation and into hard, operational revenue management.",
+          "terms": [],
+          "url": "https://www.grocerydive.com/news/brookshire-brothers-rolls-out-ai-tool-for-planning-promotions/824776/",
+          "source_name": "Grocery Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-07-09"
+        },
+        {
+          "section": "case_studies",
+          "headline": "NCS Recommends Managing AI Tokens Like a P&L Line Item",
+          "summary": "Consulting firm NCS has published a guide advising organizations to treat their artificial intelligence computing costs with extreme financial rigor. They recommend managing the usage of AI \"tokens\" just like a standard profit and loss statement to avoid shocking cloud computing bills. By combining AI capabilities with strict human oversight and routing logic, companies are reportedly achieving up to 82% cost savings compared to running top-tier models unrestricted.",
+          "why_it_matters": "This provides a highly tactical governance strategy you can offer to CFOs and finance leaders who are terrified of runaway AI software costs.",
+          "terms": [
+            {
+              "term": "P&L",
+              "definition": "Profit and Loss statement; a financial report that summarizes the revenues, costs, and expenses incurred during a specific period."
+            }
+          ],
+          "url": "https://www.ncs.co/dam/jcr:934e0bd4-605e-467c-ae5d-aca5a0c3b759/ncs-10x-from-ai-promise-to-roi-2026-v3.pdf",
+          "source_name": "NCS",
+          "signal_tag": "shift",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "case_studies",
+          "headline": "An Operator's Unvarnished Review of Microsoft Copilot's Real-World Flaws",
+          "summary": "An enterprise technology operator responsible for deploying Microsoft Copilot at a large organization shared a critical review of the platform's current realities on a public forum. The operator highlighted where the AI tool genuinely falls down in practice, specifically pointing out severe friction regarding corporate governance and data security. The unvarnished perspective offers a stark contrast to Microsoft's polished marketing claims.",
+          "why_it_matters": "Reading unfiltered operator reviews ensures you won't blindly recommend tools to clients without understanding the painful, real-world deployment hurdles they will face.",
+          "terms": [],
+          "url": "https://www.reddit.com/r/microsoft_365_copilot/comments/1uikdzk/i_run_copilot_for_a_large_org_heres_my_personal/",
+          "source_name": "Reddit (r/microsoft_365_copilot)",
+          "signal_tag": "shift",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Liberty Mutual Modernizes Legacy Systems to Scale AI",
+          "summary": "Insurance giant Liberty Mutual is currently reaping the rewards of a years-long technology modernization strategy designed to support artificial intelligence. By completely overhauling their older, rigid software systems, the company created a flexible foundation that can now easily integrate new AI tools at a massive scale. The effort proves that successful AI adoption requires deep, structural IT work rather than just buying new software plugins.",
+          "why_it_matters": "This is a great case study to show clients that successful AI implementation isn't a quick fix; it requires serious commitment to cleaning up their foundational data and IT infrastructure.",
+          "terms": [
+            {
+              "term": "Legacy systems",
+              "definition": "Outdated computer hardware or software that is still in use by an organization, often difficult to maintain or integrate with modern technology."
+            }
+          ],
+          "url": "https://www.ciodive.com/news/liberty-mutual-preps-legacy-systems-ai-scale/824637/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Healthcare Leaders Detail the Measurement Discipline Behind AI ROI",
+          "summary": "Healthcare industry leaders are emphasizing that successfully proving the value of artificial intelligence requires establishing strict performance baselines before deployment. Organizations must document exactly how long a task takes without AI, and then translate any time saved into financial metrics that a Chief Financial Officer will accept. Without this rigorous pre-measurement discipline, proving a return on investment is nearly impossible.",
+          "why_it_matters": "This underscores the need for your consulting process to begin with auditing and benchmarking existing workflows before ever introducing an AI solution.",
+          "terms": [],
+          "url": "https://premierinc.com/newsroom/insights/no-baseline-no-proof-the-measurement-discipline-behind-ai-roi-in-physician-enterprises",
+          "source_name": "Industry Blog",
+          "signal_tag": "shift",
+          "published_at": "2026-07-07"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Verity Harding: Former DeepMind Exec Warns of AI Arms Race",
+          "summary": "Verity Harding, a former executive at Google's AI lab DeepMind, is sounding the alarm on the geopolitical competition surrounding artificial intelligence. She argues that the United States government's increasingly nationalistic attitude toward AI development is evidence that a worst-case global scenario is beginning to take shape. Harding advocates for a more cooperative, globally minded approach to regulating the technology.",
+          "why_it_matters": "Following Harding provides a necessary counter-perspective to the Silicon Valley hype machine, helping you advise clients on the broader regulatory and ethical risks of AI adoption.",
+          "terms": [],
+          "url": "https://www.wired.com/story/verity-harding-ai-arms-race-dangers-anthology/",
+          "source_name": "Feed: Artificial Intelligence Latest",
+          "signal_tag": "trending",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "people",
+          "headline": "Phil Crawford: Fast Food Chain Dairy Queen Hires New Tech Chief",
+          "summary": "International Dairy Queen has hired Phil Crawford as its new Chief Technology Officer. Crawford, a veteran of the Shake Shack restaurant chain, joins the fast-food brand shortly after it expanded a pilot program testing artificial intelligence in its drive-thru lanes. He is expected to spearhead the modernization of the company's customer-facing technology.",
+          "why_it_matters": "Crawford's mandate to implement drive-thru AI at scale makes him a key figure to watch for consultants interested in the intersection of retail operations and artificial intelligence.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/international-dairy-queen-phil-crawford-chief-technology-officer/824743/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-07-09"
+        },
+        {
+          "section": "people",
+          "headline": "Linus Torvalds: Linux Founder Discusses AI in Open Source",
+          "summary": "Linus Torvalds, the creator of the Linux operating system, recently spoke at the Open Source Summit in Mumbai about the evolving role of artificial intelligence in software engineering. He noted that he no longer considers himself a traditional programmer and discussed both the power and the pain of integrating AI into core computer architecture. Torvalds remains a highly influential voice regarding the future of open-source development.",
+          "why_it_matters": "When a foundational figure of modern computing shifts his view on programming due to AI, it is a powerful anecdote to share with clients who are resistant to technological change.",
+          "terms": [
+            {
+              "term": "Open-source development",
+              "definition": "A software development model where the original source code is made freely available and may be redistributed and modified by a community of developers."
+            }
+          ],
+          "url": "https://www.zdnet.com/article/open-source-summit-linus-torvalds/",
+          "source_name": "Latest news",
+          "signal_tag": "trending",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "people",
+          "headline": "Samantha Greenberg: AlphaSense CFO on Hypergrowth and AI",
+          "summary": "Samantha Greenberg, the Chief Financial Officer at market intelligence platform AlphaSense, recently discussed the challenges of managing a rapidly growing technology company. She noted that delivering hypergrowth requires her to be increasingly thoughtful about which financial metrics actually matter as the company pushes heavily into artificial intelligence. Her focus is on balancing rapid product innovation with sustainable financial scale.",
+          "why_it_matters": "Following finance leaders like Greenberg helps you understand exactly how corporate budget holders are evaluating AI investments, allowing you to tailor your consulting proposals to pass CFO scrutiny.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/alphasense-targets-rapid-product-innovation-hypergrowth-push-ai/824337/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-08"
+        }
+      ]
+    }
+  ]
+}
