@@ -1,0 +1,509 @@
+{
+  "id": "2026-07-11",
+  "generated_at": "2026-07-11T14:24:21.270925+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "Over Half of CEOs Report No Measurable ROI from Enterprise AI Investments",
+      "summary": "A recent survey of global chief executives found that 56% see zero measurable revenue or cost impact from their current artificial intelligence initiatives. The primary culprits are a fragmented ecosystem of AI tools and isolated pilot programs that fail to scale effectively across the business. As a result, corporate leaders are struggling to justify ongoing software expenses.",
+      "why_it_matters": "This gives you a powerful client-ready talking point to validate their frustrations and pivot the conversation toward strategic, scalable adoption rather than buying random tools.",
+      "terms": [
+        {
+          "term": "ROI",
+          "definition": "Return on Investment; a metric used to understand the financial gain or loss generated on an investment relative to its cost."
+        },
+        {
+          "term": "Pilot programs",
+          "definition": "Small-scale, short-term experiments used by companies to test a new technology before rolling it out to the entire organization."
+        }
+      ],
+      "url": "https://blog.withmuse.ai/en/why-ai-investments-fail-roi-enterprises",
+      "source_name": "MUSE AI",
+      "signal_tag": "shift",
+      "published_at": "2026-07-06"
+    },
+    {
+      "section": "news",
+      "headline": "Apple Sues OpenAI, Alleging Theft of Hardware Trade Secrets",
+      "summary": "Apple has filed a lawsuit against OpenAI, accusing the artificial intelligence startup of a coordinated campaign to steal confidential hardware secrets. The tech giant claims OpenAI intentionally poached hundreds of former Apple employees, instructing them to bring over secret prototypes, confidential presentations, and key supplier details. The lawsuit specifically names a hardware startup founded by Apple's former design chief as part of the scheme.",
+      "why_it_matters": "This highlights the fierce legal and competitive risks in the AI space, reminding clients that partnering with major AI vendors comes with unpredictable corporate drama.",
+      "terms": [
+        {
+          "term": "Trade secrets",
+          "definition": "Confidential business information that provides a company with a competitive edge, which is legally protected from being shared."
+        }
+      ],
+      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "source_name": "AI News & Artificial Intelligence | TechCrunch",
+      "signal_tag": "new",
+      "published_at": "2026-07-10"
+    },
+    {
+      "section": "tools",
+      "headline": "Coffee: An AI-First CRM Designed to Automate Small Business Sales",
+      "summary": "Coffee is a new Customer Relationship Management (CRM) platform built specifically to automate operations for small businesses. The software uses autonomous AI agents to ingest and organize messy data from emails and phone calls without manual data entry. Early users report saving between two and five hours of administrative work every week.",
+      "why_it_matters": "A highly practical, ready-to-recommend tool for small business clients who want the benefits of AI without the complexity of enterprise software.",
+      "terms": [
+        {
+          "term": "CRM",
+          "definition": "Customer Relationship Management software used by businesses to track sales, organize contacts, and manage customer interactions."
+        },
+        {
+          "term": "AI agents",
+          "definition": "Artificial intelligence programs designed to take actions and complete multi-step tasks on their own, rather than just generating text."
+        }
+      ],
+      "url": "https://www.coffee.ai/articles/best-ai-crm-small-business",
+      "source_name": "Coffee Blog / Software Review",
+      "signal_tag": "new",
+      "published_at": "2026-07-03"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Coffee: An AI-First CRM Designed to Automate Small Business Sales",
+          "summary": "Coffee is a new Customer Relationship Management (CRM) platform built specifically to automate operations for small businesses. The software uses autonomous AI agents to ingest and organize messy data from emails and phone calls without manual data entry. Early users report saving between two and five hours of administrative work every week.",
+          "why_it_matters": "A highly practical, ready-to-recommend tool for small business clients who want the benefits of AI without the complexity of enterprise software.",
+          "terms": [
+            {
+              "term": "CRM",
+              "definition": "Customer Relationship Management software used by businesses to track sales, organize contacts, and manage customer interactions."
+            },
+            {
+              "term": "AI agents",
+              "definition": "Artificial intelligence programs designed to take actions and complete multi-step tasks on their own, rather than just generating text."
+            }
+          ],
+          "url": "https://www.coffee.ai/articles/best-ai-crm-small-business",
+          "source_name": "Coffee Blog / Software Review",
+          "signal_tag": "new",
+          "published_at": "2026-07-03"
+        },
+        {
+          "section": "tools",
+          "headline": "Meta Launches Muse Image for AI-Powered Room Visualization",
+          "summary": "Meta has introduced Muse Image, an AI feature that helps consumers visualize retail products in their own spaces. Users can see what furniture or decor looks like in their home, compare options, and purchase items directly through brand websites, all powered by Meta's technology.",
+          "why_it_matters": "A must-know feature for e-commerce and retail clients looking to improve conversion rates by offering augmented reality-style shopping experiences.",
+          "terms": [],
+          "url": "https://www.retaildive.com/news/meta-muse-image-ai-powered-room-visualization-feature/824841/",
+          "source_name": "Retail Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-07-09"
+        },
+        {
+          "section": "tools",
+          "headline": "Azurea.ai Releases Open-Source Suite for Generative Engine Optimization",
+          "summary": "Azurea.ai has launched an open-source suite of marketing tools focused entirely on Generative Engine Optimization (GEO). The software helps businesses adapt their content so that it reliably appears when consumers ask questions on platforms like ChatGPT and Google's AI search, rather than just traditional search engines.",
+          "why_it_matters": "As search traffic shifts from Google to AI chatbots, you can use this to help clients pivot their SEO strategies toward getting cited by AI models.",
+          "terms": [
+            {
+              "term": "Generative Engine Optimization (GEO)",
+              "definition": "The practice of formatting and structuring website content specifically so that artificial intelligence models will reference and link to it in their answers."
+            },
+            {
+              "term": "Open-source",
+              "definition": "Software whose original underlying code is made freely available for anyone to use, modify, and distribute."
+            }
+          ],
+          "url": "https://www.wboc.com/online_features/press_releases/open-source-ai-marketing-tools-and-geo-launch/article_a2885817-b2ea-510c-99b7-856d52a6603b.html",
+          "source_name": "WBOC",
+          "signal_tag": "new",
+          "published_at": "2026-06-29"
+        },
+        {
+          "section": "tools",
+          "headline": "ChatGPT's Live Voice Upgrade Makes AI Conversations Feel Human",
+          "summary": "OpenAI's latest voice upgrade allows users to have highly natural, conversational interactions with ChatGPT. The new models can listen, speak, and conduct online research simultaneously, creating an experience that closely mimics a real-time conversation with a human assistant.",
+          "why_it_matters": "Voice AI is crossing the \"uncanny valley\"; you should test this to understand the imminent shift in how consumers will expect to interact with brands verbally.",
+          "terms": [],
+          "url": "https://www.zdnet.com/article/i-tried-chatgpt-live-voice-ai/",
+          "source_name": "Latest news",
+          "signal_tag": "new",
+          "published_at": "2026-07-09"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "Over Half of CEOs Report No Measurable ROI from Enterprise AI Investments",
+          "summary": "A recent survey of global chief executives found that 56% see zero measurable revenue or cost impact from their current artificial intelligence initiatives. The primary culprits are a fragmented ecosystem of AI tools and isolated pilot programs that fail to scale effectively across the business. As a result, corporate leaders are struggling to justify ongoing software expenses.",
+          "why_it_matters": "This gives you a powerful client-ready talking point to validate their frustrations and pivot the conversation toward strategic, scalable adoption rather than buying random tools.",
+          "terms": [
+            {
+              "term": "ROI",
+              "definition": "Return on Investment; a metric used to understand the financial gain or loss generated on an investment relative to its cost."
+            },
+            {
+              "term": "Pilot programs",
+              "definition": "Small-scale, short-term experiments used by companies to test a new technology before rolling it out to the entire organization."
+            }
+          ],
+          "url": "https://blog.withmuse.ai/en/why-ai-investments-fail-roi-enterprises",
+          "source_name": "MUSE AI",
+          "signal_tag": "shift",
+          "published_at": "2026-07-06"
+        },
+        {
+          "section": "news",
+          "headline": "Apple Sues OpenAI, Alleging Theft of Hardware Trade Secrets",
+          "summary": "Apple has filed a lawsuit against OpenAI, accusing the artificial intelligence startup of a coordinated campaign to steal confidential hardware secrets. The tech giant claims OpenAI intentionally poached hundreds of former Apple employees, instructing them to bring over secret prototypes, confidential presentations, and key supplier details. The lawsuit specifically names a hardware startup founded by Apple's former design chief as part of the scheme.",
+          "why_it_matters": "This highlights the fierce legal and competitive risks in the AI space, reminding clients that partnering with major AI vendors comes with unpredictable corporate drama.",
+          "terms": [
+            {
+              "term": "Trade secrets",
+              "definition": "Confidential business information that provides a company with a competitive edge, which is legally protected from being shared."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "news",
+          "headline": "Customer Service Job Postings Drop 10% Below Pre-Pandemic Levels",
+          "summary": "According to data from the Indeed Hiring Lab, job postings for customer service roles in the United States have fallen 10% below their pre-pandemic baseline. The data suggests that as artificial intelligence takes on a larger role in handling inquiries, the traditional customer service labor market is beginning to contract.",
+          "why_it_matters": "Hard data proving that AI is already cannibalizing entry-level support roles, offering you a strong proof point for clients wondering if AI cost-savings are real.",
+          "terms": [],
+          "url": "https://www.customerexperiencedive.com/news/AI-expands-customer-service-labor-market-contracts/824761/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "news",
+          "headline": "AI Skills Are Now Listed in 73% of Tech Job Postings",
+          "summary": "A new report from Dice indicates that 73% of technology job postings now explicitly require artificial intelligence skills. Highly regulated industries that are carefully shaping their AI implementation plans are currently leading the search for AI-literate talent.",
+          "why_it_matters": "Helps you communicate the urgency of AI literacy to HR and leadership clients—if they aren't hiring for AI skills, they are falling behind market standards.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/dice-report-tech-hiring-AI/824893/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-09"
+        },
+        {
+          "section": "news",
+          "headline": "The Era of 'Learn to Code' Gives Way to AI Reskilling",
+          "summary": "The rapid advancement of AI programming tools is ending the decade-long push to teach everyone how to code. As AI becomes capable of writing software autonomously, industry leaders argue that employers must now focus heavily on reskilling their workforces to manage and direct AI systems rather than writing syntax.",
+          "why_it_matters": "Crucial context for advising technical leaders on their talent pipeline; the value is shifting from writing code to architecting solutions and managing AI output.",
+          "terms": [],
+          "url": "https://www.zdnet.com/article/learn-to-code-era-is-over-employers-are-on-the-hook-for-reskilling-now/",
+          "source_name": "Latest news",
+          "signal_tag": "shift",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "news",
+          "headline": "Finance Operations Restructure as Digital Agents Outnumber Humans",
+          "summary": "Finance leaders are facing a radically new operating model as automated AI agents begin to outnumber human employees three-to-one in certain workflows. Experts advise that finance departments must implement strict deterministic controls and a robust \"trust but verify\" infrastructure to safely govern this digital workforce.",
+          "why_it_matters": "Gives you a distinct framework to pitch CFOs: you aren't just buying software, you are managing a new class of digital employees that require oversight.",
+          "terms": [
+            {
+              "term": "Deterministic controls",
+              "definition": "Strict, rules-based safeguards that force software to behave in exact, predictable ways, preventing the unpredictable behavior sometimes seen in AI."
+            }
+          ],
+          "url": "https://www.cpapracticeadvisor.com/2026/07/10/the-new-operating-model-in-finance-managing-a-digital-workforce/186491/",
+          "source_name": "CPA Practice Advisor",
+          "signal_tag": "shift",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "news",
+          "headline": "Agentic AI is Straining Legacy IT Systems",
+          "summary": "A Google report on the state of AI infrastructure reveals that more than 80% of organizations lack the modern technology stack required to support AI agents at scale. The demand for autonomous, decision-making software is severely straining older legacy systems that were not built for constant, high-volume data requests.",
+          "why_it_matters": "A perfect talking point to convince hesitant IT buyers that they must invest in foundational cloud and data upgrades before attempting flashy AI projects.",
+          "terms": [
+            {
+              "term": "Agentic AI",
+              "definition": "AI systems designed to take actions, make decisions, and use tools autonomously to achieve a goal, rather than just answering questions."
+            },
+            {
+              "term": "Tech stack",
+              "definition": "The combination of different software applications, coding languages, and digital tools a company uses to run its operations."
+            }
+          ],
+          "url": "https://www.ciodive.com/news/agentic-ai-strains-legacy-it-systems/825003/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "news",
+          "headline": "Meta Retracts Controversial Instagram AI Feature Following Backlash",
+          "summary": "Meta has disabled a newly announced Instagram feature that allowed users to generate AI deepfakes based on photos from any public account just by tagging them. The company pulled the tool after intense public criticism regarding consent, acknowledging that the feature \"missed the mark\" on privacy boundaries.",
+          "why_it_matters": "A stark lesson in brand reputation and AI ethics: you can cite this to caution marketing clients against rolling out aggressive AI features without rigorous safety reviews.",
+          "terms": [
+            {
+              "term": "Deepfakes",
+              "definition": "Highly realistic, AI-generated images or videos that falsely depict real people doing or saying things they never did."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "news",
+          "headline": "SpaceXAI's Grok 4.5 Undercuts Rivals on Pricing",
+          "summary": "SpaceXAI has released Grok 4.5, positioning it as a highly capable model for coding and financial knowledge work. The model boasts double the token efficiency of its predecessors and is priced at just $2 per million input tokens, dramatically undercutting the API pricing of rivals like Anthropic and OpenAI.",
+          "why_it_matters": "Demonstrates the ongoing \"race to the bottom\" in AI pricing, which you can use to reassure clients that AI operational costs will continue to drop.",
+          "terms": [
+            {
+              "term": "API",
+              "definition": "Application Programming Interface; a way for different software programs to talk to each other, often used by companies to plug an AI model into their own apps."
+            },
+            {
+              "term": "Tokens",
+              "definition": "The basic units of data an AI processes and bills for, roughly equivalent to a word or part of a word."
+            }
+          ],
+          "url": "https://siliconangle.com/2026/07/08/spacexais-newest-ai-model-grok-4-5-dramatically-undercuts-anthropic-openai-price/",
+          "source_name": "SiliconANGLE",
+          "signal_tag": "shift",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "news",
+          "headline": "OpenAI Sunsets AI Browser 'Atlas' After Just Eight Months",
+          "summary": "OpenAI has officially shut down Atlas, its experimental AI-powered browser, less than eight months after its initial launch. Instead of maintaining a separate browser, the company is folding its autonomous browsing features into the ChatGPT desktop application and a Chrome extension.",
+          "why_it_matters": "A good reminder that the AI product landscape is volatile; advise clients to avoid heavy reliance on experimental standalone tools in favor of integrated platforms.",
+          "terms": [],
+          "url": "https://the-decoder.com/openai-kills-its-atlas-browser-after-just-eight-months-and-folds-everything-into-chatgpt/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "news",
+          "headline": "New York Times Accuses OpenAI of Hiding Evidence in Copyright Trial",
+          "summary": "The New York Times has escalated its copyright lawsuit against OpenAI, filing a motion for sanctions. The news publisher alleges that OpenAI intentionally hid datasets and tools that could prove ChatGPT was trained on copyrighted journalism, effectively attempting to conceal evidence of infringement.",
+          "why_it_matters": "Keep copyright risks on your radar; enterprise clients need strict indemnification clauses when using AI tools to avoid getting caught in the crossfire of these lawsuits.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-07-09"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "Henry Schein One Automates 11 Million Dental X-Ray Verifications",
+          "summary": "Dental software provider Henry Schein One built an AI-powered system to automatically verify the quality of dental X-rays at the moment they are taken. The system scaled from concept to over 10,000 active locations in months. It has already processed over 11 million X-rays, currently operating at a rate of 1.5 million per week to ensure clinical quality without human intervention.",
+          "why_it_matters": "A gold-standard, numbers-backed case study proving how AI computer vision can reliably automate quality control at a massive commercial scale.",
+          "terms": [],
+          "url": "https://aws.amazon.com/blogs/machine-learning/real-time-dental-image-verification-with-amazon-sagemaker-ai-at-henry-schein-one/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "trending",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Delta Airlines Boosts Customer Satisfaction with AI Rebooking",
+          "summary": "Delta Airlines has credited its recent investments in customer experience, specifically simplified rebooking tools and an AI assistant, for a measurable boost in customer satisfaction. Executives noted that these tech upgrades reinforced their competitive advantage and produced strong financial results for their premium offerings.",
+          "why_it_matters": "Gives you a recognizable, enterprise-level success story linking AI customer service investments directly to customer satisfaction and loyalty.",
+          "terms": [
+            {
+              "term": "NPS",
+              "definition": "Net Promoter Score; a widely used metric that measures how likely a customer is to recommend a brand to others."
+            },
+            {
+              "term": "CX",
+              "definition": "Customer Experience; the overall perception a customer has of a brand based on all their interactions with it."
+            }
+          ],
+          "url": "https://www.customerexperiencedive.com/news/delta-simplified-rebooking-ai-assistant-nps-boost/824980/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Scotts Miracle-Gro Adopts AI for Supply Chain Management",
+          "summary": "Lawn and garden brand Scotts Miracle-Gro is expanding its use of artificial intelligence to unify its supply chain. By partnering with the tech firm Kinaxis, the company aims to run its planning, decision-making, and execution through a single AI-driven platform.",
+          "why_it_matters": "A solid operational case study showing how traditional retail manufacturers are using AI to untangle complex logistics and inventory challenges.",
+          "terms": [],
+          "url": "https://www.supplychaindive.com/news/scotts-miracle-gro-widens-tech-partnership-for-supply-chain-ai/824764/",
+          "source_name": "Supply Chain Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-07-09"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Valley Bank Uses Tiered AI Access to Control Costs",
+          "summary": "Valley Bank, a midsize lender based in New Jersey, is rolling out AI to improve internal efficiency and build client relationships. To prevent costs from spiraling out of control, the bank's chief operating officer implemented a \"tiered access\" system, restricting advanced AI usage only to employees who need it most.",
+          "why_it_matters": "Provides a practical governance framework you can recommend to finance leaders worried about runaway software bills.",
+          "terms": [],
+          "url": "https://www.bankingdive.com/news/valley-bank-ai-strategy-roi-vendors-midsize-lenders/824927/",
+          "source_name": "Banking Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "case_studies",
+          "headline": "EdVisorly Secures $13.3M to Automate University Admissions Back-Office",
+          "summary": "Los Angeles startup EdVisorly raised $13.3 million to scale its AI-native platform designed for higher education. The software automates the manual back-office workflows and paperwork that chronically slow down the college transfer and admissions process.",
+          "why_it_matters": "Demonstrates the massive market opportunity for AI in automating tedious, paper-heavy bureaucratic processes that plague large institutions.",
+          "terms": [],
+          "url": "https://news.crunchbase.com/venture/edtech-university-ai-platform-funding-edvisorly/",
+          "source_name": "Crunchbase News",
+          "signal_tag": "new",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Deutsche Telekom Transforms into an AI-Native Telecom Provider",
+          "summary": "Deutsche Telekom is partnering closely with OpenAI to overhaul its entire business structure into an \"AI-native\" operation. The telecommunications giant is applying AI models to redesign customer service, internal employee workflows, network operations, and voice communications.",
+          "why_it_matters": "A prime example of an enormous, legacy enterprise attempting top-to-bottom AI integration rather than just bolting on a few chatbots.",
+          "terms": [],
+          "url": "https://openai.com/index/deutsche-telekom",
+          "source_name": "OpenAI News",
+          "signal_tag": "shift",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Small Business Playbook: Fix Operations Before Automating",
+          "summary": "While early-adopting small businesses are saving up to $2,000 monthly by utilizing AI, experts warn against rushing the process. The consensus is that business owners must manually map out and fix their operational workflows first, because overlaying AI automation onto a broken system only creates faster chaos.",
+          "why_it_matters": "This is your core consulting mandate: you can save clients money, but you must first help them untangle their bad processes before applying AI.",
+          "terms": [],
+          "url": "https://academy.techpresso.co/blog/ai-automation-for-small-business",
+          "source_name": "AI Automation Blog",
+          "signal_tag": "shift",
+          "published_at": "2026-07-03"
+        },
+        {
+          "section": "case_studies",
+          "headline": "KTern.AI Builds Complex SAP Agents on Amazon Bedrock",
+          "summary": "Software company KTern.AI transitioned from a traditional platform to a next-generation agentic AI system for managing SAP enterprise software. They built multiple specialized AI agents using Amazon's Bedrock platform that operate with persistent context and secure tool access to handle long-running corporate programs.",
+          "why_it_matters": "Proves that complex enterprise resource planning (ERP) workflows can be successfully handed over to reliable AI agents.",
+          "terms": [
+            {
+              "term": "SAP",
+              "definition": "A major enterprise software company that provides systems for businesses to manage their operations, finances, and customer relations."
+            }
+          ],
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-ktern-ai-built-agentic-ai-for-sap-on-amazon-bedrock-agentcore/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "new",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "case_studies",
+          "headline": "MUFG Adopts ChatGPT Enterprise to Build AI-Native Organization",
+          "summary": "Financial services giant MUFG is deploying ChatGPT Enterprise across its operations. The organization is using the technology to improve internal workflows and deliver new AI-powered financial services at scale, aiming to become fully AI-native.",
+          "why_it_matters": "Another massive financial institution validating the security and utility of enterprise AI platforms, which you can cite to reassure risk-averse banking clients.",
+          "terms": [],
+          "url": "https://openai.com/index/mufg",
+          "source_name": "OpenAI News",
+          "signal_tag": "shift",
+          "published_at": "2026-07-07"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Vu Tran Hired as Opendoor's First Chief AI Officer",
+          "summary": "Real estate platform Opendoor has hired Vu Tran as its first Chief AI Officer to oversee its artificial intelligence strategy. Tran previously led Meta's Superintelligence Labs, bringing deep technical expertise to the real estate company as it attempts to automate its operations.",
+          "why_it_matters": "Shows the growing trend of non-tech enterprises creating dedicated C-suite roles for AI governance and strategy, validating the market for top-level AI consulting.",
+          "terms": [],
+          "url": "https://www.cdomagazine.tech/leadership-moves/opendoor-names-vu-tran-chief-ai-officer",
+          "source_name": "CDO Magazine",
+          "signal_tag": "new",
+          "published_at": "2026-07-09"
+        },
+        {
+          "section": "people",
+          "headline": "Adnan Masood Publishes Comprehensive AI ROI Framework",
+          "summary": "AI expert Adnan Masood has released a comprehensive framework to help enterprise leadership measure the return on their artificial intelligence investments. His strategy breaks down AI returns into four distinct categories: hard financial gains, productivity boosts, avoided risks, and future option value.",
+          "why_it_matters": "This is a direct, repeatable mental model you can adapt to help CFOs and CEOs finally quantify the value of the AI tools they are buying.",
+          "terms": [
+            {
+              "term": "ROI",
+              "definition": "Return on Investment; a metric used to understand the financial gain or loss generated on an investment relative to its cost."
+            }
+          ],
+          "url": "https://medium.com/@adnanmasood/the-state-of-roi-in-enterprise-ai-definitions-evidence-and-a-decision-framework-625091f62da5",
+          "source_name": "Adnan Masood / Medium",
+          "signal_tag": "trending",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "people",
+          "headline": "Fidji Simo Steps Down as OpenAI's AGI Deployment Chief",
+          "summary": "Fidji Simo, the executive in charge of deploying artificial general intelligence at OpenAI, is stepping down from her full-time role due to an ongoing medical condition. She will transition to a part-time advisory position, leaving a significant leadership vacuum at the company as it races to compete in the enterprise market.",
+          "why_it_matters": "Simo was crucial to OpenAI's enterprise rollout strategy; her departure is worth tracking if you consult clients heavily reliant on OpenAI's enterprise roadmap.",
+          "terms": [
+            {
+              "term": "AGI",
+              "definition": "Artificial General Intelligence; a hypothetical type of AI that can understand, learn, and apply knowledge across a wide range of tasks at a human or superhuman level."
+            }
+          ],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
+          "source_name": "AI | The Verge",
+          "signal_tag": "shift",
+          "published_at": "2026-07-09"
+        },
+        {
+          "section": "people",
+          "headline": "Talkdesk CMO Neville Letzerich on Managing AI Workforces",
+          "summary": "Neville Letzerich, Chief Marketing Officer at Talkdesk, is advising leaders on the complex dynamics of blending human and artificial intelligence in the workplace. He warns that simply throwing AI and human workers together without a strategy is a recipe for operational failure.",
+          "why_it_matters": "Letzerich provides a strong voice on change management—a key pillar of your consulting pitch when clients ask how their human staff will adapt to AI.",
+          "terms": [],
+          "url": "https://www.customerexperiencedive.com/news/cx-leaders-managing-workforces-ai-era/824513/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "people",
+          "headline": "Clem Delangue Claims Open Source AI is Dominating the Fortune 500",
+          "summary": "Hugging Face CEO Clem Delangue reports that open-source artificial intelligence is experiencing a massive boom, with his platform now utilized by roughly half of the Fortune 500. He argues that enterprises are increasingly refusing to \"rent\" their AI from closed vendors, opting instead for open models they can control securely.",
+          "why_it_matters": "Delangue is the leading evangelist for open-source AI; you can use his insights to advise privacy-conscious enterprise clients on alternatives to OpenAI and Google.",
+          "terms": [
+            {
+              "term": "Open-source",
+              "definition": "Software whose original underlying code is made freely available for anyone to use, modify, and distribute."
+            }
+          ],
+          "url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "people",
+          "headline": "Johannes Heidecke Departs as OpenAI's Head of Safety",
+          "summary": "Johannes Heidecke has announced his departure from his role as Head of Safety at OpenAI. His exit comes at a sensitive time, as the company works to further integrate its core research and safety divisions amid growing public scrutiny.",
+          "why_it_matters": "Heidecke's departure adds to a string of safety-focused exits at OpenAI, a risk factor you should monitor when advising cautious enterprise clients on platform trust.",
+          "terms": [],
+          "url": "https://www.wired.com/story/openai-head-of-safety-leaving/",
+          "source_name": "Feed: Artificial Intelligence Latest",
+          "signal_tag": "shift",
+          "published_at": "2026-07-11"
+        }
+      ]
+    }
+  ]
+}
