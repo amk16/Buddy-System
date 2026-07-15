@@ -1,0 +1,710 @@
+{
+  "id": "2026-07-15",
+  "generated_at": "2026-07-15T14:49:05.081641+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "Former Meta Employees Sue Over Allegedly Discriminatory AI Layoff System",
+      "summary": "Former and current Meta employees have filed a lawsuit alleging the company used an internal AI system to generate lists for its mass layoffs. The suit claims this automated selection process disproportionately targeted employees with disabilities or those on medical leave. Meta has denied using AI to terminate workers with medical problems.",
+      "why_it_matters": "This is a critical cautionary tale to share with clients about the severe legal and reputational risks of relying on AI for sensitive human resources decisions.",
+      "terms": [],
+      "url": "https://the-decoder.com/meta-employees-sue-over-layoffs-they-say-were-driven-by-discriminatory-ai-selection-systems/",
+      "source_name": "The Decoder",
+      "signal_tag": "shift",
+      "published_at": "2026-07-15"
+    },
+    {
+      "section": "case_studies",
+      "headline": "Premium Accessories Brand Replaces Support Staff with AI, Saves 153 Hours Monthly",
+      "summary": "An unnamed premium accessories brand deployed an AI customer service agent to handle incoming support tickets. The automated system successfully resolved 64% of the company's 2,900 monthly inquiries without human intervention. The brand also maintained an 85% customer satisfaction score while saving roughly 153 hours of labor per month.",
+      "why_it_matters": "This is a perfect, metrics-heavy case study to share with retail or e-commerce clients looking to automate customer support without tanking their brand reputation.",
+      "terms": [],
+      "url": "https://myaskai.com/blog/my-askai-premium-accessories-case-study-2026",
+      "source_name": "My AskAI",
+      "signal_tag": "trending",
+      "published_at": "2026-07-15"
+    },
+    {
+      "section": "news",
+      "headline": "Executives See Personal Benefits from AI, But Lack a Profitable Corporate Strategy",
+      "summary": "A new enterprise adoption survey reveals that 97% of executives report individual productivity benefits from using AI tools. However, only 29% say they are seeing significant financial returns for their wider organization. The report attributes this gap to a \"strategic vacuum,\" where companies buy tools without a centralized plan to change how work gets done.",
+      "why_it_matters": "This statistic validates your exact value proposition: companies need expert guidance to turn scattered AI tool usage into genuine corporate cost savings and revenue.",
+      "terms": [],
+      "url": "https://uprovd.com/blog/strategic-vacuum-ai-adoption/",
+      "source_name": "Uprovd Blog",
+      "signal_tag": "shift",
+      "published_at": "2026-07-02"
+    },
+    {
+      "section": "tools",
+      "headline": "Microsoft Deepens AI Workflows with New Sales and Service Agents",
+      "summary": "Microsoft has moved its new \"Sales Agent\" and \"Service Agent\" tools into general availability for enterprise customers. These tools deeply integrate generative AI capabilities with a company's existing customer data housed in Microsoft Dynamics 365. The release signals Microsoft's push to move beyond generic chatbots toward specialized assistants that execute specific business functions.",
+      "why_it_matters": "If your clients already use the Microsoft software ecosystem, this is the most seamless way for them to deploy specialized AI into their sales and customer service teams.",
+      "terms": [
+        {
+          "term": "generative AI",
+          "definition": "Artificial intelligence capable of creating new text, images, or other media based on the prompts it receives."
+        }
+      ],
+      "url": "https://itbrief.co.uk/story/microsoft-launches-ai-sales-service-tools-in-copilot",
+      "source_name": "IT Brief UK",
+      "signal_tag": "new",
+      "published_at": "2026-07-13"
+    },
+    {
+      "section": "tools",
+      "headline": "Origami Launches AI Tool to Automate Outbound Sales Research",
+      "summary": "A new business-to-business sales agent called Origami has launched to strong initial reviews. The platform allows users to type a natural language prompt to autonomously scrape web sources, score prospects, and build enriched lists of potential clients. It aims to replace manual sales research with a single automated process.",
+      "why_it_matters": "This is a highly practical, ready-to-use tool recommendation for sales leaders looking to automate the tedious early stages of outbound lead generation.",
+      "terms": [
+        {
+          "term": "agent",
+          "definition": "An AI system that can take actions and complete multi-step tasks on its own, rather than just answering questions."
+        }
+      ],
+      "url": "https://origami.chat/blog/origami-launches-on-product-hunt-number-one",
+      "source_name": "Product Hunt",
+      "signal_tag": "new",
+      "published_at": "2026-07-05"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Microsoft Deepens AI Workflows with New Sales and Service Agents",
+          "summary": "Microsoft has moved its new \"Sales Agent\" and \"Service Agent\" tools into general availability for enterprise customers. These tools deeply integrate generative AI capabilities with a company's existing customer data housed in Microsoft Dynamics 365. The release signals Microsoft's push to move beyond generic chatbots toward specialized assistants that execute specific business functions.",
+          "why_it_matters": "If your clients already use the Microsoft software ecosystem, this is the most seamless way for them to deploy specialized AI into their sales and customer service teams.",
+          "terms": [
+            {
+              "term": "generative AI",
+              "definition": "Artificial intelligence capable of creating new text, images, or other media based on the prompts it receives."
+            }
+          ],
+          "url": "https://itbrief.co.uk/story/microsoft-launches-ai-sales-service-tools-in-copilot",
+          "source_name": "IT Brief UK",
+          "signal_tag": "new",
+          "published_at": "2026-07-13"
+        },
+        {
+          "section": "tools",
+          "headline": "Origami Launches AI Tool to Automate Outbound Sales Research",
+          "summary": "A new business-to-business sales agent called Origami has launched to strong initial reviews. The platform allows users to type a natural language prompt to autonomously scrape web sources, score prospects, and build enriched lists of potential clients. It aims to replace manual sales research with a single automated process.",
+          "why_it_matters": "This is a highly practical, ready-to-use tool recommendation for sales leaders looking to automate the tedious early stages of outbound lead generation.",
+          "terms": [
+            {
+              "term": "agent",
+              "definition": "An AI system that can take actions and complete multi-step tasks on its own, rather than just answering questions."
+            }
+          ],
+          "url": "https://origami.chat/blog/origami-launches-on-product-hunt-number-one",
+          "source_name": "Product Hunt",
+          "signal_tag": "new",
+          "published_at": "2026-07-05"
+        },
+        {
+          "section": "tools",
+          "headline": "Real Chemistry Launches Specialized AI Suite for Healthcare Marketing",
+          "summary": "Health innovation firm Real Chemistry has released 'Anatomi', a compliant AI suite customized specifically for healthcare commercialization. The platform handles sensitive workflows spanning medical affairs, marketing strategy, and FDA risk evaluation. It is designed to navigate the heavy regulatory hurdles unique to pharmaceutical marketing.",
+          "why_it_matters": "A perfect niche tool to introduce to any healthcare or pharmaceutical clients who want to use AI but are paralyzed by compliance concerns.",
+          "terms": [],
+          "url": "https://www.fiercepharma.com/marketing/real-chemistry-builds-body-ai-healthcare-commercialization-tools-anatomi-launch",
+          "source_name": "Fierce Pharma",
+          "signal_tag": "new",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "tools",
+          "headline": "Meta Embeds Image Generation Model Directly into Ad Suite",
+          "summary": "Meta has embedded its new 'Muse Image' generative AI model into its Advantage+ advertising platform. The integration is aimed at dramatically reducing ad creation costs for small-to-medium businesses by automatically generating creative variations of their visual assets. This allows advertisers to test hundreds of ad designs without paying for expensive photoshoots.",
+          "why_it_matters": "This is a direct cost-saving tool for digital marketing clients, allowing them to stretch their ad budgets further through automated creative testing.",
+          "terms": [],
+          "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/07/08/metas-new-image-model-is-competing-for-ad-budgets/",
+          "source_name": "Forbes",
+          "signal_tag": "new",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "tools",
+          "headline": "Nudge 2.0 AI Assistant Schedules Action Items For the Week",
+          "summary": "A new productivity app called nudge 2.0 has launched to automate weekly planning. The AI tool reviews your tasks, goals, and existing calendar to automatically schedule the best times to take action. It aims to eliminate the friction of manual time-blocking.",
+          "why_it_matters": "A great personal productivity recommendation for busy founders and executives who struggle to protect focus time in their schedules.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/nudge-26",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "tools",
+          "headline": "Crustdata Recruiter Turns Claude into a Specialized Hiring Agent",
+          "summary": "A new tool called Crustdata Recruiter leverages specialized skills built on top of Anthropic's Claude AI model. The platform is designed to make the chatbot function as a high-volume recruiter, searching for technical talent and matching candidate profiles to open roles.",
+          "why_it_matters": "This shows how general models like Claude are being packaged with specific skills to replace expensive outsourced functions like talent sourcing.",
+          "terms": [
+            {
+              "term": "model",
+              "definition": "The underlying artificial intelligence engine that powers a chatbot or software tool."
+            }
+          ],
+          "url": "https://www.producthunt.com/products/crustdata-2",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "tools",
+          "headline": "Reelful Uses AI to Turn Camera Rolls into Social Media Content",
+          "summary": "Reelful is a new mobile app that uses AI to automatically scan a user's camera roll and piece together short-form video content. It is designed for marketers, creators, and small business owners who need to post consistently to platforms like TikTok or Instagram but lack the time or skills for traditional video editing.",
+          "why_it_matters": "A practical recommendation for small business clients or solo marketers who need to increase their social media video output without hiring an editor.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "tools",
+          "headline": "YAGNI Allows Managers to Oversee Proactive AI Teams Like Humans",
+          "summary": "YAGNI is a newly launched platform that creates \"proactive agent teams\" designed to be managed just like human employees. Instead of requiring complex coding, business leaders can assign broad goals to the AI team and monitor their autonomous progress through a management dashboard.",
+          "why_it_matters": "This tool highlights the shift from chatbots that just answer questions to autonomous digital workers that managers can deploy for ongoing projects.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/yagni",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "tools",
+          "headline": "Agentcard Issues Corporate Debit Cards Directly to AI Systems",
+          "summary": "A new fintech tool called Agentcard allows companies to issue actual debit cards to their autonomous AI agents. This capability enables an AI system to make software purchases, book travel, or pay for online services independently, up to a pre-approved spending limit.",
+          "why_it_matters": "A fascinating glimpse into the future of operations, where AI doesn't just do digital work but also controls its own micro-budgets to get tasks done.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/agent-card",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "tools",
+          "headline": "Eddie AI Offers Time-Stamped Video Feedback and Editing",
+          "summary": "Eddie is a newly launched AI video editor that allows remote teams and artificial intelligence to collaborate on video content. Users can upload raw footage, and the AI provides time-stamped feedback, cuts, and suggestions alongside human team members.",
+          "why_it_matters": "Useful for marketing teams bogged down in endless video review cycles, speeding up the approval process for corporate communications and ads.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/eddie-your-ai-video-editor",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-07-13"
+        },
+        {
+          "section": "tools",
+          "headline": "Tiptap AI Toolkit Enables Real-Time Document Editing by AI",
+          "summary": "Tiptap has released a new toolkit that allows developers to empower AI agents to directly edit documents in real time. Instead of just generating text in a chat window that users have to copy and paste, the AI can format, revise, and update live business documents directly.",
+          "why_it_matters": "This feature reduces the friction of using AI, making it feel less like a search engine and more like a coworker actively typing inside your document.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/tiptap",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "tools",
+          "headline": "V2Fun Generates 3D Characters with AI Motion Capture",
+          "summary": "V2Fun is an AI tool that rapidly generates 3D characters complete with high-resolution textures. It also includes an AI motion capture feature, allowing creators to animate these digital avatars quickly for use in games, virtual environments, or marketing materials.",
+          "why_it_matters": "A powerful capability for creative agencies or consumer brands looking to build interactive digital mascots without a massive animation budget.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/v2fun",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-07-02"
+        },
+        {
+          "section": "tools",
+          "headline": "ccshare Enables Multiplayer Coding with Claude",
+          "summary": "A new platform called ccshare brings a multiplayer environment to Claude Code, Anthropic's programming AI. It allows multiple developers to collaborate in real-time within the same AI-assisted coding workspace, sharing prompts and code generations.",
+          "why_it_matters": "Important for technical teams trying to figure out how to integrate AI coding assistants into a collaborative, rather than isolated, workflow.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/ccshare",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "tools",
+          "headline": "Google Search Introduces Free AI Image Generation",
+          "summary": "Google has updated its Search capabilities to allow users to generate custom AI images directly inside its AI Overviews feature. If a user searches for something specific and no matching image exists on the web, Google's new model will instantly generate one for free.",
+          "why_it_matters": "This commoditizes basic image generation even further, meaning marketers may no longer need to pay for standalone image tools for simple, everyday graphics.",
+          "terms": [],
+          "url": "https://www.zdnet.com/article/google-search-generate-ai-images-free/",
+          "source_name": "Latest news",
+          "signal_tag": "trending",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "tools",
+          "headline": "Testing Desktop Automation: ChatGPT Work vs. Claude Cowork",
+          "summary": "A recent software test compared OpenAI's ChatGPT Work and Anthropic's Claude Cowork, two tools designed to automate tasks directly on a user's desktop. While both tools showed similar strengths in navigating files and executing basic commands, the reviewer noted that Claude's system currently feels considerably safer and more reliable for local data handling.",
+          "why_it_matters": "As AI moves from browser chat windows to taking control of our local computers, choosing the most secure and reliable provider is critical for enterprise data safety.",
+          "terms": [],
+          "url": "https://www.zdnet.com/article/chatgpt-work-claude-cowork/",
+          "source_name": "Latest news",
+          "signal_tag": "trending",
+          "published_at": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "Former Meta Employees Sue Over Allegedly Discriminatory AI Layoff System",
+          "summary": "Former and current Meta employees have filed a lawsuit alleging the company used an internal AI system to generate lists for its mass layoffs. The suit claims this automated selection process disproportionately targeted employees with disabilities or those on medical leave. Meta has denied using AI to terminate workers with medical problems.",
+          "why_it_matters": "This is a critical cautionary tale to share with clients about the severe legal and reputational risks of relying on AI for sensitive human resources decisions.",
+          "terms": [],
+          "url": "https://the-decoder.com/meta-employees-sue-over-layoffs-they-say-were-driven-by-discriminatory-ai-selection-systems/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "news",
+          "headline": "Executives See Personal Benefits from AI, But Lack a Profitable Corporate Strategy",
+          "summary": "A new enterprise adoption survey reveals that 97% of executives report individual productivity benefits from using AI tools. However, only 29% say they are seeing significant financial returns for their wider organization. The report attributes this gap to a \"strategic vacuum,\" where companies buy tools without a centralized plan to change how work gets done.",
+          "why_it_matters": "This statistic validates your exact value proposition: companies need expert guidance to turn scattered AI tool usage into genuine corporate cost savings and revenue.",
+          "terms": [],
+          "url": "https://uprovd.com/blog/strategic-vacuum-ai-adoption/",
+          "source_name": "Uprovd Blog",
+          "signal_tag": "shift",
+          "published_at": "2026-07-02"
+        },
+        {
+          "section": "news",
+          "headline": "OpenAI's Flagship Model Delete Files Without Warning, Users Claim",
+          "summary": "Multiple social media reports suggest that OpenAI's new GPT-5.6 Sol model is deleting user files and data without warning during interactions. OpenAI had essentially disclosed this potential vulnerability back in June, but the issue is now impacting real-world workflows as adoption scales.",
+          "why_it_matters": "A vital risk to flag for clients: giving AI tools broad access to local computer files can lead to catastrophic data loss if the system misinterprets a command.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "news",
+          "headline": "SpaceXAI's Grok Caught Uploading Entire Codebases to the Cloud",
+          "summary": "Cybersecurity researchers discovered that SpaceXAI's Grok Build programming tool was secretly packaging and uploading its users' entire software codebases to Google Cloud storage. The tool even uploaded files it was explicitly instructed not to open, prompting the company to disable the feature after it was publicly reported.",
+          "why_it_matters": "Another major security red flag for companies rushing to use AI coding tools without properly vetting how those tools handle proprietary corporate data.",
+          "terms": [],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+          "source_name": "AI | The Verge",
+          "signal_tag": "trending",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "news",
+          "headline": "OpenAI's Codex Encrypts Instructions, Leaving Developers Blind",
+          "summary": "OpenAI's coding tool, Codex, has begun encrypting the instructions that a primary AI agent passes down to its subagents. For users of the larger GPT-5.6 variants, this encryption is mandatory, meaning human developers can no longer see or track exactly how the AI is internally delegating tasks.",
+          "why_it_matters": "This \"black box\" approach removes a layer of oversight, making it much harder for IT teams to audit or troubleshoot complex AI workflows when things go wrong.",
+          "terms": [],
+          "url": "https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "news",
+          "headline": "Report Shows Spending Strategy, Not Tool Budgets, Drives AI Returns",
+          "summary": "A Boston Consulting Group survey highlights that simply purchasing AI licenses does not guarantee a return on investment. The study found that 66% of frontline white-collar workers are handed AI tools but receive little to no managerial guidance on what to do with the time those tools save them.",
+          "why_it_matters": "Clients must understand that deploying AI is a change management challenge; if you don't redesign the workflow, the saved time just evaporates.",
+          "terms": [],
+          "url": "https://www.marketscale.com/industries/software-and-technology/buying-ai-tools-isnt-enough-two-reports-show-strategy-not-spend-drives-enterprise-returns",
+          "source_name": "MarketScale",
+          "signal_tag": "trending",
+          "published_at": "2026-07-13"
+        },
+        {
+          "section": "news",
+          "headline": "New York Becomes First State to Halt New Data Center Construction",
+          "summary": "New York Governor Kathy Hochul has signed a moratorium temporarily blocking the approval of new hyperscale data centers for up to a year. The pause is intended to address concerns that the AI-driven building boom is draining local water supplies, driving up electricity costs, and overriding community control.",
+          "why_it_matters": "This signals a major regulatory headwind for the AI industry that could eventually drive up computing costs if other states follow suit to protect their energy grids.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "news",
+          "headline": "AI ROI is Rising, But Not Leading to Cost Savings Yet",
+          "summary": "An SAP enterprise survey indicates that artificial intelligence is successfully helping organizations uncover business insights and improve customer interactions. However, contrary to executive expectations, the technology is not yet reliably saving companies money or reducing total time spent on projects.",
+          "why_it_matters": "This is great data to temper client expectations—AI currently drives better quality and deeper insights, but it is not a magic bullet for slashing operational budgets.",
+          "terms": [
+            {
+              "term": "ROI",
+              "definition": "Return on Investment, a metric used to calculate how much profit or cost savings a business gains from the money it spent on a project."
+            }
+          ],
+          "url": "https://www.ciodive.com/news/enterprise-roi-value-savings/825234/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "news",
+          "headline": "Anthropic Opens Claude for Teachers with Privacy Promises",
+          "summary": "AI lab Anthropic is launching \"Claude for Teachers,\" providing free access to its AI tools for verified K-12 educators in the United States. Crucially, the company has explicitly promised that it will not train its AI models on any student data or materials uploaded by the teachers.",
+          "why_it_matters": "This privacy-first approach is a strong selling point for Anthropic, and a standard you should demand when evaluating AI vendors for highly regulated client industries.",
+          "terms": [],
+          "url": "https://the-decoder.com/anthropic-opens-claude-for-teachers-with-a-promise-not-to-train-models-on-student-data/",
+          "source_name": "The Decoder",
+          "signal_tag": "new",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "news",
+          "headline": "AI Cost Pricing Sheet Highlights Shift in Billing Strategies",
+          "summary": "Recent industry tracking reveals a shift in how AI is priced. Major Western providers are increasingly offering tiered paid subscriptions to cap high usage, rather than charging purely by the model used. Meanwhile, overseas AI alternatives are massively undercutting the standard API costs set by American tech giants.",
+          "why_it_matters": "A crucial market dynamic for your radar—if a client's AI strategy relies heavily on API costs, shifting to cheaper overseas models or negotiating usage caps could save them thousands.",
+          "terms": [
+            {
+              "term": "API",
+              "definition": "Application Programming Interface, a way for two pieces of software to talk to each other, often used by companies to plug AI brains into their own apps."
+            }
+          ],
+          "url": "https://www.eweek.com/news/ai-pricing-cheat-sheet-2026/",
+          "source_name": "eWeek",
+          "signal_tag": "shift",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "news",
+          "headline": "Fintech Funding Surges 23% in Early 2026, Fueled by AI Infrastructure",
+          "summary": "Venture capital funding for financial technology startups climbed 23% year-over-year in the first half of 2026. However, total deal volume actually fell by 25%. This indicates that investors are writing much larger checks to a smaller number of companies, heavily concentrating their bets on AI and core financial infrastructure.",
+          "why_it_matters": "This consolidation means a few dominant AI financial tools will likely emerge soon; clients in the finance sector should be preparing to adopt these heavily backed platforms.",
+          "terms": [],
+          "url": "https://news.crunchbase.com/fintech/funding-rises-deals-slump-h1-2026/",
+          "source_name": "Crunchbase News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "news",
+          "headline": "Anthropic and Blackstone Back New Trillion-Dollar AI Implementation Bet",
+          "summary": "A new startup called Ode has launched with backing from Anthropic and Blackstone, operating on the premise that the real money in AI lies in implementation, not just building models. The company is embedding \"forward-deployed engineers\" directly inside large enterprises to help them force AI adoption across legacy systems.",
+          "why_it_matters": "This validates the immense need for hands-on AI consulting and implementation, proving that even the best models fail without humans to stitch them into existing corporate workflows.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "news",
+          "headline": "DeepSeek Seeks More Cash Just Weeks After Raising $7 Billion",
+          "summary": "Chinese AI lab DeepSeek is already seeking new funding just weeks after closing a massive $7 billion round. The capital is required to build out its own data centers and secure proprietary chips, allowing the company to sustain its highly aggressive, low-cost pricing strategy against Western rivals.",
+          "why_it_matters": "The sheer cost of running AI infrastructure is staggering; tracking these funding rounds helps predict whether cheap AI services will eventually be forced to raise their prices.",
+          "terms": [],
+          "url": "https://the-decoder.com/deepseek-needs-more-cash-just-weeks-after-closing-its-first-7-billion-round/",
+          "source_name": "The Decoder",
+          "signal_tag": "trending",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "news",
+          "headline": "Defenders Embrace 'Prompt Injection' to Stop Malicious AI",
+          "summary": "Cybersecurity defenders are turning an AI vulnerability known as 'prompt injection' against attackers. By placing hidden instructions—a technique called \"context bombing\"—inside data, defenders can trick unauthorized hacking AI agents into shutting themselves down before they can steal information or do harm.",
+          "why_it_matters": "A clever defensive strategy to discuss with IT leaders worried about rogue AI scraping their corporate websites or attempting automated breaches.",
+          "terms": [
+            {
+              "term": "prompt injection",
+              "definition": "A hacking technique where malicious instructions are hidden in text to manipulate an AI system into ignoring its safety rules."
+            }
+          ],
+          "url": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
+          "source_name": "AI - Ars Technica",
+          "signal_tag": "shift",
+          "published_at": "2026-07-13"
+        },
+        {
+          "section": "news",
+          "headline": "Google Faces Yet Another AI Training Lawsuit from Major Publishers",
+          "summary": "Publishing heavyweights, including Hachette, Cengage, and Elsevier, have filed a lawsuit against Google. The publishers allege that the tech giant illegally used their copyrighted books and materials to train its artificial intelligence models without securing the necessary permissions or offering compensation.",
+          "why_it_matters": "Ongoing copyright litigation is a constant background risk; it's why enterprise clients should demand intellectual property indemnification (legal protection) from their AI vendors.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "news",
+          "headline": "Apple Opens Revamped Siri AI to the Public via iOS 27 Beta",
+          "summary": "Apple has released the first public beta of iOS 27, giving general iPhone users early access to its heavily revamped, AI-powered Siri assistant. The update positions Siri as a deeper, more capable backbone for the iPhone user experience ahead of its official wide release this fall.",
+          "why_it_matters": "As Apple embeds powerful AI natively into billions of iPhones, consumer expectations for how smoothly voice assistants should work will skyrocket, putting pressure on corporate chatbots to keep up.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-07-14"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "Premium Accessories Brand Replaces Support Staff with AI, Saves 153 Hours Monthly",
+          "summary": "An unnamed premium accessories brand deployed an AI customer service agent to handle incoming support tickets. The automated system successfully resolved 64% of the company's 2,900 monthly inquiries without human intervention. The brand also maintained an 85% customer satisfaction score while saving roughly 153 hours of labor per month.",
+          "why_it_matters": "This is a perfect, metrics-heavy case study to share with retail or e-commerce clients looking to automate customer support without tanking their brand reputation.",
+          "terms": [],
+          "url": "https://myaskai.com/blog/my-askai-premium-accessories-case-study-2026",
+          "source_name": "My AskAI",
+          "signal_tag": "trending",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "case_studies",
+          "headline": "BBVA Rolls Out ChatGPT to 120,000 Employees, Saving 3 Hours a Week Per Worker",
+          "summary": "The global bank BBVA has completed a massive rollout of ChatGPT Enterprise to 120,000 of its employees. Since the launch, the bank reports an average time savings of three hours per employee each week. Workers have also created over 20,000 custom AI assistants tailored to specific banking workflows.",
+          "why_it_matters": "These concrete numbers offer excellent benchmark data for clients wondering about the real-world impact of giving generative AI to a massive corporate workforce.",
+          "terms": [
+            {
+              "term": "ChatGPT Enterprise",
+              "definition": "A business-focused version of OpenAI's chatbot that includes enhanced security and privacy controls to protect corporate data."
+            }
+          ],
+          "url": "https://news.hamidun.com/en/cases/bbva-chatgpt-enterprise",
+          "source_name": "Business cases",
+          "signal_tag": "trending",
+          "published_at": "2026-07-11"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Rolls-Royce Saves 300,000 Hours Using ServiceNow's AI Automation",
+          "summary": "Manufacturing giant Rolls-Royce leveraged generative AI and autonomous workflow capabilities from ServiceNow to overhaul its shop floor operations. The integration resulted in an astounding 300,000 hours of labor saved by automating repetitive manufacturing and administrative workflows.",
+          "why_it_matters": "A massive, proven industrial use case that demonstrates AI is moving beyond marketing copy and into heavy operational cost-cutting.",
+          "terms": [],
+          "url": "https://www.beri.net/article/servicenow-ai-control-tower-governance-playbook-2026",
+          "source_name": "THE D*AI*LY BRIEF",
+          "signal_tag": "trending",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Pfizer's AI Rollout Projected to Save 16,000 Scientist Hours Annually",
+          "summary": "Pfizer has implemented a connected AI system spanning its drug discovery and operational teams. The transformation is currently driving 16,000 hours of saved scientist labor annually. Looking ahead, the pharmaceutical company is on track to realize $4.5 billion in projected net cost savings by the end of 2026.",
+          "why_it_matters": "A multi-billion dollar proof point that AI can streamline highly technical, specialized fields like scientific research, not just basic administrative tasks.",
+          "terms": [],
+          "url": "https://www.g-co.agency/insights/pfizer-ai-patient-hcp-experience-pharmaceutical-cx-transformation-case-study",
+          "source_name": "G&CO.",
+          "signal_tag": "shift",
+          "published_at": "2026-07-06"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Prism AI Secures 50 Qualified Leads in 3 Weeks with Voice Agent",
+          "summary": "PrismAI Solutions, an AI voice agent firm, turned its own technology outward to power a structured outbound sales engine. Over three weeks, the automated system secured 50 qualified leads and booked meetings with the top five companies in their target European niche.",
+          "why_it_matters": "A compelling example of how AI voice agents are becoming sophisticated enough to handle top-of-funnel sales calls and successfully book real meetings.",
+          "terms": [],
+          "url": "https://www.gtmrevenue.com/prism-ai",
+          "source_name": "GTM Revenue",
+          "signal_tag": "trending",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Minimal Support Resolves 90% of E-Commerce Tickets End-to-End",
+          "summary": "Customer support platform Minimal uses an automated web scraper called Firecrawl to turn messy online storefront data into structured information for its AI models. By feeding the AI highly accurate store context, the platform's support agents are now able to resolve up to 90% of e-commerce customer tickets entirely on their own.",
+          "why_it_matters": "Highlights that the secret to good AI isn't just a smart chatbot, but having an automated pipeline that feeds that bot perfectly clean, up-to-date business data.",
+          "terms": [
+            {
+              "term": "web scraper",
+              "definition": "A software tool designed to automatically read and extract data from websites."
+            }
+          ],
+          "url": "https://www.firecrawl.dev/blog/how-minimal-builds-ai-support-agents-with-firecrawl",
+          "source_name": "Firecrawl",
+          "signal_tag": "shift",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Higher-Ed GenAI Pilot Shows Work Shifts, But Doesn't Always Save Time",
+          "summary": "A study examining generative AI use in higher-education administration found that the technology did not necessarily reduce total working hours. Instead, the AI fundamentally reshaped how work was done, shifting team coordination away from lengthy meetings and toward faster, written decisions and closures.",
+          "why_it_matters": "This nuance is crucial for consulting: AI might not let your clients fire staff or cut hours, but it will drastically change how those teams communicate and execute.",
+          "terms": [],
+          "url": "https://www.mitsloanme.com/article/genai-success-metrics-look-beyond-reduced-workload/",
+          "source_name": "Research Case Study",
+          "signal_tag": "shift",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Bank of America's 'Erica' Chatbot Surpasses 24 Million Active Users",
+          "summary": "Active users of Bank of America's AI-driven chatbot, Erica, grew by 23% year-over-year, reaching a total of 24.6 million users. The virtual assistant continues to be a central pillar in the bank's strategy to amplify digital customer engagement and reduce basic call center volume.",
+          "why_it_matters": "Proof that consumers are increasingly willing to engage with corporate AI assistants if the interface is reliable and actually solves their banking problems.",
+          "terms": [],
+          "url": "https://www.customerexperiencedive.com/news/bank-of-americas-chatbot-erica-continues-to-amplify-digital-engagement/825227/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Walmart Leverages AI 'Digital Twins' to Bulletproof Its Supply Chain",
+          "summary": "Walmart is using artificial intelligence to create \"digital twins\"—virtual replicas of its global supply chain. This technology allows the retail giant to simulate weather challenges, global conflicts, and logistics bottlenecks, ensuring products continue to move efficiently around the world regardless of real-world disruptions.",
+          "why_it_matters": "A high-level operations example showcasing how predictive AI is being used for massive risk mitigation and logistics planning, not just text generation.",
+          "terms": [
+            {
+              "term": "digital twin",
+              "definition": "A highly detailed virtual model of a physical object, system, or process used to run simulations and predict real-world behavior."
+            }
+          ],
+          "url": "https://www.cfodive.com/news/Walmart-supply-chain-ai-digital-twin/825173/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Flo Health Scales Medical Content Review Using Amazon Bedrock",
+          "summary": "The engineering team at Flo Health transitioned an AI proof-of-concept into a full production system using Amazon Web Services. They built an AI-powered engine to review and generate medical content, allowing the health app to massively scale its educational materials while maintaining strict medical accuracy.",
+          "why_it_matters": "A solid example of how AI can scale content production in a highly sensitive, regulated space where accuracy is a matter of health and safety.",
+          "terms": [],
+          "url": "https://aws.amazon.com/blogs/machine-learning/scaling-medical-content-review-at-flo-health-with-amazon-bedrock-part-2/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "new",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Ebike Delivery Goes Missing, Exposing the Limits of Chatbot Customer Service",
+          "summary": "A consumer reported a missing ebike delivery and found themselves trapped in \"chatbot hell\" trying to resolve the issue. The frustrating loop of automated responses highlighted how companies’ increasing reliance on AI chatbots often fails to handle complex, edge-case logistics problems, infuriating customers rather than helping them.",
+          "why_it_matters": "A vital case study in what NOT to do; clients must ensure their AI customer service tools have an immediate, seamless \"escape hatch\" to a human agent.",
+          "terms": [],
+          "url": "https://www.wired.com/story/ebike-delivery-missing-when-i-tried-to-recover-it-i-ended-up-in-chatbot-hell/",
+          "source_name": "Feed: Artificial Intelligence Latest",
+          "signal_tag": "shift",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Mature AI Deployments Seeing 100% to 300% ROI Over Three Years",
+          "summary": "A new framework analysis on enterprise AI indicates that companies with mature, well-integrated AI deployments are generating returns of between 100% and 300% over a three-year span. The median payback period for these initial technology investments is currently sitting at 18 to 24 months.",
+          "why_it_matters": "These timeline metrics are exactly what a CFO wants to hear before signing off on an AI consulting budget—it sets realistic expectations for the payback period.",
+          "terms": [],
+          "url": "https://www.hymalaia.com/blog/enterprise-ai-deployment-roi-explained-for-leaders-en",
+          "source_name": "Hymalaia",
+          "signal_tag": "trending",
+          "published_at": "2026-07-07"
+        },
+        {
+          "section": "case_studies",
+          "headline": "AWS and Bluesight Automate Hospital 340B Compliance with AI",
+          "summary": "Bluesight developed 'Prism', an AI layer built on Amazon Web Services that connects pharmacy and compliance data across a hospital's systems. The tool automates complex auditing for the 340B drug pricing program and is already live across 20 different health systems.",
+          "why_it_matters": "Demonstrates that AI can handle highly specialized financial compliance auditing, opening the door to pitch AI for back-office risk management, not just front-facing sales.",
+          "terms": [],
+          "url": "https://www.artificialintelligence-news.com/news/aws-and-bluesight-build-ai-for-hospital-340b-compliance/",
+          "source_name": "AI News",
+          "signal_tag": "new",
+          "published_at": "2026-07-14"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Cameron Adams, Canva Co-founder, Refuses to Mandate a Single AI Tool",
+          "summary": "Canva co-founder Cameron Adams explained that the design software company does not force its employees to use one specific AI platform. Instead, Canva drives corporate experimentation by providing staff with a dedicated AI budget, allowing them to choose and test their own preferred tools for their specific workflows.",
+          "why_it_matters": "A great operational philosophy to share with leadership teams who are debating whether to lock their whole company into a single AI vendor or encourage broader experimentation.",
+          "terms": [],
+          "url": "https://www.businessinsider.com/canva-cofounder-cameron-adams-wont-force-specific-ai-tool-workplace-2026-7",
+          "source_name": "Business Insider",
+          "signal_tag": "shift",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "people",
+          "headline": "Dave Stevens Named Chief AI Officer at Nonprofit Platform Bloomerang",
+          "summary": "Bloomerang, a major software platform for nonprofit giving, has appointed Dave Stevens as its Chief AI Officer. Stevens will lead the company's innovation labs, signaling a strategic shift for the product from simply storing donor data to actively analyzing it with intelligent agents.",
+          "why_it_matters": "This shows the \"Chief AI Officer\" role is trickling down from massive tech giants into niche industry software vendors.",
+          "terms": [],
+          "url": "https://www.prnewswire.com/news-releases/bloomerang-names-dave-stevens-chief-ai-officer-to-lead-its-ai-platform-and-innovation-labs-302820239.html",
+          "source_name": "PR Newswire",
+          "signal_tag": "new",
+          "published_at": "2026-07-08"
+        },
+        {
+          "section": "people",
+          "headline": "Miles Wang, OpenAI Researcher, Targets $2B Valuation for Drug Discovery Startup",
+          "summary": "OpenAI researcher Miles Wang is reportedly in talks to launch a new artificial intelligence startup focused specifically on drug discovery. The funding discussions suggest investors are eager to back the application of AI to life sciences, with the new venture already eyeing a $2 billion valuation.",
+          "why_it_matters": "Watch researchers like Wang who spin out of OpenAI; they often point to exactly where the \"next big thing\" in applied AI is headed—in this case, biotech.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "people",
+          "headline": "Justin McLeod, Hinge Founder, Raises $18M for Voice-First AI Dating App",
+          "summary": "Justin McLeod, the founder of the popular dating app Hinge, has raised $18 million for a new AI-driven service called Overtone. The platform bills itself as a \"voice- and audio-forward service\" that relies on artificial intelligence to provide highly curated, conversational introductions.",
+          "why_it_matters": "McLeod is shifting consumer behavior away from text/swiping and toward natural voice interfaces, a trend that will soon bleed over into business software expectations.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "people",
+          "headline": "Adam Mosseri Predicts AI Token Budgets Will Be Capped Per Engineer",
+          "summary": "Instagram head Adam Mosseri predicted that tech companies will soon need to strictly manage \"token budgets\" exactly like they manage payroll. He believes individual engineers and teams will soon face hard caps on how much computing power they are allowed to consume using enterprise AI tools.",
+          "why_it_matters": "A great insight to pass to your IT/Operations clients—they need to establish internal monitoring for AI usage costs before those expenses spiral out of control.",
+          "terms": [
+            {
+              "term": "token",
+              "definition": "The basic unit of data (like a piece of a word) that an AI model processes, which is how providers calculate the cost of using their systems."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-07-14"
+        },
+        {
+          "section": "people",
+          "headline": "Vint Cerf Developing System to Identify AI Agents on the Open Web",
+          "summary": "Vint Cerf, recognized as one of the \"fathers of the internet\" for his work on core networking protocols, is now working on a standard to identify AI agents operating in the wild. The initiative aims to create a reliable way to distinguish autonomous bots from human web traffic.",
+          "why_it_matters": "If Cerf succeeds, it will completely change how marketing analytics are tracked, forcing businesses to filter out AI \"shoppers\" from real human prospects.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "people",
+          "headline": "Morgan & Morgan Hires Former Amazon Leader as First Chief AI Officer",
+          "summary": "Morgan & Morgan, the largest personal injury law firm in the United States, has appointed a former senior tech leader from Amazon as its first Chief AI Officer. The new executive is tasked with overhauling the massive firm's legal operations and client engagement using emerging AI strategies.",
+          "why_it_matters": "When a consumer law giant creates a C-suite AI role, it is a clear signal that AI is moving out of pure tech and into traditional, document-heavy service industries.",
+          "terms": [],
+          "url": "https://www.forthepeople.com/blog/morgan-morgan-appoints-former-amazon-senior-tech-leader-chief-ai-officer/",
+          "source_name": "Press Release",
+          "signal_tag": "new",
+          "published_at": "2026-07-14"
+        }
+      ]
+    }
+  ]
+}
