@@ -1,0 +1,593 @@
+{
+  "id": "2026-07-21",
+  "generated_at": "2026-07-21T15:06:23.238128+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "case_studies",
+      "headline": "AI ROI Fails to Outpace Spend for 57% of Enterprises",
+      "summary": "More than half of business leaders report that their artificial intelligence investments are currently costing more than they save. A global study by Domino Data Lab revealed that 57% of enterprises are failing to see a positive return on their AI spending, even though 93% say their actual ability to build AI tools has improved. This disconnect suggests that companies are succeeding at building the technology but struggling to apply it to workflows that actually generate revenue or cut costs.",
+      "why_it_matters": "This statistic is the ultimate hook for an AI consultant: it proves that most companies don't need help buying AI, they need help making it profitable.",
+      "terms": [
+        {
+          "term": "ROI",
+          "definition": "Return on Investment; a financial metric used to calculate how much profit or cost-savings a specific expense generated."
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/ai-roi-fails-to-outpace-spend-for-57-of-enterprises-unchanged-since-2025-even-as-93-now-report-improved-production-302830222.html",
+      "source_name": "PR Newswire",
+      "signal_tag": "shift",
+      "published_at": "2026-07-21"
+    },
+    {
+      "section": "people",
+      "headline": "How to Hire a Head of AI: $233K Median Pay, a 9-Week Timeline, and Red Flags",
+      "summary": "Companies looking to hire a dedicated 'Head of AI' are facing massive salary demands and lengthy recruiting processes. Recent data from executive recruiter Trace Cohen shows that AI leaders in San Francisco currently command a median salary of $233,000, representing a 56% wage premium over tech executives with similar traditional experience. The data also outlines a typical nine-week hiring timeline and warns against candidates who focus entirely on technology rather than business outcomes.",
+      "why_it_matters": "You can use this exact salary data to anchor your consulting fees, proving to clients that hiring an outside expert on a fractional basis is much cheaper than recruiting a full-time executive.",
+      "terms": [],
+      "url": "https://valueaddvc.com/blog/how-to-hire-a-head-of-ai-the-job-description-interview-process-and-red-flags",
+      "source_name": "Trace Cohen",
+      "signal_tag": "trending",
+      "published_at": "2026-07-18"
+    },
+    {
+      "section": "tools",
+      "headline": "Ramp launches AI token spend tool for finance teams",
+      "summary": "The corporate credit card and expense management platform Ramp has introduced a new dashboard specifically designed for tracking AI costs. The tool allows finance teams to monitor exactly how much their company is spending on AI providers like OpenAI and Google in real-time. By tracking these micro-transactions across different departments, companies can finally pinpoint exactly which AI experiments are burning through cash.",
+      "why_it_matters": "This is a highly practical, immediate tool recommendation you can give to nervous CFOs to help them take control of 'shadow IT' spending on AI tools.",
+      "terms": [
+        {
+          "term": "Token",
+          "definition": "The basic unit of data an AI model reads or writes, roughly equivalent to a word or part of a word; AI companies charge customers based on how many tokens they use."
+        },
+        {
+          "term": "API",
+          "definition": "Application Programming Interface; a software bridge that allows two different computer programs to talk to each other and share data."
+        }
+      ],
+      "url": "https://cfotech.news/story/ramp-launches-ai-token-spend-tool-for-finance-teams",
+      "source_name": "TechDay US",
+      "signal_tag": "new",
+      "published_at": "2026-07-20"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Visa hands banks an edge against their rivals with AI tool",
+          "summary": "Visa has launched a new AI Financial Assistant that banks can plug directly into their existing mobile apps and websites. The tool uses conversational AI to give everyday banking customers automated insights into their spending habits and handles routine customer support questions. This allows smaller or regional banks to offer top-tier, personalized digital experiences without having to build their own AI from scratch.",
+          "why_it_matters": "This is a perfect example of 'embedded AI' to share with clients, proving that they don't need to build AI from the ground up when established vendors are adding it to existing platforms.",
+          "terms": [
+            {
+              "term": "Conversational AI",
+              "definition": "Artificial intelligence designed to talk and text with humans in a natural, back-and-forth dialogue, much like a standard chatbot but more advanced."
+            }
+          ],
+          "url": "https://www.thestreet.com/investing/stocks/visa-v-ai-financial-assistant-banks-launch",
+          "source_name": "TheStreet",
+          "signal_tag": "new",
+          "published_at": "2026-07-17"
+        },
+        {
+          "section": "tools",
+          "headline": "Sprinklr Introduces New AI Capabilities to Help Brands Move from Insights to Real-Time Customer Action",
+          "summary": "The customer experience software company Sprinklr has released a suite of new AI tools aimed at helping brands autonomously handle customer interactions. The platform can now automatically resolve routine support tickets and analyze cultural trends without human intervention. The update shifts Sprinklr from a tool that merely reports on social media data to one that actively manages customer relationships on its own.",
+          "why_it_matters": "If you have clients in consumer marketing or support, this is a major platform upgrade that transitions their workflow from just 'monitoring' social media to actively automating responses.",
+          "terms": [],
+          "url": "https://investors.sprinklr.com/news/press-releases/detail/261/sprinklr-introduces-new-ai-capabilities-to-help-brands-move",
+          "source_name": "Sprinklr",
+          "signal_tag": "new",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "tools",
+          "headline": "Ramp launches AI token spend tool for finance teams",
+          "summary": "The corporate credit card and expense management platform Ramp has introduced a new dashboard specifically designed for tracking AI costs. The tool allows finance teams to monitor exactly how much their company is spending on AI providers like OpenAI and Google in real-time. By tracking these micro-transactions across different departments, companies can finally pinpoint exactly which AI experiments are burning through cash.",
+          "why_it_matters": "This is a highly practical, immediate tool recommendation you can give to nervous CFOs to help them take control of 'shadow IT' spending on AI tools.",
+          "terms": [
+            {
+              "term": "Token",
+              "definition": "The basic unit of data an AI model reads or writes, roughly equivalent to a word or part of a word; AI companies charge customers based on how many tokens they use."
+            },
+            {
+              "term": "API",
+              "definition": "Application Programming Interface; a software bridge that allows two different computer programs to talk to each other and share data."
+            }
+          ],
+          "url": "https://cfotech.news/story/ramp-launches-ai-token-spend-tool-for-finance-teams",
+          "source_name": "TechDay US",
+          "signal_tag": "new",
+          "published_at": "2026-07-20"
+        },
+        {
+          "section": "tools",
+          "headline": "Michaels Unveils 'Ask Mike' AI Assistant, Built With Google Cloud's Gemini Enterprise",
+          "summary": "The craft store chain Michaels has launched 'Ask Mike,' an AI-powered shopping assistant built on Google's Gemini technology. The tool acts as a creative partner for shoppers, helping them brainstorm project ideas, locate specific materials, and get customer support answers. It highlights a growing trend of retailers deploying highly specialized, branded AI to guide the customer journey directly on their websites.",
+          "why_it_matters": "A great, non-technical case study to show retail and e-commerce clients how AI is shifting from a back-office tool to a frontline, revenue-driving shopping assistant.",
+          "terms": [],
+          "url": "https://www.googlecloudpresscorner.com/2026-07-20-Michaels-Unveils-Ask-Mike-AI-Assistant-Built-With-Google-Clouds-Gemini-Enterprise-for-Customer-Experience",
+          "source_name": "Michaels",
+          "signal_tag": "new",
+          "published_at": "2026-07-21"
+        },
+        {
+          "section": "tools",
+          "headline": "Adobe camera app’s new feature will critique your photos using AI",
+          "summary": "Adobe is updating its experimental Project Indigo camera app with a suite of new generative AI tools. While originally designed to mimic professional camera lenses on smartphones, the app will now automatically remove distracting backgrounds and offer AI-driven critiques to help users improve their photography.",
+          "why_it_matters": "A good benchmark to share with creative and design teams on how AI is being baked directly into the moment of content creation, not just post-production editing.",
+          "terms": [
+            {
+              "term": "Generative AI",
+              "definition": "Artificial intelligence that can create new content—like text, images, or music—from scratch based on user instructions."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-07-20"
+        },
+        {
+          "section": "tools",
+          "headline": "Jockey by TwelveLabs",
+          "summary": "Jockey is a new AI video agent capable of deeply analyzing and understanding a company's entire library of video content. Users can search for highly specific moments, objects, or context within hundreds of hours of raw video footage by simply asking the AI questions.",
+          "why_it_matters": "A must-recommend tool for content marketing and social media clients who waste hours digging through old video footage to find usable clips.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/twelvelabs",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-07-13"
+        },
+        {
+          "section": "tools",
+          "headline": "Bolna Agent Studio",
+          "summary": "Bolna allows businesses to build an AI-powered voice agent in roughly 10 minutes. The platform is designed to let companies quickly spin up automated phone systems that sound human and can handle complex customer inquiries over voice calls.",
+          "why_it_matters": "Voice AI is rapidly maturing; this is a prime tool to test out and pitch to clients burdened by high call-center or receptionist costs.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/bolna-2",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "tools",
+          "headline": "Lev8",
+          "summary": "Lev8 is a targeted research tool that helps sales and marketing professionals find and reach the right people. It uses AI to parse through massive datasets to identify high-value contacts and streamline the outreach process.",
+          "why_it_matters": "A solid, practical addition to your B2B marketing tech stack recommendations for teams looking to make their lead generation more precise.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/lev8",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "Meta prices Muse Spark 1.1 API at $1.25/$4.25 per M tokens",
+          "summary": "Meta has officially entered the paid enterprise AI market by launching a pricing structure for its new Muse Spark 1.1 model. The tech giant is charging $1.25 per million input tokens, positioning the model as a highly competitive, low-cost option designed specifically to act as a coding agent and operational orchestrator.",
+          "why_it_matters": "Meta traditionally gives its AI away for free; their move to paid, enterprise-grade AI means they are serious about competing directly with OpenAI for corporate budgets.",
+          "terms": [],
+          "url": "https://aiweekly.co/alerts/meta-prices-muse-spark-11-api-at-125425-per-m-tokens",
+          "source_name": "AI Weekly",
+          "signal_tag": "new",
+          "published_at": "2026-07-09"
+        },
+        {
+          "section": "news",
+          "headline": "OpenAI API Pricing (July 2026): GPT-5.5 & 5.6 per 1M Tokens",
+          "summary": "OpenAI has moved its new GPT-5.6 family of AI models (named Sol, Terra, and Luna) into general availability for all developers. The new pricing structure features massive 1-million-token context windows across all tiers, meaning the AI can read and remember the equivalent of dozens of books in a single prompt.",
+          "why_it_matters": "Massive context windows mean you can now upload a client's entire library of training manuals and company history into the AI at once without it forgetting the details.",
+          "terms": [
+            {
+              "term": "Context window",
+              "definition": "The maximum amount of text or data an AI can hold in its short-term memory at one time to generate a response."
+            }
+          ],
+          "url": "https://benchlm.ai/openai/api-pricing",
+          "source_name": "BenchLM.ai",
+          "signal_tag": "new",
+          "published_at": "2026-07-21"
+        },
+        {
+          "section": "news",
+          "headline": "End-user AI spending to soar as CIOs grapple with costs",
+          "summary": "Corporate technology chiefs are facing a major challenge as the everyday use of AI by regular employees skyrockets. According to Gartner, organizations are struggling to keep their AI budgets in check as individual workers casually rack up usage fees. Experts note that establishing clear AI architecture and strict contract governance is now mandatory to prevent costs from spiraling.",
+          "why_it_matters": "Proof that you can sell 'AI governance and cost control' consulting packages to IT leaders who are currently bleeding money through unmanaged employee AI usage.",
+          "terms": [
+            {
+              "term": "CIO",
+              "definition": "Chief Information Officer; the executive responsible for the management, implementation, and usability of information and computer technologies within a company."
+            }
+          ],
+          "url": "https://www.ciodive.com/news/ai-spending-soars-cios-grapple-with-costs/825705/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-20"
+        },
+        {
+          "section": "news",
+          "headline": "AI pushes enterprises back to the drawing board on cloud",
+          "summary": "The immense computing power required to run artificial intelligence is forcing major companies to rethink their entire cloud storage strategies. A new report by Information Services Group indicates that surging AI costs and data sovereignty concerns are driving enterprises toward hybrid cloud setups, mixing public servers with private, on-site hardware to balance the load.",
+          "why_it_matters": "A structural shift to be aware of: AI is becoming so resource-heavy that it is actively changing how major corporations buy and build server infrastructure.",
+          "terms": [
+            {
+              "term": "Hybrid cloud",
+              "definition": "A computing environment that combines public cloud services (like AWS or Google) with a company's private, securely owned servers."
+            }
+          ],
+          "url": "https://www.ciodive.com/news/enterprises-moving-toward-hybrid-cloud/825469/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-07-16"
+        },
+        {
+          "section": "news",
+          "headline": "Front-line workers say they don’t mind AI but want transparency",
+          "summary": "A recent survey of front-line employees reveals that most are not inherently opposed to their companies using artificial intelligence. However, their trust in the organization is heavily dependent on management clearly explaining how the AI will be used and what it means for their daily roles. Transparency, rather than the technology itself, is the deciding factor in employee acceptance.",
+          "why_it_matters": "Highlights the importance of change management—you must advise leaders to communicate their AI plans openly rather than deploying tools in secret.",
+          "terms": [],
+          "url": "https://www.hrdive.com/news/front-line-workers-say-they-dont-mind-ai-want-transparency/825766/",
+          "source_name": "HR Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-21"
+        },
+        {
+          "section": "news",
+          "headline": "Anthropic’s landmark $1.5B copyright settlement is approved",
+          "summary": "A judge has granted final approval for a massive $1.5 billion copyright settlement involving the AI company Anthropic. While this specific lawsuit has been resolved, the court ruling does not settle the much larger, industry-wide debate over whether AI companies have the legal right to scrape and use copyrighted materials to train their models.",
+          "why_it_matters": "Reminds you to warn clients that the legal foundation of generative AI is still highly unstable regarding copyright infringement.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-07-21"
+        },
+        {
+          "section": "news",
+          "headline": "Google is working on a new AI chip designed to make Gemini more efficient",
+          "summary": "Alphabet, Google's parent company, is reportedly developing a brand new computer chip custom-built for its Gemini AI models. The proprietary hardware is designed to make running these massive AI systems significantly more energy-efficient and cost-effective, reducing Google's reliance on external chipmakers.",
+          "why_it_matters": "Shows that the big tech players are vertically integrating their hardware to drive down the cost of AI, which will eventually lower prices for your clients.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-07-20"
+        },
+        {
+          "section": "news",
+          "headline": "YouTube clarifies policies around AI slop and upsetting videos",
+          "summary": "YouTube has updated its monetization rules to combat the flood of low-quality, AI-generated content often referred to as 'AI slop.' The new guidelines clearly define what types of automated, mass-produced videos will be demonetized, actively preventing creators from earning ad revenue on hyper-generic AI garbage.",
+          "why_it_matters": "Critical intel for marketing clients: you cannot just flood YouTube with cheap AI-generated videos and expect to make money or gain traction anymore.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-07-20"
+        },
+        {
+          "section": "news",
+          "headline": "Here are the 30,000 songs Sony is suing Udio's AI music generator over",
+          "summary": "Sony Music Entertainment has filed a massive copyright infringement lawsuit against the AI music generator Udio in a New York court. The record label accuses the AI company of illegally training its systems on over 30,000 copyrighted tracks, spanning from Elvis Presley classics to modern hits by Beyoncé and Harry Styles.",
+          "why_it_matters": "A clear warning to creative clients to avoid using AI-generated music in commercial campaigns until these massive copyright lawsuits are settled.",
+          "terms": [],
+          "url": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
+          "source_name": "AI | The Verge",
+          "signal_tag": "trending",
+          "published_at": "2026-07-20"
+        },
+        {
+          "section": "news",
+          "headline": "San Francisco orders Apple, Google to remove nudify apps from app stores",
+          "summary": "The San Francisco City Attorney’s Office has issued cease-and-desist letters to Apple and Google, demanding they remove AI 'face-swap' and 'nudify' apps from their mobile stores. Officials estimate the tech giants have likely made millions in app store fees from these 13 targeted applications, which are overwhelmingly used to harass and target women.",
+          "why_it_matters": "Demonstrates the increasing legal and regulatory backlash against unsafe AI tools, pushing platforms to police their AI ecosystems more aggressively.",
+          "terms": [],
+          "url": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
+          "source_name": "AI - Ars Technica",
+          "signal_tag": "shift",
+          "published_at": "2026-07-17"
+        },
+        {
+          "section": "news",
+          "headline": "xAI can’t deny Grok makes CSAM anymore. So it’s suing users.",
+          "summary": "Elon Musk's AI company, xAI, has filed its first lawsuit against a user of its Grok chatbot. The company alleges the user exploited the AI to generate child sexual abuse material (CSAM). This marks a major shift in accountability, as AI companies begin taking aggressive legal action against individual users who weaponize their unfiltered models.",
+          "why_it_matters": "A signal that AI companies will no longer just ban bad actors; they are now actively pursuing legal action against users who violate their terms of service.",
+          "terms": [],
+          "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
+          "source_name": "AI - Ars Technica",
+          "signal_tag": "shift",
+          "published_at": "2026-07-16"
+        },
+        {
+          "section": "news",
+          "headline": "The Army Is Burning Through Its AI Tokens",
+          "summary": "Members of the United States Army recently received internal emails warning them that they are rapidly depleting their allocated AI usage budgets. The military branch is having to instruct personnel to limit their use of generative AI tools to prevent burning through their commercial token allowances too quickly.",
+          "why_it_matters": "A funny but highly relatable anecdote to share with clients to prove that cost overruns in AI adoption are happening everywhere, even at the Pentagon.",
+          "terms": [],
+          "url": "https://www.wired.com/story/the-army-is-burning-through-its-ai-tokens/",
+          "source_name": "Feed: Artificial Intelligence Latest",
+          "signal_tag": "trending",
+          "published_at": "2026-07-21"
+        },
+        {
+          "section": "news",
+          "headline": "Etsy Is In Its Flop Era, and Sellers Are Fleeing",
+          "summary": "The artisan marketplace Etsy is facing a mass exodus of traditional sellers who feel the platform has been overrun by mass-produced goods and AI-generated knockoffs. While some customers don't seem to mind the shift, the influx of cheap, automated content is destroying the site's original reputation as a quirky bastion for handmade crafts.",
+          "why_it_matters": "A perfect case study on brand dilution; warn your retail clients that relying too heavily on AI-generated products can destroy their core brand identity.",
+          "terms": [],
+          "url": "https://www.wired.com/story/etsy-is-in-its-flop-era-and-sellers-are-fleeing/",
+          "source_name": "Feed: Artificial Intelligence Latest",
+          "signal_tag": "shift",
+          "published_at": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "AI ROI Fails to Outpace Spend for 57% of Enterprises",
+          "summary": "More than half of business leaders report that their artificial intelligence investments are currently costing more than they save. A global study by Domino Data Lab revealed that 57% of enterprises are failing to see a positive return on their AI spending, even though 93% say their actual ability to build AI tools has improved. This disconnect suggests that companies are succeeding at building the technology but struggling to apply it to workflows that actually generate revenue or cut costs.",
+          "why_it_matters": "This statistic is the ultimate hook for an AI consultant: it proves that most companies don't need help buying AI, they need help making it profitable.",
+          "terms": [
+            {
+              "term": "ROI",
+              "definition": "Return on Investment; a financial metric used to calculate how much profit or cost-savings a specific expense generated."
+            }
+          ],
+          "url": "https://www.prnewswire.com/news-releases/ai-roi-fails-to-outpace-spend-for-57-of-enterprises-unchanged-since-2025-even-as-93-now-report-improved-production-302830222.html",
+          "source_name": "PR Newswire",
+          "signal_tag": "shift",
+          "published_at": "2026-07-21"
+        },
+        {
+          "section": "case_studies",
+          "headline": "AI Doesn't Know Your Margins. That's Why It Isn't Making You Money",
+          "summary": "Despite 59% of companies spending heavily on artificial intelligence, many are failing to see a financial return because the AI doesn't understand their specific business rules. This op-ed argues that general AI models are ineffective without an 'application layer'—a system that feeds the AI specific context regarding the company's profit margins, constraints, and operational realities. Without this grounding, the AI generates generic work that doesn't actually improve the bottom line.",
+          "why_it_matters": "A brilliant framing device for a consultant: you don't sell AI, you sell the 'application layer' that teaches the AI how the client's business actually makes money.",
+          "terms": [],
+          "url": "https://www.forbes.com/sites/terdawn-deboe/2026/07/20/ai-doesnt-know-your-margins-thats-why-it-isnt-making-you-money/",
+          "source_name": "Forbes",
+          "signal_tag": "shift",
+          "published_at": "2026-07-20"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Gold's Gym Idaho AI Sales Case Study",
+          "summary": "Gold's Gym in Idaho deployed an AI receptionist to manage their front desk communications and immediately captured missed leads. In a single quarter, the AI handled over 4,100 interactions with customers and prospects, successfully cutting the volume of human front-desk calls by 50%. This freed up human staff to focus on in-person sales and membership experience.",
+          "why_it_matters": "A highly relatable, numbers-backed success story to use when pitching AI front-desk automation to local business franchises.",
+          "terms": [],
+          "url": "https://www.replify.ai/case-studies/golds-gym-idaho-ai-sales-case-study",
+          "source_name": "Replify",
+          "signal_tag": "new",
+          "published_at": "2026-07-21"
+        },
+        {
+          "section": "case_studies",
+          "headline": "AI marketing automation case studies: what B2B SaaS teams got right",
+          "summary": "A deep dive into how business-to-business software teams are using AI in marketing reveals that the biggest wins aren't coming from automated blog posts. Instead, the most successful companies are using AI to score and prioritize which sales leads are most likely to buy, and to support human judgment during complex marketing campaigns.",
+          "why_it_matters": "Crucial context to steer marketing clients away from viewing AI simply as a 'copywriter replacement' and toward treating it as a strategic analytics tool.",
+          "terms": [],
+          "url": "https://www.factors.ai/blog/ai-marketing-automation-results-b2b-saas",
+          "source_name": "Factors Blog",
+          "signal_tag": "shift",
+          "published_at": "2026-07-16"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How to Start an AI Automation Business: Real Case Studies from $25K to $2.7M ARR",
+          "summary": "Entrepreneurs are generating significant recurring revenue by productizing very narrow, specific AI automation workflows for niche industries. Case studies show founders scaling businesses from scratch to millions in revenue by building tailored solutions, such as automated document intake routines designed exclusively for accounting firms.",
+          "why_it_matters": "Provides a blueprint for how you can package your consulting services into highly specific, repeatable 'products' rather than just charging hourly for general advice.",
+          "terms": [],
+          "url": "https://www.mindstudio.ai/blog/start-ai-automation-business-case-studies",
+          "source_name": "Unknown / Blog",
+          "signal_tag": "new",
+          "published_at": "2026-07-13"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How to Calculate ROI for Enterprise AI Workflow Automation",
+          "summary": "A new methodology helps business leaders build defensible financial cases for buying AI tools. Rather than just guessing the value, the framework advises factoring in fully loaded direct labor costs, the expense of human rework, and the financial drag of cycle-time friction to prove that an AI investment will actually pay off.",
+          "why_it_matters": "You can use this exact math framework in your client proposals to mathematically prove that your AI implementations will save them money.",
+          "terms": [],
+          "url": "https://vdf.ai/blog/calculate-roi-enterprise-ai-workflow-automation/",
+          "source_name": "VDF.AI",
+          "signal_tag": "new",
+          "published_at": "2026-07-19"
+        },
+        {
+          "section": "case_studies",
+          "headline": "AI ROI: Measuring and Maximizing Value in Finance",
+          "summary": "A recent survey by AvidXchange found that the most successful corporate finance teams are not simply pocketing the money they save through AI automation. Instead, high-performing teams are actively reinvesting their AI cost-savings into strengthening cybersecurity and expanding wider business operations.",
+          "why_it_matters": "Helps you reframe the AI conversation with executives from 'how many jobs can we cut?' to 'how can we reinvest this saved time to grow the business?'.",
+          "terms": [],
+          "url": "https://www.avidxchange.com/blog/ai-roi/",
+          "source_name": "AvidXchange",
+          "signal_tag": "trending",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "case_studies",
+          "headline": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem",
+          "summary": "Businesses are building the infrastructure to feed company data to AI agents faster than that data can actually be trusted. Across 101 surveyed enterprises, a majority have watched their AI agents confidently produce wrong answers because the underlying company data was missing or inconsistent. This proves that fixing messy internal data is now the biggest bottleneck to successful AI automation.",
+          "why_it_matters": "A vital data point to convince clients that they must invest in organizing their messy internal files before they can buy flashy AI tools.",
+          "terms": [],
+          "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
+          "source_name": "AI | VentureBeat",
+          "signal_tag": "shift",
+          "published_at": "2026-07-16"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem",
+          "summary": "While companies are eager to deploy highly autonomous AI agents, the reality is falling far short of the ambition. A survey of 101 enterprises revealed that most deployed 'agents' are currently just basic chatbots wrapped in new marketing. Furthermore, companies are deliberately trying to use multiple AI providers to avoid getting locked into a single ecosystem, but struggle with establishing real-time financial controls over how much these systems cost to run.",
+          "why_it_matters": "Cuts through the hype, allowing you to tell clients the truth: most 'agents' are just chatbots right now, and the real challenge is controlling costs, not adopting sci-fi technology.",
+          "terms": [],
+          "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+          "source_name": "AI | VentureBeat",
+          "signal_tag": "trending",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Meta’s AI systems ‘disproportionately’ selected certain workers for layoffs",
+          "summary": "Recent lawsuits and reports claim that Meta's artificial intelligence systems were utilized in making layoff decisions, allegedly resulting in a disproportionate selection of specific workers. The situation highlights the severe legal and ethical risks of relying on opaque algorithms to handle sensitive human resources functions.",
+          "why_it_matters": "A powerful cautionary tale to share with HR directors about the legal dangers of fully automating personnel decisions with AI.",
+          "terms": [],
+          "url": "https://www.hrdive.com/news/week-in-review-metas-ai-systems-workers-layoffs-leave/825639/",
+          "source_name": "HR Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-07-20"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Measuring AI ROI In Practice: How Teams Actually Save Time And How To Prove It",
+          "summary": "This practitioner's guide advises companies to completely abandon anecdotal claims of 'time saved' when judging if an AI tool was worth the money. Instead, it argues that businesses must strictly measure AI's impact by tracking maintained quality metrics and documenting brand new workflows that were impossible before the AI was introduced.",
+          "why_it_matters": "Gives you a strict, professional framework to measure your own consulting success, moving clients away from vague 'it feels faster' metrics.",
+          "terms": [],
+          "url": "https://xite.ai/blogs/measuring-ai-roi-in-practice-how-teams-actually-save-time-and-how-to-prove-it/",
+          "source_name": "Xite.AI",
+          "signal_tag": "new",
+          "published_at": "2026-07-17"
+        },
+        {
+          "section": "case_studies",
+          "headline": "AI ROI Small Business: How to Calculate the Payback Before You Buy",
+          "summary": "A new guide outlines a specific mathematical formula for small businesses to evaluate AI investments before purchasing. The formula emphasizes subtracting hidden AI costs—such as the time it takes a human to review the AI's work, employee training hours, and software usage overages—to find the true financial payback of workflow automation.",
+          "why_it_matters": "A perfect checklist to run through with small business owners to ensure they don't lose money on hidden fees when implementing AI.",
+          "terms": [],
+          "url": "https://www.zarifautomates.com/blog/how-to-calculate-ai-roi-for-your-small-business",
+          "source_name": "Zarif Automates",
+          "signal_tag": "new",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Customer satisfaction scores rise when agents express empathy",
+          "summary": "An analysis by Level AI found that human customer service representatives who provide emotional validation to frustrated customers see significantly higher satisfaction scores. When the stakes are high, AI tools can route information, but it is the human agent's capacity for empathy that ultimately improves the resolution experience.",
+          "why_it_matters": "Data you can use to reassure anxious support teams that AI will handle the data, but humans are still required to handle the emotions.",
+          "terms": [],
+          "url": "https://www.customerexperiencedive.com/news/customer-satisfaction-scores-rise-when-agents-express-empathy/825691/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "How to Hire a Head of AI: $233K Median Pay, a 9-Week Timeline, and Red Flags",
+          "summary": "Companies looking to hire a dedicated 'Head of AI' are facing massive salary demands and lengthy recruiting processes. Recent data from executive recruiter Trace Cohen shows that AI leaders in San Francisco currently command a median salary of $233,000, representing a 56% wage premium over tech executives with similar traditional experience. The data also outlines a typical nine-week hiring timeline and warns against candidates who focus entirely on technology rather than business outcomes.",
+          "why_it_matters": "You can use this exact salary data to anchor your consulting fees, proving to clients that hiring an outside expert on a fractional basis is much cheaper than recruiting a full-time executive.",
+          "terms": [],
+          "url": "https://valueaddvc.com/blog/how-to-hire-a-head-of-ai-the-job-description-interview-process-and-red-flags",
+          "source_name": "Trace Cohen",
+          "signal_tag": "trending",
+          "published_at": "2026-07-18"
+        },
+        {
+          "section": "people",
+          "headline": "How to Become Your Company's In-House AI Consultant: A 4-Step Roadmap",
+          "summary": "MindStudio has published a strategic roadmap for professionals looking to establish themselves as their company's internal AI expert. The guide advises starting by tracking personal workflow bottlenecks and then demonstrating concrete, measurable ROI to executives before asking for an official title change or budget.",
+          "why_it_matters": "A great framework to study for yourself, or to share with internal champions at your client companies who are helping you push AI adoption from the inside.",
+          "terms": [],
+          "url": "https://www.mindstudio.ai/blog/how-to-become-in-house-ai-consultant-roadmap",
+          "source_name": "MindStudio",
+          "signal_tag": "trending",
+          "published_at": "2026-07-19"
+        },
+        {
+          "section": "people",
+          "headline": "Why Hiring a Head of AI is Actually a Massive Mistake",
+          "summary": "Digital strategy consultant Ross Simmonds argues that establishing a dedicated 'Head of AI' role is often a symptom of bad leadership. He asserts that when a CEO hires someone specifically for that title, it usually means the executive is trying to abdicate their own responsibility for understanding and integrating AI across the business.",
+          "why_it_matters": "A sharp, contrarian talking point you can use to challenge CEOs, positioning AI as a core leadership competency rather than a department you can outsource.",
+          "terms": [],
+          "url": "https://www.youtube.com/shorts/h-BRqFUc4hs?app=desktop",
+          "source_name": "The Ross Simmonds Show",
+          "signal_tag": "shift",
+          "published_at": "2026-07-15"
+        },
+        {
+          "section": "people",
+          "headline": "AI and the Executive Career Reset | How Leadership Is Changing",
+          "summary": "Former Grainger executive Meeta Kratz discusses how artificial intelligence is permanently altering the organizational design of modern enterprises. She argues that the rapid acceleration of AI capabilities is making fractional executive consulting far more viable, as companies look for specialized, temporary leadership to guide their technology transitions.",
+          "why_it_matters": "Validates your exact career pivot, confirming that the market for fractional, highly specialized AI leadership is booming.",
+          "terms": [],
+          "url": "https://www.youtube.com/watch?v=W0d9IoQBKfU",
+          "source_name": "Master B2B",
+          "signal_tag": "trending",
+          "published_at": "2026-07-10"
+        },
+        {
+          "section": "people",
+          "headline": "Entry Level AI-First Transformation – Strategy Consultant",
+          "summary": "IBM's new 'AI-First Transformation' organization is actively hiring strategy consultants to completely redesign how enterprise operating models work. The job listings cite a massive internal benchmark, noting that IBM is targeting $4.5 billion in internal productivity gains through aggressive AI adoption.",
+          "why_it_matters": "A massive number ($4.5B) to drop in meetings to show how seriously legacy enterprises are taking AI-driven operational overhauls.",
+          "terms": [],
+          "url": "https://careers.ibm.com/en_US/careers/JobDetail/Entry-Level-AI-First-Transformation-Strategy-Consultant/106260",
+          "source_name": "IBM",
+          "signal_tag": "new",
+          "published_at": null
+        },
+        {
+          "section": "people",
+          "headline": "AI Enablement and Strategy Lead – AI and Intelligent Solutions, VP",
+          "summary": "JPMorgan Chase is currently hiring for a Vice President-level 'AI Enablement Lead' to scale technology across its operations teams. The role focuses specifically on building adoption archetypes for agent builders, speech-to-text programs, and Copilot tools to modernize the bank's internal workflows.",
+          "why_it_matters": "Provides a clear window into what the most conservative, highly regulated industries (like banking) are actually deploying right now.",
+          "terms": [],
+          "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx_1001/job/210736832",
+          "source_name": "JPMorgan Chase",
+          "signal_tag": "new",
+          "published_at": "2026-07-20"
+        },
+        {
+          "section": "people",
+          "headline": "What Investors Actually Look for in AI Startups",
+          "summary": "Ganas Ventures partner Lolita Taub shared insights on how venture capitalists evaluate new AI companies. She advised that true defensibility in the AI space relies less on building unique underlying models, and almost entirely on cultivating strong customer trust and deep community integration that competitors can't easily replicate.",
+          "why_it_matters": "A great reminder for your own consulting business: your value is in your relationships and trust, not just your knowledge of the latest AI model.",
+          "terms": [],
+          "url": "https://www.youtube.com/watch?v=diz6-TDu7Eg",
+          "source_name": "AI News",
+          "signal_tag": "shift",
+          "published_at": "2026-07-19"
+        },
+        {
+          "section": "people",
+          "headline": "AI Startup Funding: What Investors Look for in 2026",
+          "summary": "Venture capital firm CRV detailed a shift in how investors are evaluating AI startups this year. Investors are now heavily scrutinizing the economics of computing power and demanding to know if enterprise software purchases are coming from permanent operational budgets or just temporary, experimental innovation pools.",
+          "why_it_matters": "Helps you gauge client maturity—if a client is paying you out of an 'innovation budget,' they aren't fully committed to AI yet.",
+          "terms": [],
+          "url": "https://www.crv.com/content/ai-startup-funding",
+          "source_name": "CRV",
+          "signal_tag": "shift",
+          "published_at": "2026-07-16"
+        },
+        {
+          "section": "people",
+          "headline": "The 6-Step Playbook for Building an AI-Powered Startup Without Burning Through Cash",
+          "summary": "A new playbook for tech founders outlines how to use AI agents to automate early-stage business operations. By relying on automated workflows for administrative and marketing tasks, founders can drastically reduce their need for expensive external venture capital or rapid, early-stage hiring.",
+          "why_it_matters": "A great resource to share with smaller clients or startups to show them how AI acts as a massive force multiplier for lean teams.",
+          "terms": [],
+          "url": "https://www.entrepreneur.com/business-news/the-6-step-playbook-for-building-an-ai-powered-startup-without-burning-through-cash",
+          "source_name": "Entrepreneur",
+          "signal_tag": "new",
+          "published_at": "2026-07-21"
+        }
+      ]
+    }
+  ]
+}
