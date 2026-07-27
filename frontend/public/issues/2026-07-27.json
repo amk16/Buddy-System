@@ -1,0 +1,381 @@
+{
+  "id": "2026-07-27",
+  "generated_at": "2026-07-27T15:43:26.394870+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "Anthropic's new Claude Opus 5 slashes AI costs while matching top-tier intelligence",
+      "summary": "Anthropic has launched Claude Opus 5, a flagship AI model that delivers near-peak intelligence at half the price of its most expensive competitors. The model scored an impressive 30.2 percent on a notoriously difficult test of reasoning and novel problem-solving, dramatically outperforming rival systems. More importantly, when paired with specialized settings, Opus 5 achieved a zero percent failure rate against hidden malicious commands, potentially solving a major security headache for developers.",
+      "why_it_matters": "This drastically lowers the operating cost of highly capable AI, giving you a top-tier recommendation for clients who want complex automated workflows without the premium price tag.",
+      "terms": [
+        {
+          "term": "Prompt injection",
+          "definition": "A cyberattack where a hacker hides secret commands inside the text given to an AI, tricking it into ignoring its safety rules and doing something dangerous."
+        }
+      ],
+      "url": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/",
+      "source_name": "The Decoder",
+      "signal_tag": "new",
+      "published_at": "2026-07-25"
+    },
+    {
+      "section": "news",
+      "headline": "METR debuts a new metric to calculate exactly when AI agents become cheaper than human labor",
+      "summary": "A research group called METR has introduced the \"expenditure horizon,\" a new financial metric designed to put a concrete dollar figure on how cost-effective AI is at solving problems. The measurement tracks exactly at what point relying on an autonomous AI system becomes cheaper than hiring a human to complete the same task. While early tests showed underwhelming results for some older models, the framework provides a standardized way to evaluate the true financial return of newer generations.",
+      "why_it_matters": "This gives you a rigorous, math-backed framework to prove the return on investment (ROI) of an AI deployment to skeptical CFOs and executives.",
+      "terms": [
+        {
+          "term": "AI agent",
+          "definition": "An artificial intelligence system that can independently plan and execute a series of actions across different software tools to achieve a broad goal, rather than just answering a single text prompt."
+        }
+      ],
+      "url": "https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/",
+      "source_name": "The Decoder",
+      "signal_tag": "new",
+      "published_at": "2026-07-27"
+    },
+    {
+      "section": "case_studies",
+      "headline": "Gorgias's latest AI update yields 10% higher resolution rate for customer support",
+      "summary": "The customer support platform Gorgias recently updated its AI assistant to rely on a new architecture focused heavily on using external software tools. By shifting the AI to an \"intent-based\" system that understands exactly what a customer is trying to accomplish, the platform reported a 10 percent increase in its ability to fully resolve customer issues without human intervention. The update highlights a shift away from basic chatbots toward systems that actually take action on a customer's behalf.",
+      "why_it_matters": "This is a strong, metric-backed case study to show customer service clients that modern AI can resolve complex tickets end-to-end, rather than just deflecting them.",
+      "terms": [
+        {
+          "term": "Tool calling",
+          "definition": "A feature that allows an AI to actively interact with other software applications—like pulling a customer's tracking number from a shipping database—rather than just generating text."
+        }
+      ],
+      "url": "https://www.reddit.com/r/SaaS/comments/1v2t63c/gorgias_launched_their_latest_ai_agent_update_i/",
+      "source_name": "Reddit (r/SaaS)",
+      "signal_tag": "shift",
+      "published_at": "2026-07-21"
+    },
+    {
+      "section": "news",
+      "headline": "OpenAI introduces 'Presence' to build and manage enterprise AI agents",
+      "summary": "OpenAI has announced a new enterprise service called OpenAI Presence, which helps organizations deploy highly trusted voice and chat agents for customer and internal workflows. Rather than a self-serve software tool, the service is currently offered as a managed product where OpenAI's own specialized engineers lead the deployment for the client. The move signals a major shift toward \"done-for-you\" enterprise implementations by the biggest AI labs.",
+      "why_it_matters": "This signals that even OpenAI recognizes the complexity of deploying AI in the enterprise; consultants can lean into this trend by positioning themselves as the necessary bridge between raw AI models and messy corporate workflows.",
+      "terms": [],
+      "url": "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents/",
+      "source_name": "AI News",
+      "signal_tag": "new",
+      "published_at": "2026-07-24"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Zoom expands Revenue Accelerator to guide live sales deals",
+          "summary": "Zoom has upgraded its Revenue Accelerator with new features designed to drive active revenue generation rather than just taking meeting notes. The new capabilities, including Sales Assist and Ask ZRA, provide sales teams with real-time deal guidance and automated roleplay scenarios to practice pitches. The expansion aims to shift the software from a passive conversation intelligence tool to an active participant in closing deals.",
+          "why_it_matters": "This is an immediate, practical recommendation for B2B sales teams who are already using Zoom and want to layer in real-time AI coaching to close more deals.",
+          "terms": [],
+          "url": "https://markets.businessinsider.com/news/stocks/zoom-revenue-accelerator-unveils-ai-that-drives-revenue-action-not-just-insights-1036351337",
+          "source_name": "Zoom Communications / GlobeNewswire",
+          "signal_tag": "new",
+          "published_at": "2026-07-22"
+        },
+        {
+          "section": "tools",
+          "headline": "Uprovd launches platform to help CFOs track AI usage and calculate ROI",
+          "summary": "Uprovd has introduced a new governance platform specifically designed for Chief Financial Officers who are skeptical about their company's artificial intelligence spending. The software automatically tracks employee usage logs across different AI tools, establishes baselines before the tools were introduced, and generates an auditable score for the return on investment. The system is meant to bridge the gap between IT enthusiasm and finance department reality.",
+          "why_it_matters": "Recommending this tool builds instant trust with CFOs, as it proves you are focused on measurable financial returns rather than just adopting trendy technology.",
+          "terms": [
+            {
+              "term": "ROI",
+              "definition": "Return on Investment; a financial metric used to evaluate how much profit or cost-savings an investment generated compared to its initial cost."
+            }
+          ],
+          "url": "https://uprovd.com/product/",
+          "source_name": "Uprovd",
+          "signal_tag": "new",
+          "published_at": null
+        },
+        {
+          "section": "tools",
+          "headline": "Estera offers 24/7 AI receptionist for phone calls and WhatsApp",
+          "summary": "Estera is a newly launched AI receptionist designed to answer incoming phone calls and WhatsApp messages around the clock. Aimed at businesses that cannot afford to staff front desks at all hours, the system can handle routine customer inquiries natively across voice and text channels. It is part of a growing wave of AI assistants replacing traditional answering services.",
+          "why_it_matters": "This is a perfect, easy-to-understand quick win to recommend to small-to-medium business clients who are losing leads because they miss after-hours phone calls.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/estera",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-07-24"
+        },
+        {
+          "section": "tools",
+          "headline": "PromptFloe allows marketers to build web apps entirely through text prompts",
+          "summary": "PromptFloe has launched the first public version of a platform that translates plain language into fully functioning web applications. Non-technical product owners and marketers can describe their ideas in simple text, and the AI will generate the full underlying code and design. This effectively removes the need for human developers to build basic software prototypes or internal marketing tools.",
+          "why_it_matters": "You can use this tool to rapidly build functional prototypes or customized internal marketing calculators for your clients without having to hire a developer.",
+          "terms": [
+            {
+              "term": "Full-stack",
+              "definition": "Refers to a complete software application, including both the visual interface a user sees and the background database operations that make it work."
+            }
+          ],
+          "url": "https://www.reddit.com/r/growmybusiness/comments/1uyv7vz/we_launched_promptfloe_today_an_ai_builder_that/",
+          "source_name": "Reddit",
+          "signal_tag": "new",
+          "published_at": "2026-07-17"
+        },
+        {
+          "section": "tools",
+          "headline": "Chatzy AI launches targeted customer support automation for messaging apps",
+          "summary": "Chatzy AI has entered the market with a tool dedicated to automating customer support specifically over messaging platforms like Telegram and WhatsApp. The platform emphasizes rapid deployment and highly customizable routing, ensuring complex or sensitive issues are handed off to human agents based on strict service agreements. It focuses on meeting global consumers where they already spend their screen time.",
+          "why_it_matters": "If you are advising international clients or brands with younger demographics, this tool allows you to easily automate support on the messaging apps their customers actually prefer.",
+          "terms": [],
+          "url": "https://theresanaiforthat.com/ai/chatzy-ai/",
+          "source_name": "Chatzy AI",
+          "signal_tag": "new",
+          "published_at": "2026-07-22"
+        },
+        {
+          "section": "tools",
+          "headline": "DuckCode offers a cheaper coding AI by asking diagnostic questions first",
+          "summary": "An independent developer has released DuckCode, a terminal-based AI coding assistant designed specifically to prevent the massive waste of computing resources seen in mainstream tools. The software features a unique \"Duck Mode\" that forces the AI to ask clarifying diagnostic questions before it generates any code. This methodical approach is intended to dramatically reduce enterprise AI bills by getting the output right on the first try.",
+          "why_it_matters": "This is a brilliant case study to share with budget-conscious IT clients, proving that taking the time to write better, more thoughtful prompts can literally save thousands of dollars.",
+          "terms": [
+            {
+              "term": "Token",
+              "definition": "The basic unit of currency in AI generation; models charge fractions of a cent for every word or piece of a word they read or write."
+            }
+          ],
+          "url": "https://www.reddit.com/r/buildinpublic/comments/1v371o6/everyones_ai_coding_agent_is_optimized_to_make/",
+          "source_name": "Reddit",
+          "signal_tag": "new",
+          "published_at": "2026-07-22"
+        },
+        {
+          "section": "tools",
+          "headline": "Gstack brings AI specialists directly into Google Meets for feedback",
+          "summary": "A new tool called Gstack allows users to invite virtual \"AI specialists\" into their live Google Meet calls. The AI quietly listens to the ongoing conversation and can provide targeted feedback, insights, or information on demand. It acts as an on-call expert that teams can tap into during brainstorming sessions or client meetings.",
+          "why_it_matters": "You can recommend this as an innovative way for marketing teams to get instant, real-time feedback on their creative pitches while they are actively brainstorming on video calls.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/gstack-joins-your-meeting",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-07-25"
+        },
+        {
+          "section": "tools",
+          "headline": "Repaint Socials converts social media profiles into full websites",
+          "summary": "A new web builder called Repaint Socials allows small businesses to generate an entire website simply by linking their existing Facebook, Instagram, or Google Business profiles. The AI reads the information, images, and brand tone from the social accounts and automatically designs a matching digital storefront. It aims to lower the barrier to entry for local merchants trying to establish a broader web presence.",
+          "why_it_matters": "This is an incredibly helpful tool to flag for highly localized, brick-and-mortar clients who have an active Instagram presence but desperately need a modern website.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/repaint-ai-website-builder",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "Anthropic's new Claude Opus 5 slashes AI costs while matching top-tier intelligence",
+          "summary": "Anthropic has launched Claude Opus 5, a flagship AI model that delivers near-peak intelligence at half the price of its most expensive competitors. The model scored an impressive 30.2 percent on a notoriously difficult test of reasoning and novel problem-solving, dramatically outperforming rival systems. More importantly, when paired with specialized settings, Opus 5 achieved a zero percent failure rate against hidden malicious commands, potentially solving a major security headache for developers.",
+          "why_it_matters": "This drastically lowers the operating cost of highly capable AI, giving you a top-tier recommendation for clients who want complex automated workflows without the premium price tag.",
+          "terms": [
+            {
+              "term": "Prompt injection",
+              "definition": "A cyberattack where a hacker hides secret commands inside the text given to an AI, tricking it into ignoring its safety rules and doing something dangerous."
+            }
+          ],
+          "url": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/",
+          "source_name": "The Decoder",
+          "signal_tag": "new",
+          "published_at": "2026-07-25"
+        },
+        {
+          "section": "news",
+          "headline": "METR debuts a new metric to calculate exactly when AI agents become cheaper than human labor",
+          "summary": "A research group called METR has introduced the \"expenditure horizon,\" a new financial metric designed to put a concrete dollar figure on how cost-effective AI is at solving problems. The measurement tracks exactly at what point relying on an autonomous AI system becomes cheaper than hiring a human to complete the same task. While early tests showed underwhelming results for some older models, the framework provides a standardized way to evaluate the true financial return of newer generations.",
+          "why_it_matters": "This gives you a rigorous, math-backed framework to prove the return on investment (ROI) of an AI deployment to skeptical CFOs and executives.",
+          "terms": [
+            {
+              "term": "AI agent",
+              "definition": "An artificial intelligence system that can independently plan and execute a series of actions across different software tools to achieve a broad goal, rather than just answering a single text prompt."
+            }
+          ],
+          "url": "https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/",
+          "source_name": "The Decoder",
+          "signal_tag": "new",
+          "published_at": "2026-07-27"
+        },
+        {
+          "section": "news",
+          "headline": "OpenAI introduces 'Presence' to build and manage enterprise AI agents",
+          "summary": "OpenAI has announced a new enterprise service called OpenAI Presence, which helps organizations deploy highly trusted voice and chat agents for customer and internal workflows. Rather than a self-serve software tool, the service is currently offered as a managed product where OpenAI's own specialized engineers lead the deployment for the client. The move signals a major shift toward \"done-for-you\" enterprise implementations by the biggest AI labs.",
+          "why_it_matters": "This signals that even OpenAI recognizes the complexity of deploying AI in the enterprise; consultants can lean into this trend by positioning themselves as the necessary bridge between raw AI models and messy corporate workflows.",
+          "terms": [],
+          "url": "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents/",
+          "source_name": "AI News",
+          "signal_tag": "new",
+          "published_at": "2026-07-24"
+        },
+        {
+          "section": "news",
+          "headline": "US considers targeted bans rather than broad restrictions on Chinese AI models",
+          "summary": "The Trump administration is reportedly planning to impose highly specific, targeted bans on Chinese open-source AI models due to national security concerns. The approach favors surgical sanctions over sweeping, blanket restrictions that could stifle global innovation. Despite public opposition to regulating open-source AI from major American labs, some industry leaders are quietly lobbying the government behind closed doors.",
+          "why_it_matters": "If you have clients experimenting with incredibly cheap Chinese open-source AI models, you must warn them that looming policy shifts could abruptly force them to rip those systems out.",
+          "terms": [
+            {
+              "term": "Open-source AI",
+              "definition": "Artificial intelligence systems whose underlying code and mechanics are made freely available for anyone to download, modify, and use."
+            }
+          ],
+          "url": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-07-26"
+        },
+        {
+          "section": "news",
+          "headline": "Major tech companies unite to defend and secure open-source AI",
+          "summary": "Over two dozen major tech entities, including Meta, Microsoft, and Nvidia, have formed the Open Secure AI Alliance. The coalition aims to build shared security tools to defend against attacks from highly advanced AI models, while publicly urging US policymakers not to restrict open-source development. Notably missing from the alliance are OpenAI and Anthropic, both of which keep their most powerful technology tightly guarded.",
+          "why_it_matters": "This highlights a massive divide in the tech industry between closed and open systems; you should prepare clients to choose a side, as open systems offer more control but face heavier security scrutiny.",
+          "terms": [],
+          "url": "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai/",
+          "source_name": "AI News",
+          "signal_tag": "shift",
+          "published_at": "2026-07-24"
+        },
+        {
+          "section": "news",
+          "headline": "Most corporate boards lack formal rules for internal AI usage",
+          "summary": "A recent survey conducted by Deloitte reveals that the deployment of artificial intelligence at the board level is incredibly uneven and still maturing. The majority of corporate boards operate without established guidelines governing how their executives and directors should use AI for sensitive business operations. The lack of structure opens companies up to immense data and privacy risks.",
+          "why_it_matters": "This gives you a direct entry point to pitch high-level advisory services, helping corporate boards draft the formal AI governance policies they currently lack.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/corporate-boards-lack-rules-ai-use-deloitte-survey-artificial-intelligence/826117/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-24"
+        },
+        {
+          "section": "news",
+          "headline": "Private Claude chats temporarily exposed in Google search results",
+          "summary": "Shared conversations generated by Anthropic's Claude chatbot were recently discovered to be indexed by Google and exposed in public search results. The leak occurred because the web pages failed to include standard code that tells search engines to ignore them. Users reported that the exposed chats contained highly sensitive information, including legal questions and cryptocurrency keys, echoing a similar mistake made by OpenAI the previous year.",
+          "why_it_matters": "This is a prime example you can use to warn clients about the very real dangers of pasting proprietary or confidential company information into consumer-grade chatbots.",
+          "terms": [],
+          "url": "https://the-decoder.com/shared-claude-chats-were-reportedly-showing-up-in-search-engines/",
+          "source_name": "The Decoder",
+          "signal_tag": "trending",
+          "published_at": "2026-07-27"
+        },
+        {
+          "section": "news",
+          "headline": "Cursor shows cheap AI models can code effectively if a smarter model plans the work",
+          "summary": "The coding platform Cursor recently tested a new AI system that uses a \"swarm\" of multiple models working together. They discovered that highly complex coding tasks can be completed using cheaper, less powerful AI models, as long as a premium, \"frontier\" model acts as a manager to plan the work. The test proves that businesses do not need to use the most expensive AI for every single step of a project.",
+          "why_it_matters": "This is a key architectural lesson for your clients: you can save them massive amounts of money by using premium AI just for the strategic thinking, and cheaper AI for the heavy lifting.",
+          "terms": [],
+          "url": "https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/",
+          "source_name": "The Decoder",
+          "signal_tag": "trending",
+          "published_at": "2026-07-26"
+        },
+        {
+          "section": "news",
+          "headline": "AI startups increasingly focus on distinct personalities to stand out",
+          "summary": "The AI coding startup Cognition recently acquired Poke, a company that specializes in building conversational style and distinct interactive models. The acquisition highlights a growing belief in the tech industry that the \"personality\" and tone of an AI assistant is just as important as the underlying intelligence powering it. As base models become similar in capability, user experience is becoming the key competitive advantage.",
+          "why_it_matters": "For clients building customer-facing chatbots, this proves that tone and brand voice are no longer an afterthought—they are the primary way to differentiate from generic competitors.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-07-24"
+        },
+        {
+          "section": "news",
+          "headline": "Operators advise restricting finance AI to \"read-only\" access",
+          "summary": "In recent industry discussions, AI operators building tools for corporate finance teams emphasized a critical strategy for safe deployment. They strongly recommend giving financial AI agents strictly defined \"read-only\" authority at first, preventing them from moving money or altering records. Only after the AI proves its accuracy in the real world should it be granted permission to automate actual payments.",
+          "why_it_matters": "This gives you an immediate, highly credible safety playbook to offer nervous finance executives who are worried about AI making catastrophic accounting errors.",
+          "terms": [],
+          "url": "https://www.reddit.com/r/AI_Agents/comments/1v7swar/we_gave_our_finance_agent_readonly_mcp_access/",
+          "source_name": "Reddit",
+          "signal_tag": "trending",
+          "published_at": "2026-07-27"
+        },
+        {
+          "section": "news",
+          "headline": "Deloitte urges contact centers to use AI for tasks, not customer tiers",
+          "summary": "A new perspective from Deloitte consultants warns businesses against restricting high-quality AI support solely to their highest-paying customers. The firm argues that customers lower on the value scale still expect and require excellent, empathetic support during times of high stress. Restricting seamless AI resolution based on customer tiers, rather than the complexity of the task, will lead to mass customer churn.",
+          "why_it_matters": "Use this to advise marketing and CX clients against \"gating\" their best AI support behind premium subscriptions, as poor service will poison the brand for entry-level buyers.",
+          "terms": [],
+          "url": "https://www.customerexperiencedive.com/news/bank-ai-use-contact-centers-customer-service-deloitte/826177/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "Gorgias's latest AI update yields 10% higher resolution rate for customer support",
+          "summary": "The customer support platform Gorgias recently updated its AI assistant to rely on a new architecture focused heavily on using external software tools. By shifting the AI to an \"intent-based\" system that understands exactly what a customer is trying to accomplish, the platform reported a 10 percent increase in its ability to fully resolve customer issues without human intervention. The update highlights a shift away from basic chatbots toward systems that actually take action on a customer's behalf.",
+          "why_it_matters": "This is a strong, metric-backed case study to show customer service clients that modern AI can resolve complex tickets end-to-end, rather than just deflecting them.",
+          "terms": [
+            {
+              "term": "Tool calling",
+              "definition": "A feature that allows an AI to actively interact with other software applications—like pulling a customer's tracking number from a shipping database—rather than just generating text."
+            }
+          ],
+          "url": "https://www.reddit.com/r/SaaS/comments/1v2t63c/gorgias_launched_their_latest_ai_agent_update_i/",
+          "source_name": "Reddit (r/SaaS)",
+          "signal_tag": "shift",
+          "published_at": "2026-07-21"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Operator details exactly how they ran a one-person business on AI agents for six months",
+          "summary": "An independent operator published a detailed, 10-part framework explaining the successes and failures of running a one-person company entirely through AI automation over a six-month period. The case study documents how the founder structured AI agents to handle operations, marketing, and sales, offering concrete lessons on what tasks broke down and what succeeded. It provides a rare, transparent look at the limits of current AI reliability in a real-world setting.",
+          "why_it_matters": "This is a goldmine for your own consulting education, offering practical, street-level insights into where AI automation breaks so you can warn clients before they make the same mistakes.",
+          "terms": [],
+          "url": "https://www.reddit.com/r/AI_Agents/comments/1uyoahi/i_have_run_a_oneperson_company_on_ai_agents_for_6/",
+          "source_name": "Reddit (r/AI_Agents)",
+          "signal_tag": "trending",
+          "published_at": "2026-07-17"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Ilya Sutskever partners with Nvidia to scale Safe Superintelligence",
+          "summary": "After operating in stealth for two years, Ilya Sutskever's highly anticipated startup, Safe Superintelligence, has announced a long-term partnership with computing giant Nvidia. The company was founded by Sutskever, a renowned former executive at OpenAI, to focus exclusively on building artificial intelligence safely, free from immediate commercial pressures. The Nvidia backing gives the startup the massive computing resources it needs to scale its research.",
+          "why_it_matters": "Sutskever is arguably the most respected technical mind in AI safety; tracking his company's progress provides an early warning system for where the ethical and security boundaries of the industry are moving.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-07-27"
+        },
+        {
+          "section": "people",
+          "headline": "Alex Zhavoronkov aggressively cuts drug discovery timelines in China using AI",
+          "summary": "Alex Zhavoronkov, CEO of the Hong Kong-listed Insilico Medicine, reports that his company has reduced the time needed to produce viable drug candidates to just about a year. By deeply integrating artificial intelligence with traditional laboratory research, the company's fastest program reached the candidate nomination phase in only nine months. This shatters the traditional pharmaceutical timeline, which can take years.",
+          "why_it_matters": "This provides a highly impressive, number-backed anecdote to share with any client in research, development, or manufacturing to illustrate the sheer speed AI brings to traditional physical industries.",
+          "terms": [],
+          "url": "https://www.artificialintelligence-news.com/news/ai-drug-discovery-china/",
+          "source_name": "AI News",
+          "signal_tag": "trending",
+          "published_at": "2026-07-27"
+        }
+      ]
+    }
+  ]
+}
