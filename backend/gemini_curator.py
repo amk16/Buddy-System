@@ -17,7 +17,7 @@ from typing import Optional
 import validate
 from config import Config
 from curate_schema import CuratorOutput, system_prompt
-from gemini_interactions import output_text
+from gemini_interactions import HTTP_OPTIONS, create_with_retry, output_text
 
 
 def gemini_curate(
@@ -35,7 +35,8 @@ def gemini_curate(
         return None
 
     try:
-        client = genai.Client()  # reads GEMINI_API_KEY / GOOGLE_API_KEY
+        # reads GEMINI_API_KEY / GOOGLE_API_KEY
+        client = genai.Client(http_options=HTTP_OPTIONS)
     except Exception as exc:  # noqa: BLE001
         print(f"  [gemini-curator] cannot init Gemini client: {exc}")
         return None
@@ -52,7 +53,8 @@ def gemini_curate(
     )
 
     try:
-        interaction = client.interactions.create(
+        interaction = create_with_retry(
+            client,
             model=cfg.gemini_model,
             input=prompt,
             response_format={

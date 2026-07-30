@@ -32,7 +32,12 @@ from typing import Optional
 
 from pydantic import BaseModel
 
-from gemini_interactions import citation_urls, output_text
+from gemini_interactions import (
+    HTTP_OPTIONS,
+    citation_urls,
+    create_with_retry,
+    output_text,
+)
 from url_resolve import canonicalize, is_redirect, resolve_redirect
 
 
@@ -118,13 +123,15 @@ def collect_web_search_gemini(
         return []
 
     try:
-        client = genai.Client()  # reads GEMINI_API_KEY / GOOGLE_API_KEY
+        # reads GEMINI_API_KEY / GOOGLE_API_KEY
+        client = genai.Client(http_options=HTTP_OPTIONS)
     except Exception as exc:  # noqa: BLE001
         print(f"  [web-gemini] skipped: cannot init Gemini client ({exc})")
         return []
 
     try:
-        interaction = client.interactions.create(
+        interaction = create_with_retry(
+            client,
             model=model,
             input=_build_prompt(queries, lookback_days, focus),
             tools=[{"type": "google_search"}],

@@ -14,6 +14,36 @@ than raising if a future SDK reshapes a step or annotation.
 
 from __future__ import annotations
 
+import time
+
+# Per-request HTTP timeout (ms) for genai.Client(http_options=...). Bounds a hung
+# call at 5 min instead of GitHub's 6 h job ceiling (the 2026-07-25 run hung all
+# the way there); the big curator call normally completes well inside this.
+HTTP_OPTIONS = {"timeout": 300_000}
+
+
+def create_with_retry(client, *, attempts: int = 3, base_delay: float = 20.0,
+                      sleep=time.sleep, **kwargs):
+    """``client.interactions.create(**kwargs)`` with retry + exponential backoff.
+
+    Gemini intermittently drops the connection mid-request ("Server disconnected
+    without sending a response") — roughly one scheduled run in five through July
+    2026 — and a single failed attempt used to cost the whole day's issue. Retries
+    absorb that; the final failure re-raises so callers keep their existing
+    degrade-to-None/[] handling."""
+    for attempt in range(1, attempts + 1):
+        try:
+            return client.interactions.create(**kwargs)
+        except Exception as exc:  # noqa: BLE001 - transient network/server/quota
+            if attempt == attempts:
+                raise
+            delay = base_delay * (2 ** (attempt - 1))
+            print(
+                f"  [gemini] attempt {attempt}/{attempts} failed ({exc}); "
+                f"retrying in {delay:.0f}s"
+            )
+            sleep(delay)
+
 
 def output_text(interaction) -> str:
     """Return the model's text output from an ``Interaction``.
