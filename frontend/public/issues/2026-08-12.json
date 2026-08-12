@@ -1,0 +1,561 @@
+{
+  "id": "2026-08-12",
+  "generated_at": "2026-08-12T14:30:50.407482+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "Ramp AI Index August 2026: Cracks in the AI thesis",
+      "summary": "Spend data from the Ramp AI Index shows that Anthropic overtook OpenAI in U.S. business adoption in July 2026. Anthropic's models now account for 43.5% of AI-spending businesses on the corporate card platform. This marks a significant shift in enterprise preference toward Claude over ChatGPT.",
+      "why_it_matters": "For consultants, this signals an urgent need to support multi-model strategies and be ready to answer why Anthropic is suddenly dominating B2B budgets.",
+      "terms": [
+        {
+          "term": "Ramp AI Index",
+          "definition": "A tracking metric based on corporate credit card spending data that shows which AI tools businesses are actually paying for."
+        }
+      ],
+      "url": "https://econlab.substack.com/p/ai-index-august-2026",
+      "source_name": "Ramp Economics Lab",
+      "signal_tag": "shift",
+      "published_at": "2026-08-12"
+    },
+    {
+      "section": "news",
+      "headline": "1 in 4 companies delay or cancel an AI project over cost",
+      "summary": "Rising volatility around artificial intelligence costs is putting increased pressure on finance teams to enforce discipline. A quarter of businesses have already paused or scrapped an AI project because it became too expensive. The trend highlights a growing gap between AI hype and sustainable business models.",
+      "why_it_matters": "Highlighting the reality of cost overruns makes you a trusted advisor to clients worried about runaway software bills.",
+      "terms": [],
+      "url": "https://www.cfodive.com/news/1-in-4-companies-delay-cancel-ai-projects-over-cost/827524/",
+      "source_name": "CFO Dive - Latest News",
+      "signal_tag": "trending",
+      "published_at": "2026-08-11"
+    },
+    {
+      "section": "people",
+      "headline": "Target Appoints Lowe's Veteran Chandhu Nair as First Chief AI Officer",
+      "summary": "Target has hired former Lowe's executive Chandhu Nair to serve as its first-ever Chief AI Officer. The strategic hire signals a major push to weave artificial intelligence directly into the retailer's frontline operations. Nair's mandate is to figure out how modern technology can elevate the everyday customer experience in stores.",
+      "why_it_matters": "Tracking the rise of the \"Chief AI Officer\" role in Fortune 500 retail companies helps you advise clients on how the market is institutionalizing AI leadership.",
+      "terms": [
+        {
+          "term": "Chief AI Officer",
+          "definition": "A C-suite executive responsible for overseeing an organization's overall strategy and ethical deployment of artificial intelligence."
+        }
+      ],
+      "url": "https://www.pymnts.com/news/retail/2026/target-appoints-lowes-veteran-chandhu-nair-as-first-chief-ai-officer/",
+      "source_name": "PYMNTS.com",
+      "signal_tag": "shift",
+      "published_at": "2026-08-12"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Marlow Launches AI Software Builder That Lets Users Own Their Code and Deploy Anywhere",
+          "summary": "Marlow has launched a beta platform that allows non-technical business founders to build customized software tools using simple, plain-language prompts. Unlike other software builders, users retain complete ownership of the underlying source code and can host the finished product anywhere. This empowers marketers to rapidly generate internal apps without hiring a development team.",
+          "why_it_matters": "A fantastic recommendation for clients who need custom internal software but don't have the budget to hire a dedicated engineering team.",
+          "terms": [],
+          "url": "https://www.morningstar.com/news/accesswire/1206138msn/marlow-launches-ai-software-builder-that-lets-users-own-their-code-and-deploy-anywhere",
+          "source_name": "Morningstar",
+          "signal_tag": "new",
+          "published_at": "2026-08-11"
+        },
+        {
+          "section": "tools",
+          "headline": "SlashExperts Launches Carly, an AI Agent That Turns Customers Into Your Best Sellers",
+          "summary": "SlashExperts has introduced \"Carly,\" a new AI tool designed specifically to automate business-to-business customer advocacy. The system communicates directly with existing clients to capture success stories and formats them to speed up new sales. Its goal is to shorten the notoriously long enterprise sales cycle using automated social proof.",
+          "why_it_matters": "Marketing consultants can use this tool to help clients systematize their case studies and testimonials without hiring extra headcount.",
+          "terms": [],
+          "url": "https://markets.businessinsider.com/news/stocks/slashexperts-launches-carly-an-ai-agent-that-turns-customers-into-your-best-sellers-1036440630",
+          "source_name": "GlobeNewswire",
+          "signal_tag": "new",
+          "published_at": "2026-08-11"
+        },
+        {
+          "section": "tools",
+          "headline": "Click",
+          "summary": "Click is a new browser-based tool that provides live research context directly into chat interfaces like ChatGPT and Claude. Instead of manually copying and pasting information from articles, the tool acts as a bridge, allowing the AI to read your active internet tabs. This significantly speeds up the process of summarizing competitor research or compiling market data.",
+          "why_it_matters": "This is an immediate, actionable workflow upgrade for any marketer who spends hours feeding background research into AI chatbots.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/click-6",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-08-11"
+        },
+        {
+          "section": "tools",
+          "headline": "CodeBurn",
+          "summary": "CodeBurn is a tracking dashboard designed to show engineering teams exactly where their AI coding budgets are going. As companies adopt various AI tools that charge per interaction, costs can quickly spiral out of control. This application provides visibility into which models and prompts are burning the most cash.",
+          "why_it_matters": "Cost transparency is a massive pain point right now, making this a timely recommendation for clients scaling up their software development.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/codeburn",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-08-11"
+        },
+        {
+          "section": "tools",
+          "headline": "Cohesor",
+          "summary": "Cohesor has launched as a neutral control system designed to manage enterprise AI agents securely. As companies deploy multiple autonomous bots to handle everything from emails to data entry, keeping track of them becomes chaotic. This platform offers a centralized dashboard to monitor, pause, and audit every AI action happening across an organization.",
+          "why_it_matters": "Perfect for showing IT departments that you understand their security concerns about letting autonomous AI run wild on their networks.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/cohesor",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-08-12"
+        },
+        {
+          "section": "tools",
+          "headline": "Molt AI Launches Fisher to Test What AI Agents Do Under Pressure",
+          "summary": "Molt AI launched Fisher, an assessment tool that uses adversarial testing to verify the security and behavior of AI agents. The software creates stressful, multi-step scenarios to see if a customer service or operations bot will break its rules or leak data. This ensures autonomous agents act safely when exposed to real customers.",
+          "why_it_matters": "A crucial tool to recommend before clients release an automated agent to talk to their actual customers.",
+          "terms": [
+            {
+              "term": "Adversarial testing",
+              "definition": "A security practice where testers intentionally try to break or trick a software system to expose its vulnerabilities before attackers do."
+            }
+          ],
+          "url": "https://lasvegassun.com/news/2026/aug/12/molt-ai-launches-fisher-to-test-what-ai-agents-do-/",
+          "source_name": "Las Vegas Sun News",
+          "signal_tag": "new",
+          "published_at": "2026-08-12"
+        },
+        {
+          "section": "tools",
+          "headline": "Weav.ai Launches AI-Powered Productivity Suite",
+          "summary": "Weav.ai released its Agentic Productivity Tools, a suite of standalone AI systems designed to automate time-intensive tasks in the insurance industry. The platform handles complex backend workflows like loss run analysis and payroll processing. It takes repetitive data-entry burdens completely off the plates of human adjusters.",
+          "why_it_matters": "A prime example of industry-specific automation you can use to pitch the value of AI in heavily regulated, paperwork-dense sectors.",
+          "terms": [],
+          "url": "https://markets.businessinsider.com/news/stocks/weav-ai-launches-ai-powered-productivity-suite-1036441608",
+          "source_name": "Markets Insider",
+          "signal_tag": "new",
+          "published_at": "2026-08-11"
+        },
+        {
+          "section": "tools",
+          "headline": "Unsloth Desktop",
+          "summary": "Unsloth Desktop allows users to run and train AI models locally on their own computer hardware without relying on the cloud. This provides a secure environment for processing highly sensitive data that a company cannot risk sending to third-party servers. It makes testing and tweaking AI faster and completely private.",
+          "why_it_matters": "A perfect recommendation for clients in healthcare or finance who want to use AI but have strict data privacy requirements.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/unsloth",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-08-12"
+        },
+        {
+          "section": "tools",
+          "headline": "Prompt Bridge",
+          "summary": "Prompt Bridge is an application designed to keep AI context portable across different models and tools. It allows users to save the specific instructions, brand voice, and background data they use for prompting, and easily carry that setup from ChatGPT over to Claude or other platforms. This prevents users from having to re-teach the AI their preferences constantly.",
+          "why_it_matters": "A simple utility you can give marketing teams to ensure their brand voice stays consistent regardless of which AI tool they use.",
+          "terms": [
+            {
+              "term": "Prompting",
+              "definition": "The process of writing instructions or questions to guide an AI model into generating the desired output."
+            }
+          ],
+          "url": "https://www.producthunt.com/products/prompt-bridge-2",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-08-06"
+        },
+        {
+          "section": "tools",
+          "headline": "BearDrive",
+          "summary": "BearDrive acts as an open-source shared folder specifically designed for a team's AI agents. It gives autonomous bots a secure, common repository where they can store files, read documents, and collaborate with one another. This infrastructure is necessary when multiple AI programs need to work on the same project simultaneously.",
+          "why_it_matters": "A glimpse into the future of workplace file management, where humans and bots need shared digital spaces to collaborate.",
+          "terms": [
+            {
+              "term": "Open-source",
+              "definition": "Software whose original underlying code is made freely available for anyone to use, modify, and distribute."
+            }
+          ],
+          "url": "https://www.producthunt.com/products/beardrive",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "Ramp AI Index August 2026: Cracks in the AI thesis",
+          "summary": "Spend data from the Ramp AI Index shows that Anthropic overtook OpenAI in U.S. business adoption in July 2026. Anthropic's models now account for 43.5% of AI-spending businesses on the corporate card platform. This marks a significant shift in enterprise preference toward Claude over ChatGPT.",
+          "why_it_matters": "For consultants, this signals an urgent need to support multi-model strategies and be ready to answer why Anthropic is suddenly dominating B2B budgets.",
+          "terms": [
+            {
+              "term": "Ramp AI Index",
+              "definition": "A tracking metric based on corporate credit card spending data that shows which AI tools businesses are actually paying for."
+            }
+          ],
+          "url": "https://econlab.substack.com/p/ai-index-august-2026",
+          "source_name": "Ramp Economics Lab",
+          "signal_tag": "shift",
+          "published_at": "2026-08-12"
+        },
+        {
+          "section": "news",
+          "headline": "1 in 4 companies delay or cancel an AI project over cost",
+          "summary": "Rising volatility around artificial intelligence costs is putting increased pressure on finance teams to enforce discipline. A quarter of businesses have already paused or scrapped an AI project because it became too expensive. The trend highlights a growing gap between AI hype and sustainable business models.",
+          "why_it_matters": "Highlighting the reality of cost overruns makes you a trusted advisor to clients worried about runaway software bills.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/1-in-4-companies-delay-cancel-ai-projects-over-cost/827524/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-08-11"
+        },
+        {
+          "section": "news",
+          "headline": "LinkedIn Is Policing AI Slop, So Time to Reset",
+          "summary": "LinkedIn has introduced a new option allowing users to flag content as \"Seems like AI slop,\" indicating a crackdown on low-quality, automated posts. This move is a direct response to feeds becoming overwhelmed by poorly edited, AI-generated thought leadership. The platform aims to demote synthetic content and reward authentic human expertise.",
+          "why_it_matters": "Warn your marketing clients that leaning too heavily on unedited AI content generation is now an active brand risk on major social networks.",
+          "terms": [
+            {
+              "term": "AI slop",
+              "definition": "A colloquial term for low-effort, mass-produced text or images created by artificial intelligence that clutters internet platforms."
+            }
+          ],
+          "url": "https://www.marketingaiinstitute.com/blog/linkedin-policing-ai-slop",
+          "source_name": "Marketing AI Institute | Blog",
+          "signal_tag": "shift",
+          "published_at": "2026-08-12"
+        },
+        {
+          "section": "news",
+          "headline": "OpenAI, Anthropic, and Google Bill You for AI in Three Completely Different Ways",
+          "summary": "The major AI labs have diverged significantly in how they structure their pricing, complicating cost estimates for businesses. An analysis shows that opaque billing structures can double a company's expected software costs depending on the platform they choose. Businesses are being urged to evaluate their specific workloads rather than just looking at basic sticker prices.",
+          "why_it_matters": "Helping clients navigate hidden costs and complex AI billing structures is a fast track to proving your value as a consultant.",
+          "terms": [],
+          "url": "https://medium.com/@AIbatros/openai-anthropic-and-google-bill-you-for-ai-in-three-completely-different-ways-f7188939c5d9",
+          "source_name": "Medium",
+          "signal_tag": "shift",
+          "published_at": "2026-08-04"
+        },
+        {
+          "section": "news",
+          "headline": "Employers may not be training workers well enough for widespread AI disruption",
+          "summary": "A new report from The Conference Board indicates that advanced skills like managing AI agents are rarely the focus of employer training programs. While companies are adopting the technology rapidly, the workforce is being left to figure out these new tools largely on their own. This lack of structured upskilling threatens to stall productivity gains.",
+          "why_it_matters": "This is a perfect opening to pitch training and change-management services alongside tool implementation.",
+          "terms": [
+            {
+              "term": "AI agents",
+              "definition": "Software programs that can independently perform multi-step tasks to achieve a specific goal, rather than just generating text or answering single prompts."
+            }
+          ],
+          "url": "https://www.customerexperiencedive.com/news/employers-may-not-be-training-workers-well-enough-for-widespread-ai-disrupt/827373/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-08-10"
+        },
+        {
+          "section": "news",
+          "headline": "Businesses nearly triple AI agent deployments — Salesforce",
+          "summary": "Salesforce reported that the average number of AI agents activated by organizations nearly tripled over the past year. Businesses are aggressively moving away from simple text generation and toward bots that can execute multi-step tasks on their own. This signals a rapid maturation in how the enterprise views and trusts artificial intelligence.",
+          "why_it_matters": "Shows clients that competitors are no longer just playing with chatbots, but are actively deploying autonomous systems.",
+          "terms": [],
+          "url": "https://bworldonline.com/technology/2026/08/10/769151/businesses-nearly-triple-ai-agent-deployments-salesforce/",
+          "source_name": "BusinessWorld Online",
+          "signal_tag": "trending",
+          "published_at": "2026-08-10"
+        },
+        {
+          "section": "news",
+          "headline": "The AI Adoption Framework: How to Prepare Before You Build",
+          "summary": "A new four-stage framework is designed to help organizations get operationally aligned before they attempt to build or deploy AI models. With roughly 60% of enterprise AI projects failing to deliver value, preparation has become more critical than the technology itself. The guide stresses that companies must fix their internal processes before automating them.",
+          "why_it_matters": "You can adopt the talking points in this framework to help your clients define a clear path to success before they spend a dime on software.",
+          "terms": [],
+          "url": "https://www.geeks.ltd/insights/articles/the-ai-adoption-framework-how-to-prepare-before-you-build",
+          "source_name": "Geeks Ltd",
+          "signal_tag": "new",
+          "published_at": "2026-08-03"
+        },
+        {
+          "section": "news",
+          "headline": "Is the Supply Chain AI Accountability Gap a Recipe for Failure?",
+          "summary": "A recent study shows that 55.4% of decision-makers cite AI agent reliability as their top challenge in operations. This fear of bots making unmonitored mistakes is driving massive enterprise demand for governance systems that can oversee artificial intelligence. Companies are demanding a fully orchestrated layer of accountability before trusting software with critical supply chain choices.",
+          "why_it_matters": "A great talking point to remind executives that buying AI is easy, but governing it requires careful strategic planning.",
+          "terms": [
+            {
+              "term": "Governance systems",
+              "definition": "Frameworks and software tools used by companies to monitor, control, and secure their artificial intelligence operations."
+            }
+          ],
+          "url": "https://futurumgroup.com/insights/is-the-supply-chain-ai-accountability-gap-a-recipe-for-failure/",
+          "source_name": "Futurum Research",
+          "signal_tag": "trending",
+          "published_at": "2026-08-12"
+        },
+        {
+          "section": "news",
+          "headline": "Deloitte Expands End-to-End AI Controls and Assurance Capabilities to Enable Organizations to Scale AI With Confidence",
+          "summary": "Deloitte has significantly expanded its AI Controls and Assurance capabilities to help enterprise clients safely scale their use of artificial intelligence. The advisory firm is implementing robust risk management frameworks so companies can deploy autonomous agents without fear of compliance violations. This signals that Big Four consulting is making AI safety a primary revenue driver.",
+          "why_it_matters": "Proves to your clients that AI risk management isn't just a buzzword, it's a critical corporate function that major consulting firms are prioritizing.",
+          "terms": [],
+          "url": "https://www.prnewswire.com/news-releases/deloitte-expands-end-to-end-ai-controls-and-assurance-capabilities-to-enable-organizations-to-scale-ai-with-confidence-302848720.html",
+          "source_name": "PR Newswire",
+          "signal_tag": "shift",
+          "published_at": "2026-08-12"
+        },
+        {
+          "section": "news",
+          "headline": "Surprising Ways Companies Are Responding To AI Right Now",
+          "summary": "Executive coaches are warning that treating AI merely as an efficiency tool severely limits its potential impact on a business. They advise companies to redesign leadership roles entirely around human value to foster smoother technology adoption. The consensus is that successful transitions require leaders who focus on emotional intelligence and strategic vision over task management.",
+          "why_it_matters": "A human-centric angle you can use to reassure leaders who feel threatened by the rise of automated management tools.",
+          "terms": [],
+          "url": "https://www.forbes.com/councils/forbescoachescouncil/2026/08/11/surprising-ways-companies-are-responding-to-ai-right-now/",
+          "source_name": "Forbes",
+          "signal_tag": "trending",
+          "published_at": "2026-08-11"
+        },
+        {
+          "section": "news",
+          "headline": "Claude Sonnet 5 Pricing Locked at $2/$10 — Cheap Enough?",
+          "summary": "Anthropic has permanently locked Claude Sonnet 5's introductory pricing at $2 per million input tokens, effectively canceling a planned price increase. The move is designed to remain highly competitive for businesses running heavy, automated workloads. This aggressive pricing strategy is forcing competitors to reconsider their own billing structures.",
+          "why_it_matters": "Understanding minor shifts in API pricing allows you to recommend the most cost-effective platforms for your clients' high-volume AI projects.",
+          "terms": [],
+          "url": "https://explainx.ai/blog/anthropic-sonnet-5-permanent-pricing-august-2026",
+          "source_name": "explainx.ai Blog",
+          "signal_tag": "new",
+          "published_at": "2026-08-11"
+        },
+        {
+          "section": "news",
+          "headline": "\"But marinade\" and leaked passwords are what researchers found in ChatGPT's hidden reasoning",
+          "summary": "Security researchers discovered vulnerabilities in the interfaces for OpenAI, Anthropic, and Google that allowed them to extract encrypted \"reasoning traces.\" By scanning public sessions, the researchers found dozens of exposed passwords and private keys. The flaw highlights how AI models that \"think out loud\" can accidentally leak highly sensitive corporate data.",
+          "why_it_matters": "This is a potent warning for clients to never paste sensitive passwords or proprietary business data into public chatbot interfaces.",
+          "terms": [],
+          "url": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning/",
+          "source_name": "The Decoder",
+          "signal_tag": "new",
+          "published_at": "2026-08-11"
+        },
+        {
+          "section": "news",
+          "headline": "The Biggest Consequence Of An AI IPO Isn’t The IPO Itself. It’s What Happens Afterward.",
+          "summary": "A looming wave of major artificial intelligence IPOs is expected to return significant liquidity to early investors, fueling a massive new venture fundraising cycle. This fresh capital is likely to flow disproportionately to established venture capital firms, driving more investment into early-stage AI startups. The shift could dramatically reshape startup financing and power dynamics across the tech ecosystem.",
+          "why_it_matters": "Helps you advise software-buying clients on market stability and which AI startups have the funding to survive the long haul.",
+          "terms": [
+            {
+              "term": "IPO",
+              "definition": "Initial Public Offering, the process where a private company offers shares of its stock to the public for the first time."
+            }
+          ],
+          "url": "https://news.crunchbase.com/public/ai-ipo-results-lp-liquidity-gershfeld-flint/",
+          "source_name": "Crunchbase News",
+          "signal_tag": "shift",
+          "published_at": "2026-08-10"
+        },
+        {
+          "section": "news",
+          "headline": "A Zoom Screen-Sharing Bug Let Anyone Take Over Other Devices on a Call",
+          "summary": "Security researchers used a public AI tool to find a critical flaw in Zoom's annotation feature that allowed anyone on a call to hijack another participant's device. The exploit was uncovered using fewer than 20 simple AI prompts, demonstrating how easily bad actors can automate hacking. Zoom has since patched the vulnerability.",
+          "why_it_matters": "A stark reminder that AI is drastically lowering the barrier to entry for cyberattacks, making corporate security protocols more important than ever.",
+          "terms": [],
+          "url": "https://www.wired.com/story/a-zoom-screen-sharing-bug-let-anyone-take-over-other-devices-on-a-call/",
+          "source_name": "Feed: Artificial Intelligence Latest",
+          "signal_tag": "new",
+          "published_at": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "8 Companies Proving AI Can Deliver Real ROI",
+          "summary": "A new industry review highlights that while 95% of experimental generative AI projects fail to show a return on investment, targeted deployments are succeeding. Giants like Walmart and Bank of America are driving measurable cost reductions by focusing on highly specific workflow problems rather than broad technology rollouts. The data proves that narrow use cases reliably outperform general chat tools.",
+          "why_it_matters": "Use these specific enterprise examples to convince hesitant executives that narrow, well-planned AI implementations actually generate cash.",
+          "terms": [],
+          "url": "https://www.forbes.com/sites/bernardmarr/2026/08/10/8-companies-proving-ai-can-deliver-real-roi/",
+          "source_name": "Forbes",
+          "signal_tag": "trending",
+          "published_at": "2026-08-10"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How Pixieset achieved 35% AI feature adoption by solving the right problem with Amazon Bedrock",
+          "summary": "Photography platform Pixieset used Amazon Bedrock to launch an AI feature that automatically generates alternative text for images. In just four months, the tool reached 35% adoption among millions of users. The key to success was automating a tedious SEO chore that photographers hate, rather than trying to replace their creative work.",
+          "why_it_matters": "Use this case study to show marketing clients that the best AI features solve boring administrative problems rather than attempting to replace core creative talent.",
+          "terms": [
+            {
+              "term": "SEO",
+              "definition": "Search Engine Optimization, the process of improving a website so it appears higher in Google search results."
+            }
+          ],
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-pixieset-achieved-35-ai-feature-adoption-by-solving-the-right-problem-with-amazon-bedrock/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "new",
+          "published_at": "2026-08-11"
+        },
+        {
+          "section": "case_studies",
+          "headline": "AI Customer Service 2026: Cut Cost 45%, Up CSAT 30%",
+          "summary": "A newly published 90-day rollout playbook demonstrates the financial impact of integrating AI into customer service operations. When properly implemented, automated support agents can reduce operational costs by 45%. At the same time, companies following this model have seen their customer satisfaction scores increase by a massive 30%.",
+          "why_it_matters": "Hard numbers like a 45% cost reduction and 30% satisfaction bump are exactly what a consultant needs to secure executive buy-in for an AI project.",
+          "terms": [
+            {
+              "term": "CSAT",
+              "definition": "Customer Satisfaction Score, a standard metric used to measure how happy consumers are with a company's products or services."
+            }
+          ],
+          "url": "https://www.tommasomariaricci.com/blog/ai-for-customer-service-guide-2026",
+          "source_name": "Tommaso Maria Ricci",
+          "signal_tag": "trending",
+          "published_at": "2026-07-29"
+        },
+        {
+          "section": "case_studies",
+          "headline": "AI Use Cases by Industry 2026: Cost, ROI & Real Examples",
+          "summary": "A comprehensive guide details production-ready AI workflows operating across eight different major industries. The data indicates that real financial returns occur when companies combine predictive analysis, generative text, and automated execution into single, uninterrupted sequences. Breaking the technology out of isolated silos is the key to measuring tangible impact.",
+          "why_it_matters": "A cheat sheet of proven industry use cases you can memorize and deploy when speaking with prospective clients in different sectors.",
+          "terms": [],
+          "url": "https://medium.com/intuz/ai-use-cases-by-industry-2026-cost-roi-and-8-real-deployments-7eabbe6193f1",
+          "source_name": "Medium",
+          "signal_tag": "trending",
+          "published_at": "2026-07-30"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Duolingo’s user retention hits all-time high as app boosts stickiness",
+          "summary": "The language learning app Duolingo reported that its user retention has reached an all-time high, driven by new features that boost daily engagement. The company expects these higher daily average user counts to directly produce higher revenue over the long term. Much of this growth is attributed to highly personalized, gamified experiences.",
+          "why_it_matters": "A strong example of how consumer-facing companies are using personalized algorithms to build unshakeable daily habits among users.",
+          "terms": [],
+          "url": "https://www.customerexperiencedive.com/news/duolingos-user-retention-hits-all-time-high-as-app-boosts-stickiness/827499/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-08-11"
+        },
+        {
+          "section": "case_studies",
+          "headline": "First Orion accelerates QA automation using Amazon Nova Act",
+          "summary": "First Orion, a branded communications company, shifted from brittle script-based software testing to AI-driven automation using Amazon Nova Act. By describing software tests in plain English instead of maintaining rigid code, they cut their testing cycle times drastically. This freed up engineering capacity and caught bugs earlier in the development process.",
+          "why_it_matters": "A great story to convince CTOs that plain-language AI can replace tedious quality assurance coding, saving massive engineering hours.",
+          "terms": [],
+          "url": "https://aws.amazon.com/blogs/machine-learning/first-orion-accelerates-qa-automation-using-amazon-nova-act/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "new",
+          "published_at": "2026-08-11"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Pay with confidence: How Solv Labs built verifiable, auditable agent payments",
+          "summary": "Solv Labs built a governed payment workflow where AI agents can independently authorize transactions that are fully auditable. Every action taken by the AI is verified for risk, authorized in a secure environment, and recorded to a blockchain before settlement. This gives enterprises a verifiable trail for autonomous agent payments in highly regulated environments.",
+          "why_it_matters": "A critical case study for finance clients terrified of letting AI handle real money, proving that autonomous transactions can be secured and audited.",
+          "terms": [],
+          "url": "https://aws.amazon.com/blogs/machine-learning/pay-with-confidence-how-solv-labs-built-verifiable-auditable-agent-payments-on-amazon-bedrock-agentcore-payments/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "new",
+          "published_at": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Target Appoints Lowe's Veteran Chandhu Nair as First Chief AI Officer",
+          "summary": "Target has hired former Lowe's executive Chandhu Nair to serve as its first-ever Chief AI Officer. The strategic hire signals a major push to weave artificial intelligence directly into the retailer's frontline operations. Nair's mandate is to figure out how modern technology can elevate the everyday customer experience in stores.",
+          "why_it_matters": "Tracking the rise of the \"Chief AI Officer\" role in Fortune 500 retail companies helps you advise clients on how the market is institutionalizing AI leadership.",
+          "terms": [
+            {
+              "term": "Chief AI Officer",
+              "definition": "A C-suite executive responsible for overseeing an organization's overall strategy and ethical deployment of artificial intelligence."
+            }
+          ],
+          "url": "https://www.pymnts.com/news/retail/2026/target-appoints-lowes-veteran-chandhu-nair-as-first-chief-ai-officer/",
+          "source_name": "PYMNTS.com",
+          "signal_tag": "shift",
+          "published_at": "2026-08-12"
+        },
+        {
+          "section": "people",
+          "headline": "Bank of Ireland Appoints Former Citigroup Executive Prag Sharma as Chief AI Officer",
+          "summary": "The Bank of Ireland has recruited Prag Sharma, a former Citigroup executive, to serve as its new Chief AI Officer. Sharma is tasked with accelerating the banking group's technological adoption and shaping its organizational strategy through 2028. This move highlights how highly regulated industries are scrambling to secure top AI talent.",
+          "why_it_matters": "Proof that even traditional, risk-averse financial institutions are aggressively hiring executive leadership to oversee AI transformations.",
+          "terms": [],
+          "url": "https://www.thekeyexecutives.com/2026/08/12/bank-of-ireland-appoints-former-citigroup-executive-prag-sharma-as-chief-ai-officer/",
+          "source_name": "FinTech",
+          "signal_tag": "new",
+          "published_at": "2026-08-12"
+        },
+        {
+          "section": "people",
+          "headline": "US firm Akerman appoints director of AI governance from software company Highspot",
+          "summary": "Top US law firm Akerman has hired Michael Adler, a former executive at the software company Highspot, to be its new partner and director of AI governance. Adler will help the firm's clients navigate the complex legal and technical hurdles of deploying autonomous systems. The appointment underscores the growing intersection of AI deployment and corporate liability.",
+          "why_it_matters": "Governance is becoming a massive bottleneck; knowing that major law firms are building dedicated AI compliance wings helps you warn clients about upcoming regulatory scrutiny.",
+          "terms": [],
+          "url": "https://www.globallegalpost.com/news/us-firm-akerman-appoints-director-of-ai-governance-from-software-company-highspot-1775698009",
+          "source_name": "Global Legal Post",
+          "signal_tag": "shift",
+          "published_at": "2026-08-12"
+        },
+        {
+          "section": "people",
+          "headline": "Legal startup founder Robert Mahari joins Anthropic to lead Claude's push into law practices",
+          "summary": "Robert Mahari has become Anthropic's first \"Head of Claude for Legal,\" transitioning from the legal startup space to the leading AI lab. He will be responsible for expanding the deployment of the Claude AI model across legal and professional services. Anthropic is actively moving to customize its technology for highly specialized, document-heavy industries.",
+          "why_it_matters": "Watching major AI labs hire industry-specific directors indicates that generic AI tools are giving way to highly specialized, vertical market solutions.",
+          "terms": [],
+          "url": "https://the-decoder.com/legal-startup-founder-robert-mahari-joins-anthropic-to-lead-claudes-push-into-law-practices/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-08-12"
+        },
+        {
+          "section": "people",
+          "headline": "Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’",
+          "summary": "Brad Lightcap, the former Chief Operating Officer and special projects lead at OpenAI, has announced his departure after eight years with the company. Lightcap informed his colleagues in a memo that he plans to advance the AI mission from a \"different vantage point.\" His exit is the latest in a string of high-profile executive departures from the prominent AI research lab.",
+          "why_it_matters": "Tracking the massive talent churn at the top of OpenAI gives you insight into the shifting power dynamics shaping the tools you recommend.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-08-11"
+        },
+        {
+          "section": "people",
+          "headline": "Incoming ZipRecruiter CFO tackles strategy, capital allocation in ‘listening tour’",
+          "summary": "Carmen Chan is preparing to take over as ZipRecruiter's Chief Financial Officer by going on a deep \"listening tour\" across the company. She has spent time embedding herself with key product, revenue, and finance teams at the job marketplace. Her early approach underscores the modern CFO's need to deeply understand tech infrastructure before setting capital allocation strategy.",
+          "why_it_matters": "A good example of how new financial leaders are taking the time to understand tech and product pipelines before making sweeping budgetary changes.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/incoming-ziprecruiter-cfo-tackles-strategy-capital-allocation-comp-leadership/827486/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-08-10"
+        },
+        {
+          "section": "people",
+          "headline": "Kroger names former Walmart executive as first e-commerce chief",
+          "summary": "Kroger has tapped former Walmart veteran Nate Faust to be its new Executive Vice President and Chief eCommerce Officer. The grocery chain created this new top digital role to better compete with retail giants in the online space. Faust's appointment comes shortly after the company named another Walmart veteran, Greg Foran, as its CEO.",
+          "why_it_matters": "Highlights how legacy retailers are aggressively poaching digital leaders to build out their technical and e-commerce infrastructure.",
+          "terms": [],
+          "url": "https://www.grocerydive.com/news/kroger-names-executive-vice-president-chief-ecommerce-officer-csuite-appointment/827610/",
+          "source_name": "Grocery Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-08-11"
+        },
+        {
+          "section": "people",
+          "headline": "Humana taps ex-Johns Hopkins exec as Medicaid leader",
+          "summary": "James \"J.P.\" Holland has been named as the new president of Humana's Medicaid business, a critical growth segment for the insurance giant. He comes to the role with extensive executive experience from Johns Hopkins. His start is part of a much broader leadership transition that Humana announced late last year.",
+          "why_it_matters": "For consultants working in health tech, tracking leadership changes at major payers helps predict where new digital health budgets will be directed.",
+          "terms": [],
+          "url": "https://www.healthcaredive.com/news/humana-medicaid-president-jp-holland-insurance-transition/827535/",
+          "source_name": "Healthcare Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-08-11"
+        }
+      ]
+    }
+  ]
+}
