@@ -1,0 +1,691 @@
+{
+  "id": "2026-09-01",
+  "generated_at": "2026-09-01T17:17:45.337338+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "AI Agents See 1,700% Spike as Workflows Replace Chatbots",
+      "summary": "Network data from Cloudflare shows a massive 1,700% increase in daily requests for AI agents. The market is rapidly moving away from simple chat interfaces. Instead, companies are deploying artificial intelligence that can autonomously complete entire business workflows from start to finish.",
+      "why_it_matters": "This proves to clients that AI is moving from a novelty brainstorming tool into a core operational driver.",
+      "terms": [
+        {
+          "term": "AI agent",
+          "definition": "Software that can make decisions and take actions on its own to achieve a goal, rather than just answering questions."
+        }
+      ],
+      "url": "https://www.marketscale.com/industries/software-and-technology/ai-agents-are-moving-from-chatbots-to-running-workflows-and-ops-will-feel-it-first",
+      "source_name": "Medium",
+      "signal_tag": "shift",
+      "published_at": "2026-09-01"
+    },
+    {
+      "section": "case_studies",
+      "headline": "McKinsey Warns AI Requires Workflow Redesign to Deliver Real Profits",
+      "summary": "McKinsey's AI division warns that treating artificial intelligence as a simple plug-and-play tool is causing many corporate experiments to stall. To see actual financial returns on AI investments, companies must intentionally redesign how work gets done. The firm emphasizes that senior leaders must take ownership of these structural changes rather than leaving them to IT departments.",
+      "why_it_matters": "This is the perfect talking point to convince hesitant clients that they need your consulting help to restructure their teams, not just buy new software.",
+      "terms": [],
+      "url": "https://medium.com/quantumblack/escaping-ai-pilot-purgatory-from-poc-to-p-l-1216d30ec4d0",
+      "source_name": "QuantumBlack, AI by McKinsey",
+      "signal_tag": "shift",
+      "published_at": "2026-08-27"
+    },
+    {
+      "section": "news",
+      "headline": "Instagram Cracks Down on Undisclosed AI Influencers",
+      "summary": "Instagram is rolling out new measures to curb the rise of artificial intelligence accounts that pretend to be real humans. The platform is replacing its vague \"AI creator\" label with a much clearer \"AI-generated profile\" tag. Profiles that fail to use this disclosure will have their reach and recommendations severely limited by the platform's algorithm.",
+      "why_it_matters": "You need to warn clients running influencer marketing or brand ambassador programs that using undisclosed AI avatars will now actively harm their reach.",
+      "terms": [
+        {
+          "term": "Algorithm",
+          "definition": "The automated set of rules a social media platform uses to decide which posts to show to users."
+        }
+      ],
+      "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
+      "source_name": "AI | The Verge",
+      "signal_tag": "shift",
+      "published_at": "2026-08-31"
+    },
+    {
+      "section": "news",
+      "headline": "ChatGPT's Advertising Business Hits $1 Billion Annual Run Rate",
+      "summary": "OpenAI announced that its ChatGPT Ads platform has reached a staggering $1 billion in annualized revenue. The company is rapidly expanding the service globally to support its free and lower-cost AI tiers. This growth indicates a massive shift in how consumers are finding products and making purchasing decisions online.",
+      "why_it_matters": "ChatGPT is becoming a major search and discovery engine, meaning your clients need to factor it into their digital advertising budgets immediately.",
+      "terms": [
+        {
+          "term": "Annual run rate",
+          "definition": "A financial forecasting method that takes current revenue and projects it over a full 12-month period."
+        }
+      ],
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "source_name": "OpenAI News",
+      "signal_tag": "trending",
+      "published_at": "2026-08-31"
+    },
+    {
+      "section": "tools",
+      "headline": "A Complete Pricing Guide for Every Major AI Model in 2026",
+      "summary": "CloudZero has published a comprehensive cost analysis of the application programming interfaces (APIs) for major AI models from OpenAI, Anthropic, Google, and Mistral. The guide ranks the different platforms by cost, helping businesses understand how to budget for artificial intelligence. It offers strategies for enterprise leaders to optimize their spending as they build out AI infrastructure.",
+      "why_it_matters": "This is an essential reference guide you can use to help clients forecast their costs and choose the most budget-friendly AI tools for their specific needs.",
+      "terms": [
+        {
+          "term": "API",
+          "definition": "An Application Programming Interface, which is a bridge that allows two different pieces of software to talk to each other and share data."
+        }
+      ],
+      "url": "https://www.cloudzero.com/blog/llm-api-pricing-comparison/",
+      "source_name": "CloudZero",
+      "signal_tag": "trending",
+      "published_at": "2026-08-20"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "A Complete Pricing Guide for Every Major AI Model in 2026",
+          "summary": "CloudZero has published a comprehensive cost analysis of the application programming interfaces (APIs) for major AI models from OpenAI, Anthropic, Google, and Mistral. The guide ranks the different platforms by cost, helping businesses understand how to budget for artificial intelligence. It offers strategies for enterprise leaders to optimize their spending as they build out AI infrastructure.",
+          "why_it_matters": "This is an essential reference guide you can use to help clients forecast their costs and choose the most budget-friendly AI tools for their specific needs.",
+          "terms": [
+            {
+              "term": "API",
+              "definition": "An Application Programming Interface, which is a bridge that allows two different pieces of software to talk to each other and share data."
+            }
+          ],
+          "url": "https://www.cloudzero.com/blog/llm-api-pricing-comparison/",
+          "source_name": "CloudZero",
+          "signal_tag": "trending",
+          "published_at": "2026-08-20"
+        },
+        {
+          "section": "tools",
+          "headline": "Google Unveils AI Image Generator Built for Businesses",
+          "summary": "Google has launched \"Google Pics,\" a new suite of design tools inside Google Workspace. Built around its Gemini artificial intelligence technology, the platform is designed to make generating and editing professional-grade images easier for corporate teams. It gives users detailed control over the creative process to prevent common formatting frustrations.",
+          "why_it_matters": "This tool brings Canva-like AI image generation directly into the corporate software suite that many of your clients already use every day.",
+          "terms": [],
+          "url": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator",
+          "source_name": "AI | The Verge",
+          "signal_tag": "new",
+          "published_at": "2026-09-01"
+        },
+        {
+          "section": "tools",
+          "headline": "Runway's New AI Generates Software Interfaces Live",
+          "summary": "Artificial intelligence company Runway has introduced Solaris, a tool it classifies as an \"Interface World Model.\" Instead of writing traditional computer code to build software, Solaris generates user interfaces on the fly. The software updates frame by frame in real time as the user interacts with it.",
+          "why_it_matters": "This is a radical shift in software design that could eventually change how marketing teams quickly mock up landing pages and apps.",
+          "terms": [
+            {
+              "term": "Interface World Model",
+              "definition": "An AI system that understands how digital interfaces work visually and can generate functioning software screens on the fly without relying on traditional code."
+            }
+          ],
+          "url": "https://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-09-01"
+        },
+        {
+          "section": "tools",
+          "headline": "Amazon Alexa Can Now Tell Shoppers About Product Launches",
+          "summary": "Amazon is introducing a feature called \"Update Me When\" for its Alexa smart assistant. The tool will send users personalized alerts when new products launch, books are published, or events go on sale. It is designed to proactively prompt consumers to make a purchase when something they care about hits the market.",
+          "why_it_matters": "Retail and e-commerce clients will want to know how this shapes consumer buying habits and whether they can optimize their product launches for Alexa alerts.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-09-01"
+        },
+        {
+          "section": "tools",
+          "headline": "New Platform Vets the Security of AI Agent Add-Ons",
+          "summary": "A startup called AIR has secured $50 million to help companies monitor the artificial intelligence agents operating within their networks. The platform can discover which agents are running, continuously screen their skills and software add-ons for security risks, and block any unwanted or dangerous behavior.",
+          "why_it_matters": "Security is the number one objection clients have to deploying AI agents, so knowing about monitoring platforms like AIR helps you ease their concerns.",
+          "terms": [
+            {
+              "term": "AI agent",
+              "definition": "Software that can make decisions and take actions on its own to achieve a goal, rather than just answering questions."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-09-01"
+        },
+        {
+          "section": "tools",
+          "headline": "Best AI Agent Identity Platforms for Enterprises in 2026",
+          "summary": "Dock Labs has reviewed the top identity platforms designed to secure artificial intelligence agents inside corporate networks. One standout framework from Aembit uses \"Blended Identity\" to link an AI tool's permissions directly to the human employee operating it. This ensures the AI can only access the exact same files and data that its human boss is allowed to see.",
+          "why_it_matters": "This identity framework answers a massive pain point for enterprise clients terrified that an AI agent might accidentally access and leak confidential payroll or HR data.",
+          "terms": [
+            {
+              "term": "AI agent",
+              "definition": "Software that can make decisions and take actions on its own to achieve a goal, rather than just answering questions."
+            }
+          ],
+          "url": "https://www.dock.io/post/best-ai-agent-identity-platforms-for-enterprises",
+          "source_name": "Dock Labs",
+          "signal_tag": "trending",
+          "published_at": "2026-08-26"
+        },
+        {
+          "section": "tools",
+          "headline": "Empirik Secures $21M to Predict IT Outages Before They Happen",
+          "summary": "A new startup named Empirik has launched with $21 million in funding to build artificial intelligence tools for IT infrastructure. Supported by the venture capital firm Sequoia, the company aims to predict and prevent system outages before they occur. The founders hope to bring the same level of AI assistance to IT operations that tools like Cursor have brought to software coding.",
+          "why_it_matters": "While heavily IT-focused, this is a prime example of AI shifting from a reactive tool to a proactive, predictive one in the corporate tech stack.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-09-01"
+        },
+        {
+          "section": "tools",
+          "headline": "Fambot Unveils an AI 'Chief of Staff' for Busy Families",
+          "summary": "A startup called Fambot is building an artificial intelligence assistant aimed at household management rather than corporate work. The tool acts as a family \"chief of staff\" to coordinate logistics. It helps parents manage emails, calendars, school updates, and sports schedules in one centralized system.",
+          "why_it_matters": "Consumer adoption of sophisticated AI scheduling tools sets the baseline for what clients will eventually expect from B2B customer service experiences.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/09/01/fambot-introduces-an-ai-chief-of-staff-for-families/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-09-01"
+        },
+        {
+          "section": "tools",
+          "headline": "Harvard Law Dropout Builds Custom AI for Police Officers",
+          "summary": "Blue Voice has raised $6 million to create an artificial intelligence assistant specifically tailored for law enforcement. Unlike general-purpose chatbots, this tool is trained on highly specific department laws, local ordinances, and internal protocols that are not available on the public internet.",
+          "why_it_matters": "This highlights a major trend you can advise clients on: highly specialized, private AI models are winning out over generic, public tools in regulated industries.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-08-31"
+        },
+        {
+          "section": "tools",
+          "headline": "AI Video Search Tool Clipto Reaches $250M Valuation",
+          "summary": "Clipto, a three-year-old startup that uses artificial intelligence to search through terabytes of video content, has hit a $250 million valuation. The company achieved profitability and $15 million in annual recurring revenue before securing its latest $15 million funding round.",
+          "why_it_matters": "A highly valuable tool recommendation for marketing teams struggling to catalog, search, and reuse massive archives of old video assets.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-08-31"
+        },
+        {
+          "section": "tools",
+          "headline": "Keiki: A Tool to Deploy Customer-Facing AI Agents Anywhere",
+          "summary": "Keiki is a newly launched tool designed to simplify the deployment of customer-facing artificial intelligence. The platform allows businesses to build a single AI agent and then launch it seamlessly across multiple digital channels and customer touchpoints.",
+          "why_it_matters": "A simple \"build once, deploy everywhere\" agent platform is an excellent recommendation for smaller clients looking to dip their toes into AI customer support.",
+          "terms": [
+            {
+              "term": "AI agent",
+              "definition": "Software that can make decisions and take actions on its own to achieve a goal, rather than just answering questions."
+            }
+          ],
+          "url": "https://www.producthunt.com/products/keiki",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-08-27"
+        },
+        {
+          "section": "tools",
+          "headline": "ThunderPhone Offers Reliable AI Phone Agents Starting at 2 Cents a Minute",
+          "summary": "ThunderPhone is a new platform built specifically for creating and hosting voice-based artificial intelligence agents. The service provides businesses with reliable, automated phone operators capable of handling calls for as little as two cents per minute.",
+          "why_it_matters": "Voice AI is rapidly dropping in price; this is a highly tangible cost-saving tool to bring to clients managing busy call centers.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/thunderphone",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "AI Agents See 1,700% Spike as Workflows Replace Chatbots",
+          "summary": "Network data from Cloudflare shows a massive 1,700% increase in daily requests for AI agents. The market is rapidly moving away from simple chat interfaces. Instead, companies are deploying artificial intelligence that can autonomously complete entire business workflows from start to finish.",
+          "why_it_matters": "This proves to clients that AI is moving from a novelty brainstorming tool into a core operational driver.",
+          "terms": [
+            {
+              "term": "AI agent",
+              "definition": "Software that can make decisions and take actions on its own to achieve a goal, rather than just answering questions."
+            }
+          ],
+          "url": "https://www.marketscale.com/industries/software-and-technology/ai-agents-are-moving-from-chatbots-to-running-workflows-and-ops-will-feel-it-first",
+          "source_name": "Medium",
+          "signal_tag": "shift",
+          "published_at": "2026-09-01"
+        },
+        {
+          "section": "news",
+          "headline": "Instagram Cracks Down on Undisclosed AI Influencers",
+          "summary": "Instagram is rolling out new measures to curb the rise of artificial intelligence accounts that pretend to be real humans. The platform is replacing its vague \"AI creator\" label with a much clearer \"AI-generated profile\" tag. Profiles that fail to use this disclosure will have their reach and recommendations severely limited by the platform's algorithm.",
+          "why_it_matters": "You need to warn clients running influencer marketing or brand ambassador programs that using undisclosed AI avatars will now actively harm their reach.",
+          "terms": [
+            {
+              "term": "Algorithm",
+              "definition": "The automated set of rules a social media platform uses to decide which posts to show to users."
+            }
+          ],
+          "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
+          "source_name": "AI | The Verge",
+          "signal_tag": "shift",
+          "published_at": "2026-08-31"
+        },
+        {
+          "section": "news",
+          "headline": "ChatGPT's Advertising Business Hits $1 Billion Annual Run Rate",
+          "summary": "OpenAI announced that its ChatGPT Ads platform has reached a staggering $1 billion in annualized revenue. The company is rapidly expanding the service globally to support its free and lower-cost AI tiers. This growth indicates a massive shift in how consumers are finding products and making purchasing decisions online.",
+          "why_it_matters": "ChatGPT is becoming a major search and discovery engine, meaning your clients need to factor it into their digital advertising budgets immediately.",
+          "terms": [
+            {
+              "term": "Annual run rate",
+              "definition": "A financial forecasting method that takes current revenue and projects it over a full 12-month period."
+            }
+          ],
+          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+          "source_name": "OpenAI News",
+          "signal_tag": "trending",
+          "published_at": "2026-08-31"
+        },
+        {
+          "section": "news",
+          "headline": "California Ban on Workplace AI Emotion Surveillance Advances",
+          "summary": "A California bill designed to prohibit employers from using artificial intelligence to monitor workers' emotions is heading to Governor Gavin Newsom's desk. The legislation aims to crack down on surveillance software that analyzes facial expressions and tone of voice. If signed, it will also explicitly ban the collection of employee neural data.",
+          "why_it_matters": "This is a critical regulatory shift to flag for enterprise clients who use AI tools for remote worker tracking or call center quality assurance.",
+          "terms": [],
+          "url": "https://www.hrdive.com/news/california-ban-on-workplace-ai-emotion-surveillance-heads-to-newsom/829207/",
+          "source_name": "HR Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-08-31"
+        },
+        {
+          "section": "news",
+          "headline": "FTC Alleges Amazon Hid Surcharges in Advertising Auctions",
+          "summary": "The Federal Trade Commission claims that Amazon secretly bilked brands out of billions by adding hidden surcharges to its advertising auctions. Internal company documents suggest Amazon executives knew these practices could permanently damage advertiser trust. Amazon disputes the allegations, arguing that the government simply does not understand how its advertising business operates.",
+          "why_it_matters": "Retail marketers need to closely monitor this lawsuit, as it could fundamentally change the transparency and pricing rules for major retail advertising networks.",
+          "terms": [],
+          "url": "https://www.retaildive.com/news/amazon-hid-surcharges-ad-auctions-alleges-ftc-complaint/829294/",
+          "source_name": "Retail Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-09-01"
+        },
+        {
+          "section": "news",
+          "headline": "ChatGPT Faces Stricter Rules Under EU Digital Services Act",
+          "summary": "OpenAI's ChatGPT is now classified as a Very Large Online Search Engine under the European Union's strict digital regulations. This designation forces the company to take legal responsibility for mitigating risks related to minors, mental health, and illegal content. The shift marks a significant escalation in how governments intend to regulate conversational artificial intelligence platforms.",
+          "why_it_matters": "A stark reminder that as AI tools transition into search engines, they will face aggressive international regulation that could alter how they display information.",
+          "terms": [],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+          "source_name": "AI | The Verge",
+          "signal_tag": "shift",
+          "published_at": "2026-08-31"
+        },
+        {
+          "section": "news",
+          "headline": "The Pentagon Launches Its Own Secure Versions of ChatGPT and Grok",
+          "summary": "The United States Pentagon is adding secure, customized versions of OpenAI's ChatGPT and SpaceXAI's Grok to its internal intelligence portal. These new additions will sit alongside Google's Gemini on the military's central platform for artificial intelligence tools. The move allows defense personnel to securely leverage top-tier AI models without risking data leaks.",
+          "why_it_matters": "If the Pentagon can figure out how to securely deploy public AI models, your corporate clients have no excuse for outright banning them.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-08-31"
+        },
+        {
+          "section": "news",
+          "headline": "Customer Service AI Struggles to Retain Important Context",
+          "summary": "A recent survey by Talkdesk revealed that only about one-third of organizations successfully retain customer context when switching between different artificial intelligence systems. This knowledge gap means AI tools often forget a customer's history during an interaction, frustrating callers and preventing true problem resolution. Poor system architecture remains a major bottleneck in customer support tech.",
+          "why_it_matters": "A stark warning to clients that buying an AI chatbot won't fix their customer service problems if their underlying databases aren't properly connected.",
+          "terms": [],
+          "url": "https://www.customerexperiencedive.com/news/customer-service-ai-implementations-knowledge-problem/829228/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-08-31"
+        },
+        {
+          "section": "news",
+          "headline": "Misconfigured Security Policies Cause Costly Cloud Outages",
+          "summary": "A new report from the Cloud Security Alliance found that roughly two-thirds of companies have experienced a business-critical application outage due to misconfigured security settings. Traditional security policies are struggling to keep pace with the complex demands of hybrid cloud environments. These errors are causing significant downtime and revenue loss for major enterprises.",
+          "why_it_matters": "A great reality check for IT clients: piling complex new AI tools onto fragile, outdated security configurations is a recipe for disaster.",
+          "terms": [
+            {
+              "term": "Hybrid cloud",
+              "definition": "A computing environment that combines a company's private servers with public cloud services rented from companies like Amazon or Google."
+            }
+          ],
+          "url": "https://www.ciodive.com/news/security-policies-fail-keep-up-hybrid-cloud/828981/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-08-31"
+        },
+        {
+          "section": "news",
+          "headline": "Chipotle Deploys 100 Creators for Major Brand Campaign",
+          "summary": "Chipotle has launched a massive new advertising push featuring 100 different digital creators highlighting the chain's fresh food preparations. This marks the first national campaign driven by new Chief Brand Officer Fernando Machado and their new agency partner, Kids. The strategy leans entirely into varied, creator-led content rather than a single, polished corporate message.",
+          "why_it_matters": "A high-profile reminder that flooding the market with diverse, influencer-driven video is becoming the standard playbook for major food and beverage brands.",
+          "terms": [],
+          "url": "https://www.marketingdive.com/news/chipotle-deploys-100-creators-for-latest-ads-spotlighting-fresh-food/829149/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-08-31"
+        },
+        {
+          "section": "news",
+          "headline": "Snapchat Rolls Out Simplified Mobile Marketing Measurement",
+          "summary": "Snapchat is taking its \"Unified Attribution\" capability global in an effort to simplify how mobile marketers measure the success of their campaigns. During testing, early adopters like Mohegan Sun Online Casino saw their return on ad spend improve by nearly 90 percent. The tool aims to cut through the noise of competing data metrics to prove clear value to advertisers.",
+          "why_it_matters": "If you advise B2C clients on social spending, you should test this new attribution model to see if it genuinely lowers their customer acquisition costs.",
+          "terms": [],
+          "url": "https://www.marketingdive.com/news/snapchats-bid-to-simplify-mobile-marketing-measurement-goes-global/828976/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-08-31"
+        },
+        {
+          "section": "news",
+          "headline": "Airrived Launches Platform for Enterprises to Run Private AI",
+          "summary": "Technology firm Airrived has introduced a new platform that allows organizations to run autonomous artificial intelligence agents entirely on their own secure servers. This \"air-gapped\" approach bypasses external internet connections, shielding companies from privacy risks and unpredictable public software costs. It returns full control of corporate data to the enterprise.",
+          "why_it_matters": "You can recommend platforms like this to highly regulated clients—like hospitals or banks—who refuse to send their data to public AI companies.",
+          "terms": [
+            {
+              "term": "Air-gapped",
+              "definition": "A security measure where a computer network is physically and electronically isolated from the public internet."
+            }
+          ],
+          "url": "https://www.morningstar.com/news/business-wire/20260901351949/airrived-launches-sovereign-ai-platform-putting-enterprises-back-in-control-of-their-ai",
+          "source_name": "Airrived",
+          "signal_tag": "new",
+          "published_at": "2026-09-01"
+        },
+        {
+          "section": "news",
+          "headline": "Cherubic Ventures Closes $68.88M Fund for Early-Stage AI",
+          "summary": "Venture capital firm Cherubic Ventures has successfully closed a $68.88 million fund strictly dedicated to investing in early-stage artificial intelligence startups. The firm is specifically hunting for companies building backend developer tools and heavy-duty enterprise applications. The targeted fund highlights ongoing investor appetite for the infrastructure powering the AI boom.",
+          "why_it_matters": "Following the venture money shows you exactly where the enterprise AI market is heading next: boring, highly profitable corporate infrastructure tools.",
+          "terms": [],
+          "url": "https://nstartup.me/news/bd135bff-0d65-457b-a958-5e7b070c452f",
+          "source_name": "nstartup",
+          "signal_tag": "trending",
+          "published_at": "2026-09-01"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "McKinsey Warns AI Requires Workflow Redesign to Deliver Real Profits",
+          "summary": "McKinsey's AI division warns that treating artificial intelligence as a simple plug-and-play tool is causing many corporate experiments to stall. To see actual financial returns on AI investments, companies must intentionally redesign how work gets done. The firm emphasizes that senior leaders must take ownership of these structural changes rather than leaving them to IT departments.",
+          "why_it_matters": "This is the perfect talking point to convince hesitant clients that they need your consulting help to restructure their teams, not just buy new software.",
+          "terms": [],
+          "url": "https://medium.com/quantumblack/escaping-ai-pilot-purgatory-from-poc-to-p-l-1216d30ec4d0",
+          "source_name": "QuantumBlack, AI by McKinsey",
+          "signal_tag": "shift",
+          "published_at": "2026-08-27"
+        },
+        {
+          "section": "case_studies",
+          "headline": "FPT Software Preaches a Shift to Unified AI Agents",
+          "summary": "Global technology firm FPT has published a new playbook for enterprises transitioning into artificial intelligence. The guide advises companies to move away from isolated, task-specific automation bots. Instead, they recommend deploying unified, cross-department AI agents running on advanced computing infrastructure.",
+          "why_it_matters": "This serves as a high-level strategic roadmap you can adapt when advising enterprise clients on how to structure their long-term AI investments.",
+          "terms": [
+            {
+              "term": "AI agent",
+              "definition": "Software that can make decisions and take actions on its own to achieve a goal, rather than just answering questions."
+            }
+          ],
+          "url": "https://fptsoftware.com/resource-center/blogs/enterprise-productivity-ai-agents-from-automation-to-autonomous-intelligence",
+          "source_name": "FPT",
+          "signal_tag": "shift",
+          "published_at": "2026-08-25"
+        },
+        {
+          "section": "case_studies",
+          "headline": "The Home Depot Expands its Localized AI Assistant",
+          "summary": "The Home Depot is expanding \"Magic Apron,\" its artificial intelligence shopping assistant, to include localized, store-specific knowledge. Customers can now use the tool to quickly locate items in their specific local branch, ask detailed product questions, and receive personalized advice on home improvement projects.",
+          "why_it_matters": "This highlights the importance of grounding corporate AI tools in highly localized, real-time data to make them genuinely useful to consumers.",
+          "terms": [],
+          "url": "https://www.retaildive.com/news/the-home-depot-extends-ai-assistance-stores/829240/",
+          "source_name": "Retail Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-09-01"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Ulta Blends Promotions and AI Personalization to Retain Customers",
+          "summary": "Beauty retailer Ulta is leveraging artificial intelligence to unify its loyalty programs and promotional strategies. According to CEO Kecia Steelman, the company's ecosystem now relies heavily on deep personalization to navigate cautious consumer spending habits. The targeted approach is actively keeping customers returning despite broader retail headwinds.",
+          "why_it_matters": "A solid retail case study demonstrating how AI personalization can protect a brand's bottom line during tough economic times.",
+          "terms": [],
+          "url": "https://www.customerexperiencedive.com/news/ulta-combines-promotions-experiences-win-over-cautious-customers/829111/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-08-28"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How Atos Upskilled 400 Engineers in Agentic AI Over Three Days",
+          "summary": "Technology consulting firm Atos successfully trained 400 engineers to build autonomous artificial intelligence systems by hosting a competitive, hands-on \"AI League.\" Instead of theoretical lectures, the company had engineers physically build multi-agent systems using Amazon's cloud tools. The immersive event rapidly accelerated the team's ability to deploy complex AI solutions.",
+          "why_it_matters": "You can use this case study to sell clients on highly interactive, competitive training workshops rather than boring classroom seminars.",
+          "terms": [
+            {
+              "term": "Agentic AI",
+              "definition": "AI systems designed to work autonomously as \"agents\" to complete tasks and make decisions, rather than just responding to prompts."
+            }
+          ],
+          "url": "https://aws.amazon.com/blogs/machine-learning/from-theory-to-delivery-how-atos-upskilled-400-engineers-in-agentic-ai/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "new",
+          "published_at": "2026-09-01"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Inside OpenAI's Overhaul of Corporate Finance Work",
+          "summary": "A new look at OpenAI's internal operations reveals how the company is aggressively applying its own AI coding tools to traditional finance work. The company is using automated systems to entirely overhaul its monthly-close reporting processes. The experiment serves as an early indicator of how profoundly AI could reshape the daily operations of accounting and finance departments.",
+          "why_it_matters": "A fascinating glimpse into the \"future of work\" that you can share with CFOs who want to know how the best tech companies are using AI internally.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/inside-openai-experiment-ai-coding-finance/829250/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-09-01"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How Navan Unlocked 1 Billion Euros in Card Volume with Embedded Finance",
+          "summary": "Corporate travel company Navan successfully scaled its global card-issuing program by embedding financial tools directly into its platform via Adyen. By integrating these systems, the company seamlessly unlocked over 1 billion euros in transaction volume. The strategic move dramatically simplified international expense management for its users.",
+          "why_it_matters": "While more finance-focused, this proves to enterprise clients the massive revenue potential of tightly integrating specialized tech into existing software workflows.",
+          "terms": [],
+          "url": "https://www.cfodive.com/spons/beyond-the-booking-how-navan-scaled-global-card-issuing-with-embedded-fina/828872/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-08-31"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How t54 Built an Autonomous AI Payment System Without Humans",
+          "summary": "Technology firm t54 successfully built a highly secure trust layer that allows autonomous artificial intelligence agents to initiate financial payments. Using session budgets and strict isolation protocols, the system scores the safety of every transaction before allowing the AI to pay. The architecture has securely governed over 20 million agent-initiated transactions without requiring a human in the loop.",
+          "why_it_matters": "If a client tells you they can't trust AI with sensitive financial transactions, point to this case study showing it is already happening safely at scale.",
+          "terms": [],
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-t54-built-a-trust-layer-with-amazon-bedrock-agentcore-payments/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "new",
+          "published_at": "2026-09-01"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Careflow Animal Health Modernizes Operations with Generative AI",
+          "summary": "A detailed case study examines how Careflow Animal Health partnered with an external consulting firm to overhaul its veterinary platform using artificial intelligence. The organization successfully modernized its legacy systems by deploying generative AI solutions to streamline daily operations. The project underscores the tangible return on investment possible when specialized businesses embrace AI.",
+          "why_it_matters": "A perfect, niche B2B case study showing how non-tech legacy businesses are hiring consultants to successfully integrate AI.",
+          "terms": [
+            {
+              "term": "Generative AI",
+              "definition": "A type of artificial intelligence that can create new content, like text, images, or computer code, based on the data it was trained on."
+            }
+          ],
+          "url": "https://helloskip.com/b/corporate-ai-solutions-llc/blog/case-studies-successful-ai-implementations-in-business",
+          "source_name": "Corporate AI Solutions LLC",
+          "signal_tag": "trending",
+          "published_at": "2026-08-25"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Domino's Uses Hyperbolic Comedy to Take on Fast-Food Icons",
+          "summary": "Domino's Chief Marketing Officer Kate Trumbull recently broke down the strategy behind the pizza chain's aggressively competitive new marketing campaign. Working with their agency, the brand chose a darkly comedic and hyperbolic tone to directly challenge industry giants like the Big Mac and the Whopper. The strategy highlights a broader shift toward bolder, entertainment-driven brand rivalries.",
+          "why_it_matters": "A great strategy reminder for clients that sometimes the best way to cut through crowded, AI-generated advertising noise is with sharp, human humor.",
+          "terms": [],
+          "url": "https://www.restaurantdive.com/news/how-dominos-is-taking-on-the-big-mac-whopper-and-other-fast-food-icons/829148/",
+          "source_name": "Restaurant Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-08-31"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Dr. Squatch Bets on Influencer Experiences Over Traditional Ads",
+          "summary": "Personal care brand Dr. Squatch is pivoting away from standard advertising to focus on creator experiences, recently partnering with mega-streamer IShowSpeed. Chief Brand Officer John Ludeke explained the company is betting heavily that Gen Z consumers prefer authentic, co-created content over polished commercials. The strategy aims to get young shoppers to create their own content alongside the brand.",
+          "why_it_matters": "A valuable talking point for consumer brands wondering how to allocate their influencer budgets effectively in 2026.",
+          "terms": [],
+          "url": "https://www.marketingdive.com/news/why-dr-squatch-is-investing-in-experiences-not-ads-with-ishowspeed/829009/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-08-31"
+        },
+        {
+          "section": "case_studies",
+          "headline": "John Deere Launches an AI Assistant for Farmers",
+          "summary": "Agricultural giant John Deere is testing a new artificial intelligence assistant named \"JD\" to help farmers increase their profitability. The tool uses a farm's unique historical data to provide customized advice on equipment settings, fuel efficiency, and optimal harvest timing. It represents a major leap in bringing advanced predictive AI to the agriculture industry.",
+          "why_it_matters": "A brilliant example of applying AI outside of the tech bubble to deliver tangible, hard-dollar ROI to traditional industries.",
+          "terms": [],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot",
+          "source_name": "AI | The Verge",
+          "signal_tag": "new",
+          "published_at": "2026-09-01"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Trader Joe's Appoints Prabash Coswatte as New CIO",
+          "summary": "Specialty grocery chain Trader Joe's has named Prabash Coswatte as its new Chief Information Officer. Coswatte joins the beloved retailer from the Heritage Grocers Group, where he previously served as chief operating officer. He will oversee the company's technology infrastructure and digital strategy.",
+          "why_it_matters": "A crucial executive move to watch as Trader Joe's navigates the tricky balance between its famously analog brand identity and modern tech demands.",
+          "terms": [],
+          "url": "https://www.grocerydive.com/news/trader-joes-names-new-chief-information-officer-prabash-coswatte/829059/",
+          "source_name": "Grocery Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-08-28"
+        },
+        {
+          "section": "people",
+          "headline": "Kohl's Names Ryan Waymire as Chief Merchant",
+          "summary": "Department store chain Kohl's has hired Ryan Waymire to serve as its new chief merchant, replacing Nick Jones. Waymire brings deep retail experience from previous merchandising roles at major players like Walmart, Wayfair, Amazon, and Target. He joins as the company looks to revamp its apparel offerings and reverse slumping sales.",
+          "why_it_matters": "A critical retail hire to track, as Waymire's diverse e-commerce background could signal a major shift in how Kohl's sources and markets its products.",
+          "terms": [],
+          "url": "https://www.retaildive.com/news/kohls-walmart-fashion-alum-chief-merchant/829281/",
+          "source_name": "Retail Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-09-01"
+        },
+        {
+          "section": "people",
+          "headline": "Teladoc Hires Insurance Veteran Michael Grasher as CFO",
+          "summary": "Telehealth giant Teladoc has appointed Michael Grasher as its new Chief Financial Officer, effective immediately. Grasher fills a leadership vacuum that has existed since former finance chief Mala Murthy departed the company last November. He brings extensive experience from the insurance industry to help stabilize the company's financials.",
+          "why_it_matters": "A key appointment indicating Teladoc is heavily prioritizing its relationships with massive insurance carriers to secure long-term profitability.",
+          "terms": [],
+          "url": "https://www.healthcaredive.com/news/teladoc-names-michael-grasher-cfo/829175/",
+          "source_name": "Healthcare Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-08-31"
+        },
+        {
+          "section": "people",
+          "headline": "KeyCorp Taps Chris Doll as New Strategy Chief",
+          "summary": "Banking firm KeyCorp has appointed Chris Doll to lead its corporate strategy initiatives. Doll brings significant financial experience from previous roles at City National and Fifth Third Bank. According to Key CFO Clark Khayat, Doll was chosen for his ability to align long-term strategy with strict financial discipline and execution.",
+          "why_it_matters": "A strategic banking hire to watch as regional lenders look for leaders who can safely deploy transformative technologies like AI while managing strict budgets.",
+          "terms": [],
+          "url": "https://www.bankingdive.com/news/keycorp-taps-city-national-fifth-third-alum-as-strategy-chief/829317/",
+          "source_name": "Banking Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-09-01"
+        },
+        {
+          "section": "people",
+          "headline": "GE Vernova Recruits Claire McDonough as CFO",
+          "summary": "Energy company GE Vernova has successfully lured Claire McDonough away from electric vehicle maker Rivian to serve as its new Chief Financial Officer. McDonough will receive a hefty $5 million cash sign-on bonus as she steps into the role, succeeding Kenneth Parks. She brings vital experience in scaling complex, capital-intensive manufacturing operations.",
+          "why_it_matters": "A massive executive poaching that highlights the fierce competition for top-tier financial talent in the booming energy and infrastructure sectors.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/ge-vernova-swipes-rivian-cfo-evs-electric/829116/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-08-28"
+        },
+        {
+          "section": "people",
+          "headline": "Festival Foods Promotes Adam Whitney to COO",
+          "summary": "Wisconsin-based grocery chain Festival Foods has promoted Adam Whitney to the position of Chief Operating Officer. Whitney steps into this crucial operational role after a brief stint serving as the company's chief merchant. He will be tasked with overseeing the day-to-day execution of the brand's regional supermarket strategy.",
+          "why_it_matters": "Regional grocers are under intense pressure to modernize operations; watching how leaders like Whitney deploy tech to compete with giants is highly educational.",
+          "terms": [],
+          "url": "https://www.grocerydive.com/news/festival-foods-names-chief-operating-officer-grocery-supermarkets/828931/",
+          "source_name": "Grocery Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-08-27"
+        },
+        {
+          "section": "people",
+          "headline": "Renasant Bank Appoints Catherine Mealor as Next CFO",
+          "summary": "Mississippi-based lender Renasant has named Catherine Mealor as its new finance chief. Mealor, who joins from the financial services firm KBW, will succeed the retiring Jim Mabry. The bank announced that it also intends to nominate Mabry for a seat on its board of directors next year to ensure a smooth transition of leadership.",
+          "why_it_matters": "A solid example of how traditional regional banks are bringing in fresh analytical talent to navigate a complicated economic landscape.",
+          "terms": [],
+          "url": "https://www.bankingdive.com/news/renasant-next-cfo-catherine-mealor-kbw-jim-mabry-retiring-board-seat/829096/",
+          "source_name": "Banking Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-08-28"
+        },
+        {
+          "section": "people",
+          "headline": "Mike Lyons Takes the Helm as Truist CEO",
+          "summary": "Industry veteran Mike Lyons has officially stepped into his role as the new CEO of banking giant Truist. Analysts expect Lyons will need to immediately execute a bold, large-scale strategy to jump-start the bank's growth and profitability. He takes over a complex institution looking to regain its footing in the competitive Southeast market.",
+          "why_it_matters": "A critical leadership transition to watch, as Truist's massive scale means its upcoming technology and marketing investments will ripple across the banking sector.",
+          "terms": [],
+          "url": "https://www.bankingdive.com/news/mike-lyons-truist-ceo-banking-growth-profits-southeast/829310/",
+          "source_name": "Banking Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-09-01"
+        },
+        {
+          "section": "people",
+          "headline": "Cleveland Diagnostics Brings on Valerie Dixon as CFO",
+          "summary": "Medical technology firm Cleveland Diagnostics has hired Valerie Dixon to serve as its new Chief Financial Officer. Dixon joins the executive team at a critical moment for the company. She will guide the financial strategy as the business works to aggressively commercialize its innovative prostate cancer testing technology across the United States.",
+          "why_it_matters": "A valuable look at the type of operational talent required to scale a complex healthcare product from the lab into the commercial market.",
+          "terms": [],
+          "url": "https://www.medtechdive.com/news/cleveland-diagnostics-hires-new-cfo/828797/",
+          "source_name": "MedTech Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-08-27"
+        },
+        {
+          "section": "people",
+          "headline": "Jen Abel Outlines the Step-by-Step Enterprise Sales Cycle",
+          "summary": "Sales expert Jen Abel recently appeared on Lenny's Podcast to break down the mechanics of closing massive corporate contracts. She detailed every single stage of the enterprise sales cycle, from the very first cold outreach email to securing the final signature on a $100,000-plus deal. Her framework offers a highly structured approach to managing complex B2B negotiations.",
+          "why_it_matters": "If you are selling high-ticket AI consulting retainers, Abel's step-by-step enterprise framework is required listening to refine your own pitch.",
+          "terms": [],
+          "url": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
+          "source_name": "Lenny's Newsletter",
+          "signal_tag": "trending",
+          "published_at": "2026-08-23"
+        }
+      ]
+    }
+  ]
+}
