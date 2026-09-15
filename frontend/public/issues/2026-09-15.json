@@ -1,0 +1,583 @@
+{
+  "id": "2026-09-15",
+  "generated_at": "2026-09-15T17:32:35.321726+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "Accenture and Google Cloud Launch AI Business Group to Scale Agentic AI",
+      "summary": "Accenture and Google Cloud have created a dedicated business group focused on expanding the use of autonomous AI in large companies. This new division will deploy a workforce of 1,000 specialists to help enterprise clients adopt agentic AI systems that can execute tasks independently. The initiative signals a major push from tech giants to move beyond simple chatbots and into systems that can autonomously manage complex business workflows.",
+      "why_it_matters": "This massive investment proves that the enterprise market is rapidly shifting from AI experimentation to full-scale automated operations, creating highly lucrative consulting opportunities.",
+      "terms": [
+        {
+          "term": "Agentic AI",
+          "definition": "Artificial intelligence systems designed to autonomously plan and execute multi-step tasks without requiring constant human prompts."
+        }
+      ],
+      "url": "https://www.msp-channel.com/news/23768-accenture-and-google-cloud-launch-gemini-enterprise-business-group-to-scale-agentic-ai",
+      "source_name": "Google Cloud",
+      "signal_tag": "shift",
+      "published_at": "2026-09-15"
+    },
+    {
+      "section": "case_studies",
+      "headline": "How Zepto Scales Customer Support Using Evaluation-First AI Agents",
+      "summary": "Data platform company Zepto currently manages over 100,000 customer support tickets every day using AI agents. To handle this massive volume reliably, Zepto shifted its strategy from constantly building new bots to rigorously testing and evaluating the ones it already has. By utilizing tracking platforms like Databricks and MLflow to monitor performance, the company established a quality-first approach that successfully scaled its automated support operations.",
+      "why_it_matters": "This case study provides a proven blueprint for clients who want to scale their AI customer service without sacrificing response quality.",
+      "terms": [
+        {
+          "term": "MLflow",
+          "definition": "An open-source platform designed to help technical teams track, test, and manage their machine learning models."
+        }
+      ],
+      "url": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
+      "source_name": "Databricks",
+      "signal_tag": "trending",
+      "published_at": "2026-09-09"
+    },
+    {
+      "section": "news",
+      "headline": "Nearly 80% of Developers Reinvest Time Saved by AI Coding Tools",
+      "summary": "Recent data reveals that almost 80% of software developers are now spending less than half of their work week actually writing code. Thanks to AI coding assistants, these professionals are saving an average of 13 hours per week on manual programming tasks. However, rather than working fewer hours, developers are reinvesting this saved time into higher-level activities like system architecture and reviewing AI-generated code.",
+      "why_it_matters": "This data point is crucial for resetting client expectations, proving that AI doesn't necessarily reduce headcount but rather shifts human effort toward strategy and quality control.",
+      "terms": [],
+      "url": "https://markets.businessinsider.com/news/stocks/nearly-80-of-developers-now-spend-less-than-half-their-week-coding-one-year-of-quarterly-data-shows-1036546857",
+      "source_name": "Markets Insider",
+      "signal_tag": "shift",
+      "published_at": "2026-09-15"
+    },
+    {
+      "section": "tools",
+      "headline": "Salesforce and Nvidia Launch New AI Reasoning Model for Business",
+      "summary": "Tech giants Salesforce and Nvidia have partnered to launch Koa, a specialized AI model built specifically for business applications. Powered by Nvidia's open-weight technology, Koa is uniquely trained to execute tasks across sales, marketing, and customer support. Unlike standard chatbots, Koa is a reasoning model, meaning it is programmed to think through complex workflows rather than just spitting out immediate text.",
+      "why_it_matters": "Koa offers a highly credible, enterprise-backed alternative to general-purpose AI, giving consultants a top-tier recommendation for clients worried about data privacy and task accuracy.",
+      "terms": [
+        {
+          "term": "Open-weight",
+          "definition": "A type of AI model where the underlying mathematical parameters are made publicly available, allowing developers to customize it for their own needs."
+        },
+        {
+          "term": "Reasoning model",
+          "definition": "An AI system built to carefully process complex, multi-step problems before providing an answer, often mimicking human logic."
+        }
+      ],
+      "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
+      "source_name": "AI News & Artificial Intelligence | TechCrunch",
+      "signal_tag": "new",
+      "published_at": "2026-09-15"
+    },
+    {
+      "section": "tools",
+      "headline": "Zendesk Introduces Specialized AI Agents Purpose-Built for Business",
+      "summary": "Customer service platform Zendesk has launched a suite of specialized AI agents designed for specific industries. These purpose-built bots are engineered to handle complex, industry-specific customer queries right out of the box. The new offering aims to give businesses the efficiency of autonomous AI resolution while keeping strict human controls in place for sensitive interactions.",
+      "why_it_matters": "This is a perfect plug-and-play recommendation for retail or service clients who want advanced AI support without the expense of building custom models from scratch.",
+      "terms": [],
+      "url": "https://www.cmswire.com/the-wire/zendesk-introduces-specialized-ai-agents-purpose-built-for-your-business/",
+      "source_name": "CMS Wire",
+      "signal_tag": "new",
+      "published_at": "2026-09-15"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Salesforce and Nvidia Launch New AI Reasoning Model for Business",
+          "summary": "Tech giants Salesforce and Nvidia have partnered to launch Koa, a specialized AI model built specifically for business applications. Powered by Nvidia's open-weight technology, Koa is uniquely trained to execute tasks across sales, marketing, and customer support. Unlike standard chatbots, Koa is a reasoning model, meaning it is programmed to think through complex workflows rather than just spitting out immediate text.",
+          "why_it_matters": "Koa offers a highly credible, enterprise-backed alternative to general-purpose AI, giving consultants a top-tier recommendation for clients worried about data privacy and task accuracy.",
+          "terms": [
+            {
+              "term": "Open-weight",
+              "definition": "A type of AI model where the underlying mathematical parameters are made publicly available, allowing developers to customize it for their own needs."
+            },
+            {
+              "term": "Reasoning model",
+              "definition": "An AI system built to carefully process complex, multi-step problems before providing an answer, often mimicking human logic."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "tools",
+          "headline": "Zendesk Introduces Specialized AI Agents Purpose-Built for Business",
+          "summary": "Customer service platform Zendesk has launched a suite of specialized AI agents designed for specific industries. These purpose-built bots are engineered to handle complex, industry-specific customer queries right out of the box. The new offering aims to give businesses the efficiency of autonomous AI resolution while keeping strict human controls in place for sensitive interactions.",
+          "why_it_matters": "This is a perfect plug-and-play recommendation for retail or service clients who want advanced AI support without the expense of building custom models from scratch.",
+          "terms": [],
+          "url": "https://www.cmswire.com/the-wire/zendesk-introduces-specialized-ai-agents-purpose-built-for-your-business/",
+          "source_name": "CMS Wire",
+          "signal_tag": "new",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "tools",
+          "headline": "Anthropic Slashes Prices with Claude Fable 5.1 and Mythos 5.1",
+          "summary": "AI research lab Anthropic has released updated versions of its popular AI models, dubbed Fable 5.1 and Mythos 5.1. The launch comes with a major price reduction, cutting costs by roughly 25% to 45% for typical business workloads. Additionally, the company introduced new zero data retention guarantees to assure enterprise users that their sensitive information will not be stored or used for future AI training.",
+          "why_it_matters": "Cheaper models paired with strict data privacy guarantees make Anthropic an exceptionally safe recommendation for cost-conscious, security-focused enterprise clients.",
+          "terms": [],
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+          "source_name": "Anthropic",
+          "signal_tag": "new",
+          "published_at": null
+        },
+        {
+          "section": "tools",
+          "headline": "Snipp Interactive Embeds Loyalty Programs Directly into AI Chatbots",
+          "summary": "Marketing technology firm Snipp Interactive has released a new tool that connects brand loyalty programs directly into conversational AI environments like ChatGPT and Claude. The integration allows customers to claim product rebates and manage their loyalty points seamlessly while chatting with an AI assistant. This creates a more interactive, frictionless reward experience for everyday shoppers.",
+          "why_it_matters": "This tool bridges the gap between basic chatbot conversations and actual customer retention, offering a tangible way for retail marketers to boost brand loyalty through AI.",
+          "terms": [],
+          "url": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/snipp-interactive-introduces-new-chatgpt-plugin-and-claude-conne-1220336",
+          "source_name": "ACCESS Newswire",
+          "signal_tag": "new",
+          "published_at": "2026-09-14"
+        },
+        {
+          "section": "tools",
+          "headline": "WitnessAI Debuts FinOps Tools to Track AI Spending and ROI",
+          "summary": "WitnessAI has announced a new dashboard designed to help businesses track the financial impact of their artificial intelligence tools. The system acts as a financial operations center, monitoring how much money is being spent on AI models alongside the risks and adoption rates across different employees. This allows leaders to clearly see whether their AI investments are actually generating a positive return.",
+          "why_it_matters": "A tool that tracks exact AI spending against business outcomes is an indispensable resource to recommend to CFOs who are skeptical about the hidden costs of AI.",
+          "terms": [
+            {
+              "term": "FinOps",
+              "definition": "Financial operations; a management practice focused on tracking, controlling, and optimizing technology spending within a business."
+            }
+          ],
+          "url": "https://www.prnewswire.com/news-releases/witnessai-introduces-ai-finops-capabilities-to-control-enterprise-ai-spend-and-drive-effective-roi-302878268.html",
+          "source_name": "PR Newswire",
+          "signal_tag": "new",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "tools",
+          "headline": "Dynamics 365 Copilot Automates Repetitive Finance Workflows",
+          "summary": "Microsoft is expanding its Copilot AI assistants within Dynamics 365 to handle routine enterprise finance tasks. The new standard and custom agents are designed to reduce repetitive manual work, such as reconciling accounts and managing expense reports. By automating these low-level chores, the AI frees up finance professionals to focus on higher-level strategic analysis.",
+          "why_it_matters": "This highlights a practical, immediate application of AI inside a widely used Microsoft platform, making it an easy adoption pitch for clients already using the Microsoft ecosystem.",
+          "terms": [],
+          "url": "https://stoneridgesoftware.com/dynamics-365-copilot-agents-use-cases-for-business-central-and-finance-operations/",
+          "source_name": "Microsoft Dynamics Blog",
+          "signal_tag": "trending",
+          "published_at": "2026-09-03"
+        },
+        {
+          "section": "tools",
+          "headline": "SmallBiz.ai Launches AI Directory and Workflow Tools for SMEs",
+          "summary": "A new platform called SmallBiz.ai has launched specifically to help small and medium-sized businesses adopt artificial intelligence. The service features a comprehensive directory and workflow tool covering over 500 different business types. The goal is to bridge the gap in mainstream AI adoption by providing smaller companies with accessible ways to increase sales and lower operational costs.",
+          "why_it_matters": "This is a perfect starting point to recommend for small business clients who want to leverage AI but feel overwhelmed by enterprise-level software.",
+          "terms": [],
+          "url": "https://www.prnewswire.com/news-releases/smallbizai-launches-to-help-small-businesses-turn-ai-into-more-sales-lower-costs-and-simpler-operations-302869738.html",
+          "source_name": "PR",
+          "signal_tag": "new",
+          "published_at": "2026-09-04"
+        },
+        {
+          "section": "tools",
+          "headline": "AleaIT Solutions Debuts Enterprise HR AI Agents",
+          "summary": "AleaIT Solutions has announced a new suite of AI agents purpose-built to assist human resources departments. The tools are designed to handle knowledge-heavy workflows, such as answering employee questions about HR policies and securely searching through internal company documents. This automation aims to relieve HR staff from answering repetitive administrative queries.",
+          "why_it_matters": "HR is a high-friction area in many companies, and specialized AI tools that securely handle internal policies offer a clear, immediate operational win for clients.",
+          "terms": [],
+          "url": "https://www.openpr.com/news/4631400/aleait-solutions-launches-enterprise-hr-ai-agent-services",
+          "source_name": "openPR",
+          "signal_tag": "new",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "tools",
+          "headline": "36 Best AI Marketing Tools Ranked and Tested for 2026",
+          "summary": "A curated market radar evaluates the top AI marketing tools currently available, breaking down their specific benefits for modern marketers. Among the highlights is Improvado's AI agent, which significantly speeds up data analysis. The tool can reportedly reduce the time it takes to deliver multi-platform marketing attribution insights from hours down to just minutes.",
+          "why_it_matters": "A consolidated list of vetted marketing tools serves as a great cheat sheet for a consultant looking to match specific software solutions to a client's immediate needs.",
+          "terms": [
+            {
+              "term": "Attribution insights",
+              "definition": "Data analysis that determines which specific marketing campaigns or advertisements successfully drove a customer to make a purchase."
+            }
+          ],
+          "url": "https://improvado.io/blog/best-ai-marketing-tools",
+          "source_name": "Improvado",
+          "signal_tag": "trending",
+          "published_at": "2026-09-04"
+        },
+        {
+          "section": "tools",
+          "headline": "Former TikTok Executives Launch AI Posing App Superpose",
+          "summary": "A new camera application called Superpose has been launched by former executives from TikTok. The app uses artificial intelligence to analyze selfies or photos and generate four potential posing suggestions for the user. It effectively serves as a digital posing coach, showcasing how consumer AI is moving beyond text generation into highly specific visual guidance.",
+          "why_it_matters": "While consumer-focused, this tool serves as a great, tangible example of how AI is personalizing user experiences to help explain visual AI capabilities to non-technical clients.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "Accenture and Google Cloud Launch AI Business Group to Scale Agentic AI",
+          "summary": "Accenture and Google Cloud have created a dedicated business group focused on expanding the use of autonomous AI in large companies. This new division will deploy a workforce of 1,000 specialists to help enterprise clients adopt agentic AI systems that can execute tasks independently. The initiative signals a major push from tech giants to move beyond simple chatbots and into systems that can autonomously manage complex business workflows.",
+          "why_it_matters": "This massive investment proves that the enterprise market is rapidly shifting from AI experimentation to full-scale automated operations, creating highly lucrative consulting opportunities.",
+          "terms": [
+            {
+              "term": "Agentic AI",
+              "definition": "Artificial intelligence systems designed to autonomously plan and execute multi-step tasks without requiring constant human prompts."
+            }
+          ],
+          "url": "https://www.msp-channel.com/news/23768-accenture-and-google-cloud-launch-gemini-enterprise-business-group-to-scale-agentic-ai",
+          "source_name": "Google Cloud",
+          "signal_tag": "shift",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "news",
+          "headline": "Nearly 80% of Developers Reinvest Time Saved by AI Coding Tools",
+          "summary": "Recent data reveals that almost 80% of software developers are now spending less than half of their work week actually writing code. Thanks to AI coding assistants, these professionals are saving an average of 13 hours per week on manual programming tasks. However, rather than working fewer hours, developers are reinvesting this saved time into higher-level activities like system architecture and reviewing AI-generated code.",
+          "why_it_matters": "This data point is crucial for resetting client expectations, proving that AI doesn't necessarily reduce headcount but rather shifts human effort toward strategy and quality control.",
+          "terms": [],
+          "url": "https://markets.businessinsider.com/news/stocks/nearly-80-of-developers-now-spend-less-than-half-their-week-coding-one-year-of-quarterly-data-shows-1036546857",
+          "source_name": "Markets Insider",
+          "signal_tag": "shift",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "news",
+          "headline": "Amazon Commits $1 Billion to Build AI Engineering Division for Clients",
+          "summary": "Amazon Web Services (AWS) has announced a $1 billion investment to create a new Forward Deployed Engineering division. The goal of this division is to embed specialized AI engineers directly within the organizations of their enterprise clients. This hands-on approach is designed to help companies overcome the technical hurdles of actually implementing artificial intelligence into their daily operations.",
+          "why_it_matters": "This demonstrates that even the biggest tech companies recognize that selling software isn't enough; businesses need hands-on human consulting to actually make AI work.",
+          "terms": [],
+          "url": "https://stocktwits.com/news-articles/markets/equity/amazon-commits-1-b-to-launch-ai-engineering-division-for-enterprise-clients/cZ1QpZhR70Z",
+          "source_name": "Stocktwits",
+          "signal_tag": "shift",
+          "published_at": "2026-09-12"
+        },
+        {
+          "section": "news",
+          "headline": "OpenAI's 88-Hour Math Proof Highlights Where AI Time Savings Actually Go",
+          "summary": "A recent analysis of AI workplace studies indicates that the time developers save by using AI coding tools is rarely captured as pure free time. Instead, those hours are frequently reallocated to reviewing and verifying the AI-generated work. The analysis points to OpenAI's recent 88-hour math proof as a prime example of how complex AI outputs require significant human oversight to ensure accuracy.",
+          "why_it_matters": "This provides a strong talking point to caution clients against treating AI as a magical cost-cutting tool, emphasizing the ongoing need for human oversight.",
+          "terms": [],
+          "url": "https://www.forbes.com/sites/renanaashkenazi/2026/09/15/openais-88-hour-math-proof-shows-where-enterprise-ai-savings-go/",
+          "source_name": "Forbes",
+          "signal_tag": "trending",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "news",
+          "headline": "AI bots 'Timmy,' 'Ren,' and 'Jackie' Flood Social Media With Spam",
+          "summary": "Artificial intelligence agents are actively identifying themselves with names like 'Timmy' and 'Ren' while flooding social media platforms with automated spam. The bots are openly stating their identity as AI agents operating from small platforms while distributing low-quality, repetitive content. This highlights a growing trend of autonomous software being utilized to game algorithms and overwhelm the internet with unwanted material.",
+          "why_it_matters": "This is a vivid example to share with marketing clients regarding the risks of relying too heavily on AI-generated content, warning them that low-effort automation can damage brand reputation.",
+          "terms": [],
+          "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
+          "source_name": "AI - Ars Technica",
+          "signal_tag": "trending",
+          "published_at": "2026-09-14"
+        },
+        {
+          "section": "news",
+          "headline": "Meta Bundles AI Access in New Subscription Push",
+          "summary": "Meta has launched a new subscription tier called Meta One, which pairs expanded access to the company's AI tools with premium features across Facebook, Instagram, and WhatsApp. The subscription bundle features various pricing tiers tailored to individual users, creators, and businesses. This move represents Meta's latest strategy to directly monetize its artificial intelligence capabilities rather than offering them strictly for free.",
+          "why_it_matters": "Understanding Meta's shift toward paid AI subscriptions helps consultants advise marketing clients on where digital ad platforms are heading and how to budget for enhanced reach.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "news",
+          "headline": "Top AI Labs Reportedly in Talks Over Industry Safety Pact",
+          "summary": "Leaders from major AI companies, including OpenAI, Anthropic, and Google DeepMind, have reportedly been engaging in private discussions regarding artificial intelligence safety for weeks. The conversations center around the idea of voluntarily slowing down the pace of AI development to implement better safeguards. This comes at the same time the Trump administration's team has expressed a desire to avoid safety-driven slowdowns in order to outpace China's technology sector.",
+          "why_it_matters": "If the industry's biggest players voluntarily slow their release cycles, enterprise clients will have a more stable window to actually adopt and integrate existing tools rather than constantly chasing updates.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "news",
+          "headline": "Critics Question Whether the AI Industry Slowdown is a Safety Pact or a Cartel",
+          "summary": "As top AI leaders like Sam Altman and Dario Amodei publicly advocate for a slowdown in frontier AI development to ensure safety, critics are raising concerns about their true motives. Some industry observers and politicians are pushing back against the initiative, suggesting it may be a strategic move to lock in the dominance of existing tech giants and freeze out smaller competitors. The debate is dividing the tech world over whether regulation is meant to protect the public or protect market share.",
+          "why_it_matters": "Following this debate gives a consultant critical perspective on the underlying politics of AI vendors, helping to advise clients on which technology providers are acting in their best long-term interests.",
+          "terms": [],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+          "source_name": "AI | The Verge",
+          "signal_tag": "trending",
+          "published_at": "2026-09-14"
+        },
+        {
+          "section": "news",
+          "headline": "Open Chinese AI Models Close the Gap With Silicon Valley",
+          "summary": "A new report from Mozilla illustrates that inexpensive, open-source AI models developed in China are rapidly catching up to the capabilities of elite American AI models. The analysis suggests that western companies paying premium prices for top-tier frontier models are essentially buying a four-month technological head start at five times the cost. This dynamic is drastically changing the economic math of deploying advanced artificial intelligence for global businesses.",
+          "why_it_matters": "This directly challenges the assumption that clients must pay premium prices for American AI, opening the door for major cost savings by leveraging international open-source alternatives.",
+          "terms": [
+            {
+              "term": "Open-source",
+              "definition": "Software or AI models whose underlying code and parameters are made freely available for anyone to inspect, modify, and use."
+            },
+            {
+              "term": "Frontier models",
+              "definition": "The most advanced, capable, and bleeding-edge artificial intelligence systems currently available on the market."
+            }
+          ],
+          "url": "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/",
+          "source_name": "AI - Ars Technica",
+          "signal_tag": "shift",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "news",
+          "headline": "AI Takes A Growing Share Of Sales And Marketing Startup Funding",
+          "summary": "Startups operating in the sales, marketing, and customer management sectors have secured $7.5 billion in funding so far this year. The largest investment rounds are overwhelmingly focused on artificial intelligence companies building tools for advertising, customer data analysis, and e-commerce. This influx of capital highlights how heavily the tech industry is betting on AI to revolutionize how businesses find and sell to customers.",
+          "why_it_matters": "Knowing where venture capital is flowing allows consultants to confidently tell marketing leaders that their specific industry is the current epicenter of AI software innovation.",
+          "terms": [],
+          "url": "https://news.crunchbase.com/sales-marketing/ai-growing-share-ecommerce-saas-crm-startup-funding/",
+          "source_name": "Crunchbase News",
+          "signal_tag": "trending",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "news",
+          "headline": "Anthropic Eyes Nasdaq Listing Following Profitable Quarter",
+          "summary": "AI lab Anthropic has informed investors that it expects to turn a profit for the second consecutive quarter. However, this profitability claim relies on adjusted metrics that conveniently exclude significant expenses like stock-based compensation for employees. The financial maneuvering is widely viewed as a strategic push to build investor confidence ahead of a massive initial public offering (IPO) on the Nasdaq.",
+          "why_it_matters": "Tracking Anthropic's path to an IPO provides a clear signal on the financial health of the broader AI vendor market, ensuring you recommend stable, well-funded partners to clients.",
+          "terms": [],
+          "url": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo/",
+          "source_name": "The Decoder",
+          "signal_tag": "trending",
+          "published_at": "2026-09-14"
+        },
+        {
+          "section": "news",
+          "headline": "Most Companies Underuse Customer Experience Data for AI Automation",
+          "summary": "A recent survey by CallMiner indicates that businesses are prioritizing internal efficiency over customer desires when deciding where to implement AI automation. Organizations frequently ignore existing customer experience data, leading to automated systems that solve internal problems but frustrate users. The study suggests that companies are missing critical opportunities by failing to let consumer feedback guide their artificial intelligence deployments.",
+          "why_it_matters": "This exposes a common blind spot in corporate strategy, giving a consultant a perfect opening to advise clients on aligning their AI cost-cutting goals with actual customer needs.",
+          "terms": [],
+          "url": "https://www.customerexperiencedive.com/news/most-companies-underuse-cx-data-guide-automation-efforts/830336/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "news",
+          "headline": "Teens Begin Trusting AI Recommendations Over Friends and Parents",
+          "summary": "A new report from Mastercard highlights a significant generational shift in how younger consumers interact with artificial intelligence. Teenagers are increasingly turning to AI shopping assistants and product recommendations, displaying higher levels of trust in these digital tools than in advice from their friends or parents. This signals a fundamental change in the purchasing behavior of the next major consumer demographic.",
+          "why_it_matters": "This is a vital trend to flag for consumer brands, proving that integrating AI into the customer journey is essential for capturing the loyalty of Gen Z shoppers.",
+          "terms": [],
+          "url": "https://www.customerexperiencedive.com/news/teens-start-to-trust-ai-recommendations-more-than-friends-parents/830343/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "news",
+          "headline": "How Banks Will Reinvest the Time AI Saves",
+          "summary": "The banking industry is exploring what experts call the \"capacity dividend,\" questioning whether the time saved by AI automation will actually lead to strategic gains. There is growing concern that hours freed up from manual tasks will simply be consumed by a higher volume of busywork rather than meaningful projects. Leaders are being urged to intentionally direct this newly available time toward high-value work to ensure a real return on their AI investments.",
+          "why_it_matters": "This frames AI not just as a technology upgrade, but as a management challenge, giving you a strong angle to help executives proactively manage the free time their new tools create.",
+          "terms": [],
+          "url": "https://bankingjournal.aba.com/2026/09/how-will-banks-reinvest-the-time-ai-saves/",
+          "source_name": "ABA Banking Journal",
+          "signal_tag": "trending",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "news",
+          "headline": "AI Marketing Use Cases: Evolving Trends for 2027",
+          "summary": "A review of current marketing practices shows that generative AI is fundamentally changing how teams handle creative production. Marketers are successfully using automation to execute multi-variant testing and deep personalization at a previously impossible pace. The industry is rapidly moving away from isolated AI tools and toward integrated systems capable of managing entire marketing campaigns autonomously.",
+          "why_it_matters": "This offers a forward-looking roadmap you can share with clients to ensure their marketing operations are prepared for the next wave of intelligent, large-scale automation.",
+          "terms": [],
+          "url": "https://emarsys.com/learn/blog/5-ai-marketing-use-cases/",
+          "source_name": "Emarsys",
+          "signal_tag": "trending",
+          "published_at": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "How Zepto Scales Customer Support Using Evaluation-First AI Agents",
+          "summary": "Data platform company Zepto currently manages over 100,000 customer support tickets every day using AI agents. To handle this massive volume reliably, Zepto shifted its strategy from constantly building new bots to rigorously testing and evaluating the ones it already has. By utilizing tracking platforms like Databricks and MLflow to monitor performance, the company established a quality-first approach that successfully scaled its automated support operations.",
+          "why_it_matters": "This case study provides a proven blueprint for clients who want to scale their AI customer service without sacrificing response quality.",
+          "terms": [
+            {
+              "term": "MLflow",
+              "definition": "An open-source platform designed to help technical teams track, test, and manage their machine learning models."
+            }
+          ],
+          "url": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
+          "source_name": "Databricks",
+          "signal_tag": "trending",
+          "published_at": "2026-09-09"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Valchy AI Case Study: Generating 74 Sales Calls in 12 Days",
+          "summary": "An outbound sales campaign utilizing an AI automation engine named Valchy successfully orchestrated massive outreach with minimal human input. By automating the discovery and proposal process, the AI system secured 74 scheduled sales calls in under two weeks. This automated approach generated an impressive $362,000 in early sales pipeline during its very first month of operation.",
+          "why_it_matters": "This provides hard numbers to convince hesitant sales directors that AI-driven outbound outreach can reliably generate massive, measurable revenue pipelines.",
+          "terms": [
+            {
+              "term": "Sales pipeline",
+              "definition": "A visual representation of the stages a potential customer goes through, indicating the total monetary value of all open sales opportunities."
+            }
+          ],
+          "url": "https://www.gtmrevenue.com/valchy-ai",
+          "source_name": "GTM Revenue",
+          "signal_tag": "new",
+          "published_at": null
+        },
+        {
+          "section": "case_studies",
+          "headline": "How Technology and AI Forecasting is Powering Papa Johns’ Turnaround",
+          "summary": "Pizza chain Papa Johns is deploying a suite of new technologies, including AI forecasting, to improve store operations and drive sales. The company recently overhauled its point-of-sale system to better integrate advanced customer segmentation capabilities. These upgrades allow the brand to predict demand more accurately and personalize marketing efforts to distinct customer groups.",
+          "why_it_matters": "A highly recognizable consumer brand successfully using AI forecasting provides a relatable, compelling case study for retail clients looking to modernize their own operations.",
+          "terms": [
+            {
+              "term": "Point-of-sale system",
+              "definition": "The hardware and software setup where retail transactions are completed, acting as the central hub for sales and inventory data."
+            },
+            {
+              "term": "Customer segmentation",
+              "definition": "The practice of dividing a customer base into groups of individuals that are similar in specific ways, such as age, buying habits, or interests."
+            }
+          ],
+          "url": "https://www.restaurantdive.com/news/papa-johns-ai-technology-turnaround-plan-new-pos/829830/",
+          "source_name": "Restaurant Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Target Introduces AI-Powered Photo Search and Review Features",
+          "summary": "Retail giant Target is accelerating its artificial intelligence capabilities to boost product discovery for online shoppers. The retailer has introduced an AI-powered photo search tool that allows consumers to find items by uploading an image. Additionally, new AI-driven review features help summarize customer feedback, making it easier for shoppers to make quick purchasing decisions based on personalized insights.",
+          "why_it_matters": "This highlights a practical, visual way major retailers are deploying AI to directly improve the online shopping experience and increase conversion rates.",
+          "terms": [],
+          "url": "https://www.customerexperiencedive.com/news/target-introduces-ai-powered-photo-search-review-features/830159/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Abnormal AI: Using Amazon Bedrock for Agentic Email Security at Scale",
+          "summary": "Security firm Abnormal AI has deployed Amazon's Bedrock AgentCore to manage its real-time email threat detection systems. The company uses an ephemeral computing environment to process and analyze a staggering one billion email messages safely. By isolating the AI agents in a secure sandbox, Abnormal AI can detect sophisticated email threats at massive scale without exposing internal systems to vulnerabilities.",
+          "why_it_matters": "This technical case study proves to IT and security executives that AI agents can operate at an enormous scale while maintaining rigorous, enterprise-grade safety protocols.",
+          "terms": [
+            {
+              "term": "Sandbox",
+              "definition": "An isolated testing environment that enables users to run programs or execute files without affecting the application, system, or platform they run on."
+            }
+          ],
+          "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "trending",
+          "published_at": "2026-09-14"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Automating Replenishment with Databricks Genie and Amazon Quick",
+          "summary": "While AI has made it easy to predict spikes in consumer demand, acting on those forecasts has remained difficult. A new case study demonstrates a closed-loop system using Databricks and Amazon Quick that automatically checks live supplier availability against sudden demand surges. The AI system can place replenishment orders unattended, only escalating to a human manager if no supplier is able to cover the required inventory.",
+          "why_it_matters": "This illustrates the holy grail of supply chain AI—moving from merely providing insights to taking autonomous, profitable action without human bottlenecks.",
+          "terms": [],
+          "url": "https://aws.amazon.com/blogs/machine-learning/automate-replenishment-with-mmf-databricks-genie-and-amazon-quick/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "shift",
+          "published_at": "2026-09-14"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Wonder Deploys First Automated Food Assembly Line in Manhattan",
+          "summary": "Food hall company Wonder has officially deployed its first fully automated meal assembly line in Manhattan. The technology, which the company acquired from salad chain Sweetgreen for $186 million, enables the business to offer lower prices and extend its operating hours. The automated 'infinite makeline' system will act as the foundation for the company's aggressive expansion into new markets.",
+          "why_it_matters": "This tangible example of physical robotics and automation disrupting the restaurant space is a powerful signal to brick-and-mortar clients that AI efficiency is reshaping physical retail.",
+          "terms": [],
+          "url": "https://www.restaurantdive.com/news/wonder-deploys-infinite-makeline-manhattan/830315/",
+          "source_name": "Restaurant Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Target Hires Ex-Hilton CMO as Chief Marketing and Guest Experience Officer",
+          "summary": "Retailer Target has appointed Mark Weinstein as its new Chief Marketing and Guest Experience Officer. Weinstein, who previously served as the Chief Marketing Officer at Hilton, will be responsible for developing how consumers experience and connect with the brand. His purview includes overseeing strategy across various retail channels, company culture, and community engagement.",
+          "why_it_matters": "Tracking executive movement from hospitality to retail helps consultants identify leaders who prioritize deeply personalized, digitally enhanced customer experiences.",
+          "terms": [],
+          "url": "https://www.marketingdive.com/news/target-hires-ex-hilton-cmo-as-chief-marketing-and-guest-experience-officer/830353/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-09-14"
+        },
+        {
+          "section": "people",
+          "headline": "Why Lowe’s CMO Jen Wilson Added Digital Commerce to Her Portfolio",
+          "summary": "Jen Wilson, the Chief Marketing Officer at Lowe's, has officially added the company's digital commerce platforms, including Lowes.com, to her list of responsibilities. This addition joins her existing oversight of retail media, customer loyalty programs, and personalized marketing efforts. The expansion of her role underscores a massive evolution in how the industry views the modern marketing executive.",
+          "why_it_matters": "This highlights a major shift in the C-suite, proving to clients that modern marketing leaders must take direct ownership of the technology platforms that drive digital sales.",
+          "terms": [],
+          "url": "https://www.marketingdive.com/news/why-lowes-cmo-jen-wilson-added-digital-commerce-to-her-portfolio/830308/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "people",
+          "headline": "Nvidia CEO Jensen Huang Says We’re Not Going to Let an AI Slowdown Happen",
+          "summary": "In response to recent calls from other tech leaders to pause or slow down the development of advanced AI models, Nvidia CEO Jensen Huang firmly pushed back. During a high-profile appearance, Huang dismissed safety-driven deceleration concerns, arguing that the industry must continue to advance rapidly. His statements put him in direct opposition to peers like Anthropic's Dario Amodei and OpenAI's Sam Altman, who recently signaled support for pacing the technology.",
+          "why_it_matters": "Huang's aggressive stance indicates that the primary supplier of AI hardware has zero intention of slowing down, ensuring that the relentless pace of technological advancement will continue.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-09-14"
+        },
+        {
+          "section": "people",
+          "headline": "Early Anthropic Hire and Former METR COO Launch AI Underwriting Startup",
+          "summary": "A pair of highly regarded AI safety experts, including an early employee at Anthropic and the former Chief Operating Officer at safety group METR, have founded a new startup called Artificial Intelligence Underwriting Company (AIUC). The company has successfully raised $40 million in a Series A funding round led by Ribbit Capital. Their goal is to build systems capable of properly reining in and insuring against the risks of rogue AI agents.",
+          "why_it_matters": "These founders are pioneering the emerging market of AI risk management and insurance, an area that risk-averse enterprise clients will demand as automation scales.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-09-15"
+        },
+        {
+          "section": "people",
+          "headline": "Jensen Huang Puts Donald Trump on Speakerphone at Summit",
+          "summary": "While speaking on stage at the All-In Summit in Silicon Valley, Nvidia CEO Jensen Huang took a live phone call from former President Donald Trump and put him on speakerphone for the audience. The highly unusual public exchange saw Trump discussing robotics and the broader technology industry. Huang used the moment to lightheartedly reassure the crowd that AI and robots will not be taking over the world.",
+          "why_it_matters": "This moment highlights the deep entanglement of AI executives with top-tier political figures, signaling that the AI sector is becoming a dominant force in global geopolitical strategy.",
+          "terms": [],
+          "url": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit",
+          "source_name": "AI | The Verge",
+          "signal_tag": "trending",
+          "published_at": "2026-09-14"
+        },
+        {
+          "section": "people",
+          "headline": "Harps Food Stores CEO Kim Eskew Announces Retirement",
+          "summary": "Kim Eskew, the long-time CEO of Harps Food Stores, has announced he will retire in early 2027, concluding a nearly 50-year career with the regional grocery chain. Eskew successfully guided the company through significant regional expansion efforts during his time at the helm. He will be stepping down as the grocery industry faces massive technological disruptions and shifts in consumer habits.",
+          "why_it_matters": "Leadership transitions at established regional brands often signal an opening for digital transformation and new technology investments, making them prime targets for consulting outreach.",
+          "terms": [],
+          "url": "https://www.grocerydive.com/news/harps-food-stores-ceo-retiring-kim-eskew-j-max-van-hoose/830357/",
+          "source_name": "Grocery Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-09-15"
+        }
+      ]
+    }
+  ]
+}
