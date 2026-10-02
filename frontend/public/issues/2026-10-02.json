@@ -1,0 +1,744 @@
+{
+  "id": "2026-10-02",
+  "generated_at": "2026-10-02T18:16:36.405734+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "The Efficiency Trap: Why “Hours Saved” is the Dangerous Way to Sell AI",
+      "summary": "A strategic guide warns consultants that pitching AI strictly as a way to save hours often triggers fear of layoffs among employees. Instead of focusing on time saved, the piece argues leaders should frame AI adoption around creating new capacity and removing administrative friction. This approach secures better buy-in from the staff who actually have to use the tools.",
+      "why_it_matters": "It reframes your core sales pitch, moving clients away from threatening efficiency language toward growth and capacity.",
+      "terms": [],
+      "url": "https://trainingmag.com/the-efficiency-trap-why-hours-saved-is-the-dangerous-way-to-sell-ai/",
+      "source_name": "Medium",
+      "signal_tag": "shift",
+      "published_at": "2026-09-22"
+    },
+    {
+      "section": "case_studies",
+      "headline": "AI in Marketing: How Leaders Achieve Double the Revenue Impact",
+      "summary": "A recent industry study by Bain & Company reveals that marketing teams with mature AI experimentation programs significantly outperform their peers. These advanced teams are twice as likely to generate double-digit revenue growth compared to laggards. Furthermore, they achieve nearly three times the financial return from their marketing efforts.",
+      "why_it_matters": "This gives you a verified, high-impact statistic from a top-tier consulting firm to use in your next pitch deck.",
+      "terms": [],
+      "url": "https://www.bain.com/insights/ai-in-marketing-how-leaders-achieve-double-the-revenue-impact/",
+      "source_name": "Bain & Company",
+      "signal_tag": "trending",
+      "published_at": "2026-09-30"
+    },
+    {
+      "section": "case_studies",
+      "headline": "Where AI agents are showing real IT savings",
+      "summary": "The Chief Information Officer at LaunchDarkly shared concrete financial results from successfully deploying AI agents for coding and service desk support. By using these autonomous software programs, the company avoided $1 million in planned software spending. Additionally, the IT team saved $50,000 annually by automating basic support requests.",
+      "why_it_matters": "Hard numbers on cost avoidance are the holy grail of B2B consulting; use this to show exactly how AI affects the bottom line.",
+      "terms": [
+        {
+          "term": "AI agents",
+          "definition": "Artificial intelligence programs that can operate independently to perform tasks, make decisions, and interact with other software."
+        }
+      ],
+      "url": "https://www.cio.com/article/4228524/where-ai-agents-are-showing-real-it-savings.html",
+      "source_name": "CIO",
+      "signal_tag": "shift",
+      "published_at": "2026-10-01"
+    },
+    {
+      "section": "news",
+      "headline": "Businesses are using more AI and paying less for it, Ramp AI Index shows",
+      "summary": "According to the latest Ramp AI Index by economist Ara Kharazian, corporate spending on artificial intelligence software is decreasing. Despite wider adoption across businesses, the overall cost of running these tools has dropped. This suggests that AI models are becoming cheaper to operate even as they become more common in the workplace.",
+      "why_it_matters": "You can reassure cost-conscious clients that deploying AI is becoming progressively cheaper, not an endless money pit.",
+      "terms": [
+        {
+          "term": "AI model",
+          "definition": "The underlying mathematical engine that powers artificial intelligence tools by recognizing patterns in data."
+        }
+      ],
+      "url": "https://the-decoder.com/businesses-are-using-more-ai-and-paying-less-for-it-ramp-ai-index-shows/",
+      "source_name": "The Decoder",
+      "signal_tag": "shift",
+      "published_at": "2026-10-02"
+    },
+    {
+      "section": "tools",
+      "headline": "AI Automation Savings Calculator",
+      "summary": "AICostLabs released a new calculator tool to help consultants quickly build business cases for artificial intelligence projects. The tool factors in employee hourly costs, estimated hours saved per month, and the monthly maintenance expense of running the AI automation. This allows users to calculate the net financial impact of a deployment.",
+      "why_it_matters": "A ready-made tool to help you mathematically justify your consulting proposals to hesitant clients.",
+      "terms": [],
+      "url": "https://aicostlabs.com/tools/ai-savings-calculator",
+      "source_name": "AICostLabs",
+      "signal_tag": "new",
+      "published_at": "2026-09-23"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "AI Automation Savings Calculator",
+          "summary": "AICostLabs released a new calculator tool to help consultants quickly build business cases for artificial intelligence projects. The tool factors in employee hourly costs, estimated hours saved per month, and the monthly maintenance expense of running the AI automation. This allows users to calculate the net financial impact of a deployment.",
+          "why_it_matters": "A ready-made tool to help you mathematically justify your consulting proposals to hesitant clients.",
+          "terms": [],
+          "url": "https://aicostlabs.com/tools/ai-savings-calculator",
+          "source_name": "AICostLabs",
+          "signal_tag": "new",
+          "published_at": "2026-09-23"
+        },
+        {
+          "section": "tools",
+          "headline": "Newly launched Wilmington firm offers AI workers",
+          "summary": "Augwork AI launched a platform offering role-based certified AI employees for functions like customer support, business development, and accounts payable. These artificial intelligence programs are designed to act as digital staff members. They integrate seamlessly with everyday business software like Slack, Microsoft Teams, and QuickBooks.",
+          "why_it_matters": "An easy-to-explain platform you can recommend to small businesses wanting out-of-the-box AI staff without a complex build.",
+          "terms": [],
+          "url": "https://www.wilmingtonbiz.com/technology/2026/10/02/newly_launched_wilmington_firm_offers_ai_workers/27891",
+          "source_name": "WilmingtonBiz",
+          "signal_tag": "new",
+          "published_at": "2026-10-02"
+        },
+        {
+          "section": "tools",
+          "headline": "Brightfin Unveils Budget Clarity AI",
+          "summary": "Brightfin launched Budget Clarity AI, a plain-language financial analyst tool built directly into the ServiceNow platform. The tool provides finance and IT teams with instant, self-service budget insights and visual data charts. Users can ask financial questions in conversational English rather than relying on complex data queries.",
+          "why_it_matters": "A great example of AI being embedded into existing IT platforms to democratize financial data for non-technical managers.",
+          "terms": [],
+          "url": "https://via.tt.se/pressmeddelande/4572569/brightfin-unveils-budget-clarity-ai-giving-every-finance-and-it-leader-a-financial-analyst-at-the-tip-of-their-fingers?publisherId=259167&lang=en",
+          "source_name": "Business Wire",
+          "signal_tag": "new",
+          "published_at": "2026-09-29"
+        },
+        {
+          "section": "tools",
+          "headline": "Claude Just Launched 10 AI Agents for Finance",
+          "summary": "Anthropic introduced 10 pre-configured finance agents through its Claude AI platform. The lineup includes specialized setups like a Market Researcher and an Earnings Reviewer. These tools are specifically designed to drastically reduce the manual workflow involved in professional investor research.",
+          "why_it_matters": "A ready-to-use suite of financial research tools you can immediately deploy for clients in the investment sector.",
+          "terms": [
+            {
+              "term": "AI Agents",
+              "definition": "Artificial intelligence systems that can operate independently to perform tasks, make decisions, and interact with other software."
+            }
+          ],
+          "url": "https://www.youtube.com/shorts/KYRr2O0xei4",
+          "source_name": "YouTube",
+          "signal_tag": "new",
+          "published_at": "2026-09-18"
+        },
+        {
+          "section": "tools",
+          "headline": "AI Sales Tools: Why Revenue Teams Get Stuck",
+          "summary": "SalesPlaybook released a framework outlining a standard Revenue AI Stack for consultants and sales leaders. The guide advises building automated systems where one specific AI tool explicitly handles one designated task. This prevents the common trap of relying on a single AI system to handle entire, complex customer outreach workflows.",
+          "why_it_matters": "Provides a structured, modular framework you can use to design scalable sales workflows for your clients.",
+          "terms": [
+            {
+              "term": "CRM enrichment",
+              "definition": "The process of automatically adding missing information to a customer database to improve sales targeting."
+            }
+          ],
+          "url": "https://thesalesplaybook.com/resources/ai-sales-tools-revenue-ai-stack",
+          "source_name": "SalesPlaybook",
+          "signal_tag": "trending",
+          "published_at": "2026-09-30"
+        },
+        {
+          "section": "tools",
+          "headline": "AI for Consulting Firms: Client Meetings, Recaps & Follow-Up",
+          "summary": "Workforce AI published a guide demonstrating how consulting firms can automate their own engagement administration. The optimized workflows let AI handle meeting recaps, generate quotes, and draft task lists. All outputs are held pending a final human approval before being sent to the client.",
+          "why_it_matters": "A meta-use case that helps you streamline your own consulting practice so you can take on more billable client work.",
+          "terms": [],
+          "url": "https://www.hireworkforce.ai/industries/consulting",
+          "source_name": "Workforce AI",
+          "signal_tag": "trending",
+          "published_at": "2026-09-28"
+        },
+        {
+          "section": "tools",
+          "headline": "ChatGPT can now virtually try on clothes for you",
+          "summary": "OpenAI is rolling out new shopping features for ChatGPT that allow users to virtually try on clothing and accessories. Shoppers can upload their own photos to see how items look on them. They can also save products they like to a personal Favorites library within the chat interface.",
+          "why_it_matters": "A crucial feature to share with retail and e-commerce clients to show how conversational AI is moving directly into product visualization.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "tools",
+          "headline": "Introducing GPT-6 Sol and Luna",
+          "summary": "OpenAI expanded its latest generation of artificial intelligence with two new models called Sol and Luna. These models are designed to bring high-level intelligence to everyday work tasks. OpenAI also reduced the software connection pricing by 50 percent compared to previous promotional rates, making them much more affordable to run.",
+          "why_it_matters": "Lower API costs mean you can propose previously expensive AI automation projects to smaller clients with tighter budgets.",
+          "terms": [
+            {
+              "term": "API",
+              "definition": "A software bridge that allows two different applications to talk to each other and share data."
+            }
+          ],
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+          "source_name": "OpenAI",
+          "signal_tag": "new",
+          "published_at": "2026-10-02"
+        },
+        {
+          "section": "tools",
+          "headline": "‘AI from BT’ launched to help UK firms adopt AI with confidence",
+          "summary": "BT Business introduced a portfolio of AI solutions specifically for small businesses in the UK. The headline feature is a 24/7 AI Receptionist. This tool is aimed at capturing missed customer calls, a problem that reportedly costs businesses billions annually.",
+          "why_it_matters": "An easy-to-understand use case (missed calls) that you can use to explain the immediate value of AI to local service businesses.",
+          "terms": [],
+          "url": "https://www.webwire.com/ViewPressRel.asp?aId=361333",
+          "source_name": "WebWire",
+          "signal_tag": "new",
+          "published_at": "2026-10-02"
+        },
+        {
+          "section": "tools",
+          "headline": "Esker folds AI into employee cost analysis",
+          "summary": "Finance software firm Esker is updating its systems to treat artificial intelligence spending as a standard employee cost. The company's chief financial officer stated that AI token expenses will now be planned and tracked alongside traditional worker costs like salaries, bonuses, and payroll taxes.",
+          "why_it_matters": "Shows a major shift in how finance teams are budgeting for AI, giving you a framework to help clients manage software costs like payroll.",
+          "terms": [
+            {
+              "term": "Token",
+              "definition": "A piece of a word that an AI system processes; companies pay for AI based on how many tokens they consume."
+            }
+          ],
+          "url": "https://www.hrdive.com/news/esker-folds-ai-token-costs-employee-expense-planning-accounting/831737/",
+          "source_name": "HR Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "tools",
+          "headline": "Black Forest Labs launches Flux 3 Image with multi-step editing",
+          "summary": "Black Forest Labs released Flux 3 Image, an AI model that generates and edits images. It allows users to make multiple edits to specific parts of a picture without altering the rest of the scene. The tool supports high-quality 4K outputs and lets users compose images using reference photos.",
+          "why_it_matters": "A powerful image generation tool you can introduce to creative and design teams struggling with the inconsistency of AI art.",
+          "terms": [],
+          "url": "https://the-decoder.com/black-forest-labs-launches-flux-3-image-with-multi-step-editing-that-leaves-the-rest-of-your-picture-alone/",
+          "source_name": "The Decoder",
+          "signal_tag": "new",
+          "published_at": "2026-10-02"
+        },
+        {
+          "section": "tools",
+          "headline": "Ideogram says its new model can edit part of an image without messing up the rest",
+          "summary": "Ideogram launched a new model, Ideogram 4.5, which promises targeted image editing that keeps the surrounding picture intact. It natively generates high-resolution images at a very low cost per image. Partners like Runway and Leonardo AI are already incorporating the technology into their platforms.",
+          "why_it_matters": "Another strong option for marketing teams needing precise control over AI-generated visual content.",
+          "terms": [],
+          "url": "https://the-decoder.com/ideogram-says-its-new-model-can-edit-part-of-an-image-without-messing-up-the-rest/",
+          "source_name": "The Decoder",
+          "signal_tag": "new",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "tools",
+          "headline": "Microsoft AI releases new transcription and text-to-speech models for voice agents",
+          "summary": "Microsoft AI has released MAI-Transcribe-2-Streaming, a new artificial intelligence model designed for real-time transcription. The system is built to power fast, responsive voice agents that need to understand human speech instantly.",
+          "why_it_matters": "A foundational tool for building responsive voice assistants for call centers or customer service clients.",
+          "terms": [],
+          "url": "https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents/",
+          "source_name": "The Decoder",
+          "signal_tag": "new",
+          "published_at": "2026-10-02"
+        },
+        {
+          "section": "tools",
+          "headline": "Anthropic brings Claude to civilian agencies",
+          "summary": "Anthropic is now offering its Claude AI to US federal and state government agencies. The platform runs in a highly secure environment that meets the strictest US security levels for cloud services. Agencies receive the same features as corporate customers but pay based on usage.",
+          "why_it_matters": "If you consult for government contractors or public sector agencies, you can now safely recommend Claude for their secure environments.",
+          "terms": [],
+          "url": "https://the-decoder.com/anthropic-brings-claude-to-civilian-agencies-as-its-fight-with-the-pentagon-drags-on/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "tools",
+          "headline": "Never Boring AI",
+          "summary": "Never Boring AI is a newly launched artificial intelligence agent designed to write LinkedIn posts. The tool promises to capture and mimic the unique voice and tone of the user. It is built to help professionals maintain an active social media presence without sounding robotic.",
+          "why_it_matters": "A niche tool you can recommend to executives looking to build personal brands without spending hours writing.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/never-boring-ai",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "tools",
+          "headline": "Communicate",
+          "summary": "Communicate is a newly released platform offering AI support agents. These agents are grounded in a company's specific knowledge base to ensure accurate answers. They also feature a smooth handoff process to pass complex issues to human representatives.",
+          "why_it_matters": "A customer service solution that solves the common problem of AI chatbots trapping frustrated customers without a human escape hatch.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/communicate",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "tools",
+          "headline": "Dots by OpenAI",
+          "summary": "OpenAI introduced Dots, which are proactive, always-on AI assistants. These agents are built to handle complex projects and everyday tasks continuously in the background. The system is designed to keep work moving forward while allowing users to maintain control.",
+          "why_it_matters": "OpenAI's official entry into background task automation, shifting the technology from reactive chatbots to proactive workers.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/dots-by-openai",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-09-29"
+        },
+        {
+          "section": "tools",
+          "headline": "Jev: 8 real use cases for the fastest, cheapest model I’ve ever used",
+          "summary": "Educator and developer John Lindquist shared eight demonstrations of Jev, an incredibly fast and cheap AI model. The demos highlight use cases like live voice categorization, data cleanup, and routing tasks between different AI agents. The tool's extremely low cost makes previously impractical ideas worth trying.",
+          "why_it_matters": "A great resource to learn about utilizing low-cost AI models for high-volume, behind-the-scenes data tasks.",
+          "terms": [],
+          "url": "https://www.lennysnewsletter.com/p/jev-8-real-use-cases-for-the-fastest",
+          "source_name": "Lenny's Newsletter",
+          "signal_tag": "trending",
+          "published_at": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "The Efficiency Trap: Why “Hours Saved” is the Dangerous Way to Sell AI",
+          "summary": "A strategic guide warns consultants that pitching AI strictly as a way to save hours often triggers fear of layoffs among employees. Instead of focusing on time saved, the piece argues leaders should frame AI adoption around creating new capacity and removing administrative friction. This approach secures better buy-in from the staff who actually have to use the tools.",
+          "why_it_matters": "It reframes your core sales pitch, moving clients away from threatening efficiency language toward growth and capacity.",
+          "terms": [],
+          "url": "https://trainingmag.com/the-efficiency-trap-why-hours-saved-is-the-dangerous-way-to-sell-ai/",
+          "source_name": "Medium",
+          "signal_tag": "shift",
+          "published_at": "2026-09-22"
+        },
+        {
+          "section": "news",
+          "headline": "Businesses are using more AI and paying less for it, Ramp AI Index shows",
+          "summary": "According to the latest Ramp AI Index by economist Ara Kharazian, corporate spending on artificial intelligence software is decreasing. Despite wider adoption across businesses, the overall cost of running these tools has dropped. This suggests that AI models are becoming cheaper to operate even as they become more common in the workplace.",
+          "why_it_matters": "You can reassure cost-conscious clients that deploying AI is becoming progressively cheaper, not an endless money pit.",
+          "terms": [
+            {
+              "term": "AI model",
+              "definition": "The underlying mathematical engine that powers artificial intelligence tools by recognizing patterns in data."
+            }
+          ],
+          "url": "https://the-decoder.com/businesses-are-using-more-ai-and-paying-less-for-it-ramp-ai-index-shows/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-10-02"
+        },
+        {
+          "section": "news",
+          "headline": "AI agent Instinct jumps to $10B valuation with $1B led by Sequoia",
+          "summary": "The personal AI agent startup Instinct raised $1 billion, bringing its valuation to $10 billion. The massive funding round was led by major venture capital firms including Sequoia, Benchmark, and Coatue. This investment signals an intense financial focus on autonomous agents capable of executing everyday enterprise tasks.",
+          "why_it_matters": "Highlights a major market shift toward autonomous AI agents, validating that this is the next big wave of enterprise tech.",
+          "terms": [
+            {
+              "term": "Autonomous agents",
+              "definition": "Artificial intelligence software that can complete multi-step tasks without needing constant human prompting."
+            }
+          ],
+          "url": "https://techfundingnews.com/ai-agent-instinct-jumps-to-10b-valuation-with-1b-led-by-sequoia-benchmark-and-coatue/",
+          "source_name": "Tech Funding News",
+          "signal_tag": "trending",
+          "published_at": "2026-09-29"
+        },
+        {
+          "section": "news",
+          "headline": "CMOs in a ‘pressure cooker’ as tenure shrinks, demands multiply: study",
+          "summary": "A new study reveals that marketing chiefs are facing immense pressure as their average time in the role shrinks. Over a quarter of marketing executives hired this year possess AI-ready skill sets, compared to only 9 percent of those who have been in the role for over four years. This indicates a rapid shift in the skills demanded by corporate boards.",
+          "why_it_matters": "Shows exactly why established marketing leaders need your consulting help—they are fighting to stay relevant against AI-fluent newcomers.",
+          "terms": [],
+          "url": "https://www.marketingdive.com/news/cmos-in-a-pressure-cooker-as-tenure-shrinks-demands-multiply-study/831775/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-02"
+        },
+        {
+          "section": "news",
+          "headline": "AI Consultant Guide 2026: Skills & Fees | Updated September",
+          "summary": "An updated guide for independent AI consultants highlights how to properly scope and price integration projects. The guide warns that simply buying a collection of software subscriptions does not make a valid consulting practice. It focuses on the real skills needed to deliver value to clients.",
+          "why_it_matters": "A direct resource for structuring your own consulting practice and avoiding the trap of just being a software reseller.",
+          "terms": [],
+          "url": "https://de-alwis.com/ai-consultant-2025-guide/",
+          "source_name": "Keith De Alwis",
+          "signal_tag": "trending",
+          "published_at": "2026-09-22"
+        },
+        {
+          "section": "news",
+          "headline": "AI Strategy Consultant: 2026 Costs, Rates and How to Choose",
+          "summary": "Market analysis reveals that independent AI strategy consultants are currently charging between $150 and $400 per hour. For fully automated workflow integrations, project costs are landing in the low five- to six-figure range. The final price heavily depends on the complexity of the software connections required.",
+          "why_it_matters": "Gives you a clear benchmark for pricing your services competitively in the current market.",
+          "terms": [],
+          "url": "https://www.tommasomariaricci.com/blog/ai-strategy-consultant-complete-guide",
+          "source_name": "Tommaso Maria Ricci",
+          "signal_tag": "trending",
+          "published_at": "2026-09-23"
+        },
+        {
+          "section": "news",
+          "headline": "Chief AI officers arrive in C-suites",
+          "summary": "A report from Crist Kolder finds that the role of Chief AI Officer is officially arriving in corporate leadership teams. Major corporations, including Boeing, Eli Lilly, and McDonald’s, have added the role to their C-suites since 2020. This formalizes AI strategy at the highest levels of enterprise management.",
+          "why_it_matters": "Identifies a new, highly influential buyer persona you need to target when pitching enterprise consulting projects.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/chief-ai-officers-arrive-c-suites-cristkolder/832014/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-10-02"
+        },
+        {
+          "section": "news",
+          "headline": "Who owns AI risk at work? Business and tech leaders can’t agree, PwC survey finds",
+          "summary": "New research from PwC highlights a growing corporate need for someone to clearly own artificial intelligence risks. The survey found that business and technology leaders currently disagree on who holds this responsibility. The findings raise the question of whether appointing a dedicated AI chief is the best solution.",
+          "why_it_matters": "A perfect opening for a consulting conversation: helping divided leadership teams build a clear governance and risk framework.",
+          "terms": [],
+          "url": "https://www.zdnet.com/innovation/pwc-digital-trust-insights-2027-ai-risk-responsibility/",
+          "source_name": "news – ZDNET",
+          "signal_tag": "trending",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "news",
+          "headline": "Companies struggle to turn AI productivity gains into profits: EY",
+          "summary": "A survey by EY found that half of CEOs cite artificial intelligence as a major driver of productivity. However, nearly a quarter of those leaders struggle to convert those efficiency gains into measurable financial outcomes. The data points to a gap between working faster and actually increasing profits.",
+          "why_it_matters": "Highlights a major pain point for executives, offering you a chance to consult on bridging the gap between saving time and making money.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/companies-struggle-turning-ai-productivity-gains-profits-ey/831948/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "news",
+          "headline": "Devs are coding faster. Coding reviews are eating the gains",
+          "summary": "A partner at Bain & Co. reported that while AI helps developers write code much faster, the resulting bottleneck has shifted to reviewing and trusting that code. Companies are finding that the time saved in writing is being lost in the quality control phase.",
+          "why_it_matters": "A great case study to remind clients that AI doesn't eliminate work; it simply shifts the bottleneck to human review and approval.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/bain-co-technology-AI-coding-deployment/831938/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-02"
+        },
+        {
+          "section": "news",
+          "headline": "AI beats licensed accountants on speed and accuracy, but still can't close the books without supervision",
+          "summary": "A study by Mercor found that current AI models now outperform licensed accountants on structured tasks in both speed and accuracy. However, when faced with more demanding, complex benchmarks, no model could complete all the tasks perfectly. Human supervision remains necessary for closing financial books.",
+          "why_it_matters": "Provides a realistic view of AI's capabilities in finance: excellent at structured tasks, but not ready to replace human oversight.",
+          "terms": [],
+          "url": "https://the-decoder.com/ai-beats-licensed-accountants-on-speed-and-accuracy-but-still-cant-close-the-books-without-supervision/",
+          "source_name": "The Decoder",
+          "signal_tag": "trending",
+          "published_at": "2026-10-02"
+        },
+        {
+          "section": "news",
+          "headline": "Consumer AI use a boon for the holidays as AI traffic doubles",
+          "summary": "A survey from Adobe found that consumer traffic utilizing artificial intelligence tools has doubled ahead of the holiday season. Consumers using AI are engaging with brand offers at a higher rate than regular traffic. They are also generating more revenue per visit for retailers.",
+          "why_it_matters": "A strong talking point for retail clients, showing that leaning into AI shopping tools directly increases holiday revenue.",
+          "terms": [],
+          "url": "https://www.retaildive.com/news/consumer-ai-use-boon-holidays-ai-traffic-doubles/831790/",
+          "source_name": "Retail Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "news",
+          "headline": "Are forward deployed engineers flirting with failure?",
+          "summary": "Gartner predicts that most companies will abandon the forward deployed engineer model by 2028. The research firm claims these vendor-led initiatives face significant issues regarding cost and overall efficacy when implementing artificial intelligence.",
+          "why_it_matters": "Warns against relying too heavily on software vendors to implement AI, reinforcing the need for independent consultants like you.",
+          "terms": [
+            {
+              "term": "Forward deployed engineers",
+              "definition": "Software engineers employed by a tech vendor who are sent to work directly inside a client's business to set up the software."
+            }
+          ],
+          "url": "https://www.ciodive.com/news/can-forward-deployed-engineers-fdes-fix-ai-gartner/831833/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "AI in Marketing: How Leaders Achieve Double the Revenue Impact",
+          "summary": "A recent industry study by Bain & Company reveals that marketing teams with mature AI experimentation programs significantly outperform their peers. These advanced teams are twice as likely to generate double-digit revenue growth compared to laggards. Furthermore, they achieve nearly three times the financial return from their marketing efforts.",
+          "why_it_matters": "This gives you a verified, high-impact statistic from a top-tier consulting firm to use in your next pitch deck.",
+          "terms": [],
+          "url": "https://www.bain.com/insights/ai-in-marketing-how-leaders-achieve-double-the-revenue-impact/",
+          "source_name": "Bain & Company",
+          "signal_tag": "trending",
+          "published_at": "2026-09-30"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Where AI agents are showing real IT savings",
+          "summary": "The Chief Information Officer at LaunchDarkly shared concrete financial results from successfully deploying AI agents for coding and service desk support. By using these autonomous software programs, the company avoided $1 million in planned software spending. Additionally, the IT team saved $50,000 annually by automating basic support requests.",
+          "why_it_matters": "Hard numbers on cost avoidance are the holy grail of B2B consulting; use this to show exactly how AI affects the bottom line.",
+          "terms": [
+            {
+              "term": "AI agents",
+              "definition": "Artificial intelligence programs that can operate independently to perform tasks, make decisions, and interact with other software."
+            }
+          ],
+          "url": "https://www.cio.com/article/4228524/where-ai-agents-are-showing-real-it-savings.html",
+          "source_name": "CIO",
+          "signal_tag": "shift",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Expense Automation Case Study: $800K Saved with AI QC",
+          "summary": "An enterprise client implemented an AI-driven quality control system for managing employee expenses. The technology reduced the monthly time spent reviewing expenses from 2,000 hours down to just 46 hours. This massive efficiency gain resulted in an estimated $800,000 in scalability savings.",
+          "why_it_matters": "A clear, number-heavy example of back-office automation that you can present to finance and operations executives.",
+          "terms": [],
+          "url": "https://www.auxiliobits.com/case-study/expense-automation-case-study-how-ai-cut-qc-hours-by-97-and-saved-800k/",
+          "source_name": "Auxiliobits",
+          "signal_tag": "trending",
+          "published_at": null
+        },
+        {
+          "section": "case_studies",
+          "headline": "AI ROI: Measuring the Real Return on AI",
+          "summary": "Consulting experts suggest that traditional profit and loss measurements drastically undercount the true value of artificial intelligence. A case study of a recent insurer showed that a $98 million AI investment ultimately generated $298 million in new asset value. This value was created through codified data and proprietary software.",
+          "why_it_matters": "Gives you a sophisticated framework to explain to skeptical executives that AI's real value lies in building proprietary data assets, not just cutting costs.",
+          "terms": [],
+          "url": "https://www.bdemerson.com/article/ai-roi",
+          "source_name": "BD Emerson",
+          "signal_tag": "shift",
+          "published_at": "2026-09-21"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Beyond efficiency: How finance leaders are multiplying AI's real ROI",
+          "summary": "A 2026 survey by AvidXchange found that 42 percent of finance leaders report handling significantly more work volume due to AI. The survey highlights a shift in how companies measure success. Instead of just tracking hours saved, leaders are now tracking error reduction and the speed of their month-end financial close.",
+          "why_it_matters": "Shows you what metrics finance leaders actually care about so you can tailor your consulting pitches accordingly.",
+          "terms": [],
+          "url": "https://www.cfodive.com/spons/beyond-efficiency-how-finance-leaders-are-multiplying-ais-real-roi/830746/",
+          "source_name": "CFO Dive",
+          "signal_tag": "shift",
+          "published_at": "2026-09-28"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Chatham scales its capital markets expertise with OpenAI",
+          "summary": "Chatham Financial is using OpenAI's models to build new technology and redesign internal workflows. By implementing AI into their processes, the firm cut its trade validation time from 30 minutes to under 4 minutes.",
+          "why_it_matters": "A solid, specific time-saving metric in the highly regulated financial sector, proving AI is viable for complex compliance work.",
+          "terms": [],
+          "url": "https://openai.com/index/chatham-financial",
+          "source_name": "OpenAI News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-02"
+        },
+        {
+          "section": "case_studies",
+          "headline": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+          "summary": "A social club called The Den used ChatGPT to speed up its administrative tasks while opening a new location. The staff used the AI to prepare grant applications in 2 hours instead of 3 days. They also completed liquor-license materials in 3 hours, a task that previously took 4 days.",
+          "why_it_matters": "A highly relatable small business success story you can use to show local clients the immediate value of simple AI chat tools.",
+          "terms": [],
+          "url": "https://openai.com/index/the-den-family-social",
+          "source_name": "OpenAI News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "case_studies",
+          "headline": "BNP Paribas and Google Cloud Announce New Partnership on Agentic AI",
+          "summary": "BNP Paribas signed a five-year partnership with Google Cloud to deploy Gemini-powered AI agents. The bank will use these agents across its trading, research, and sales operations. A key focus is automating complex, time-consuming tasks like drafting corporate credit memos.",
+          "why_it_matters": "A major enterprise signal showing that global banks trust AI agents enough to handle highly sensitive financial drafting.",
+          "terms": [],
+          "url": "https://group.bnpparibas/en/press-release/bnp-paribas-and-google-cloud-announce-new-partnership-on-agentic-ai-and-cloud-innovation",
+          "source_name": "Google Cloud Announcements",
+          "signal_tag": "shift",
+          "published_at": "2026-09-24"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How Schnucks brought its AI shopping assistant to life",
+          "summary": "The Midwestern grocery chain Schnucks wanted to build an AI shopping assistant to help customers figure out what to eat for dinner. Before they could launch the tool, the company had to spend significant time cleaning up its internal data to ensure the AI gave accurate answers.",
+          "why_it_matters": "A perfect anecdote to remind clients that successful AI projects require a massive, unglamorous data cleanup effort first.",
+          "terms": [],
+          "url": "https://www.customerexperiencedive.com/news/schnucks-ai-shopping-assistant-grocery-technology/831963/",
+          "source_name": "CX Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Cava hires Dr. Squatch marketer as CMO to build on growth",
+          "summary": "Fast-casual restaurant chain Cava has hired John Ludeke as its new Chief Marketing Officer. Ludeke most recently served as the chief brand officer at the popular Unilever personal care brand Dr. Squatch. He is tasked with deepening consumer connections to fuel the restaurant's ongoing growth.",
+          "why_it_matters": "A sharp brand marketer moving into a high-growth restaurant chain, presenting a prime networking target for innovative AI marketing campaigns.",
+          "terms": [],
+          "url": "https://www.restaurantdive.com/news/cava-hires-dr-squatch-marketer-as-cmo-to-build-on-growth/831824/",
+          "source_name": "Restaurant Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-09-30"
+        },
+        {
+          "section": "people",
+          "headline": "Skechers CFO jumps to Levi’s",
+          "summary": "John Vandemore has been named the new Chief Financial Officer at Levi's, replacing longtime CFO Harmit Singh. Vandemore joins the apparel company after spending nearly a decade as the finance chief at the shoe brand Skechers, alongside previous stints at Mattel and Disney.",
+          "why_it_matters": "A veteran CFO taking over a legacy brand is a prime opportunity to pitch modernized, AI-driven financial operations.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/skechers-cfo-jumps-levis/831910/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "people",
+          "headline": "Wawa names new information technology chief",
+          "summary": "The convenience store chain Wawa has promoted Bill O’Donnell to the role of chief information technology officer. O'Donnell takes on the top tech role after spending more than 25 years with the retailer, working across fuel operations and project management.",
+          "why_it_matters": "A deeply experienced operational leader taking over IT means tech purchases will likely focus on high-ROI, practical automation.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/wawa-names-new-technology-chief/831930/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "people",
+          "headline": "KnitWell Group names chief digital and customer data officer",
+          "summary": "Angelica Munson has been appointed to the newly created role of chief digital and customer data officer at KnitWell Group. She will oversee digital strategy for the parent company, which owns popular apparel brands like Ann Taylor and Chico’s.",
+          "why_it_matters": "A newly created data role at a major retail group signals a fresh budget and mandate for AI-driven customer personalization.",
+          "terms": [],
+          "url": "https://www.retaildive.com/news/knitwell-chief-digital-customer-data-officer-ann-taylor-chicos/831807/",
+          "source_name": "Retail Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "people",
+          "headline": "New David’s Bridal CFO focuses on finance fundamentals",
+          "summary": "Kathy Cherian, a former Nike executive, has taken over as the Chief Financial Officer for David's Bridal. Cherian stated her primary goal is to ensure the finance function is included much earlier in the company's overall decision-making processes.",
+          "why_it_matters": "A new CFO looking to elevate finance's strategic role is an ideal candidate for predictive AI and data automation tools.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/new-davids-bridal-cfo-focuses-finance-fundamentals-ai-transformation/831801/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-09-30"
+        },
+        {
+          "section": "people",
+          "headline": "Winn-Dixie names new chief of store operations",
+          "summary": "Grocery chain Winn-Dixie promoted company veteran Shawn Sloan to chief of store operations. His entrance into the C-suite comes just a few months after C&S Wholesale Grocers announced its proposal to become the majority owner of the Florida-based supermarket brand.",
+          "why_it_matters": "Leadership shifts during an acquisition phase often lead to technology audits, making this a great time to pitch operational AI tools.",
+          "terms": [],
+          "url": "https://www.grocerydive.com/news/winn-dixie-chief-store-operations-Shawn-Sloan-c-suite-executive-change/831704/",
+          "source_name": "Grocery Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-09-30"
+        },
+        {
+          "section": "people",
+          "headline": "NGA taps former UNFI exec to build ties with CPGs",
+          "summary": "The National Grocers Association named Mike Ridenour as its new chief collaboration officer. Ridenour, a former executive at United Natural Foods, will lead the trade group's efforts to foster stronger relationships between independent grocers and food manufacturers.",
+          "why_it_matters": "A key industry connector who could help you introduce AI supply chain solutions to a massive network of independent grocers.",
+          "terms": [],
+          "url": "https://www.grocerydive.com/news/nga-names-mike-ridenour-chief-collaboration-officer-independent-grocers/831752/",
+          "source_name": "Grocery Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-09-30"
+        },
+        {
+          "section": "people",
+          "headline": "JPMorgan Chase names next HR chief",
+          "summary": "JPMorgan Chase appointed Mark O’Donovan as its next head of human resources, taking over in January. O'Donovan currently serves as the bank’s CEO of international consumer banking and will succeed the retiring HR chief, Robin Leopold.",
+          "why_it_matters": "A high-level operations executive moving into HR suggests the bank will apply rigorous, data-driven AI systems to its talent management.",
+          "terms": [],
+          "url": "https://www.bankingdive.com/news/jpmorgan-chase-names-next-hr-chief-odonovan-leopold-retire-llano-manibardo-germany/831776/",
+          "source_name": "Banking Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-09-30"
+        },
+        {
+          "section": "people",
+          "headline": "El Pollo Loco hires Shake Shack vet as COO",
+          "summary": "El Pollo Loco hired Damon Thomas as its new operations chief. Thomas joins alongside Tara Hinkle, who was appointed as the chain’s chief development officer. The two executives are tasked with supporting the restaurant's expansion into New York and other new markets.",
+          "why_it_matters": "New operations leadership at a fast-growing restaurant chain signals upcoming investments in supply chain and workforce automation.",
+          "terms": [],
+          "url": "https://www.restaurantdive.com/news/elpolloloco-hires-damon-thomas-coo-tara-hinkle-cdo-expansion-new-york/831683/",
+          "source_name": "Restaurant Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-09-30"
+        },
+        {
+          "section": "people",
+          "headline": "Circle CFO to step down",
+          "summary": "Jeremy Fox-Geen, the Chief Financial Officer for the stablecoin issuer Circle, announced he will leave the company later this year. His departure comes after successfully ushering the cryptocurrency firm through its long-awaited initial public offering in 2025.",
+          "why_it_matters": "A high-profile finance executive entering the free agent market with deep experience in digital assets and public market transitions.",
+          "terms": [],
+          "url": "https://www.paymentsdive.com/news/circle-cfo-step-down-following-ipo-leadership-crypto-comp/831712/",
+          "source_name": "Payments Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-09-30"
+        },
+        {
+          "section": "people",
+          "headline": "Albertsons expands board, names interim CFO",
+          "summary": "The supermarket chain Albertsons expanded its board of directors from 11 to 14 members with three new appointments. Among the new directors is Meg Ham, the former President of the grocery chain Food Lion.",
+          "why_it_matters": "Major boardroom shakeups at massive retailers often precede aggressive new technology and cost-cutting strategies.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/albertsons-new-directors-interim-cfo-grocery/832003/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-02"
+        },
+        {
+          "section": "people",
+          "headline": "Your Investors Can Make Or Break Your Startup",
+          "summary": "Antonia Dean, a partner at Black Operator Ventures, advises startup founders to be intentional about who they allow on their capitalization table. She argues that founders shouldn’t just accept money from anyone willing to invest, but should seek out investors who bring unique strategic value.",
+          "why_it_matters": "A leading voice in venture capital offering essential advice for your early-stage AI clients trying to raise funds.",
+          "terms": [],
+          "url": "https://news.crunchbase.com/venture/startups-choosing-right-investors-dean-black-operator/",
+          "source_name": "Crunchbase News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-02"
+        },
+        {
+          "section": "people",
+          "headline": "National cyber director defends private-sector hacking program",
+          "summary": "National Cyber Director Sean Cairncross defended the government's strategy of letting private businesses help deter cybercrime. He urged the industry to focus on security basics, arguing that a collaborative approach between the government and private sector benefits all Americans.",
+          "why_it_matters": "A critical government official setting the tone for how private enterprise will interact with federal cybersecurity regulations.",
+          "terms": [],
+          "url": "https://www.cybersecuritydive.com/news/oncd-white-house-sean-cairncross-regulation-deterrence-ai/831768/",
+          "source_name": "Cybersecurity Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-09-30"
+        },
+        {
+          "section": "people",
+          "headline": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
+          "summary": "Jas Khaira from the massive investment firm Blackstone is scheduled to speak at TechCrunch Disrupt 2026. He will take the Builders Stage to discuss the financial and strategic steps required to build the next generation of artificial intelligence giants.",
+          "why_it_matters": "A top-tier private equity voice detailing exactly what the world's largest investors are looking for in emerging AI companies.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-10-02"
+        },
+        {
+          "section": "people",
+          "headline": "TechCrunch Disrupt 2026: Clay’s Kareem Amin on the rise of the GTM engineer",
+          "summary": "Kareem Amin, Co-founder and CEO of the software company Clay, will join the AI Stage at TechCrunch Disrupt 2026. He will discuss the rise of the Go-To-Market (GTM) engineer, a new role blending technical coding skills with sales and marketing strategies.",
+          "why_it_matters": "Identifies a crucial new tech role that marketing leaders need to understand and hire for as AI automation bridges the gap between sales and engineering.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-10-02"
+        }
+      ]
+    }
+  ]
+}
