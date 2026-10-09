@@ -1,0 +1,745 @@
+{
+  "id": "2026-10-09",
+  "generated_at": "2026-10-09T18:48:17.278402+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "I audited an award-winning AI project. The case study left out the cloud bill",
+      "summary": "An information technology leader is warning that many highly publicized corporate artificial intelligence success stories obscure massive, hidden infrastructure costs. When auditing a supposedly successful artificial intelligence rollout, the leader discovered that the ongoing fees required to process the data in the cloud were crippling the project's finances. These quiet computing costs can ultimately destroy the long-term financial viability of an initiative if not carefully monitored from the start.",
+      "why_it_matters": "This is a critical cautionary tale you must share with clients to ensure they budget for ongoing software processing costs, not just the initial build.",
+      "terms": [
+        {
+          "term": "Cloud inference run costs",
+          "definition": "The recurring fees businesses pay to tech providers for the computing power required to actually generate artificial intelligence responses once a system is running."
+        }
+      ],
+      "url": "https://www.cio.com/article/4232005/i-audited-an-award-winning-ai-project-the-case-study-left-out-the-cloud-bill.html",
+      "source_name": "CIO",
+      "signal_tag": "trending",
+      "published_at": "2026-10-08"
+    },
+    {
+      "section": "case_studies",
+      "headline": "Mary Callahan Erdoes and Mike Urciouli Present HBS Case Study",
+      "summary": "Executives from JPMorgan Chase recently revealed at Harvard Business School that the bank's artificial intelligence initiatives are delivering massive financial returns. The financial institution has generated nearly $1.5 billion in measurable savings across various departments. These cost reductions stem from successfully integrating artificial intelligence into their fraud prevention, daily operations, and market trading divisions.",
+      "why_it_matters": "This is a definitive, big-number case study you can hand to skeptical executives who want proof that artificial intelligence initiatives yield hard financial returns.",
+      "terms": [],
+      "url": "https://privatebank.jpmorgan.com/nam/en/about-us/mary-callahan-erdoes-and-mike-urciouli-present-hbs-case-study",
+      "source_name": "J.P. Morgan Private Bank U.S.",
+      "signal_tag": "shift",
+      "published_at": "2026-09-25"
+    },
+    {
+      "section": "news",
+      "headline": "The $100-Billion SaaS Opportunity Hiding in Cross-System Labor",
+      "summary": "A new report from Bain & Company estimates that artificial intelligence software designed to automate complex corporate workflows represents a $100 billion market opportunity. Instead of just generating text or code, this new wave of software focuses specifically on replacing the expensive human labor required to manually move information between disconnected corporate systems. The consulting firm argues this targeted automation will unlock major financial value for businesses.",
+      "why_it_matters": "This gives you a clear financial narrative to sell to clients: the real money in artificial intelligence isn't in simple chat assistants, but in tools that automatically bridge the gaps between existing software platforms.",
+      "terms": [
+        {
+          "term": "SaaS",
+          "definition": "An acronym for Software as a Service, a business model where users pay a recurring subscription fee to access software hosted on the internet."
+        },
+        {
+          "term": "TAM",
+          "definition": "Total Addressable Market, a financial metric used to describe the maximum possible revenue a product or service could generate if it captured 100% of its market."
+        }
+      ],
+      "url": "https://www.bain.com/insights/100-billion-saas-opportunity-hiding-in-cross-system-labor100-billion-saas-opportunity-hiding-in-cross-system-labor-technology-report-2026/",
+      "source_name": "Bain & Company",
+      "signal_tag": "trending",
+      "published_at": "2026-09-29"
+    },
+    {
+      "section": "news",
+      "headline": "Zapier explores extra pay for employees driving AI gains",
+      "summary": "The software integration company Zapier is testing an experimental compensation program to reward employees who successfully use artificial intelligence at work. The program financially compensates marketing employees based directly on the actual sales pipeline and business value they independently generate using these tools. This marks a shift from merely encouraging artificial intelligence adoption to directly tying it to employee paychecks.",
+      "why_it_matters": "This is a radical new organizational incentive model to share with human resources and marketing leadership teams struggling to drive internal tool adoption.",
+      "terms": [],
+      "url": "https://www.techtarget.com/it-strategy/news/366651805/Zapier-explores-extra-pay-for-employees-driving-AI-gains",
+      "source_name": "TechTarget",
+      "signal_tag": "new",
+      "published_at": "2026-10-08"
+    },
+    {
+      "section": "tools",
+      "headline": "Treasure AI Bets on Click-Based Email Pricing, Launches Personalization Studio",
+      "summary": "The marketing platform Treasure AI has entirely shifted its software pricing model to charge clients based on how many people click their emails, rather than the total volume of emails sent. Alongside this major billing change, the company launched a new real-time website personalization tool. This aligns the software provider's financial success directly with the performance of the artificial intelligence campaigns it helps create.",
+      "why_it_matters": "This is a powerful example of how artificial intelligence is forcing vendors to charge for actual business outcomes rather than usage, a trend you should advise clients to look for.",
+      "terms": [],
+      "url": "https://www.cmswire.com/digital-marketing/treasure-ai-bets-on-click-based-email-pricing-launches-personalization-studio/",
+      "source_name": "CMSWire",
+      "signal_tag": "shift",
+      "published_at": "2026-10-06"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Microsoft Opens Its Managed Runtime to Lovable, Bringing Vibe-Coded Apps Under Enterprise Governance",
+          "summary": "Microsoft has opened its corporate software environment so that external business applications generated by artificial intelligence can run securely on its systems. This integration specifically supports tools like Lovable, a platform that lets non-programmers build software using simple text commands. By bringing these third-party apps into Microsoft 365, companies can maintain strict data security and compliance rules while still giving employees the freedom to create custom tools.",
+          "why_it_matters": "This proves that major tech providers are making it easier for non-technical marketers to build and safely deploy custom software for their own specific workflows.",
+          "terms": [
+            {
+              "term": "Managed Runtime",
+              "definition": "The underlying system where Microsoft securely operates and monitors artificial intelligence tools and applications for businesses."
+            },
+            {
+              "term": "Vibe-coding",
+              "definition": "A casual term for creating software by giving an artificial intelligence simple, conversational instructions rather than writing traditional computer code."
+            }
+          ],
+          "url": "https://cloudwars.com/ai/microsoft-opens-its-managed-runtime-to-lovable-bringing-vibe-coded-apps-under-enterprise-governance/",
+          "source_name": "Cloud Wars",
+          "signal_tag": "new",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "tools",
+          "headline": "Treasure AI Bets on Click-Based Email Pricing, Launches Personalization Studio",
+          "summary": "The marketing platform Treasure AI has entirely shifted its software pricing model to charge clients based on how many people click their emails, rather than the total volume of emails sent. Alongside this major billing change, the company launched a new real-time website personalization tool. This aligns the software provider's financial success directly with the performance of the artificial intelligence campaigns it helps create.",
+          "why_it_matters": "This is a powerful example of how artificial intelligence is forcing vendors to charge for actual business outcomes rather than usage, a trend you should advise clients to look for.",
+          "terms": [],
+          "url": "https://www.cmswire.com/digital-marketing/treasure-ai-bets-on-click-based-email-pricing-launches-personalization-studio/",
+          "source_name": "CMSWire",
+          "signal_tag": "shift",
+          "published_at": "2026-10-06"
+        },
+        {
+          "section": "tools",
+          "headline": "Shopify (SHOP) Gets Real Time AI Customer Engagement Tools Through A New Native Launch",
+          "summary": "The marketing software company MoEngage has launched new artificial intelligence features directly inside the Shopify e-commerce platform. These native tools allow store owners to automatically create marketing campaigns, target specific customer groups, and manage shopping journeys without leaving their dashboard. The integration brings advanced, automated marketing tactics directly to smaller retail operations.",
+          "why_it_matters": "This is an easy-to-implement automation tool you can recommend to any retail or e-commerce client running their business on Shopify.",
+          "terms": [
+            {
+              "term": "Agentic AI",
+              "definition": "Artificial intelligence systems that can make decisions and take actions on their own to achieve a given goal, rather than just answering questions."
+            }
+          ],
+          "url": "https://simplywall.st/stocks/us/software/nasdaq-shop/shopify/news/shopify-shop-gets-real-time-ai-customer-engagement-tools-thr",
+          "source_name": "Simply Wall St",
+          "signal_tag": "new",
+          "published_at": "2026-10-02"
+        },
+        {
+          "section": "tools",
+          "headline": "Google unifies fragmented AI agents into a single hub",
+          "summary": "Google is turning its Gemini artificial intelligence into a central hub capable of planning, executing tasks, and working across multiple business applications. The updated system allows the main artificial intelligence to delegate specific jobs to smaller sub-programs and manage tasks across the entire Google workspace. It even gives the artificial intelligence its own corporate identity, complete with a functional email address to interact with employees.",
+          "why_it_matters": "This signals a major shift from chatbots being simple assistants to becoming proactive digital employees that can complete multi-step tasks across an organization.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/google-gemini-agent-enterprise-thomas-kurian/832561/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "tools",
+          "headline": "Sociable: Meta introduces new AI-powered tools at Advertising Week",
+          "summary": "Meta used the Advertising Week conference to debut a suite of new artificial intelligence tools aimed at marketers. The company is actively testing features that import existing assets, provide creative insights, and offer improved conversational guidance to help brands build better ad campaigns. The goal is to make it easier for advertisers to generate and optimize creative content directly within Meta's platform.",
+          "why_it_matters": "These updates are direct productivity boosters for marketing teams running campaigns on Facebook and Instagram, making ad creation faster and more data-driven.",
+          "terms": [],
+          "url": "https://www.marketingdive.com/news/meta-introduces-new-ai-powered-tools-at-advertising-week/832517/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "tools",
+          "headline": "Anthropic's Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows",
+          "summary": "The artificial intelligence company Anthropic has upgraded its Claude model to manage complex workflows by distributing tasks across up to 1,000 smaller sub-programs simultaneously. During software testing, this team-based approach allowed the artificial intelligence to catch significantly more hidden errors than a single program working alone. This dynamic workflow feature allows businesses to tackle massive data problems in a fraction of the time.",
+          "why_it_matters": "This demonstrates how enterprise artificial intelligence is moving toward \"swarms\" of automated workers tackling massive projects together, greatly accelerating operational speed.",
+          "terms": [],
+          "url": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/",
+          "source_name": "The Decoder",
+          "signal_tag": "trending",
+          "published_at": "2026-10-09"
+        },
+        {
+          "section": "tools",
+          "headline": "Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost",
+          "summary": "Goodfire has launched a cost-effective way to monitor autonomous artificial intelligence programs and keep them from making errors. Instead of paying for a second artificial intelligence to read every action the first one takes, Goodfire's tool peers directly inside the working model to detect issues. It only calls for expensive backup intervention when something looks genuinely suspicious.",
+          "why_it_matters": "This is a great tool recommendation for tech-forward clients who want to deploy automated agents but are worried about security and spiraling monitoring costs.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "tools",
+          "headline": "Virtual try on launches on ChatGPT",
+          "summary": "ChatGPT has introduced a new virtual try-on feature that allows users to see how clothing and accessories will look on them before making a purchase. Consumers can upload a selfie or take a live photo, and the artificial intelligence generates an image of them wearing the selected items. This brings interactive retail experiences directly into the popular chatbot interface.",
+          "why_it_matters": "This is a clear indicator that major chatbots are actively expanding into e-commerce, creating new channels where retail marketers will need to place their products.",
+          "terms": [],
+          "url": "https://www.retaildive.com/news/virtual-try-on-launch-chatgpt/832244/",
+          "source_name": "Retail Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-09"
+        },
+        {
+          "section": "tools",
+          "headline": "Mistral’s new Le Chonk model brings AI cybersecurity to your business – and you control it",
+          "summary": "The European artificial intelligence company Mistral has released a new, highly capable model nicknamed \"Le Chonk\" specifically designed for corporate defense. It offers top-tier cybersecurity monitoring capabilities but remains open for companies to download and run internally. This allows businesses to protect their networks from automated attacks without sending sensitive security data to outside tech providers.",
+          "why_it_matters": "This is an ideal solution for clients in highly regulated industries who want advanced artificial intelligence capabilities but refuse to compromise on data privacy.",
+          "terms": [
+            {
+              "term": "Open models",
+              "definition": "Artificial intelligence systems whose underlying code and architecture are publicly available, allowing companies to download, modify, and run them privately."
+            }
+          ],
+          "url": "https://www.zdnet.com/innovation/mistral-le-chonk-ai-cybersecurity-business/",
+          "source_name": "news – ZDNET",
+          "signal_tag": "new",
+          "published_at": "2026-10-06"
+        },
+        {
+          "section": "tools",
+          "headline": "Google releases a new local-first Granola competitor",
+          "summary": "Google has launched an experimental note-taking app called AI Edge Foresight that transcribes meetings and generates notes entirely offline. Built for Apple computers, the application uses an on-device artificial intelligence model to summarize conversations and answer questions without sending audio to the cloud. This provides a highly secure alternative to web-based meeting assistants.",
+          "why_it_matters": "You can recommend this tool to executives who want the productivity benefits of meeting transcription but are barred by corporate policy from recording calls to cloud servers.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "tools",
+          "headline": "Natura’s $99 smart ring puts AI agents on your finger",
+          "summary": "A hardware startup named Natura has launched a $99 smart ring that acts as a physical controller for artificial intelligence. By pressing a finger, users can summon automated agents to complete tasks, capture quick voice notes, and control smart devices. The wearable device also functions as a standard health and fitness tracker.",
+          "why_it_matters": "This highlights the growing hardware market designed to give consumers instant, frictionless access to automated helpers without needing to open a smartphone app.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "tools",
+          "headline": "Claude can now generate animated explainer videos and live data dashboards from text prompts",
+          "summary": "Anthropic has released two new features for its Claude artificial intelligence that turn simple text instructions into rich media. One tool connects to corporate data sources to instantly build live, updating charts, while the other generates animated explainer videos directly from text and images. These features are being rolled out across all subscription plans.",
+          "why_it_matters": "This drastically lowers the barrier for marketing teams to create dynamic visual content and internal data dashboards without needing design or engineering support.",
+          "terms": [],
+          "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
+          "source_name": "The Decoder",
+          "signal_tag": "new",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "tools",
+          "headline": "Regunow",
+          "summary": "Regunow is a new software platform designed to convert complex regulatory research into actionable compliance audits. It uses artificial intelligence to scan legal documents and immediately generate step-by-step checklists for businesses to follow.",
+          "why_it_matters": "This is a highly specific, time-saving tool you can pitch to clients in heavily regulated industries like finance, healthcare, or real estate.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/regunow",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-06"
+        },
+        {
+          "section": "tools",
+          "headline": "Sorted",
+          "summary": "Sorted is a new desktop application that serves as a private artificial intelligence file organizer for Apple computers. The tool automatically categorizes, tags, and arranges local files on a user's machine to keep messy desktops and download folders clean.",
+          "why_it_matters": "This is a great, low-friction tool to recommend for personal productivity that runs entirely on a user's local machine, ensuring privacy.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/sorted-6",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "tools",
+          "headline": "Clippo",
+          "summary": "Clippo provides a visual canvas interface for users to orchestrate teams of artificial intelligence programs. By mapping out workflows visually, non-technical users can design complex, multi-step processes where different automated tools hand off tasks to one another.",
+          "why_it_matters": "This allows marketing and operations teams to map out complex automation sequences visually, skipping the need to hire a developer to string tools together.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/clippo-2",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-07"
+        },
+        {
+          "section": "tools",
+          "headline": "AgentGuard",
+          "summary": "AgentGuard is a security platform designed specifically to scan the skills and permissions of artificial intelligence tools before a business installs them. It acts as a protective layer, analyzing what an automated tool intends to do and ensuring it doesn't pose a security risk to corporate networks.",
+          "why_it_matters": "This is a vital safeguard to recommend to enterprise IT leaders who are nervous about letting autonomous software run loose in their company systems.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/agentguard-5",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "I audited an award-winning AI project. The case study left out the cloud bill",
+          "summary": "An information technology leader is warning that many highly publicized corporate artificial intelligence success stories obscure massive, hidden infrastructure costs. When auditing a supposedly successful artificial intelligence rollout, the leader discovered that the ongoing fees required to process the data in the cloud were crippling the project's finances. These quiet computing costs can ultimately destroy the long-term financial viability of an initiative if not carefully monitored from the start.",
+          "why_it_matters": "This is a critical cautionary tale you must share with clients to ensure they budget for ongoing software processing costs, not just the initial build.",
+          "terms": [
+            {
+              "term": "Cloud inference run costs",
+              "definition": "The recurring fees businesses pay to tech providers for the computing power required to actually generate artificial intelligence responses once a system is running."
+            }
+          ],
+          "url": "https://www.cio.com/article/4232005/i-audited-an-award-winning-ai-project-the-case-study-left-out-the-cloud-bill.html",
+          "source_name": "CIO",
+          "signal_tag": "trending",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "news",
+          "headline": "The $100-Billion SaaS Opportunity Hiding in Cross-System Labor",
+          "summary": "A new report from Bain & Company estimates that artificial intelligence software designed to automate complex corporate workflows represents a $100 billion market opportunity. Instead of just generating text or code, this new wave of software focuses specifically on replacing the expensive human labor required to manually move information between disconnected corporate systems. The consulting firm argues this targeted automation will unlock major financial value for businesses.",
+          "why_it_matters": "This gives you a clear financial narrative to sell to clients: the real money in artificial intelligence isn't in simple chat assistants, but in tools that automatically bridge the gaps between existing software platforms.",
+          "terms": [
+            {
+              "term": "SaaS",
+              "definition": "An acronym for Software as a Service, a business model where users pay a recurring subscription fee to access software hosted on the internet."
+            },
+            {
+              "term": "TAM",
+              "definition": "Total Addressable Market, a financial metric used to describe the maximum possible revenue a product or service could generate if it captured 100% of its market."
+            }
+          ],
+          "url": "https://www.bain.com/insights/100-billion-saas-opportunity-hiding-in-cross-system-labor100-billion-saas-opportunity-hiding-in-cross-system-labor-technology-report-2026/",
+          "source_name": "Bain & Company",
+          "signal_tag": "trending",
+          "published_at": "2026-09-29"
+        },
+        {
+          "section": "news",
+          "headline": "Zapier explores extra pay for employees driving AI gains",
+          "summary": "The software integration company Zapier is testing an experimental compensation program to reward employees who successfully use artificial intelligence at work. The program financially compensates marketing employees based directly on the actual sales pipeline and business value they independently generate using these tools. This marks a shift from merely encouraging artificial intelligence adoption to directly tying it to employee paychecks.",
+          "why_it_matters": "This is a radical new organizational incentive model to share with human resources and marketing leadership teams struggling to drive internal tool adoption.",
+          "terms": [],
+          "url": "https://www.techtarget.com/it-strategy/news/366651805/Zapier-explores-extra-pay-for-employees-driving-AI-gains",
+          "source_name": "TechTarget",
+          "signal_tag": "new",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "news",
+          "headline": "AI platform sprawl undermines enterprise ROI",
+          "summary": "A new report argues that the proliferation of disconnected artificial intelligence tools inside companies is actively harming their return on investment. Scott Zoldi, the chief analytics officer at FICO, stated that technology leaders must advocate for unified, standardized platforms. Without a single standard, companies face massive complexity, inconsistent results, and bloated software budgets.",
+          "why_it_matters": "Use this article to convince clients to stop buying random, disconnected tools and instead hire you to build a cohesive, company-wide technology strategy.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/single-ai-deployment-platforms-rare-app-sprawl-grows/832443/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-07"
+        },
+        {
+          "section": "news",
+          "headline": "New Innovation Is Required to Fund AI's $6 Trillion Buildout",
+          "summary": "Bain & Company recently warned that the current pace of artificial intelligence spending is unsustainable without major breakthroughs in how businesses use the technology. The consulting firm estimates a $6 trillion infrastructure buildout is currently underway. To justify those massive costs, corporate systems must quickly evolve past basic productivity improvements and begin unlocking entirely new streams of revenue.",
+          "why_it_matters": "This provides a sobering reality check for executives, emphasizing that buying technology is useless unless it directly contributes to top-line business growth.",
+          "terms": [],
+          "url": "https://www.bain.com/insights/new-innovation-is-required-to-fund-ais-6-trillion-buildout-technology-report-2026/",
+          "source_name": "Bain & Company",
+          "signal_tag": "shift",
+          "published_at": "2026-09-29"
+        },
+        {
+          "section": "news",
+          "headline": "Why Customer Workflows Are Becoming The Moat In The AI Era",
+          "summary": "Tech adviser Itay Sagie explains that artificial intelligence companies can only build lasting success by deeply embedding their products into essential customer routines. Founders must prioritize creating tools that users genuinely depend on every day, rather than flashy features that are easily forgotten. For investors, a tool's value is now measured by how tightly it integrates into daily workflows and drives retention.",
+          "why_it_matters": "This highlights a core principle for evaluating software vendors: don't buy a tool unless it seamlessly integrates into the specific workflows your employees already use.",
+          "terms": [
+            {
+              "term": "Moat",
+              "definition": "A business term for a competitive advantage that protects a company's profits and market share from rival firms."
+            }
+          ],
+          "url": "https://news.crunchbase.com/ma/customer-workflows-moat-ai-era-sagie/",
+          "source_name": "Crunchbase News",
+          "signal_tag": "shift",
+          "published_at": "2026-10-09"
+        },
+        {
+          "section": "news",
+          "headline": "AI Answers Get Cheaper as Model Choices Multiply",
+          "summary": "Anthropic has launched Claude Haiku 5.5, a highly efficient new model that costs one-tenth the price of its predecessor. The massive price drop is designed specifically for high-volume corporate workloads, such as running automated customer support chats and digging through vast databases. As more tech companies release capable models, extreme price competition is driving down the cost of using the technology.",
+          "why_it_matters": "You can assure cost-conscious clients that the price of running these systems is rapidly dropping, making automated customer service financially viable for smaller businesses.",
+          "terms": [],
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-answers-get-cheaper-as-model-choices-multiply/",
+          "source_name": "PYMNTS.com",
+          "signal_tag": "shift",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "news",
+          "headline": "Are AI Agents Actually Saving Money? How CTOs Should Measure Agentic AI ROI",
+          "summary": "A new framework challenges businesses to rethink how they calculate the value of artificial intelligence. The guide warns against the lazy habit of treating all saved labor hours as immediate financial gains. Instead, technology leaders must take the extra step to prove how raw time savings are being converted into actual productive capacity or hard cost reductions.",
+          "why_it_matters": "This provides a rigorous financial framework you can use to help clients accurately measure if their automation efforts are actually impacting the bottom line.",
+          "terms": [],
+          "url": "https://www.ishir.com/blog/344328/are-ai-agents-actually-saving-money-how-ctos-should-measure-agentic-ai-roi.htm",
+          "source_name": "ISHIR",
+          "signal_tag": "trending",
+          "published_at": "2026-09-29"
+        },
+        {
+          "section": "news",
+          "headline": "Executives use AI more than their workers do",
+          "summary": "A recent study found that corporate executives are adopting artificial intelligence at a higher rate than the employees who report to them. Interestingly, researchers also discovered that a significant portion of business leaders admit to pretending they know more about the technology than they actually do. This knowledge gap at the top is creating friction in how companies roll out new tools.",
+          "why_it_matters": "This is a great psychological insight: your executive clients are likely feeling insecure about their tech knowledge and are desperate for plain-English guidance.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/executive-AI-use-agentic-tools/832437/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-07"
+        },
+        {
+          "section": "news",
+          "headline": "AI-assisted performance reviews can’t replace human insight, report warns",
+          "summary": "A new industry report warns against the growing trend of managers using artificial intelligence to write employee performance reviews. While the technology can summarize data, it lacks the essential context to distinguish between a smart risk that failed and a careless mistake. Experts argue that automating feedback strips away the nuance required for true employee development.",
+          "why_it_matters": "This provides a clear example of where NOT to apply automation, helping you advise clients to keep human empathy at the center of their management practices.",
+          "terms": [],
+          "url": "https://www.hrdive.com/news/ai-assisted-performance-reviews-cant-replace-human-insight-report-warns/832471/",
+          "source_name": "HR Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "news",
+          "headline": "Anthropic changes usage policy to ban model abuse and election interference",
+          "summary": "Anthropic has updated the rules for using its Claude artificial intelligence, specifically prohibiting users from engaging in sustained, abusive, or cruel behavior toward the software. While ordinary frustration is permitted, extreme abuse is now grounds for account suspension. The updated policy also implements strict new bans on using the technology for election interference, deceptive campaigns, and surveillance.",
+          "why_it_matters": "This marks a bizarre but important cultural shift where tech companies are establishing ethical boundaries for how humans are allowed to speak to software.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "news",
+          "headline": "OpenAI and Anthropic hiring former Trump officials for senior roles",
+          "summary": "Leading artificial intelligence companies OpenAI and Anthropic are aggressively expanding their political influence by hiring former government officials. The labs are bringing on seasoned political operatives to help them navigate complex federal procurement processes and shape looming regulations. This lobbying push demonstrates how deeply entrenched the tech industry is becoming in Washington.",
+          "why_it_matters": "This indicates that future tech regulations will likely be heavily influenced by the companies building the tools, which provides stability for corporate clients worried about sudden legal crackdowns.",
+          "terms": [],
+          "url": "https://qz.com/openai-anthropic-hiring-trump-officials-senior-roles-100926",
+          "source_name": "Quartz",
+          "signal_tag": "trending",
+          "published_at": "2026-10-09"
+        },
+        {
+          "section": "news",
+          "headline": "House proposal would clarify liability rules for AI agents",
+          "summary": "Lawmakers in the House of Representatives have drafted a bill that would establish clear legal liability for autonomous software programs. Under the proposal, the developers who build artificial intelligence agents would be held legally responsible if their software harms third parties. The standard is simple: if the action would be unlawful for a human to commit, the software developer is liable when their bot does it.",
+          "why_it_matters": "This is a massive compliance update to flag for clients, as it directly impacts the legal risks of deploying customer-facing automated systems.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/house-proposal-clarify-liability-rules-ai-agents/832433/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-10-07"
+        },
+        {
+          "section": "news",
+          "headline": "AI Development Cost in 2026: Pricing, Examples & Budget Guide",
+          "summary": "A newly released market benchmark report outlines the realistic costs of building custom corporate artificial intelligence in 2026. The data indicates that meaningful enterprise implementations cost anywhere between $30,000 and $120,000 to construct from scratch. Crucially, the guide notes that companies must also set aside an ongoing 20-35% budget strictly for system maintenance and processing fees.",
+          "why_it_matters": "This gives you realistic pricing brackets to share with clients who have unrealistic expectations about how cheap it is to build a custom solution.",
+          "terms": [],
+          "url": "https://www.atharvasystem.com/how-much-does-ai-development-cost/",
+          "source_name": "Atharva System",
+          "signal_tag": "new",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "news",
+          "headline": "Monday data: Damming the slop floods",
+          "summary": "A new analysis highlights a growing problem on the internet: as artificial intelligence makes it incredibly cheap to generate massive amounts of low-quality content, consumer trust is plummeting. The report asks a critical question about the future of digital marketing: who will ultimately pay the premium required to verify and produce genuinely trustworthy information?",
+          "why_it_matters": "This is a great strategic angle for marketing clients: as the web fills with automated garbage, investing in verified, human-centric brand trust is becoming a massive competitive advantage.",
+          "terms": [],
+          "url": "https://www.exponentialview.co/p/monday-data-damming-the-slop-floods",
+          "source_name": "Exponential View",
+          "signal_tag": "trending",
+          "published_at": "2026-09-28"
+        },
+        {
+          "section": "news",
+          "headline": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+          "summary": "Three safety researchers who were recently fired from OpenAI are publicly disputing the company's claims that they mishandled sensitive information. In an open letter, the researchers argue their dismissals were unjustified and are creating a culture of fear among remaining staff. They warn that punishing employees who raise safety concerns will severely damage the company's ability to build responsible technology.",
+          "why_it_matters": "Internal drama at major tech providers can signal future instability; it's a good reminder to advise clients not to lock their entire tech stack into a single vendor.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "news",
+          "headline": "How agentic payments present risk",
+          "summary": "Financial experts are warning about the complex legal liabilities created when autonomous software is given access to corporate credit cards and bank accounts. Currently, there is no clear legal rule determining who absorbs the financial loss when an automated tool malfunctions and spends money it wasn't supposed to. This ambiguity is causing major credit card issuers to hesitate before allowing software to make purchases on behalf of users.",
+          "why_it_matters": "This is a vital risk to flag for finance and operations clients who are eager to let automated systems manage corporate purchasing and vendor payments.",
+          "terms": [],
+          "url": "https://www.paymentsdive.com/news/how-agentic-payments-artificial-intelligence-risk/832601/",
+          "source_name": "Payments Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-09"
+        },
+        {
+          "section": "news",
+          "headline": "Why restaurants face pushback, risk when integrating AI tools",
+          "summary": "Restaurant operators are facing significant backlash from both employees and consumers regarding the integration of automated tools like drive-thru order takers. Concerns over order inaccuracy and general inefficiency have proven valid at several major chains that rushed their deployments. Industry experts are now advising brands to slow down and ensure the technology actually solves problems rather than creating new ones.",
+          "why_it_matters": "This is a perfect example of why you must counsel clients against deploying half-baked technology directly to their customers before rigorous internal testing.",
+          "terms": [],
+          "url": "https://www.restaurantdive.com/news/why-restaurants-face-pushback-risk-when-integrating-ai-tools/831519/",
+          "source_name": "Restaurant Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "Mary Callahan Erdoes and Mike Urciouli Present HBS Case Study",
+          "summary": "Executives from JPMorgan Chase recently revealed at Harvard Business School that the bank's artificial intelligence initiatives are delivering massive financial returns. The financial institution has generated nearly $1.5 billion in measurable savings across various departments. These cost reductions stem from successfully integrating artificial intelligence into their fraud prevention, daily operations, and market trading divisions.",
+          "why_it_matters": "This is a definitive, big-number case study you can hand to skeptical executives who want proof that artificial intelligence initiatives yield hard financial returns.",
+          "terms": [],
+          "url": "https://privatebank.jpmorgan.com/nam/en/about-us/mary-callahan-erdoes-and-mike-urciouli-present-hbs-case-study",
+          "source_name": "J.P. Morgan Private Bank U.S.",
+          "signal_tag": "shift",
+          "published_at": "2026-09-25"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Odoo Case Study: 445% Year-1 ROI",
+          "summary": "A real estate brokerage in the United Arab Emirates achieved a massive 445% return on investment in its first year by integrating artificial intelligence into its resource planning software. The deployment saved the administrative team 248 hours of manual labor per week. Furthermore, the automated system successfully prevented nearly 900,000 AED in costly billing and invoicing errors.",
+          "why_it_matters": "This is an excellent, metrics-heavy proof point for showing small-to-midsize businesses how automating back-office tasks yields immediate cash savings.",
+          "terms": [
+            {
+              "term": "ERP",
+              "definition": "Enterprise Resource Planning, which refers to the main software system a company uses to manage daily activities like accounting, procurement, and project management."
+            }
+          ],
+          "url": "https://sgctech.ai/case-studies/uae-brokerage-445-roi",
+          "source_name": "SGC Tech AI",
+          "signal_tag": "trending",
+          "published_at": "2026-10-01"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Legal AI ROI for In-House Teams: CFO-Ready Model",
+          "summary": "A recent benchmark study analyzed the returns generated by corporate legal departments utilizing artificial intelligence. The data indicates that in-house counsel teams are saving an average of 14 hours per week by using automated tools for routine document review and contract operations. The report provides a financial framework for Chief Financial Officers to validate these technology investments.",
+          "why_it_matters": "You can use this 14-hour-per-week statistic to easily justify software costs when pitching artificial intelligence upgrades to corporate legal and finance departments.",
+          "terms": [],
+          "url": "https://gc.ai/blog/legal-ai-roi",
+          "source_name": "Industry Blog",
+          "signal_tag": "trending",
+          "published_at": "2026-10-05"
+        },
+        {
+          "section": "case_studies",
+          "headline": "AI Efficiency Statistics 2026: Productivity Gains by Function, Industry, Cost Savings, and Realized ROI",
+          "summary": "A comprehensive research report published in late 2026 has synthesized data across multiple industries to demonstrate the actual hours saved by corporate artificial intelligence. The report breaks down specific productivity gains realized by workers in operations, engineering, and finance roles. It provides concrete numbers on how these time savings are converting into hard cost reductions for large organizations.",
+          "why_it_matters": "This report provides a massive database of statistics you can drop into client presentations to validate the specific efficiency gains possible in their exact industry.",
+          "terms": [],
+          "url": "https://keyholesoftware.com/ai-efficiency-statistics/",
+          "source_name": "Keyhole Software",
+          "signal_tag": "trending",
+          "published_at": "2026-10-05"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How Cornerstone OnDemand cut database diagnosis by 78% with Amazon Bedrock",
+          "summary": "The software company Cornerstone OnDemand built an automated system using Amazon's artificial intelligence tools to monitor and diagnose database problems. A small three-person team was able to transform their database operations from reactive troubleshooting into proactive, automated fixes. This initiative successfully cut the time it takes to diagnose complex database issues from 45 minutes to just 10 minutes.",
+          "why_it_matters": "This is a great operational case study showing how a tiny team can use artificial intelligence to dramatically reduce IT downtime and technical firefighting.",
+          "terms": [],
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "trending",
+          "published_at": "2026-10-07"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "summary": "The enterprise software giant Oracle has deployed OpenAI's tools across its recruiting, engineering, and operations departments to streamline heavy workloads. By turning specialist knowledge into fast, repeatable workflows, the company is dramatically accelerating its internal processes. Tasks that previously took human employees days to complete are now being executed in a matter of minutes.",
+          "why_it_matters": "This is a strong narrative for enterprise leaders, showing that even massive tech incumbents are using off-the-shelf artificial intelligence to eliminate internal bottlenecks.",
+          "terms": [],
+          "url": "https://openai.com/index/oracle",
+          "source_name": "OpenAI News",
+          "signal_tag": "shift",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "case_studies",
+          "headline": "AI is ‘reshaping’ Walmart and Sparky is leading the charge",
+          "summary": "Walmart's US CEO David Guggina revealed that advancements in artificial intelligence are generating significant monetary savings for the massive retailer. Instead of letting those savings simply pad the bottom line, Walmart is actively reinvesting the freed-up cash into improving the overall customer experience. A new internal initiative, affectionately dubbed \"Sparky,\" is spearheading this transformation.",
+          "why_it_matters": "This provides a brilliant strategic model for your retail clients: use artificial intelligence to cut back-office costs, then spend that money to make the customer journey better.",
+          "terms": [],
+          "url": "https://www.retaildive.com/news/ai-walmart-sparky-CX-investment/832327/",
+          "source_name": "Retail Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How Revlon used Amazon’s interactive video ads to drive outcomes",
+          "summary": "During Advertising Week, Revlon’s Chief Digital Marketing Officer Kelly Solomon showcased a successful campaign utilizing Amazon's newest interactive video capabilities. The cosmetics brand integrated artificial intelligence-driven purchasing options directly into streaming video content to engage shoppers. The presentation detailed exactly how these new ad formats drove measurable sales outcomes for the company.",
+          "why_it_matters": "This serves as a highly relevant marketing case study showing how consumer packaged goods brands are turning passive video views into immediate purchases.",
+          "terms": [],
+          "url": "https://www.marketingdive.com/news/how-revlon-used-amazons-interactive-video-ads-to-drive-outcomes/832462/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+          "summary": "The cybersecurity firm Sophos implemented a specialized OpenAI tool to handle incoming threat alerts and investigate potential network breaches. The artificial intelligence successfully automated the handling of 52% of the company's complex security cases while still keeping human experts in the loop. As a result, the time required to investigate a cyber threat plummeted by 96%.",
+          "why_it_matters": "This highlights the staggering efficiency gains possible in highly technical fields when artificial intelligence handles the initial heavy lifting of data analysis.",
+          "terms": [],
+          "url": "https://openai.com/index/sophos",
+          "source_name": "OpenAI News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-09"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Treasury taps data to fend off fraud",
+          "summary": "The U.S. Treasury Department has increased its scrutiny of incoming payments by leveraging new sources of data and artificial intelligence to prevent fraud before it happens. Historically, the department relied on a \"pay and chase\" model, where they issued funds and attempted to recover them later if fraud was discovered. The new data-driven approach is successfully stemming this pattern and saving taxpayer dollars upfront.",
+          "why_it_matters": "If the U.S. government can modernize legacy systems to catch fraud proactively, you can use this to pressure private-sector financial clients to do the same.",
+          "terms": [],
+          "url": "https://www.paymentsdive.com/news/treasury-taps-data-to-fend-off-payments-fraud/832511/",
+          "source_name": "Payments Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "case_studies",
+          "headline": "PwC exec ushers in AI-assisted audits, awaits bigger time savings",
+          "summary": "Over the past 12 months, the professional services firm PwC launched a major artificial intelligence project to assist with complex financial audits. According to executive Shawn Panson, the most surprising element of the rollout has been the sheer speed of technological change. While the firm has already seen benefits, leaders are anticipating even more significant time savings as the tools mature.",
+          "why_it_matters": "This underscores that major consulting and accounting firms are actively rebuilding their core business models around artificial intelligence to remain competitive.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/pwc-exec-ushers-ai-assisted-audits-awaits-bigger-time-savings/832412/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-07"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Anthropic's Claude Science creates the first complete ultraviolet map of the sky",
+          "summary": "Astrophysicist Brice Ménard used Anthropic's scientific artificial intelligence tools to map the entire sky in ultraviolet light for the very first time. Automated programs successfully downloaded vast amounts of data from multiple space missions, calibrated the images, and filled in missing gaps using predictive intelligence. The resulting predictions proved to be highly accurate when compared to real-world observations.",
+          "why_it_matters": "While heavily scientific, this demonstrates the sheer data-processing power of modern artificial intelligence, which you can use as a metaphor for solving complex corporate data silos.",
+          "terms": [],
+          "url": "https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky/",
+          "source_name": "The Decoder",
+          "signal_tag": "trending",
+          "published_at": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Tareq Dreiza appointed Chief AI Officer at KPMG Middle East",
+          "summary": "The professional services firm KPMG Middle East has named Tareq Dreiza as its new Chief AI Officer. His primary mandate is to ensure the region's rapid adoption of new technologies is balanced with rigorous operational governance and deep organizational trust. The appointment highlights the consulting industry's push to lead by example in artificial intelligence deployment.",
+          "why_it_matters": "Tracking the rise of the \"Chief AI Officer\" role helps you understand who holds the budget and buying power for tech transformations inside large organizations.",
+          "terms": [],
+          "url": "https://me.peoplemattersglobal.com/news/appointments/tareq-dreiza-appointed-chief-ai-officer-at-kpmg-middle-east-52630",
+          "source_name": "People Matters",
+          "signal_tag": "new",
+          "published_at": "2026-10-09"
+        },
+        {
+          "section": "people",
+          "headline": "Sandia names first chief AI officer",
+          "summary": "Sandia National Laboratories has officially appointed Rob Leland as its very first Chief AI Officer. In this newly created role, Leland is tasked with safely and rapidly integrating artificial intelligence into the organization's massive national security and engineering operations. The move signals that even the most secure government facilities are prioritizing automated technology.",
+          "why_it_matters": "When high-security national laboratories formalize artificial intelligence leadership roles, it strips away the excuse that other highly regulated industries are \"too secure\" to adopt the tech.",
+          "terms": [],
+          "url": "https://www.sandia.gov/labnews/2026/10/08/sandia-names-first-chief-ai-officer/",
+          "source_name": "LabNews",
+          "signal_tag": "new",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "people",
+          "headline": "Basware CFO says AI upskilling requires ambition",
+          "summary": "Martti Nurminen, the Chief Financial Officer of the software company Basware, recently emphasized that financial leaders must actively push themselves to learn artificial intelligence skills. He stressed that executives need to develop these abilities with a strict focus on maintaining the accuracy and reliability of corporate data. For finance professionals, blind trust in automated outputs remains the biggest hurdle.",
+          "why_it_matters": "This provides a great talking point for coaching cautious finance executives: ambition is necessary, but it must be paired with strict data governance.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/strong-ai-governance-balance-ambition-finance-basics-basware-cfo/832538/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "people",
+          "headline": "a16z’s Olivia Moore on the state of consumer AI",
+          "summary": "Venture capitalist Olivia Moore sees a massive opportunity in the consumer artificial intelligence sector. However, she notes that the industry must evolve past simply charging users flat monthly subscription fees or billing by the amount of computing power used. To truly scale, consumer applications must tap into entirely new revenue streams.",
+          "why_it_matters": "Moore's insights help you advise software clients on how to price their new features creatively, moving beyond the standard $20/month subscription model.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-10-09"
+        },
+        {
+          "section": "people",
+          "headline": "These ‘4 pillars’ are critical for successful automation",
+          "summary": "During the IMTS trade show in Chicago, Sven Diedrich, the head of digital transformation at Pinaxis, outlined the core requirements for rolling out tech successfully. He stated that any effective automation strategy must equally address people, processes, data, and systems. Focusing purely on the software while ignoring the human element frequently leads to failure.",
+          "why_it_matters": "This is a perfect, simple framework you can repeat to clients who mistakenly believe that buying a new tool will magically fix their broken operations.",
+          "terms": [],
+          "url": "https://www.supplychaindive.com/news/these-4-pillars-are-critical-for-successful-automation/831500/",
+          "source_name": "Supply Chain Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-09"
+        },
+        {
+          "section": "people",
+          "headline": "‘I use AI to do the things that I’m bad at’: Linus Torvalds on why it works for him",
+          "summary": "Linus Torvalds, the creator of the Linux operating system and a legendary figure in software engineering, recently discussed his personal use of artificial intelligence. Torvalds uses the technology specifically to find bugs and handle tasks he dislikes, calling it a wonderful way to find joy in programming again. However, he noted it is not suitable for running core, high-stakes development without oversight.",
+          "why_it_matters": "If the creator of the world's most important open-source software embraces these tools to eliminate drudgery, you can use his endorsement to win over stubborn IT teams.",
+          "terms": [],
+          "url": "https://www.zdnet.com/tech/linus-torvalds-ai-coding-programming/",
+          "source_name": "news – ZDNET",
+          "signal_tag": "trending",
+          "published_at": "2026-10-09"
+        },
+        {
+          "section": "people",
+          "headline": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+          "summary": "Stanford University researcher Samuel King generated significant buzz by using a generative model to propose genetic blueprints for microscopic viruses. While it is not yet a fully functional example of generating life from scratch, it hints at the incredible scientific breakthroughs on the horizon. He recently discussed the implications and risks of allowing software to design biological entities.",
+          "why_it_matters": "This highlights the extreme edge of innovation, providing a fascinating conversation starter for executive dinners about how technology will soon rewrite physical science.",
+          "terms": [],
+          "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+          "source_name": "MIT Technology Review",
+          "signal_tag": "new",
+          "published_at": "2026-10-09"
+        },
+        {
+          "section": "people",
+          "headline": "Ben Affleck is an AI nerd, and the internet is impressed",
+          "summary": "Actor and director Ben Affleck is going viral after demonstrating a surprisingly deep understanding of artificial intelligence technology during a recent interview. He accurately discussed complex concepts ranging from neural networks to open-weight models. Affleck, who recently sold his tech-focused filmmaking startup to Netflix, is proving to be a knowledgeable voice bridging Hollywood and Silicon Valley.",
+          "why_it_matters": "This is a fun, culturally relevant anecdote showing that understanding artificial intelligence is no longer restricted to engineers, but is becoming a requirement for creatives.",
+          "terms": [
+            {
+              "term": "Open weights",
+              "definition": "When the core parameters and mathematical brains of an artificial intelligence model are made publicly available for anyone to download and use."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-10-08"
+        }
+      ]
+    }
+  ]
+}
