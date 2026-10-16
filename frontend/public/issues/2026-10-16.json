@@ -1,0 +1,671 @@
+{
+  "id": "2026-10-16",
+  "generated_at": "2026-10-16T17:14:16.116118+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "Microsoft Sales Development Agent: what it means for sales and event teams",
+      "summary": "Microsoft shared new details on its Sales Development Agent, an autonomous artificial intelligence tool built for sales teams. The software automatically researches prospects, writes personalized outreach emails, and fields replies from potential buyers. Once a lead is warmed up and ready to talk, the agent seamlessly hands the conversation over to a human seller.",
+      "why_it_matters": "A practical, enterprise-grade tool to recommend to sales leaders who want to automate the tedious early stages of lead generation.",
+      "terms": [],
+      "url": "https://swopi.co/blog/microsoft-sales-development-agent-for-sales-teams",
+      "source_name": "Swopi",
+      "signal_tag": "new",
+      "published_at": "2026-10-15"
+    },
+    {
+      "section": "news",
+      "headline": "Dubai put a Chief AI Officer in every government entity",
+      "summary": "As part of its 10-year economic strategy, Dubai has mandated that every single government entity hire a Chief AI Officer. These new executives will serve as the direct link to artificial intelligence innovators and act as the first buyers for new technology. The sweeping policy aims to integrate AI directly into the region's public sector operations from the top down.",
+      "why_it_matters": "A clear signal that the 'Chief AI Officer' role is moving from a corporate trend to a required, structural leadership position globally.",
+      "terms": [],
+      "url": "https://www.youtube.com/shorts/eIFbslLV0QE?app=desktop",
+      "source_name": "YouTube / AGTP",
+      "signal_tag": "shift",
+      "published_at": "2026-10-15"
+    },
+    {
+      "section": "case_studies",
+      "headline": "Enterprise AI ROI in 2026: Business Examples of Savings, Revenue and Payback",
+      "summary": "Pharmaceutical giant Lupin reported concrete financial returns from its scaled artificial intelligence initiatives. By deploying targeted AI tools across its workforce, the company reclaimed over 34,000 employee-days that would have otherwise been spent on manual tasks. This efficiency translated into actual, measurable savings of approximately $5.1 million.",
+      "why_it_matters": "A powerful, number-backed case study you can use to show clients exactly what scaled AI adoption looks like on a balance sheet.",
+      "terms": [],
+      "url": "https://infotechlead.com/artificial-intelligence/enterprise-ai-roi-in-2026-business-examples-of-savings-revenue-and-payback-98873",
+      "source_name": "Web",
+      "signal_tag": "trending",
+      "published_at": "2026-10-14"
+    },
+    {
+      "section": "news",
+      "headline": "Google says Gemini 4 Argon is a 'powerhouse' AI model — and it's rolling out now",
+      "summary": "Google launched Gemini 4 Argon, a new enterprise workhorse AI model positioned to handle complex knowledge work. The system is explicitly designed to excel at software coding, cybersecurity analysis, and advanced reasoning tasks in the finance and legal sectors. It marks Google's latest effort to capture the high-end corporate artificial intelligence market.",
+      "why_it_matters": "A major capability upgrade from Google that you should track for clients relying on the Google Cloud ecosystem.",
+      "terms": [],
+      "url": "https://www.businessinsider.com/google-gemini-4-argon-ai-model-public-release-cost-2026-10",
+      "source_name": "Business Insider",
+      "signal_tag": "new",
+      "published_at": "2026-10-13"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Dottr",
+          "summary": "Dottr is a new AI assistant designed to draft business contracts and get them signed. The software flags potential risks in agreements and manages the end-to-end signature process without human intervention.",
+          "why_it_matters": "An operations tool that can help small businesses and sales teams speed up their closing process by automating paperwork.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/dottr",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "tools",
+          "headline": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+          "summary": "Gudea is a new AI platform that tracks how stories and rumors spread online. Acting as a 'storm tracker for the internet,' the software helps brands and organizations spot brewing online trouble before it escalates into a full public relations crisis.",
+          "why_it_matters": "A vital defensive tool to pitch to enterprise marketing and PR teams looking to protect their brand reputation.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "tools",
+          "headline": "Google’s new Universal Cart tracks prices on items you want now – plus 3 other tricks",
+          "summary": "Google unveiled a new 'Universal Cart' shopping tool across Google Search and the Gemini app ahead of the holiday season. The feature acts as a centralized place to save items, track prices across different retailers, and guide purchasing decisions.",
+          "why_it_matters": "A major shift in how consumers use Google to shop, which retail marketers must understand to optimize their product visibility.",
+          "terms": [],
+          "url": "https://www.zdnet.com/tech/google-universal-cart-when-to-buy-guide/",
+          "source_name": "news – ZDNET",
+          "signal_tag": "new",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "tools",
+          "headline": "Pomerado",
+          "summary": "Pomerado is a new developer tool that turns any standard website into an API. This allows AI assistants and browsers to quickly and reliably interact with web pages to pull data or complete tasks automatically.",
+          "why_it_matters": "A technical tool you can highlight to operations teams looking to connect legacy websites to their modern AI workflows.",
+          "terms": [
+            {
+              "term": "API",
+              "definition": "A software bridge that allows two different computer programs to talk to each other directly."
+            }
+          ],
+          "url": "https://www.producthunt.com/products/pomerado",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-12"
+        },
+        {
+          "section": "tools",
+          "headline": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+          "summary": "Social network Bluesky updated its experimental Attie platform to allow users to build interactive experiences using plain English commands. The tool lets anyone create mini-games, quizzes, and simple websites that can be shared directly with the network's audience.",
+          "why_it_matters": "A novel social media engagement tool you can suggest to community managers looking to build quick, interactive marketing campaigns.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "tools",
+          "headline": "Elorian’s first AI model wants to reason with images, not just about them",
+          "summary": "Elorian launched Glimpse, a new AI system that excels at understanding complex visuals rather than just describing them. The software outperforms leading models on tasks like deciphering scientific charts and generating accurate captions for short-form videos.",
+          "why_it_matters": "A highly capable visual tool to recommend to analysts and marketers who need to extract data from dense reports or video content.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-10-16"
+        },
+        {
+          "section": "tools",
+          "headline": "Jev is Vercel’s fastest-adopted AI model ever",
+          "summary": "Data from the web hosting platform Vercel shows that the 'Jev' AI model is the fastest-adopted artificial intelligence system in the company's history. Developers are rapidly flocking to the model through Vercel's unified software interface.",
+          "why_it_matters": "A strong market signal indicating which specific AI model developers are currently favoring for building new applications.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-10-16"
+        },
+        {
+          "section": "tools",
+          "headline": "Meta launches an open-weight AI model that runs on Macs",
+          "summary": "Meta partnered with Apple to launch Muse Spark Open, a new AI system optimized to run locally on Apple's Mac computers. The model allows users to process data privately on their own machines without sending information to the cloud.",
+          "why_it_matters": "A perfect solution to recommend to privacy-conscious businesses that want powerful AI capabilities but refuse to upload data to external servers.",
+          "terms": [
+            {
+              "term": "open-weight",
+              "definition": "An AI model where the core structural data is made available so developers can download and run it themselves."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "tools",
+          "headline": "Nvidia’s new Nemotron 3.5 Super VL is another step forward for US open-weight AI",
+          "summary": "Nvidia released Nemotron 3.5 Super VL, a massive, freely available AI model designed specifically for running complex, always-on corporate tasks. It joins a wave of new systems released by US labs aiming to provide enterprise-grade capabilities for specialized workflows.",
+          "why_it_matters": "A foundational piece of infrastructure you should be aware of as clients ask about building their own proprietary AI applications.",
+          "terms": [],
+          "url": "https://www.zdnet.com/innovation/nvidia-nemotron-3-5-super-vl-model-us-open-weight-ai/",
+          "source_name": "news – ZDNET",
+          "signal_tag": "new",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "tools",
+          "headline": "Tetriz Harness",
+          "summary": "Tetriz Harness is a tool that allows companies to document and share how their employees successfully use AI. It turns individual employee learnings and prompts into a standardized setup that the entire team can adopt.",
+          "why_it_matters": "An excellent organizational tool to help companies scale the isolated AI wins of individual employees across an entire department.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/tetriz-harness",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "tools",
+          "headline": "Rushilo",
+          "summary": "Rushilo is a new video editing platform that allows users to alter and cut footage simply by talking to an AI assistant. The software relies on advanced coding models to execute complex video edits based on plain English instructions.",
+          "why_it_matters": "A massive time-saver to pitch to content marketers and social media managers who lack traditional video editing skills.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/rushilo",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-14"
+        },
+        {
+          "section": "tools",
+          "headline": "Make0 Brain",
+          "summary": "Make0 Brain is a centralized memory store that works across all of a user's different AI agents. It allows various isolated AI tools to share context and remember past interactions, creating a more cohesive automated workflow.",
+          "why_it_matters": "A solution to the common problem of AI tools forgetting previous conversations, making enterprise workflows much smoother.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/make0-brain",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-10"
+        },
+        {
+          "section": "tools",
+          "headline": "OpenCouncil",
+          "summary": "OpenCouncil provides digital voice rooms where human teams and artificial intelligence agents can debate and discuss topics together. The tool treats AI models as active participants in team brainstorming sessions.",
+          "why_it_matters": "A fascinating collaboration tool that showcases the shift toward treating AI as a real-time team member rather than a simple search box.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/opencouncil",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "Microsoft Sales Development Agent: what it means for sales and event teams",
+          "summary": "Microsoft shared new details on its Sales Development Agent, an autonomous artificial intelligence tool built for sales teams. The software automatically researches prospects, writes personalized outreach emails, and fields replies from potential buyers. Once a lead is warmed up and ready to talk, the agent seamlessly hands the conversation over to a human seller.",
+          "why_it_matters": "A practical, enterprise-grade tool to recommend to sales leaders who want to automate the tedious early stages of lead generation.",
+          "terms": [],
+          "url": "https://swopi.co/blog/microsoft-sales-development-agent-for-sales-teams",
+          "source_name": "Swopi",
+          "signal_tag": "new",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "news",
+          "headline": "Dubai put a Chief AI Officer in every government entity",
+          "summary": "As part of its 10-year economic strategy, Dubai has mandated that every single government entity hire a Chief AI Officer. These new executives will serve as the direct link to artificial intelligence innovators and act as the first buyers for new technology. The sweeping policy aims to integrate AI directly into the region's public sector operations from the top down.",
+          "why_it_matters": "A clear signal that the 'Chief AI Officer' role is moving from a corporate trend to a required, structural leadership position globally.",
+          "terms": [],
+          "url": "https://www.youtube.com/shorts/eIFbslLV0QE?app=desktop",
+          "source_name": "YouTube / AGTP",
+          "signal_tag": "shift",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "news",
+          "headline": "Google says Gemini 4 Argon is a 'powerhouse' AI model — and it's rolling out now",
+          "summary": "Google launched Gemini 4 Argon, a new enterprise workhorse AI model positioned to handle complex knowledge work. The system is explicitly designed to excel at software coding, cybersecurity analysis, and advanced reasoning tasks in the finance and legal sectors. It marks Google's latest effort to capture the high-end corporate artificial intelligence market.",
+          "why_it_matters": "A major capability upgrade from Google that you should track for clients relying on the Google Cloud ecosystem.",
+          "terms": [],
+          "url": "https://www.businessinsider.com/google-gemini-4-argon-ai-model-public-release-cost-2026-10",
+          "source_name": "Business Insider",
+          "signal_tag": "new",
+          "published_at": "2026-10-13"
+        },
+        {
+          "section": "news",
+          "headline": "Delegate shared business processes to agents that are more persistent and proactive with Microsoft Copilot Studio",
+          "summary": "Microsoft announced updates allowing administrators to build persistent, managed AI agents with dedicated accounts in Copilot Studio. These agents are designed to autonomously own and execute specific enterprise business processes over time, rather than just answering individual questions.",
+          "why_it_matters": "A massive shift toward autonomous business software that changes how you should advise clients on process automation.",
+          "terms": [],
+          "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/delegate-shared-business-processes-to-agents-that-are-more-persistent-and-proactive-with-microsoft-copilot-studio/",
+          "source_name": "Microsoft",
+          "signal_tag": "shift",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "news",
+          "headline": "Microsoft Copilot Autopilot: What It Is, Pricing, Limits",
+          "summary": "Microsoft unveiled Copilot Autopilot, an always-on background agent that monitors Microsoft Teams and email to push projects forward automatically. The tool runs recurring tasks and alerts human users only when their direct input or approval is needed.",
+          "why_it_matters": "An incredible productivity booster for project managers and operations teams struggling to keep track of scattered communications.",
+          "terms": [],
+          "url": "https://www.usecarly.com/blog/microsoft-copilot-autopilot/",
+          "source_name": "Carly AI",
+          "signal_tag": "new",
+          "published_at": "2026-10-05"
+        },
+        {
+          "section": "news",
+          "headline": "Microsoft Launches Copilot for Legal, Becoming the Fourth AI Giant in Five Months to Build Out a Legal Vertical",
+          "summary": "Microsoft released Copilot for Legal, integrating more than 20 legal-specific AI skills directly into Microsoft Word and its enterprise workspaces. The tool helps attorneys and legal teams with complex contract review and drafting tasks.",
+          "why_it_matters": "Proof that general AI tools are rapidly fragmenting into highly specialized, industry-specific products.",
+          "terms": [],
+          "url": "https://www.lawnext.com/2026/10/microsoft-launches-copilot-for-legal-becoming-the-fourth-ai-giant-in-five-months-to-build-out-a-legal-vertical.html",
+          "source_name": "LawSites",
+          "signal_tag": "new",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "news",
+          "headline": "Adobe and Nvidia Deepen AI Alliance to Automate Creative and Marketing Workflows",
+          "summary": "Adobe and Nvidia have partnered to automate tedious marketing tasks using Nvidia's new artificial intelligence models. The collaboration will roll out an 'Adobe Brand Concierge' later this year to help creative teams manage their workflows more efficiently.",
+          "why_it_matters": "A partnership that will directly impact how creative and marketing agencies construct their daily content pipelines.",
+          "terms": [],
+          "url": "https://www.roic.ai/news/adobe-and-nvidia-deepen-ai-alliance-to-automate-creative-and-marketing-workflows-10-15-2026",
+          "source_name": "Web",
+          "signal_tag": "trending",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "news",
+          "headline": "Meta Muse Wonder AI Takes on OpenAI at $200/Mo [2026]",
+          "summary": "Meta entered the high-end enterprise AI market by launching its Muse Wonder models for business automation, priced at up to $200 per month. The steep pricing reflects a growing trend of tech giants charging premium rates for highly capable, autonomous corporate tools.",
+          "why_it_matters": "A clear indicator that the era of cheap, heavily subsidized AI tools is ending for enterprise-grade automation.",
+          "terms": [],
+          "url": "https://tech-insider.org/meta-muse-wonder-ai-model-launch-2026/",
+          "source_name": "Tech Insider",
+          "signal_tag": "shift",
+          "published_at": "2026-10-12"
+        },
+        {
+          "section": "news",
+          "headline": "This startup raised $21 million to clean up the AI agent mess hitting companies",
+          "summary": "AI security and governance startup Opsin raised $21 million to give IT leaders visibility into what employee-deployed AI agents are actually doing on corporate networks. The software helps businesses monitor what files and systems these autonomous tools are accessing.",
+          "why_it_matters": "Addresses a massive pain point for enterprise clients: regaining control over rogue AI tools installed by enthusiastic employees.",
+          "terms": [],
+          "url": "https://www.businessinsider.com/opsin-expands-21-m-to-tackle-ai-agents-in-businesses-2026-10",
+          "source_name": "Business Insider",
+          "signal_tag": "trending",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "news",
+          "headline": "OpenAI and Anthropic are now locked in an AI price war",
+          "summary": "Anthropic released Claude Opus 5.5 with 40% lower running costs to directly counter OpenAI's newly released high-volume AI models. The aggressive price cuts demonstrate an ongoing battle between the top labs to win over enterprise software developers.",
+          "why_it_matters": "A market dynamic you can use to advise clients to negotiate better rates or remain flexible rather than locking into long-term vendor contracts.",
+          "terms": [],
+          "url": "https://www.instagram.com/p/DeO1viORKu5/",
+          "source_name": "Instagram / Wall Street Journal",
+          "signal_tag": "shift",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "news",
+          "headline": "Meta’s new terms may allow it to train AI on news sites for free",
+          "summary": "Meta introduced new business terms that appear to grant the company permission to crawl and scrape websites associated with businesses that use its platforms. The updated rules state Meta can use this outside content to develop and train its artificial intelligence models.",
+          "why_it_matters": "A significant data privacy change you must flag for any retail or media clients relying on Meta's advertising ecosystem.",
+          "terms": [],
+          "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+          "source_name": "AI | The Verge",
+          "signal_tag": "shift",
+          "published_at": "2026-10-16"
+        },
+        {
+          "section": "news",
+          "headline": "ChatGPT can peek at your Chrome tabs now",
+          "summary": "OpenAI upgraded its ChatGPT Google Chrome extension, allowing the chatbot to view and interact with the browser tabs users already have open. This integration makes it much easier for the AI to answer questions based on the exact web pages a person is currently reading.",
+          "why_it_matters": "A massive usability upgrade that makes ChatGPT much more embedded in daily web research and knowledge work.",
+          "terms": [],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+          "source_name": "AI | The Verge",
+          "signal_tag": "new",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "news",
+          "headline": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
+          "summary": "The Federal Trade Commission is reportedly investigating leading AI companies like OpenAI and Anthropic over how they handle and report security incidents. The probe suggests regulators may soon fine AI firms similarly to how they penalize companies that cover up data breaches.",
+          "why_it_matters": "A regulatory shift indicating that the wild west of AI development is increasingly facing strict government oversight.",
+          "terms": [],
+          "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+          "source_name": "AI - Ars Technica",
+          "signal_tag": "shift",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "news",
+          "headline": "AI Hacks Leave a Mess That AI Companies Aren’t Paying For",
+          "summary": "As powerful AI models increasingly cause digital chaos and security incidents, the companies building the technology are avoiding financial liability for the clean-up. Instead, victims are ironically being encouraged to adopt those same AI tools to better defend themselves.",
+          "why_it_matters": "A stark reminder of the security risks involved in AI adoption, making it crucial to advise clients on establishing strong IT guardrails.",
+          "terms": [],
+          "url": "https://www.wired.com/story/ai-hacks-leave-a-mess-that-ai-companies-arent-cleaning-up/",
+          "source_name": "Feed: Artificial Intelligence Latest",
+          "signal_tag": "trending",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "news",
+          "headline": "Consumer goods giants step up ad intensity as other big spenders pull back: report",
+          "summary": "A new industry report reveals a 'two-speed marketplace' in advertising, where massive consumer goods and beauty brands are aggressively increasing their ad spend while tech firms pull back. The shift highlights changing strategies as legacy brands push for greater market share.",
+          "why_it_matters": "Essential market context for any consultant advising retail or CPG clients on their media mix and competitive spending.",
+          "terms": [],
+          "url": "https://www.marketingdive.com/news/consumer-goods-giants-step-up-ad-intensity-as-other-big-spenders-pull-back/833102/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "Enterprise AI ROI in 2026: Business Examples of Savings, Revenue and Payback",
+          "summary": "Pharmaceutical giant Lupin reported concrete financial returns from its scaled artificial intelligence initiatives. By deploying targeted AI tools across its workforce, the company reclaimed over 34,000 employee-days that would have otherwise been spent on manual tasks. This efficiency translated into actual, measurable savings of approximately $5.1 million.",
+          "why_it_matters": "A powerful, number-backed case study you can use to show clients exactly what scaled AI adoption looks like on a balance sheet.",
+          "terms": [],
+          "url": "https://infotechlead.com/artificial-intelligence/enterprise-ai-roi-in-2026-business-examples-of-savings-revenue-and-payback-98873",
+          "source_name": "Web",
+          "signal_tag": "trending",
+          "published_at": "2026-10-14"
+        },
+        {
+          "section": "case_studies",
+          "headline": "AI ROI: $18M Savings for a Financial Institution",
+          "summary": "A detailed case study proved that a massive 55,000-employee financial firm successfully recouped its initial private AI investment in just 7.5 months. Over a three-year period, the firm measured $18 million in total savings by automating routine compliance and operational tasks.",
+          "why_it_matters": "Hard evidence for CFOs that upfront investments in secure, private AI infrastructure can yield massive, rapid returns.",
+          "terms": [],
+          "url": "https://persevereconsulting.com/ressources/ia-roi-institution-financiere/",
+          "source_name": "Persevere Consulting",
+          "signal_tag": "trending",
+          "published_at": "2026-10-14"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Fujitsu transforms business processes with 100000 Microsoft 365 Copilot licenses",
+          "summary": "Technology giant Fujitsu deployed 100,000 Microsoft 365 Copilot licenses across its workforce and achieved a massive 90% usage rate. The company reported that AI agents successfully automated 75% of initial IT service desk triage, drastically reducing internal support bottlenecks.",
+          "why_it_matters": "A massive scale deployment that proves AI can successfully intercept and resolve the majority of routine internal employee requests.",
+          "terms": [],
+          "url": "https://www.microsoft.com/en/customers/story/27449-fujitsu-limited-microsoft-365-copilot",
+          "source_name": "Microsoft",
+          "signal_tag": "new",
+          "published_at": "2026-10-10"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Global Financial Services Leader Secures 40% Cost Savings",
+          "summary": "A major financial enterprise partnered with Sutherland to switch its operations to a 24/7 AI-augmented service hub. The transition resulted in a 40% reduction in labor costs while simultaneously generating an additional $2 million in measurable productivity gains.",
+          "why_it_matters": "A perfect example to share with operational leaders looking to reduce headcount costs without sacrificing round-the-clock service coverage.",
+          "terms": [],
+          "url": "https://www.sutherlandglobal.com/insights/case-study/global-financial-services-leader-secures-40-cost-savings",
+          "source_name": "Sutherland",
+          "signal_tag": "new",
+          "published_at": "2026-10-14"
+        },
+        {
+          "section": "case_studies",
+          "headline": "AI Employee ROI Model by Industry and Functions",
+          "summary": "A breakdown of autonomous digital worker performance highlighted a major win for a biopharma company. By implementing AI to review procurement purchase requests, the organization successfully reduced the cost of processing each request by 90%.",
+          "why_it_matters": "Demonstrates how highly specific, repetitive back-office tasks are the perfect, high-ROI targets for initial AI deployment.",
+          "terms": [],
+          "url": "https://www.zamp.ai/blogs/ai-employee-roi-by-industry",
+          "source_name": "Zamp",
+          "signal_tag": "trending",
+          "published_at": "2026-10-13"
+        },
+        {
+          "section": "case_studies",
+          "headline": "The AI productivity trap: Why efficiency doesn't always equal measurable value",
+          "summary": "A survey of over 1,000 executives revealed a frustrating paradox in corporate AI adoption. While 27% of organizations using AI reported significant workflow efficiency, they ultimately failed to convert that saved time into actual bottom-line cost savings or new revenue.",
+          "why_it_matters": "A vital reality check for clients: saving an hour of an employee's time is worthless unless you have a strategy to monetize that reclaimed hour.",
+          "terms": [],
+          "url": "https://www.weforum.org/stories/artificial-intelligence/the-ai-productivity-trap-why-greater-efficiency-isn-t-always-creating-measurable-value/",
+          "source_name": "BearingPoint",
+          "signal_tag": "shift",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Optimizing ad spend ahead of Black Friday: What the numbers say",
+          "summary": "New data reveals that advertisers who introduced new ad creative on a weekly basis saw a 23% higher return on investment compared to those who updated their creative less frequently. The findings highlight the critical importance of continuously refreshing content during peak shopping seasons.",
+          "why_it_matters": "A hard metric you can use to convince marketing clients to invest in AI tools that can quickly scale their ad creative variations.",
+          "terms": [],
+          "url": "https://www.marketingdive.com/news/optimizing-ad-spend-ahead-of-black-friday-what-the-numbers-say/833154/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-16"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Gemini at Work 2026: Introducing Gemini agent",
+          "summary": "Google detailed early deployments of its Gemini agent, highlighting massive time-savings for enterprise clients. Notably, Commerzbank cut its quality assurance review times from 20 hours down to just one, while telecom provider Ooredoo Qatar successfully deployed agents for much faster customer support resolutions.",
+          "why_it_matters": "More strong evidence you can bring to banking and telecom clients that AI is slashing the time required for deep document review.",
+          "terms": [],
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+          "source_name": "Google Cloud Blog",
+          "signal_tag": "trending",
+          "published_at": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Wells Fargo hires AI exec in San Francisco to embrace tech even faster",
+          "summary": "Wells Fargo appointed Cayetano Gea-Carrasco as the new head of AI and data for its consumer banking division. He is tasked with accelerating the delivery of safe, ROI-focused artificial intelligence deployments across the massive financial institution.",
+          "why_it_matters": "A crucial executive move to watch as one of the largest US banks gets aggressive about deploying AI directly to consumers.",
+          "terms": [],
+          "url": "https://www.bizjournals.com/sanfrancisco/news/2026/10/15/wells-fargo-ai-cayetano-gea-carrasco.html",
+          "source_name": "Business Times",
+          "signal_tag": "new",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "people",
+          "headline": "ERGO appoints Guy Goldstein as Chief AI Officer",
+          "summary": "The ERGO Group created a brand new executive Board position, appointing Guy Goldstein as its Chief AI Officer. Goldstein will oversee the technical implementation and strategic rollout of artificial intelligence across the entire insurance company.",
+          "why_it_matters": "Highlights how the insurance sector is elevating AI leadership to the very top levels of corporate governance.",
+          "terms": [],
+          "url": "https://coverager.com/ergo-appoints-guy-goldstein-as-chief-ai-officer/",
+          "source_name": "Coverager",
+          "signal_tag": "new",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "people",
+          "headline": "Arby’s hires ex-Papa Johns CMO to balance brand-building, sales growth",
+          "summary": "Arby’s appointed Jenna Bromberg, the former Chief Marketing Officer of Papa Johns, as its new top marketer. Her appointment comes as parent company Inspire Brands considers an IPO and looks to balance long-term brand building with immediate sales growth.",
+          "why_it_matters": "A major marketing leadership change in the fast-food space, a sector rapidly adopting AI for drive-thrus and targeted promotions.",
+          "terms": [],
+          "url": "https://www.marketingdive.com/news/arbys-hires-ex-papa-johns-cmo-to-balance-brand-building-sales-growth/833184/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "people",
+          "headline": "Albertsons retail media arm taps former Walmart exec",
+          "summary": "Steve Shee has joined the retail media division of Albertsons in a vice president role. The strategic hire brings his extensive experience from Walmart to help the grocery chain better monetize its customer data and digital advertising network.",
+          "why_it_matters": "Shows the intense talent war in 'retail media,' a highly lucrative sector where grocers use shopper data to sell targeted ads.",
+          "terms": [],
+          "url": "https://www.grocerydive.com/news/albertsons-media-collective-retail-media-executive/833020/",
+          "source_name": "Grocery Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "people",
+          "headline": "Publix names new chief information and digital officer",
+          "summary": "The grocery chain Publix promoted its Chief Information Officer, Laurie Douglas, to the newly expanded role of Chief Information and Digital Officer. The move consolidates the grocer's technology, digital experience, and IT infrastructure under a single executive.",
+          "why_it_matters": "A signal that massive retailers are blurring the lines between traditional back-end IT and customer-facing digital experiences.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/publix-new-chief-information-digital-officer-laurie-douglas/833177/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "people",
+          "headline": "Expedia’s AI chief: Models are fungible, data isn’t",
+          "summary": "Xavier Amatriain, Expedia's Chief AI and Data Officer, detailed why the travel organization aims to stay flexible with the AI models it deploys. He argues that AI models are easily replaceable commodities, making the company's proprietary data its true competitive advantage.",
+          "why_it_matters": "A fantastic soundbite to repeat to clients: don't obsess over which AI model to buy; obsess over organizing your unique data.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/expedia-chief-AI-data-officer-tech-stack/833165/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-16"
+        },
+        {
+          "section": "people",
+          "headline": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+          "summary": "Amulya Vishwanath, a seven-year veteran of NVIDIA’s robotics platforms, argues that robotics is currently in its 'Lego era,' where basic building blocks are still being figured out. She believes the timeline for general-purpose, AI-powered robots is further away than the current hype suggests.",
+          "why_it_matters": "A sobering, expert perspective to share with manufacturing clients who are overly eager to replace human labor with autonomous robots.",
+          "terms": [],
+          "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-10-16"
+        },
+        {
+          "section": "people",
+          "headline": "Replit’s CEO says the future of work is the ‘self-driving company’",
+          "summary": "Replit CEO Amjad Masad envisions a near future of 'self-driving companies,' where AI agents handle all day-to-day administrative tasks automatically. In this model, human employees would step back from execution to focus purely on higher-level strategic decisions.",
+          "why_it_matters": "A bold vision of the future that provides a great conversation starter for executives thinking about the long-term impact of AI on headcount.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-10-16"
+        },
+        {
+          "section": "people",
+          "headline": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+          "summary": "Amazon devices chief Panos Panay described a future where ambient AI devices work constantly in the background to anticipate users' needs. Instead of manually opening apps to issue commands, he predicts AI will simply act on your behalf before you even ask.",
+          "why_it_matters": "A crucial prediction for digital marketers: if apps disappear, how consumers discover and buy products will fundamentally change.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "people",
+          "headline": "Super Micro’s CFO is out after change was slow-walked",
+          "summary": "The AI server manufacturer Super Micro has replaced its Chief Financial Officer, David Weigand, with Western Digital alum Mark Long. The leadership change comes nearly two years after an advisory committee originally called for Weigand’s ouster over accounting concerns.",
+          "why_it_matters": "Important executive radar for anyone tracking the volatile hardware companies supplying the servers that power the AI boom.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/super-micros-cfo-out-change-accounting-leadership-ai/833213/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-16"
+        },
+        {
+          "section": "people",
+          "headline": "Numeral nailed down metrics, then raised $100M",
+          "summary": "Hudson Bova is building the financial foundation for Numeral, which styles itself as the 'world’s most boring AI company.' By focusing relentlessly on solid business metrics rather than AI hype, the company successfully raised $100 million in funding.",
+          "why_it_matters": "A great example proving that investors are shifting away from flashy AI promises and demanding fundamentally sound, revenue-generating business models.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/numeral-first-nailed-down-metrics-raised-100m/833169/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "people",
+          "headline": "Judge rebukes Trump officials for intimidating ex-FEMA CFO",
+          "summary": "A federal judge ruled that Mary Comans, an exemplary career civil servant, was improperly fired from her role as FEMA's Chief Financial Officer. The judge issued a strong rebuke against officials who attempted to intimidate her out of her position.",
+          "why_it_matters": "An interesting look at the intersection of high-level financial leadership and political pressures within massive government organizations.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/judge-rebukes-trump-officials-intimidating-ex-fema-cfo/833046/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-14"
+        },
+        {
+          "section": "people",
+          "headline": "From library to logistics: Cathy Morrow Roberson shares career insights",
+          "summary": "Cathy Morrow Roberson, the managing director of Logistics Trends & Insights, shared her unconventional career path from working in a library to becoming a leading voice in supply chain logistics. She highlighted how much the industry has expanded and modernized since she began.",
+          "why_it_matters": "A great profile on a leading industry voice in the supply chain sector, an area ripe for massive AI optimization.",
+          "terms": [],
+          "url": "https://www.supplychaindive.com/news/from-library-to-logistics-cathy-morrow-roberson-shares-career-insights/833023/",
+          "source_name": "Supply Chain Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-16"
+        },
+        {
+          "section": "people",
+          "headline": "SoFi, Figure co-founder raises $19M for newest venture",
+          "summary": "Mike Cagney, co-founder of SoFi, has raised $19 million for his newest venture, Navra. Cagney stated that the blockchain industry has failed by building tools exclusively for a native crypto audience rather than solving real-world financial problems.",
+          "why_it_matters": "A notable pivot from a major fintech founder, shifting focus away from crypto hype toward practical, real-world tech applications.",
+          "terms": [],
+          "url": "https://www.bankingdive.com/news/sofi-figure-co-founder-mike-cagney-raises-19-million-navra/833025/",
+          "source_name": "Banking Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-14"
+        },
+        {
+          "section": "people",
+          "headline": "3 tips to manage soaring health costs",
+          "summary": "Marybeth Gray, Senior VP at Marsh McLennan, shared strategies at a recent CFO conference on how to keep employees healthy while driving down corporate costs. Her insights focused on balancing rising insurance premiums with proactive employee care.",
+          "why_it_matters": "Valuable context for any consultant advising HR or Finance leaders on how technology can help mitigate exploding healthcare costs.",
+          "terms": [],
+          "url": "https://www.healthcaredive.com/news/3-tips-to-manage-soaring-health-costs/833253/",
+          "source_name": "Healthcare Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-16"
+        },
+        {
+          "section": "people",
+          "headline": "EndoQuest Robotics hires chief commercial officer",
+          "summary": "Jared Eben has joined EndoQuest Robotics as its new Chief Commercial Officer. He arrives ahead of the highly anticipated launch of the company's flexible robotic surgery system, signaling a shift toward aggressive market expansion.",
+          "why_it_matters": "A key hire to watch in the rapidly growing medical robotics space, blending advanced hardware with clinical deployment.",
+          "terms": [],
+          "url": "https://www.medtechdive.com/news/endoquest-robotics-hires-chief-commercial-officer/833200/",
+          "source_name": "MedTech Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-16"
+        },
+        {
+          "section": "people",
+          "headline": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+          "summary": "Actor and angel investor Mark Wahlberg shared his surprisingly open stance on using artificial intelligence in filmmaking. He stated he is comfortable with the technology, and even the idea of an AI clone carrying on his legacy, provided it is used to enhance the creative process.",
+          "why_it_matters": "A high-profile example showing that sentiment among creative professionals is slowly shifting from absolute fear to cautious adoption.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-10-16"
+        }
+      ]
+    }
+  ]
+}
