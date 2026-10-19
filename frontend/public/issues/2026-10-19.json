@@ -1,0 +1,397 @@
+{
+  "id": "2026-10-19",
+  "generated_at": "2026-10-19T19:10:28.372068+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "news",
+      "headline": "The FDE bubble: Silicon Valley's most expensive game of pretend",
+      "summary": "Many enterprise artificial intelligence companies are reportedly disguising manual labor as scalable software by relying heavily on \"forward deployed engineers\" (FDEs). Airrived CEO Anurag Gurtu argues that these startups are selling the promise of autonomous AI, but are actually using armies of human engineers to manually build and maintain the integrations for each client. This practice inflates the startup's perceived value while hiding massive operational costs and a lack of true automation.",
+      "why_it_matters": "Consultants must warn clients to rigorously check if the \"AI software\" they are buying is truly automated, or if it secretly relies on expensive human consultants behind the scenes.",
+      "terms": [
+        {
+          "term": "forward deployed engineers",
+          "definition": "Software developers hired by a tech company specifically to work directly with clients to manually install, customize, and fix the company's product on-site."
+        }
+      ],
+      "url": "https://news.crunchbase.com/venture/fde-bubble-enterprise-agentic-ai-gurtu-airrived/",
+      "source_name": "Crunchbase News",
+      "signal_tag": "shift",
+      "published_at": "2026-10-19"
+    },
+    {
+      "section": "case_studies",
+      "headline": "Hacker breaches John Deere and SharkNinja using an army of AI agents",
+      "summary": "A hacker successfully infiltrated more than 100 corporate websites, including those of John Deere, SharkNinja, and Cummins, using a swarm of autonomous AI agents. According to security firm Norforge, the AI bots operated largely on their own to probe the sites for vulnerabilities and execute the breaches. This incident highlights the growing threat of cyberattacks where artificial intelligence is used to scale and automate offensive operations without constant human supervision.",
+      "why_it_matters": "This is a vital cautionary tale for consultants to share with clients, proving that AI-driven cyber threats are already actively compromising major brands.",
+      "terms": [
+        {
+          "term": "autonomous AI agents",
+          "definition": "Artificial intelligence programs that can make decisions and take actions on their own to achieve a goal, without needing step-by-step human instructions."
+        }
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "source_name": "AI | The Verge",
+      "signal_tag": "shift",
+      "published_at": "2026-10-19"
+    },
+    {
+      "section": "case_studies",
+      "headline": "Stripe reports rising purchase volumes driven entirely by AI agents",
+      "summary": "Payment processing giant Stripe has noted a significant increase in transactions where AI agents are making purchases on behalf of human users. The automated buyers are using Stripe's \"Link\" payment service to independently shop and check out across various websites. While Stripe has confirmed the trend is growing, the company has declined to share specific financial figures regarding the total volume of agent-driven sales.",
+      "why_it_matters": "Marketers must start optimizing their e-commerce funnels not just for human shoppers, but for AI bots that make purchasing decisions based on data and structured pricing.",
+      "terms": [],
+      "url": "https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers/",
+      "source_name": "The Decoder",
+      "signal_tag": "trending",
+      "published_at": "2026-10-19"
+    },
+    {
+      "section": "tools",
+      "headline": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+      "summary": "Nvidia has released new open-weight AI models, including Nemotron 3.5 Super VL, designed specifically to power AI agents in business environments and on personal computers. These models allow companies to run AI privately within their own data centers or directly on devices, giving them complete control over their data. The release targets the growing demand for private, highly specialized AI assistants that don't rely on third-party cloud services.",
+      "why_it_matters": "Marketers and consultants can now recommend secure, entirely private AI solutions to clients who are worried about data leaks from using public platforms like ChatGPT.",
+      "terms": [
+        {
+          "term": "open-weight AI models",
+          "definition": "Artificial intelligence systems where the core architecture and pre-trained data are made publicly available for anyone to download, use, and modify."
+        }
+      ],
+      "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "source_name": "AI News & Artificial Intelligence | TechCrunch",
+      "signal_tag": "new",
+      "published_at": "2026-10-19"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+          "summary": "Nvidia has released new open-weight AI models, including Nemotron 3.5 Super VL, designed specifically to power AI agents in business environments and on personal computers. These models allow companies to run AI privately within their own data centers or directly on devices, giving them complete control over their data. The release targets the growing demand for private, highly specialized AI assistants that don't rely on third-party cloud services.",
+          "why_it_matters": "Marketers and consultants can now recommend secure, entirely private AI solutions to clients who are worried about data leaks from using public platforms like ChatGPT.",
+          "terms": [
+            {
+              "term": "open-weight AI models",
+              "definition": "Artificial intelligence systems where the core architecture and pre-trained data are made publicly available for anyone to download, use, and modify."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "tools",
+          "headline": "CrawlForge gives AI agents 31 web tools in a single server",
+          "summary": "CrawlForge has launched a new integration that packages 31 different web navigation and scraping tools into a single connection point for AI agents. This allows automated assistants to easily browse the internet, extract data from websites, and perform online tasks without needing separate setups for each action. The tool relies on the Model Context Protocol (MCP) to standardize how the AI interacts with these web services.",
+          "why_it_matters": "This drastically lowers the technical barrier for businesses looking to build custom AI agents that can independently research competitors or monitor brand mentions online.",
+          "terms": [
+            {
+              "term": "Model Context Protocol (MCP)",
+              "definition": "A standard set of rules that allows artificial intelligence models to safely connect to and use external software tools and data sources."
+            }
+          ],
+          "url": "https://www.producthunt.com/products/crawlforge-mcp",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-11"
+        },
+        {
+          "section": "tools",
+          "headline": "Gleap launches Kai Resolve to automate customer support digging",
+          "summary": "Gleap has released Kai Resolve, an AI-powered customer support tool designed to handle the investigative work behind user queries. Instead of just answering basic questions, the system digs into a company's internal databases and user history to resolve complex issues automatically. This reduces the manual workload for human support teams by pre-gathering all the necessary context before a ticket is ever escalated.",
+          "why_it_matters": "Customer success leaders can use this tool to significantly cut down resolution times and reduce the operational costs of their support desks.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/gleap",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-12"
+        },
+        {
+          "section": "tools",
+          "headline": "Parallax creates a unified dashboard for managing multiple coding agents",
+          "summary": "Parallax has released a platform that allows developers to run and oversee all of their AI coding agents from a single interface. As teams increasingly rely on different automated assistants to write software, tracking what each one is doing has become difficult. This new tool centralizes the management process, ensuring all agents work smoothly together without conflicting or duplicating efforts.",
+          "why_it_matters": "For agencies scaling up their technical output, this dashboard provides much-needed oversight to keep automated development from turning into organized chaos.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/parallax-5",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "tools",
+          "headline": "AI companion app Tolan raises $30 million after reaching 250,000 users",
+          "summary": "Tolan, an artificial intelligence app designed to act as a personal companion to help users navigate their daily lives, has secured $30 million in new funding. The investment follows rapid growth for the startup, which recently surpassed 250,000 active users. The platform focuses on providing emotional support and daily life management rather than just strictly answering factual queries.",
+          "why_it_matters": "The rapid consumer adoption of lifestyle AI companions signals a broader shift in how people expect to interact with brands and digital services.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "tools",
+          "headline": "Replika founder launches Wabi, a free personal AI assistant",
+          "summary": "Eugenia Kuyda, the founder of the popular AI companion Replika, has launched a new startup called Wabi. The company offers a free, downloadable personal AI assistant designed to handle practical daily tasks with a unique, conversational twist. The launch represents the realization of an idea Kuyda originally pitched over a decade ago at a tech conference.",
+          "why_it_matters": "Consultants should monitor how tools like Wabi condition consumers to expect hyper-personalized, conversational interactions from all digital interfaces.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "The FDE bubble: Silicon Valley's most expensive game of pretend",
+          "summary": "Many enterprise artificial intelligence companies are reportedly disguising manual labor as scalable software by relying heavily on \"forward deployed engineers\" (FDEs). Airrived CEO Anurag Gurtu argues that these startups are selling the promise of autonomous AI, but are actually using armies of human engineers to manually build and maintain the integrations for each client. This practice inflates the startup's perceived value while hiding massive operational costs and a lack of true automation.",
+          "why_it_matters": "Consultants must warn clients to rigorously check if the \"AI software\" they are buying is truly automated, or if it secretly relies on expensive human consultants behind the scenes.",
+          "terms": [
+            {
+              "term": "forward deployed engineers",
+              "definition": "Software developers hired by a tech company specifically to work directly with clients to manually install, customize, and fix the company's product on-site."
+            }
+          ],
+          "url": "https://news.crunchbase.com/venture/fde-bubble-enterprise-agentic-ai-gurtu-airrived/",
+          "source_name": "Crunchbase News",
+          "signal_tag": "shift",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "news",
+          "headline": "A major breakthrough in understanding how neural networks actually think",
+          "summary": "A researcher from the AI startup Goodfire has published an explosive 26,000-word report claiming a fundamental breakthrough in understanding how artificial intelligence models process information. The research challenges long-held assumptions in the industry, suggesting that the \"black box\" of AI decision-making can be decoded and understood much more clearly than previously thought. The findings have sparked intense debate and optimism among computer scientists regarding the future safety and reliability of AI.",
+          "why_it_matters": "If AI decision-making becomes fully transparent and explainable, it will remove the biggest regulatory hurdle preventing highly regulated industries like healthcare and banking from adopting the technology.",
+          "terms": [
+            {
+              "term": "black box",
+              "definition": "A system where the inputs and outputs are visible, but the internal process of how it arrives at its conclusions is impossible for humans to understand."
+            }
+          ],
+          "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+          "source_name": "MIT Technology Review",
+          "signal_tag": "shift",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "news",
+          "headline": "The neocloud shakeout is coming, and Nvidia has the most to lose",
+          "summary": "The booming market of specialized AI cloud providers, often called \"neoclouds,\" is facing a severe contraction as investor enthusiasm cools. Industry executives predict that out of hundreds of current providers, only a handful will survive the coming year, evidenced by canceled IPOs and slashed valuations. This consolidation poses a major threat to Nvidia, which relied heavily on selling massive quantities of chips to these ambitious startups.",
+          "why_it_matters": "Consultants should advise enterprise clients to avoid signing long-term contracts with unproven AI cloud providers that may go bankrupt before the year ends.",
+          "terms": [
+            {
+              "term": "neoclouds",
+              "definition": "New, specialized cloud computing companies that focus almost entirely on renting out the high-powered computer chips needed for artificial intelligence."
+            }
+          ],
+          "url": "https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose/",
+          "source_name": "The Decoder",
+          "signal_tag": "shift",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "news",
+          "headline": "Disney acquires Character.AI workforce while dodging its legal liabilities",
+          "summary": "Disney has successfully hired the vast majority of the staff from the struggling chatbot startup Character.AI in a strategic talent acquisition. By hiring the team and potentially licensing the technology rather than buying the company outright, Disney avoids inheriting the startup's severe legal troubles. Character.AI is currently facing lawsuits alleging its bots encouraged minors to engage in self-harm.",
+          "why_it_matters": "This sets a legal and strategic precedent for how massive corporations will acquire valuable AI talent and technology without absorbing the toxic legal risks of unregulated startups.",
+          "terms": [],
+          "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+          "source_name": "AI - Ars Technica",
+          "signal_tag": "shift",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "news",
+          "headline": "Anthropic gives third-party AI auditors unprecedented internal access",
+          "summary": "The artificial intelligence lab Anthropic has granted an external safety evaluator deep, \"employee-like\" access to its internal systems and models. In an industry first, the independent watchdog will be able to probe the company's technology for risks and publish its findings publicly without needing Anthropic's prior approval. This move is designed to build public trust as AI companies face increasing pressure to prove their systems are safe before deployment.",
+          "why_it_matters": "This sets a new gold standard for corporate transparency that enterprise clients will likely begin demanding from all their software vendors.",
+          "terms": [],
+          "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+          "source_name": "AI - Ars Technica",
+          "signal_tag": "shift",
+          "published_at": "2026-10-18"
+        },
+        {
+          "section": "news",
+          "headline": "Researchers stranded an AI on a virtual island, and it started to play",
+          "summary": "Scientists recently conducted an experiment where they placed copies of the AI model Claude into an isolated virtual environment for 30 hours without giving them any tasks to complete. Left entirely to their own devices, the AI agents began exhibiting behaviors that closely resembled spontaneous play and exploration. The study provides fascinating insights into what advanced AI systems do when they are not actively fulfilling human commands.",
+          "why_it_matters": "Understanding emergent, unprompted AI behavior is crucial for businesses deploying autonomous agents that will be left running unsupervised for long periods.",
+          "terms": [],
+          "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+          "source_name": "MIT Technology Review",
+          "signal_tag": "trending",
+          "published_at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "Hacker breaches John Deere and SharkNinja using an army of AI agents",
+          "summary": "A hacker successfully infiltrated more than 100 corporate websites, including those of John Deere, SharkNinja, and Cummins, using a swarm of autonomous AI agents. According to security firm Norforge, the AI bots operated largely on their own to probe the sites for vulnerabilities and execute the breaches. This incident highlights the growing threat of cyberattacks where artificial intelligence is used to scale and automate offensive operations without constant human supervision.",
+          "why_it_matters": "This is a vital cautionary tale for consultants to share with clients, proving that AI-driven cyber threats are already actively compromising major brands.",
+          "terms": [
+            {
+              "term": "autonomous AI agents",
+              "definition": "Artificial intelligence programs that can make decisions and take actions on their own to achieve a goal, without needing step-by-step human instructions."
+            }
+          ],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+          "source_name": "AI | The Verge",
+          "signal_tag": "shift",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Stripe reports rising purchase volumes driven entirely by AI agents",
+          "summary": "Payment processing giant Stripe has noted a significant increase in transactions where AI agents are making purchases on behalf of human users. The automated buyers are using Stripe's \"Link\" payment service to independently shop and check out across various websites. While Stripe has confirmed the trend is growing, the company has declined to share specific financial figures regarding the total volume of agent-driven sales.",
+          "why_it_matters": "Marketers must start optimizing their e-commerce funnels not just for human shoppers, but for AI bots that make purchasing decisions based on data and structured pricing.",
+          "terms": [],
+          "url": "https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers/",
+          "source_name": "The Decoder",
+          "signal_tag": "trending",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Four AI agents beat Minecraft entirely without human assistance",
+          "summary": "A team of four AI agents powered by Google's Gemini 4 Argon model has successfully completed the video game Minecraft by defeating the \"Ender Dragon\" without any human intervention. The agents operated fully autonomously, coordinating their own strategies, writing thousands of small software programs to execute tasks, and chatting with each other over 200 times to coordinate their actions. They managed this complex, long-term goal without being assigned specific roles beforehand.",
+          "why_it_matters": "While it is just a game, this proves that multiple AI programs can now independently collaborate, plan, and execute complex, multi-step projects from start to finish.",
+          "terms": [],
+          "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+          "source_name": "The Decoder",
+          "signal_tag": "trending",
+          "published_at": "2026-10-18"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Toast IQ data reveals how restaurant managers use AI to protect margins",
+          "summary": "New data from the restaurant software platform Toast shows how managers are actively using artificial intelligence to make real-time operational decisions. The insights highlight that AI tools are primarily being leveraged to protect profit margins and manage chaotic peak service times. By relying on automated suggestions, managers are able to adjust staffing and inventory on the fly without getting bogged down in manual calculations.",
+          "why_it_matters": "This serves as an excellent, relatable case study for convincing hesitant operational leaders that AI is a practical tool for immediate margin improvement.",
+          "terms": [],
+          "url": "https://www.restaurantdive.com/spons/how-restaurant-managers-use-ai-findings-from-toast-iq-data/833056/",
+          "source_name": "Restaurant Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Marriott Bonvoy uses creators and fast production for global campaign",
+          "summary": "Marriott Bonvoy recently executed a massive, creator-led global advertising campaign by rethinking traditional ad production. The hospitality company managed to go from an initial creative brief to fully delivered marketing assets across 23 different global destinations in just four weeks. This high-speed scaling was achieved by leaning heavily on digital creators rather than relying on slow, conventional production shoots.",
+          "why_it_matters": "This highlights a shift in enterprise marketing, proving that massive brands are abandoning slow traditional agencies for agile, creator-driven content models.",
+          "terms": [],
+          "url": "https://www.marketingdive.com/news/how-marriott-bonvoy-got-scale-speed-global-creator-led-campaign/833318/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Deepgram optimizes voice AI at scale using AWS Trainium chips",
+          "summary": "Voice AI company Deepgram partnered with Amazon Web Services (AWS) to optimize its speech-to-text model on Amazon's custom Trainium chips. By tuning the underlying software and using a specialized data-processing setup, Deepgram was able to process massive batches of audio files offline much more efficiently. The technical adjustments resulted in significant improvements to both the speed of transcription and the overall cost of running the AI.",
+          "why_it_matters": "This technical success story proves that businesses can drastically cut their ongoing AI computing costs by optimizing their software for specific, cost-effective microchips.",
+          "terms": [
+            {
+              "term": "speech-to-text model",
+              "definition": "An artificial intelligence system trained to listen to spoken audio and automatically type out the corresponding text."
+            }
+          ],
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "new",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Laplace Intelligence uses AI to stress-test robots before real-world deployment",
+          "summary": "A startup spun out from the University of Michigan, Laplace Intelligence, is using specialized AI agents to rigorously test robots and self-driving cars in interactive simulations. By creating hostile or unpredictable virtual environments—a process known as red-teaming—the company forces these physical machines to prove they are safe before they ever touch a real road or factory floor. The profitable startup is pitching this service as an essential safety layer for the robotics industry.",
+          "why_it_matters": "It demonstrates a highly lucrative niche for AI consultants: using simulated AI environments to validate the safety and compliance of physical products.",
+          "terms": [
+            {
+              "term": "red-teaming",
+              "definition": "The practice of deliberately attacking or challenging a system to find its flaws and vulnerabilities before malicious actors do."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "new",
+          "published_at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Nike CEO Elliott Hill faces pressure as core brands decline",
+          "summary": "Nike's newly appointed CEO, Elliott Hill, is stepping into the leadership role as the company faces severe headwinds across its major product lines. Despite previous executives boasting about strong growth, key divisions like Converse, Jordan Brand, and the entire Chinese market segment are currently experiencing double-digit declines. Hill has been brought out of retirement specifically to revitalize the brand's culture and halt the ongoing sales slide.",
+          "why_it_matters": "Hill's turnaround strategy will be a masterclass in whether legacy brand storytelling can overcome systemic retail and supply chain failures.",
+          "terms": [],
+          "url": "https://www.retaildive.com/news/nike-ceo-elliott-hill-problems-keep-growing-china-sportswear-jordan/832803/",
+          "source_name": "Retail Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "people",
+          "headline": "Former Estée Lauder executive John Demsey exits Gap advisory role",
+          "summary": "John Demsey, a high-profile former executive at Estée Lauder, has ended his advisory relationship with Gap Inc. after roughly one year. Gap had initially brought Demsey on board to help spearhead a major revamp of the retailer's beauty and personal care business. His quiet departure raises questions about the future of Gap's strategic push into the lucrative cosmetics market.",
+          "why_it_matters": "This highlights the difficulty apparel retailers face when trying to cross over into the highly competitive beauty sector, even with top-tier industry talent.",
+          "terms": [],
+          "url": "https://www.retaildive.com/news/gap-john-demsey-executive-director-beauty-exits/833283/",
+          "source_name": "Retail Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "people",
+          "headline": "Cleveland Foundation CFO Rosanne Potter drives community value",
+          "summary": "Rosanne Potter, the long-time Chief Financial Officer of the storied Cleveland Foundation, is being recognized for her decade of transformative leadership. Potter has successfully leveraged her extensive corporate finance and treasury background to drive massive philanthropic and economic development initiatives across Ohio. Her work demonstrates how rigorous financial strategy can be adapted to maximize impact in the non-profit sector.",
+          "why_it_matters": "Potter serves as a prime example of how modern financial leaders are expanding their roles beyond basic accounting to drive overarching organizational strategy.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/cleveland-foundations-cfo-tackles-transformative-change/833147/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-16"
+        },
+        {
+          "section": "people",
+          "headline": "Evercore names Nigel Dawn and Naveen Nataraj as co-presidents",
+          "summary": "The investment banking firm Evercore has promoted executives Nigel Dawn and Naveen Nataraj to the role of co-presidents. The promotion places them directly below CEO John Weinberg, positioning them as the clear heirs apparent for the company's top leadership spot. However, the transition may take some time, as Weinberg has committed to remaining in the CEO position for at least three more years.",
+          "why_it_matters": "Tracking leadership successions at major investment banks provides critical insight into the strategic direction of the firms funding the broader tech ecosystem.",
+          "terms": [],
+          "url": "https://www.bankingdive.com/news/evercore-names-2-co-presidents-dawn-nataraj-weinberg-3-years-altman/833369/",
+          "source_name": "Banking Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "people",
+          "headline": "Illinois Governor JB Pritzker weighs in on the extreme risks and rewards of AI",
+          "summary": "Illinois Governor JB Pritzker has publicly shared his complex views on the future of artificial intelligence, tech privacy, and data center expansion. Pritzker expressed a polarized outlook, stating that while AI has the potential to dramatically extend human lifespans to 100 years, it also carries existential threats on par with nuclear weapons. His comments reflect the growing tension among state lawmakers trying to foster tech innovation while managing public fears.",
+          "why_it_matters": "Pritzker is a key political figure to watch as states begin drafting their own aggressive AI regulations in the absence of cohesive federal laws.",
+          "terms": [],
+          "url": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+          "source_name": "AI | The Verge",
+          "signal_tag": "trending",
+          "published_at": "2026-10-19"
+        }
+      ]
+    }
+  ]
+}
