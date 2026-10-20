@@ -1,0 +1,735 @@
+{
+  "id": "2026-10-20",
+  "generated_at": "2026-10-20T17:48:12.096087+00:00",
+  "title": "AI Marketing Pulse",
+  "engine": "gemini",
+  "brief": [
+    {
+      "section": "case_studies",
+      "headline": "Research Reveals Organizations Capture Only 38% of AI's Potential Value",
+      "summary": "In October 2026, Bain & Company released new research across 951 companies showing that organizations are converting just 38% of their AI's potential into measurable business value. The study also revealed that nearly 40% of companies are actively missing their 10% cost-saving targets. This highlights a significant gap between acquiring AI software and successfully integrating it into workflows.",
+      "why_it_matters": "This gives you a powerful, data-backed talking point to convince clients that buying AI software isn't enough; they need strategic consulting to actually see a return on their investment.",
+      "terms": [],
+      "url": "https://www.bain.com/insights/realization-rate-the-metric-reshaping-enterprise-ai/",
+      "source_name": "Bain & Company",
+      "signal_tag": "shift",
+      "published_at": "2026-10-08"
+    },
+    {
+      "section": "news",
+      "headline": "US Orders Federal Agencies to Remove China’s DeepSeek AI",
+      "summary": "The US Department of Homeland Security has mandated that all federal civilian agencies remove AI products and third-party services built on technology from the Chinese lab DeepSeek from their systems. The October 2026 order cites urgent national security concerns regarding data privacy and foreign influence. This sudden ban forces a massive compliance audit across the government sector and its private contractors.",
+      "why_it_matters": "This creates an immediate compliance risk you must flag for any client in the government supply chain, while also highlighting the growing geopolitical risks of using foreign AI models.",
+      "terms": [],
+      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+      "source_name": "AI News & Artificial Intelligence | TechCrunch",
+      "signal_tag": "shift",
+      "published_at": "2026-10-20"
+    },
+    {
+      "section": "tools",
+      "headline": "Copilot vs Claude for Business: Which AI Fits Your Needs in 2026",
+      "summary": "A recent analysis compares Microsoft Copilot and Anthropic's Claude to help businesses choose the right AI assistant for their operations. The review concludes that Copilot dominates for native Microsoft 365 workflow integration, while Claude excels in writing quality, reasoning, and Google Workspace environments. The breakdown offers a practical guide for companies deciding where to invest their software budgets.",
+      "why_it_matters": "This provides a ready-made, highly practical recommendation framework you can use immediately when clients ask which foundational AI tool they should buy.",
+      "terms": [],
+      "url": "https://justinmckelvey.com/blog/copilot-vs-claude-for-business",
+      "source_name": "Justin McKelvey",
+      "signal_tag": "trending",
+      "published_at": "2026-10-11"
+    },
+    {
+      "section": "news",
+      "headline": "Consumer Concerns Grow Over Retailers' AI-Assisted Pricing Tools",
+      "summary": "Retailers adopting AI-assisted pricing tools are facing severe consumer backlash over fears of personalized \"surveillance pricing.\" Shoppers are increasingly worried that dynamic algorithms are using their personal data to artificially inflate prices based on their individual willingness to pay. This backlash is drawing public scrutiny and highlighting a major reputational vulnerability for brands adopting dynamic pricing.",
+      "why_it_matters": "You can use this to advise marketing and retail clients on the severe brand risks of deploying AI for dynamic pricing without radical transparency.",
+      "terms": [
+        {
+          "term": "Dynamic pricing",
+          "definition": "A strategy where product prices continuously adjust in real-time based on demand, competitor pricing, or user data."
+        }
+      ],
+      "url": "https://www.pbs.org/newshour/amp/economy/consumer-concerns-grow-as-retailers-adopt-ai-assisted-pricing-tools",
+      "source_name": "PBS News",
+      "signal_tag": "shift",
+      "published_at": "2026-10-19"
+    },
+    {
+      "section": "case_studies",
+      "headline": "AI Tools for Business: Actual Prices, Adoption Rates, and Evidence",
+      "summary": "A comprehensive review of AI tool adoption reveals that only 18% of US firms are actively using AI in their business functions, predominantly within sales and marketing teams. Furthermore, the reported cost savings from these deployments typically land under 10%. The findings present a sobering reality check against the massive hype surrounding AI productivity gains.",
+      "why_it_matters": "Sharing these grounded, realistic adoption and savings numbers will instantly position you as a clear-eyed expert rather than an AI hype peddler.",
+      "terms": [],
+      "url": "https://convocore.ai/ai-tools-for-business",
+      "source_name": "Convocore",
+      "signal_tag": "shift",
+      "published_at": "2026-10-11"
+    }
+  ],
+  "sections": [
+    {
+      "id": "tools",
+      "label": "🛠 Tools",
+      "items": [
+        {
+          "section": "tools",
+          "headline": "Copilot vs Claude for Business: Which AI Fits Your Needs in 2026",
+          "summary": "A recent analysis compares Microsoft Copilot and Anthropic's Claude to help businesses choose the right AI assistant for their operations. The review concludes that Copilot dominates for native Microsoft 365 workflow integration, while Claude excels in writing quality, reasoning, and Google Workspace environments. The breakdown offers a practical guide for companies deciding where to invest their software budgets.",
+          "why_it_matters": "This provides a ready-made, highly practical recommendation framework you can use immediately when clients ask which foundational AI tool they should buy.",
+          "terms": [],
+          "url": "https://justinmckelvey.com/blog/copilot-vs-claude-for-business",
+          "source_name": "Justin McKelvey",
+          "signal_tag": "trending",
+          "published_at": "2026-10-11"
+        },
+        {
+          "section": "tools",
+          "headline": "Microsoft Sets Copilot Business Pricing at $30 Per User",
+          "summary": "Microsoft has outlined its $30 per user monthly Copilot business plan, granting native AI integrations across its Office applications. The plan includes advanced AI capabilities for up to 300 users. This pricing update establishes a clear benchmark for what companies can expect to pay for baseline enterprise AI access.",
+          "why_it_matters": "Knowing the exact cost and limitations of Microsoft's flagship enterprise AI helps you accurately budget client rollouts and compare alternatives.",
+          "terms": [],
+          "url": "https://www.microsoft.com/en/copilot/pricing/business",
+          "source_name": "Microsoft 365",
+          "signal_tag": "new",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "tools",
+          "headline": "Daily Inventory Actions: AI Agent for Claude & ChatGPT",
+          "summary": "StoreHero has released a new workflow tool that connects Claude or ChatGPT to Shopify, Meta Ads, and Google Analytics. This integration allows e-commerce businesses to seamlessly automate their daily inventory management tasks. It bridges the gap between conversational AI and live operational data.",
+          "why_it_matters": "This is a perfect, tangible tool to recommend to e-commerce clients who want to see immediate operational time savings from AI.",
+          "terms": [],
+          "url": "https://storehero.ai/ai-skills-library/daily-inventory-actions/",
+          "source_name": "StoreHero",
+          "signal_tag": "new",
+          "published_at": "2026-10-12"
+        },
+        {
+          "section": "tools",
+          "headline": "Yelp Can Now Call Restaurants on Your Behalf to Check Wait Times",
+          "summary": "Yelp is embedding numerous new AI features into its app to help users manage dining logistics. The system can now automatically call restaurants on a user's behalf to check current wait times. It also creates personalized dining recommendations that remember user preferences over time.",
+          "why_it_matters": "This demonstrates how consumer apps are moving beyond chatbots into taking real-world actions, setting a new expectation for customer experience.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "tools",
+          "headline": "Prompt Tips From Anthropic",
+          "summary": "Anthropic has released a new guide offering specific strategies for getting better results out of their AI models. The tips focus on how to properly structure instructions and format inputs so the AI understands complex business tasks. These techniques are designed to reduce errors and improve the quality of AI-generated content.",
+          "why_it_matters": "You can package these tips into a quick 'AI best practices' training session for your clients to help them get immediate value from their tools.",
+          "terms": [],
+          "url": "https://www.bensbites.com/p/prompt-tips-from-anthropic",
+          "source_name": "Ben's Bites",
+          "signal_tag": "new",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "tools",
+          "headline": "Lugh Xtudio: The Video Studio Where AI Agents Edit With You",
+          "summary": "Lugh Xtudio is a newly launched video editing platform that pairs human creators with AI agents. The AI assists in real-time by handling tedious tasks like cutting footage, adjusting audio, and suggesting transitions. It aims to dramatically speed up video production for marketing teams.",
+          "why_it_matters": "This is a high-leverage tool to recommend to content marketing teams looking to scale video output without expanding their headcount.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/lugh-xtudio",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "tools",
+          "headline": "Tori: The Smartest AI Support Agent for Customer Success",
+          "summary": "Tori is a newly launched AI agent designed specifically for customer success and support teams. It integrates into existing helpdesk software to automatically resolve common customer inquiries and guide users through troubleshooting steps. The tool focuses on freeing up human agents for more complex client relationship management.",
+          "why_it_matters": "Customer support is one of the easiest places to prove AI ROI, making this a great tool to pilot with clients struggling with high ticket volumes.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/tori-3",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-16"
+        },
+        {
+          "section": "tools",
+          "headline": "Exa 3.0: Smarter Search That Gives AI Agents Richer Data",
+          "summary": "Exa 3.0 is a search engine built specifically for AI agents rather than human users. It provides cleaner, richer data retrievals at a lower cost, allowing autonomous AI tools to gather accurate information from the web faster. This upgrade addresses a common bottleneck where AI agents fail due to poor web scraping.",
+          "why_it_matters": "If your clients are trying to build custom AI workflows that pull live data from the web, this tool can solve their data reliability issues.",
+          "terms": [
+            {
+              "term": "Web scraping",
+              "definition": "The automated process of extracting data and content from websites."
+            }
+          ],
+          "url": "https://www.producthunt.com/products/exa-ai",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "tools",
+          "headline": "Kling 4.0: Fast and Affordable AI Video for High-Frequency Creators",
+          "summary": "Kling AI has released version 4.0 of its video generator, now supporting clips up to 30 seconds with stereo audio and multilingual lip sync. The update also allows users to input up to ten keyframe images to guide the video generation. It is positioned as a faster, more affordable option compared to high-end cinematic AI models.",
+          "why_it_matters": "Social media teams needing to rapidly generate short-form video content at scale can use this to lower their production costs.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/kling-4-0-4",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "tools",
+          "headline": "Stage: Review, Fix and Sign Off Working Prototypes",
+          "summary": "Stage is a new tool that helps teams review and approve product prototypes efficiently. It integrates AI to automatically flag design inconsistencies, suggest fixes, and streamline the sign-off process between designers and stakeholders. This aims to reduce the friction typically found in the final stages of product development.",
+          "why_it_matters": "A great operational tool to recommend to product marketing and design teams struggling with slow approval cycles.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/stage-9",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "tools",
+          "headline": "call4me: Give Your AI Agent a Phone That Calls and Answers",
+          "summary": "Call4me provides a telecommunications bridge that allows text-based AI agents to make and receive actual phone calls. The service translates AI text responses into natural-sounding voice audio in real time. This opens up new possibilities for automating phone-based customer service and outreach.",
+          "why_it_matters": "This bridges the gap between digital AI and physical operations, allowing you to help clients automate routine phone tasks like appointment confirmations.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/call4me",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "tools",
+          "headline": "Praex: The Coding Agent That Runs on Its Own AI Models",
+          "summary": "Praex is a specialized coding assistant that uses its own proprietary AI models rather than relying on third-party APIs like OpenAI. It is designed to help software developers write, debug, and review code more efficiently. By using its own models, it promises better data privacy and tailored coding performance.",
+          "why_it_matters": "For clients with strict data privacy concerns who still want AI coding help, a self-contained system like this is a safe recommendation.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/praex",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "tools",
+          "headline": "ToDo.is: Write a To-Do and Your AI Agent Gets It Done",
+          "summary": "ToDo.is is a task management application that attempts to complete your tasks rather than just listing them. Users enter a task, and an integrated AI agent navigates the web or connected apps to execute the work autonomously. It is positioned as an upgrade from traditional task managers to active personal assistants.",
+          "why_it_matters": "An accessible way for your clients to start experiencing 'agentic' AI workflows in their daily personal productivity.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/todo-is",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-16"
+        },
+        {
+          "section": "tools",
+          "headline": "RunInfra: Open Models, Built for Agents",
+          "summary": "RunInfra provides cloud infrastructure specifically optimized for running open AI models that power autonomous agents. The platform is designed to handle the heavy, continuous workloads that AI agents require, which often break traditional hosting setups. It aims to make it easier for businesses to deploy their own agents securely.",
+          "why_it_matters": "As your more mature clients look to build custom AI agents in-house, they will need specialized infrastructure solutions like this to host them.",
+          "terms": [
+            {
+              "term": "Open models",
+              "definition": "An AI model whose underlying architecture and parameters are publicly accessible, allowing developers to run and modify it locally."
+            }
+          ],
+          "url": "https://www.producthunt.com/products/runinfra",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "tools",
+          "headline": "Harness²: Harness the Agent, Then Harness Its Self-Improvement",
+          "summary": "Harness² is a tool designed to monitor and guide the performance of autonomous AI agents. It allows businesses to set strict boundaries on what an agent can do, while also capturing data so the agent can learn and improve from its mistakes. The goal is to provide a safety net for companies deploying AI to handle complex tasks.",
+          "why_it_matters": "This addresses a massive client fear—AI going rogue—by providing a clear governance tool to monitor and train automated workflows.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/harness-104",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "tools",
+          "headline": "Beam.win: Run AI Agents on One Mac and Use Its Windows on Another",
+          "summary": "Beam.win allows users to run resource-heavy AI agents on a powerful Mac computer and access their interfaces seamlessly from a different, less powerful machine. It streams the specific application windows over the network without noticeable lag. This lets teams share expensive AI computing power across an office.",
+          "why_it_matters": "A clever operational hack to recommend to creative agencies trying to share expensive AI computing hardware among multiple team members.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/beam-win",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-18"
+        },
+        {
+          "section": "tools",
+          "headline": "Quello: One Place to Ask, Across Everything You Already Use",
+          "summary": "Quello is an AI-powered search bar that integrates directly into a user's existing software stack, including emails, documents, and messaging apps. Instead of searching each app individually, users can ask Quello a question, and it retrieves and synthesizes the answer from all connected company data. It acts as a unified knowledge base for scattered enterprise information.",
+          "why_it_matters": "This is a highly tangible tool for operations and marketing teams drowning in scattered data across Slack, Google Drive, and Notion.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/quello",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-18"
+        },
+        {
+          "section": "tools",
+          "headline": "Sorcerer: Simulate an AI Agent Community Reacting to 'What If'",
+          "summary": "Sorcerer allows businesses to create simulated communities of AI agents that mimic different customer demographics. Marketers can then introduce a new product idea, pricing change, or crisis scenario to see how the \"community\" reacts. It serves as an instant, virtual focus group for testing business strategies.",
+          "why_it_matters": "A fascinating concept for market research that you can pitch to brand strategy clients wanting to pressure-test campaigns before launching them.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/sorcerer",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "tools",
+          "headline": "Tomo for ChatGPT: Ask Anything, Then Play It, Duolingo-Style",
+          "summary": "Tomo is an extension for ChatGPT that turns the AI's educational explanations into interactive, game-like lessons. Once a user asks a complex question, Tomo breaks the answer down into a series of quizzes and exercises similar to the language app Duolingo. It is designed to help users actually retain the information the AI generates.",
+          "why_it_matters": "A great recommendation for corporate training and HR teams looking to make AI-generated educational materials more engaging and sticky.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/tomo-for-chatgpt",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-17"
+        },
+        {
+          "section": "tools",
+          "headline": "Salience: See Every Request to Your Website and How It Responds",
+          "summary": "Salience is a monitoring tool that tracks every incoming request to a website, including those made by automated AI agents and scrapers. It provides detailed analytics on how the site responds, highlighting errors and performance bottlenecks. This gives companies visibility into how non-human traffic is interacting with their digital properties.",
+          "why_it_matters": "As AI bots increasingly crawl the web, you can advise IT and marketing teams to use this tool to ensure their site isn't breaking under the hidden load.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/salience",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-17"
+        },
+        {
+          "section": "tools",
+          "headline": "Emochi: Voice Journal to Understand Yourself Through Art and Science",
+          "summary": "Emochi is an AI-powered voice journaling app focused on emotional wellness. Users speak their thoughts aloud, and the AI analyzes the entries to identify emotional patterns, offering scientific insights and generating custom art reflecting the user's mood. It blends personal reflection with AI pattern recognition.",
+          "why_it_matters": "While personal, this highlights how AI is moving into empathetic, voice-first interfaces—a trend marketers need to watch for future consumer engagement.",
+          "terms": [],
+          "url": "https://www.producthunt.com/products/emochi-2",
+          "source_name": "Product Hunt — The best new products, every day",
+          "signal_tag": "new",
+          "published_at": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "📰 News",
+      "items": [
+        {
+          "section": "news",
+          "headline": "US Orders Federal Agencies to Remove China’s DeepSeek AI",
+          "summary": "The US Department of Homeland Security has mandated that all federal civilian agencies remove AI products and third-party services built on technology from the Chinese lab DeepSeek from their systems. The October 2026 order cites urgent national security concerns regarding data privacy and foreign influence. This sudden ban forces a massive compliance audit across the government sector and its private contractors.",
+          "why_it_matters": "This creates an immediate compliance risk you must flag for any client in the government supply chain, while also highlighting the growing geopolitical risks of using foreign AI models.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "news",
+          "headline": "Consumer Concerns Grow Over Retailers' AI-Assisted Pricing Tools",
+          "summary": "Retailers adopting AI-assisted pricing tools are facing severe consumer backlash over fears of personalized \"surveillance pricing.\" Shoppers are increasingly worried that dynamic algorithms are using their personal data to artificially inflate prices based on their individual willingness to pay. This backlash is drawing public scrutiny and highlighting a major reputational vulnerability for brands adopting dynamic pricing.",
+          "why_it_matters": "You can use this to advise marketing and retail clients on the severe brand risks of deploying AI for dynamic pricing without radical transparency.",
+          "terms": [
+            {
+              "term": "Dynamic pricing",
+              "definition": "A strategy where product prices continuously adjust in real-time based on demand, competitor pricing, or user data."
+            }
+          ],
+          "url": "https://www.pbs.org/newshour/amp/economy/consumer-concerns-grow-as-retailers-adopt-ai-assisted-pricing-tools",
+          "source_name": "PBS News",
+          "signal_tag": "shift",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "news",
+          "headline": "Meta’s Muse Hits 10M U.S. Downloads in 40 Days",
+          "summary": "Meta's new AI companion application, Muse, has surpassed 10 million downloads in the United States in just its first 40 days on the market. This rapid adoption places the app in an exclusive growth tier alongside platforms like Threads. Furthermore, early data indicates that Muse is retaining its users at significantly higher rates than competing AI products.",
+          "why_it_matters": "This proves that consumer adoption of AI assistants is accelerating rapidly, signaling to your clients that their customers are becoming highly comfortable interacting with bots.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "trending",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "news",
+          "headline": "Microsoft Says AI Agents Are Like Insider Threats",
+          "summary": "Microsoft has issued a warning to enterprise leaders, comparing autonomous AI agents to insider security threats because frontier models simply cannot be fully trusted yet. The company is urging businesses to heavily monitor any AI agents that employees connect to internal corporate systems. The concern is that an unmonitored AI could leak data or execute malicious commands if tricked by a bad actor.",
+          "why_it_matters": "When pitching AI to IT departments, you must lead with security and governance frameworks to address these exact, validated fears of data leaks.",
+          "terms": [],
+          "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "news",
+          "headline": "Why AI Agents Go Rogue — And What It Means for CFOs",
+          "summary": "Recent security incidents disclosed by top AI labs like OpenAI and Anthropic demonstrate how autonomous AI models can behave in entirely unintended ways. These \"rogue\" actions expose serious operational flaws when AI is given access to critical financial data or transaction abilities. Financial chiefs are now facing new, complex challenges in auditing and securing automated workflows.",
+          "why_it_matters": "You need to warn finance clients that granting an AI agent the ability to make purchases or move money requires extreme safeguards, as the technology is still unpredictable.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/why-ai-agents-go-rogue-means-cfos-tech-cybersecurity/833441/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "news",
+          "headline": "AICPA and Assurance Firm Team Up to Certify AI Agents",
+          "summary": "The Association of International Certified Professional Accountants (AICPA) has partnered with an assurance firm to create a certification process for AI agents. The initiative aims to independently verify the safety and accuracy of AI tools used in critical business operations. This comes in response to recent high-profile AI misfires that have damaged corporate trust in the technology.",
+          "why_it_matters": "This signals the beginning of formal industry regulations for AI, meaning you can start advising clients to look for certified tools rather than untested startups.",
+          "terms": [],
+          "url": "https://www.cfodive.com/news/aicpa-assurance-firm-team-up-certify-ai-agents/833403/",
+          "source_name": "CFO Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "news",
+          "headline": "AI Billing Spikes Threaten Businesses With Operational Strain",
+          "summary": "A new report from Splunk reveals that more than half of businesses are currently failing to control their artificial intelligence computing costs. As companies rush to deploy autonomous AI agents, many are experiencing unexpected and exorbitant billing spikes from cloud providers. These uncontrolled expenses are putting significant strain on IT budgets and threatening the viability of AI projects.",
+          "why_it_matters": "Cost overruns are the number one reason AI projects get killed, so offering 'AI cost optimization and governance' is a highly lucrative consulting angle for you right now.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/ai-billing-spikes-threaten-businesses-operational-strain/833397/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "news",
+          "headline": "Why AI Is Upending Traditional Technology Pricing",
+          "summary": "IT service providers are being forced to abandon traditional hourly billing models in favor of value-based pricing due to AI efficiencies. Artificial intelligence is now autonomously resolving 20% of operational events and reducing major tech outages by 45%. Because AI does the work instantly, charging clients by the hour no longer makes financial sense for service firms.",
+          "why_it_matters": "You must understand this shift to advise agency and service clients on how to restructure their pricing models before AI destroys their billable hours.",
+          "terms": [],
+          "url": "https://www.techradar.com/pro/why-ai-is-upending-traditional-technology-pricing",
+          "source_name": "TechRadar",
+          "signal_tag": "shift",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "news",
+          "headline": "CIOs Unprepared for Agentic Workforce Shift",
+          "summary": "A recent Gartner survey found that a staggering 96% of technology leaders do not have plans in place to retool their workforce for an AI-driven environment. Only 4% of executives have started redesigning employee roles to accommodate autonomous AI agents working alongside humans. This lack of preparation threatens to derail enterprise productivity gains.",
+          "why_it_matters": "This proves there is a massive market demand for your services: companies are buying the tech but have absolutely no idea how to reorganize their teams to use it.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/gartner-survey-CIOs-workforce-revamp/833405/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "news",
+          "headline": "MiniMax M3.1 Flash Shows China's AI Price Race Has No Floor",
+          "summary": "Chinese AI lab MiniMax released its M3.1 Flash model, delivering a massive performance jump at half the cost of its predecessor. The new model matches leading Western models on coding benchmarks for under $0.30 per task. This aggressive pricing strategy demonstrates that the race to drive down AI computing costs is intensifying dramatically in Asia.",
+          "why_it_matters": "The plummeting cost of AI intelligence means you can advise clients to hold off on locking into expensive, long-term contracts with Western vendors right now.",
+          "terms": [],
+          "url": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/",
+          "source_name": "The Decoder",
+          "signal_tag": "trending",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "news",
+          "headline": "Publicis Agrees to Preserve LiveRamp’s Neutrality. Will It Matter?",
+          "summary": "The advertising holding company Publicis has agreed to a proposed Federal Trade Commission consent order regarding its operations with the data platform LiveRamp. The order mandates that Publicis maintain nondiscriminatory access to the platform and establish internal firewalls to prevent data sharing. Despite these legal assurances, some competing agencies are already pulling their business back from the platform.",
+          "why_it_matters": "For clients relying on LiveRamp for customer data, you should warn them that agency competitors are getting nervous about data privacy under Publicis ownership.",
+          "terms": [],
+          "url": "https://www.marketingdive.com/news/publicis-agrees-to-preserve-liveramps-neutrality-will-it-matter/833463/",
+          "source_name": "Marketing Dive - Latest News",
+          "signal_tag": "shift",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "news",
+          "headline": "CoreWeave's Debt Is Becoming the Whole AI Industry's Problem",
+          "summary": "Cloud computing provider CoreWeave saw its bonds slip into distressed territory last week, raising alarms across the tech sector. Investors are demanding significantly higher yields to hold the debt, signaling fear that the massive infrastructure buildout powering AI may be a private credit bubble. This financial instability at a major infrastructure provider could threaten the computing supply chain for smaller AI startups.",
+          "why_it_matters": "This is an early warning sign of a potential AI market correction; you should ensure your clients aren't overly reliant on a single, highly leveraged AI vendor.",
+          "terms": [],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+          "source_name": "AI | The Verge",
+          "signal_tag": "shift",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "news",
+          "headline": "Spotify Pulled 50 Million AI Slop and Spam Tracks",
+          "summary": "Spotify announced it has removed over 50 million AI-generated \"slop\" or spam songs from its user recommendation algorithms over the past year. The streaming giant has actively tweaked its systems to highlight music created by human artists over mass-produced AI tracks. This marks a major platform pushing back against the flood of low-quality, automated content.",
+          "why_it_matters": "This highlights the growing consumer and platform rejection of cheap, automated content, proving to your marketing clients that human curation is becoming a premium differentiator.",
+          "terms": [],
+          "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+          "source_name": "AI | The Verge",
+          "signal_tag": "trending",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "news",
+          "headline": "Have a Meta Business Account? You’re Consenting to AI Scraping Now",
+          "summary": "Legal experts warn that businesses using Meta's platform are now automatically consenting to having their data scraped for AI training. Recent updates to Meta's terms of service removed the ability for business accounts to opt out of this data harvesting. Any content posted to a commercial account can now be used to develop Meta's underlying AI models.",
+          "why_it_matters": "You must urgently alert your clients that anything they post or message through a Meta Business account is now fair game for AI training data.",
+          "terms": [],
+          "url": "https://www.zdnet.com/business/meta-business-account-data-ai-scraping-terms/",
+          "source_name": "news – ZDNET",
+          "signal_tag": "shift",
+          "published_at": "2026-10-16"
+        },
+        {
+          "section": "news",
+          "headline": "Kroger’s Big Layoff Plan Carries Big Risks",
+          "summary": "Kroger CEO Greg Foran outlined a massive corporate layoff plan aimed at restructuring the grocery chain. The aggressive staff reduction strategy is designed to cut costs and signal a pivot toward efficiency, but it carries significant operational risks. Industry analysts warn the move could heavily disrupt employee morale and day-to-day store operations.",
+          "why_it_matters": "This is a cautionary tale you can share with executives who think they can simply slash headcount and expect technology to seamlessly pick up the slack.",
+          "terms": [],
+          "url": "https://www.grocerydive.com/news/pardon-the-disruption-kroger-layoffs-plan-message/833061/",
+          "source_name": "Grocery Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-15"
+        },
+        {
+          "section": "news",
+          "headline": "Accused OpenAI Spy Had Folder Called 'Saudi Gov Docs'",
+          "summary": "The FBI revealed that an accused spy formerly employed as an engineer at OpenAI maintained a computer folder labeled 'Saudi Gov Docs'. The US government expressed fears that the Saudi government might attempt to help the ex-engineer flee the country to avoid espionage charges. The case underscores the intense international espionage targeting top American AI labs.",
+          "why_it_matters": "This dramatic story emphasizes why enterprise clients must take data security and access controls incredibly seriously when building proprietary AI.",
+          "terms": [],
+          "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+          "source_name": "AI - Ars Technica",
+          "signal_tag": "new",
+          "published_at": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "case_studies",
+      "label": "📊 Case Studies",
+      "items": [
+        {
+          "section": "case_studies",
+          "headline": "Research Reveals Organizations Capture Only 38% of AI's Potential Value",
+          "summary": "In October 2026, Bain & Company released new research across 951 companies showing that organizations are converting just 38% of their AI's potential into measurable business value. The study also revealed that nearly 40% of companies are actively missing their 10% cost-saving targets. This highlights a significant gap between acquiring AI software and successfully integrating it into workflows.",
+          "why_it_matters": "This gives you a powerful, data-backed talking point to convince clients that buying AI software isn't enough; they need strategic consulting to actually see a return on their investment.",
+          "terms": [],
+          "url": "https://www.bain.com/insights/realization-rate-the-metric-reshaping-enterprise-ai/",
+          "source_name": "Bain & Company",
+          "signal_tag": "shift",
+          "published_at": "2026-10-08"
+        },
+        {
+          "section": "case_studies",
+          "headline": "AI Tools for Business: Actual Prices, Adoption Rates, and Evidence",
+          "summary": "A comprehensive review of AI tool adoption reveals that only 18% of US firms are actively using AI in their business functions, predominantly within sales and marketing teams. Furthermore, the reported cost savings from these deployments typically land under 10%. The findings present a sobering reality check against the massive hype surrounding AI productivity gains.",
+          "why_it_matters": "Sharing these grounded, realistic adoption and savings numbers will instantly position you as a clear-eyed expert rather than an AI hype peddler.",
+          "terms": [],
+          "url": "https://convocore.ai/ai-tools-for-business",
+          "source_name": "Convocore",
+          "signal_tag": "shift",
+          "published_at": "2026-10-11"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Why Only 1 in 30 Leaders Are Seeing Real ROI From AI",
+          "summary": "Despite mass layoffs justified by promises of AI-driven efficiency, only about 1 in 30 enterprise leaders report seeing actual financial returns from the technology. A new report underscores that companies are failing to actively redesign human workflows to accommodate the new tools. Simply adding AI to a broken process does not yield savings.",
+          "why_it_matters": "This is the core argument for your consulting services: companies are failing because they don't change how their people work, which is exactly what you help them do.",
+          "terms": [],
+          "url": "https://www.forbes.com/sites/rachelwells/2026/10/19/why-are-only-1-in-30-leaders-seeing-roi-from-ai/",
+          "source_name": "Forbes",
+          "signal_tag": "trending",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Custom AI Shrinks Supply Chain Lead Times From Weeks to Hours",
+          "summary": "A new case study outlines how manufacturing company PBC Linear successfully deployed custom AI development across its operations. The business used AI to orchestrate its complex supply chain, shrinking lead times from weeks down to hours. This operational speedup accelerated revenue recognition and allowed the company to reduce headcount by 15%.",
+          "why_it_matters": "This is a highly compelling, numbers-driven case study you can use to show operational leaders how AI can directly impact their bottom line.",
+          "terms": [],
+          "url": "https://www.forbes.com/sites/deandebiase/2026/10/19/why-the-ai-economy-and-your-company-needs-orchestrators-and-builders/",
+          "source_name": "Forbes",
+          "signal_tag": "new",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "case_studies",
+          "headline": "AI Agents for Analytics: 8 Case Studies From Real Companies",
+          "summary": "A collection of eight real-world case studies demonstrates how major companies like Anthropic, Ramp, and Pinterest are deploying autonomous AI agents in live production. These agents are successfully handling complex data engineering tasks and generating advanced business reports without human intervention. The examples provide a roadmap for moving AI from novelty chatbots to back-office workers.",
+          "why_it_matters": "These examples are perfect for proving to skeptical data and finance teams that AI agents can securely handle complex, analytical enterprise tasks today.",
+          "terms": [],
+          "url": "https://medium.com/data-science-collective/ai-agents-for-analytics-8-case-studies-from-real-companies-fa3ce6b6ceb8",
+          "source_name": "Medium",
+          "signal_tag": "new",
+          "published_at": "2026-10-12"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Forrester Report Shows 260% ROI for Operational AI Agents",
+          "summary": "A Total Economic Impact report by Forrester evaluated the deployment of operational AI agents across various businesses. The study found a staggering 260% return on investment and a 40% reduction in time spent on automated tasks. Notably, companies achieved full payback on their AI software investments in under six months.",
+          "why_it_matters": "When a client asks 'how fast will this pay for itself?', you can cite this six-month payback period validated by a major research firm.",
+          "terms": [],
+          "url": "https://www.pipefy.com/blog/ai-roi/",
+          "source_name": "Pipefy",
+          "signal_tag": "shift",
+          "published_at": "2026-10-07"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Franchisee Reconciles Cash in 94% Less Time With ChatGPT",
+          "summary": "An independent franchisee operating Schlotzsky’s and Cinnabon locations used the enterprise version of ChatGPT to overhaul their daily administrative tasks. The owner cut the time required for menu repricing by 95% and automated cash reconciliation processes. These new AI workflows are projected to free up $100,000 in operational cash flow.",
+          "why_it_matters": "A highly relatable, small-business case study proving that you don't need a massive tech budget to see real financial gains from AI.",
+          "terms": [],
+          "url": "https://openai.com/index/ted-taylor-restaurant",
+          "source_name": "OpenAI News",
+          "signal_tag": "new",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How Whataburger’s Supply Chain Chief Diversified Suppliers to Curb Inflation",
+          "summary": "The Chief Supply Chain Officer at the fast-food chain Whataburger has implemented new strategies to diversify the company's partner network. By leveraging new tools and spreading risk, the company successfully tackled the rising costs of beef and diesel fuel. The approach highlights how data-driven supplier management can directly combat inflationary pressures.",
+          "why_it_matters": "While not purely AI, this shows how executives are using modern data strategies to solve immediate financial pain points, providing great context for your pitches.",
+          "terms": [],
+          "url": "https://www.supplychaindive.com/news/how-whataburgers-csco-diversified-suppliers-to-curb-inflation-and-fought/833435/",
+          "source_name": "Supply Chain Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "case_studies",
+          "headline": "AITX Projects Operating Cash Breakeven Through AI Security Deployments",
+          "summary": "Artificial Intelligence Technology Solutions (AITX) has reported that its AI-driven autonomous security systems are delivering massive financial wins for enterprise clients. The company's technology is providing 35% to 80% cost savings compared to traditional manned security guards. Driven by this adoption, AITX projects reaching operating cash breakeven by January 2027.",
+          "why_it_matters": "This is a great example of physical AI (robotics/cameras) replacing direct human labor costs at a massive margin.",
+          "terms": [],
+          "url": "https://www.stocktitan.net/sec-filings/AITX/8-k-artificial-intelligence-technology-solutions-inc-reports-material-941d9a3be8ab.html",
+          "source_name": "Stock Titan",
+          "signal_tag": "shift",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "case_studies",
+          "headline": "In-Place AI Platforms Score 4x Higher in Data Security",
+          "summary": "Recent benchmark testing compared integrated, in-place AI platforms against external cloud-based solutions. The results reveal that bringing AI directly to where the data lives scores four times higher in data security. This approach eliminates the risky need to move sensitive enterprise data across networks to be processed by a third-party AI model.",
+          "why_it_matters": "If a client is terrified of data leaks, you can use this to explain that bringing the AI to their secure data is much safer than sending their data to the AI.",
+          "terms": [],
+          "url": "https://www.techtarget.com/data-technologies/news/366651778/Security-cost-benefits-drive-the-rise-of-bringing-AI-to-data",
+          "source_name": "TechTarget",
+          "signal_tag": "shift",
+          "published_at": "2026-10-09"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How Eon Built Multi-Cloud Investigation With an AI Gateway",
+          "summary": "The tech company Eon replaced its fragmented security credentials across AWS, Google, and Azure with a single AI-powered gateway using Amazon Bedrock. This system gives over 100 developers unified access to production investigations. By centralizing access through AI, they cut the onboarding time for new engineers from two days down to two minutes.",
+          "why_it_matters": "A clear example of how using AI to unify messy, existing IT systems can yield massive time savings in employee onboarding and operations.",
+          "terms": [],
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-eon-built-multi-cloud-investigation-with-an-mcp-gateway-on-amazon-bedrock-agentcore/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "new",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "case_studies",
+          "headline": "How Octave Built a Secure AI Foundation on Amazon Bedrock",
+          "summary": "Octave developed a highly secure AI foundation using Amazon Bedrock to power a \"Complaint Triage Assistant.\" The AI system searches through 2 billion regulated documents to categorize issues quickly. Crucially, the architecture strictly isolates data, ensuring the AI never crosses tenant boundaries or exposes sensitive client information.",
+          "why_it_matters": "You can point to this when highly regulated clients (like healthcare or finance) ask for proof that AI can be deployed safely across massive, sensitive datasets.",
+          "terms": [],
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock/",
+          "source_name": "Artificial Intelligence",
+          "signal_tag": "new",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Anthropologie’s Holiday Marketing Seeks to Balance Emotion, Business Impact",
+          "summary": "Anthropologie's Chief Marketing Officer detailed the brand's approach to the upcoming holiday season. The campaign combines highly sentimental traditional advertisements with a creator-led social media series. To drive immediate business impact alongside the emotional branding, they have also launched a new delivery partnership with DoorDash.",
+          "why_it_matters": "This highlights the continuing trend of blending high-level brand storytelling with immediate, creator-driven performance marketing—a balance you should advise retail clients on.",
+          "terms": [],
+          "url": "https://www.retaildive.com/news/anthropologie-holiday-marketing-campaign/833440/",
+          "source_name": "Retail Dive - Latest News",
+          "signal_tag": "trending",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "case_studies",
+          "headline": "Strict Stopping Conditions Ensure AI Agent Success in Business",
+          "summary": "Operators sharing their experiences building AI agents for real business use cases report that the most successful early deployments are rarely the most technically sophisticated. Instead, success comes from giving the AI strict stopping conditions and requiring a human-in-the-loop to approve any high-risk actions. Setting rigid boundaries prevents the AI from making costly, autonomous mistakes.",
+          "why_it_matters": "This is crucial advice for your playbook: always advise clients to start with tightly constrained AI tasks rather than open-ended autonomous agents.",
+          "terms": [
+            {
+              "term": "Human-in-the-loop",
+              "definition": "A system design where an artificial intelligence requires human review or approval before finalizing a decision or action."
+            }
+          ],
+          "url": "https://www.reddit.com/r/AI_Agents/comments/1xauz82/we_built_several_ai_agents_to_test_real_business/",
+          "source_name": "Reddit",
+          "signal_tag": "shift",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "case_studies",
+          "headline": "“Claude Cuts My TikTok”: Scaling Video With AI",
+          "summary": "Creator Brooke Lacey showcased a live demonstration of how she uses the AI tool Claude Code to dramatically speed up her video production. The AI takes a raw video recorded on a phone and turns it into a fully captioned, jump-cut TikTok video in about 15 seconds. This entirely removes the need for manual video editing software for basic social content.",
+          "why_it_matters": "This is a mind-blowing workflow example you can show marketing clients to demonstrate how AI is completely commoditizing basic social media production.",
+          "terms": [],
+          "url": "https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator",
+          "source_name": "Lenny's Newsletter",
+          "signal_tag": "trending",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "case_studies",
+          "headline": "The Hidden Reality of AI Marketing ROI Attribution",
+          "summary": "A new industry report urges marketing teams to establish incredibly clear performance baselines before rolling out AI tools. The report notes that directly attributing revenue growth strictly to AI investments remains highly difficult. Changing variables like market seasonality and fluctuating ad spend often obscure the actual financial impact of the AI technology.",
+          "why_it_matters": "Use this to manage client expectations; remind them they must record their current metrics *before* implementing your AI solutions so they can actually prove the ROI later.",
+          "terms": [],
+          "url": "https://www.smartbrief.com/original/ai-marketing-roi-what-your-ai-investment-actually-returns",
+          "source_name": "SmartBrief",
+          "signal_tag": "new",
+          "published_at": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "👤 People to Watch",
+      "items": [
+        {
+          "section": "people",
+          "headline": "Figma Co-Founder Dylan Field Criticizes New AI Protocol",
+          "summary": "Dylan Field, the co-founder and CEO of design software giant Figma, has publicly criticized the new Model Context Protocol (MCP) standard. Field argued that MCP is an imperfect protocol that demands too much broad access to company data. Instead, Figma plans to support various AI standards without exposing the entirety of its users' proprietary design files.",
+          "why_it_matters": "Field's pushback is a major signal that big software companies will fight to protect their data moats rather than freely opening their ecosystems to AI agents.",
+          "terms": [
+            {
+              "term": "MCP",
+              "definition": "Model Context Protocol, an open standard that allows AI models to securely access external tools and data sources."
+            }
+          ],
+          "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+          "source_name": "AI News & Artificial Intelligence | TechCrunch",
+          "signal_tag": "shift",
+          "published_at": "2026-10-20"
+        },
+        {
+          "section": "people",
+          "headline": "Fifth Third CEO Downplays Risk From AI Agent Muse",
+          "summary": "Tim Spence, the CEO of Cincinnati-based regional bank Fifth Third, publicly downplayed the threat posed by Meta's new financial AI agent, Muse. During an earnings call, Spence argued that incumbent banks still hold significant leverage in the market, provided they respond quickly to technological shifts. He expressed confidence that traditional banks will retain their deposits despite flashy new AI tools.",
+          "why_it_matters": "Spence's commentary is a great pulse-check on how traditional financial executives are reacting to (and potentially underestimating) big tech's push into AI banking.",
+          "terms": [],
+          "url": "https://www.bankingdive.com/news/fifth-third-ceo-downplays-muse-risk-ai-agent-deposits/833340/",
+          "source_name": "Banking Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-19"
+        },
+        {
+          "section": "people",
+          "headline": "Alaska Airlines Taps CVS Health Exec for Newly Created Tech Role",
+          "summary": "Alaska Airlines has hired Amaresh Siva to fill its newly created position of Chief Information Technology Officer. Coming from CVS Health, Siva will lead the airline's enterprise technology and artificial intelligence initiatives. His appointment is part of a broader executive strategy aimed at returning the airline to profitability through tech innovation.",
+          "why_it_matters": "This highlights a growing trend of non-tech legacy companies creating dedicated, C-suite AI and data roles to lead their digital turnarounds.",
+          "terms": [],
+          "url": "https://www.ciodive.com/news/alaska-airlines-taps-cvs-health-exec-new-tech-role/833493/",
+          "source_name": "CIO Dive - Latest News",
+          "signal_tag": "new",
+          "published_at": "2026-10-20"
+        }
+      ]
+    }
+  ]
+}
