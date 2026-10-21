@@ -242,9 +242,9 @@ describe("index.css contract", () => {
 
   it("lifts the cover off the top in one eased move, the only transform it owns", () => {
     const cover = block(".boot-cover");
-    expect(cover).toContain("transition: transform 720ms var(--ease-settle)");
+    expect(cover).toContain("transition: transform 1100ms var(--ease-settle)");
     // compositor-only: the shadow is static, never in the transition list
-    expect(cover).not.toContain("box-shadow 720ms");
+    expect(cover).not.toContain("box-shadow 1100ms");
     expect(block(".boot-cover.lift")).not.toContain("box-shadow");
     // the housing's shadow is a box-shadow on the wrapper, never an SVG filter
     expect(block(".boot-screen")).not.toContain("filter:");

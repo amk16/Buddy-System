@@ -47,6 +47,6 @@ describe("coverCanLift", () => {
   it("holds for the whole self-test and a breath, about four seconds (slowed 2026-10-22)", () => {
     expect(INTRO_MS).toBeGreaterThan(2500);
     expect(MIN_HOLD).toBeGreaterThan(INTRO_MS);
-    expect(MIN_HOLD).toBeLessThanOrEqual(4200);
+    expect(MIN_HOLD).toBeLessThanOrEqual(5800);
   });
 });

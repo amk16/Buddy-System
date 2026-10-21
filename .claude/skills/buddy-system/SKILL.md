@@ -333,8 +333,8 @@ bottom edge, cut by the paper's edge, its letters rising once in a stagger.
 The readout label and the stamp use the nameplate's `0.08em` tracking in
 `--fs-xs` Source Sans; the count is Fraunces at `clamp(44px, 4.5vw, 60px)`, a
 cover-only size. When the first issue is ready and the cover
-has held for `MIN_HOLD` (the whole self-test plus a breath, about 3.9s, `lib/boot.ts`),
-the sheet lifts off the top of the screen in one 720ms `--ease-settle` move
+has held for `MIN_HOLD` (the whole self-test plus a breath, about 5.5s, `lib/boot.ts`),
+the sheet lifts off the top of the screen in one 1100ms `--ease-settle` move
 with the finished page still beneath it. It is the one place RoboBuddy may
 hold the screen, and it is bounded as tightly as the other three:
 

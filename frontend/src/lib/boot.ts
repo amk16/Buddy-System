@@ -17,11 +17,11 @@ import { PENCIL_CELLS, PENCIL_GRID } from "./pencil";
 // The self-test choreography, in ms. Derived totals below; the component
 // reads these so the law's numbers and the code's are one table.
 export const BOOT_PHASES = {
-  scan: { step: 1.0, dwell: 140 }, // 693 cells x 1ms, each lit 140ms: ~830ms sweep
-  noise: { frames: 10, step: 80 }, // 800ms of searching, sixty cells a frame
-  draw: { gap: 120, step: 7 }, // 120 cells x 7ms: the pencil resolves from its point in ~840ms
-  write: { after: 420 }, // then the point writes one cell
-  lift: 720, // the sheet lifts off the top
+  scan: { step: 1.4, dwell: 180 }, // 693 cells x 1.4ms, each lit 180ms: ~1.15s sweep
+  noise: { frames: 12, step: 100 }, // 1.2s of searching, sixty cells a frame
+  draw: { gap: 160, step: 11 }, // 120 cells x 11ms: the pencil resolves from its point in ~1.3s
+  write: { after: 560 }, // then the point writes one cell
+  lift: 1100, // the sheet lifts off the top
 };
 
 export const CELL_COUNT = PENCIL_GRID.cols * PENCIL_GRID.rows;
@@ -37,7 +37,7 @@ export const INTRO_MS =
   BOOT_PHASES.write.after;
 
 // Minimum time the cover stays up: the whole self-test, then a breath.
-export const MIN_HOLD = INTRO_MS + 900;
+export const MIN_HOLD = INTRO_MS + 1100;
 
 // The corner readout counts 000 -> 099 across the whole hold, and reads 100
 // only in the frame the sheet starts to lift. It never sits at 100 waiting,

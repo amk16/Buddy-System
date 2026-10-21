@@ -1588,7 +1588,7 @@ a:hover {
   overflow: hidden; /* the paper's edge cuts the sunk wordmark: nothing hangs below the sheet */
   background: var(--paper);
   will-change: transform;
-  transition: transform 720ms var(--ease-settle);
+  transition: transform 1100ms var(--ease-settle);
   /* the lower edge's soft shadow, painted once: at rest it falls off-screen,
      and the lift reveals it. Transitioning it repainted the whole sheet every
      frame of the lift; now the lift is transform only, compositor only. */

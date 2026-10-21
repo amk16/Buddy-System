@@ -73,7 +73,7 @@ hover. No hard shadows, no glass, no heavy elevation. Depth is suggestion, not d
   restored state), and the `BootCover` (exception 4 of 4: once per page load,
   RoboBuddy's own screen boots on the paper at 33x21, raster then noise then the Scribbld
   pencil (traced from the agency's logo) resolving from its point, which writes one cell, a corner readout counts on a timer, the wordmark sits at the bottom edge,
-  and the sheet lifts off the top in one 720ms move with the finished page beneath;
+  and the sheet lifts off the top in one 1100ms move with the finished page beneath;
   drops at once on empty or error, never recurs on issue or engine switches, never
   mounts under reduced motion). The numbering is fixed in SKILL.md.
 

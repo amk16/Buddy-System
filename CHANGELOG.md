@@ -40,6 +40,17 @@ dashboard that renders them, and the source network they're drawn from.
 
 ---
 
+## [v1.5.6] — 2026-10-22 — Slower still
+
+🎨 Dashboard
+- Changed: the boot choreography slowed again (Ali: "still too fast"): the sweep at
+  1.4 ms a cell with each cell lit 180 ms, twelve noise frames of 100 ms, the pencil
+  resolving at 11 ms a cell after a 160 ms gap, the written cell after 560 ms, then an
+  1,100 ms breath. The cover now holds about 5.5 s. The lift itself is slower too, 1,100 ms
+  instead of 720, so the sheet rises rather than snaps.
+
+---
+
 ## [v1.5.5] — 2026-10-22 — Motion made cheap
 
 🎨 Dashboard
