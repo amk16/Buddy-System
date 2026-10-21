@@ -20,7 +20,9 @@ editorial judgment.
    sections:[{id,label,max_items}], web_search_queries, valid_signal_tags,
    seen_urls, pool:[RSS candidates] }`.
 
-2. **Read `backend/pool.json`.**
+2. **Read `backend/pool.json`.** If it carries a non-null `reader_profile.steer`, treat
+   that as an editorial instruction learned from her reactions to past issues, and let
+   it shape ranking and choice below (rule 8 under HARD RULES says the same thing).
 
 3. **Get trending items:** run `WebSearch` on each `web_search_queries` entry (and
    `WebFetch` to confirm/extract specifics where useful). Keep only results with a
@@ -92,6 +94,8 @@ editorial judgment.
 6. `signal_tag`: one of `trending` / `new` / `shift`.
 7. Rank by relevance to `relevance_focus` AND topicality. Quality over quantity — fewer
    than the max is fine if the pool is thin.
+8. If pool.json carries a non-null `reader_profile.steer`, obey it when ranking and
+   choosing — it is learned from her reactions to past issues.
 
 ## Engines
 
@@ -116,6 +120,34 @@ ships a threadbare issue. The Gemini grounding path resolves Google's expiring
 `vertexaisearch` redirect URLs to real publisher links and keeps **only**
 grounding-cited URLs (`url_resolve.py` + `collectors/web_gemini.py`) — same
 anti-hallucination guarantee as the Anthropic `web` collector.
+
+### Reader feedback
+
+Her reactions to cards and issues become a reader profile and a proposed steer; see the
+"Reader feedback loop" section in `README.md` for setup and the full flow. The two
+verbs: `python backend/pipeline.py --profile` regenerates the profile and local HTML
+report from her reactions, and `python backend/pipeline.py --accept-steer` (Ali only)
+makes a proposed steer active by writing `backend/steer.yaml`.
+
+**You are also the steer proposer** (after step 6, no API cost). A `--write` run rebuilds the
+profile, and once there are at least `min_explicit_for_proposal` explicit reactions (the
+`feedback:` block in `config.yaml`) it writes **`backend/profile_evidence.json`**: the
+cards she actually reacted to, the chip tallies, the current/ideal section mix, and the
+`output_schema` your answer must match. When that file appears:
+
+1. Read `backend/profile_evidence.json` — the evidence in it is the only thing you may
+   reason over.
+2. Write `backend/profile_proposal.json` matching its `output_schema`:
+   `emergent_axes` (each with `evidence_urls` chosen **ONLY** from the urls present in
+   that evidence — the same rule as HARD RULE 1: never a url from memory or from
+   anywhere else), `profile_summary` and `proposed_steer` at most **120 words each**, and
+   `section_weights` over the section ids the evidence gives you.
+3. Run:
+   ```bash
+   python backend/pipeline.py --profile --proposal backend/profile_proposal.json
+   ```
+   This validates the proposal and writes it to `profile/proposal.yaml` as a *proposed*
+   steer. It does not take effect until Ali runs `--accept-steer`.
 
 ## Notes
 

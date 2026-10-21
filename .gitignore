@@ -8,6 +8,9 @@ __pycache__/
 # Working files for the Claude Code engine
 backend/pool.json
 backend/curated.json
+# Working files for the Claude Code reader-profile proposer
+backend/profile_evidence.json
+backend/profile_proposal.json
 
 # Node / build
 frontend/node_modules/

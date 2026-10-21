@@ -21,7 +21,11 @@ import anthropic
 
 import validate
 from config import Config
-from curate_schema import CuratorOutput, system_prompt as _system_prompt
+from curate_schema import (
+    CuratorOutput,
+    reader_profile_block,
+    system_prompt as _system_prompt,
+)
 
 MODEL = "claude-opus-4-8"
 
@@ -44,6 +48,23 @@ def curate(cfg: Config, pool: list[dict], seen_urls: list[str]) -> Optional[dict
         "valid_signal_tags": list(validate.SIGNAL_TAGS),
     }
 
+    # The big prompt stays byte-identical (and cached). An active steer rides
+    # along as a second, uncached block so a new steer never invalidates the cache.
+    system_blocks = [
+        {
+            "type": "text",
+            "text": _system_prompt(cfg),
+            "cache_control": {"type": "ephemeral"},
+        }
+    ]
+    if cfg.steer:
+        system_blocks.append(
+            {
+                "type": "text",
+                "text": reader_profile_block(cfg.steer, cfg.section_weights),
+            }
+        )
+
     try:
         # messages.parse injects output_config={"format": <schema>} from output_format
         # — don't pass our own output_config (collides). effort defaults to "high".
@@ -51,13 +72,7 @@ def curate(cfg: Config, pool: list[dict], seen_urls: list[str]) -> Optional[dict
             model=MODEL,
             max_tokens=16000,
             thinking={"type": "adaptive"},
-            system=[
-                {
-                    "type": "text",
-                    "text": _system_prompt(cfg),
-                    "cache_control": {"type": "ephemeral"},
-                }
-            ],
+            system=system_blocks,
             messages=[
                 {
                     "role": "user",

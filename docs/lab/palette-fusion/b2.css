@@ -1,0 +1,45 @@
+/* Direction B, round 2 — ONE HUE PER STATION, no glyphs.
+   Monochrome chrome on the glance: tiles on card, ink labels, the plain
+   ink/highlight sliver. The section hue appears only when you reach for a
+   tile: the sliver's lower half lights in the hue and the tile's left edge
+   takes it. Takeover = the section's hue as a dithered band down the left
+   edge, paper ground, white cards. Feed = ink only; register-tape rules
+   between sections. The pixel language lives in the tape and the dither,
+   not in marks on each item. */
+html.b2.after .px-glyph { display: none; }
+html.b2.after .bd-box { background: var(--card); }
+html.b2.after .brief { background: color-mix(in srgb, var(--brand-yellow) 10%, var(--paper)); border-left: 3px solid var(--brand-yellow); }
+
+/* glance: card tiles, ink labels, hue on reach */
+html.b2.after .tile-sig { background: var(--card); border-left: 1px solid var(--border); transition: box-shadow var(--motion-md) var(--ease-settle), border-color var(--motion-md) var(--ease-settle); }
+html.b2.after .tile-sig .tile-label { color: var(--ink); }
+html.b2.after .tile-sig::before { display: block; background: linear-gradient(to bottom, var(--ink) 60%, var(--brand-yellow) 60%); transition: background var(--motion-md) var(--ease-settle); }
+html.b2.after .tile-sig:hover::before, html.b2.after .tile-sig:focus-within::before { background: linear-gradient(to bottom, var(--ink) 60%, var(--sig) 60%); }
+html.b2.after .tile-sig:hover, html.b2.after .tile-sig:focus-within { border-left: 3px solid var(--sig); padding-left: calc(var(--sp-4) - 2px); }
+html.b2.after .tile-wide:hover, html.b2.after .tile-wide:focus-within { padding-left: calc(var(--sp-5) - 2px); }
+html.b2.after .tile-feed { background: var(--paper); border: 1px dashed var(--border-strong); box-shadow: none; }
+
+/* takeover: paper ground, the hue as a dithered band down the left edge */
+html.b2.after .takeover { position: relative; background: var(--paper); border: 1px solid var(--border); overflow: hidden; }
+html.b2.after .takeover::before {
+  content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 24px; pointer-events: none;
+  background-image:
+    radial-gradient(circle, var(--sig) 1.2px, transparent 1.5px),
+    radial-gradient(circle, color-mix(in srgb, var(--sig) 65%, transparent) 1.2px, transparent 1.5px),
+    radial-gradient(circle, color-mix(in srgb, var(--sig) 40%, transparent) 1.2px, transparent 1.5px),
+    radial-gradient(circle, color-mix(in srgb, var(--sig) 18%, transparent) 1.2px, transparent 1.5px);
+  background-size: 4px 4px; background-repeat: repeat-y;
+  background-position: 2px 0, 6px 2px, 10px 0, 14px 2px;
+}
+html.b2.after .takeover-inner { position: relative; }
+html.b2.after .takeover .section-label { color: var(--ink); }
+html.b2.after .takeover .section-label::before { background: linear-gradient(to bottom, var(--ink) 60%, var(--sig) 60%); }
+
+/* feed: ink only; register tape between sections (8px cells, not dots) */
+html.b2.after .section-rule { height: 3px; background: repeating-linear-gradient(90deg, var(--ink) 0 8px, transparent 8px 12px); opacity: .5; }
+html.b2.after .feed-sample .section-label::before { background: linear-gradient(to bottom, var(--ink) 60%, var(--brand-yellow) 60%); }
+
+/* the 720 column: Brief on top, the bento as a two-row wall below */
+html.col .app-glance { max-width: var(--maxw); }
+html.col .glance { grid-template-columns: 1fr; }
+html.col .glance .brief, html.col .glance-bento { grid-column: 1; }

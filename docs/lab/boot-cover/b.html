@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>B · The Dispatch</title>
+<link rel="stylesheet" href="./base.css">
+<style>
+/* Direction B — THE DISPATCH. The loader is a product object: RoboBuddy's own
+   dialogue box, printed large, with the day's dispatch typing inside it and a
+   row of his screen-pixels as the progress strip (poolsuite's installer dialog,
+   in this product's RPG-dialog language). The cover then lifts off the top; the
+   masthead beneath carries the same box at rest. */
+.cover { display: grid; place-items: center; }
+.card { width: min(760px, 92vw); display: flex; gap: 16px; align-items: stretch; transform: translateY(12px); opacity: 0; animation: arrive 700ms var(--ease-settle) 80ms forwards; }
+@keyframes arrive { to { transform: none; opacity: 1; } }
+.card .bd-portrait { width: 176px; }
+.card .bd-box { min-height: 300px; align-content: space-between; box-shadow: 8px 8px 0 var(--ink); }
+.line { width: 100%; display: flex; flex-direction: column; gap: 10px; }
+.quip { margin: 0; font-family: var(--font-serif); font-size: clamp(22px, 2.6vw, 30px); font-weight: 560; line-height: 1.25; font-variation-settings: "SOFT" 60, "WONK" 0; min-height: 2.5em; }
+.caret { display: inline-block; width: .5ch; height: 1.05em; vertical-align: -.15em; background: var(--accent); margin-left: 2px; }
+.strip { width: 100%; display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; }
+.strip svg { width: 240px; height: auto; display: block; }
+.strip rect.cell { fill: var(--cell-off); transition: fill 250ms var(--ease-settle); }
+.strip .num { font-family: var(--font-serif); font-size: 34px; font-weight: 500; line-height: 1; font-variant-numeric: tabular-nums; }
+.meta-top { width: 100%; display: flex; justify-content: space-between; }
+.corner { position: absolute; left: 32px; top: 28px; }
+@media (max-width: 600px) { .card { flex-direction: column; } .card .bd-portrait { width: 120px; height: 120px; align-self: center; } .strip svg { width: 160px; } }
+</style>
+</head>
+<body>
+<div class="cover" id="cover">
+  <span class="mono corner">AI Marketing Pulse · private feed</span>
+  <div class="card buddy-dialog">
+    <span class="bd-portrait"><img src="/frontend/public/robobuddy.png" alt="" width="418" height="597"></span>
+    <div class="bd-box">
+      <span class="bd-nameplate">ROBOBUDDY</span>
+      <div class="meta-top"><span class="mono">Issue 108 · Tue 21 Oct 2026</span><span class="mono" id="stage">Stage 1 of 3</span></div>
+      <div class="line"><p class="quip"><span id="q"></span><span class="caret" id="caret"></span></p></div>
+      <div class="strip">
+        <svg viewBox="0 0 136 14" id="bar" aria-hidden="true"><rect width="136" height="14" rx="6" fill="var(--screen)"/><rect x="2" y="2" width="132" height="10" rx="4" fill="var(--screen-in)"/><g id="cells"></g></svg>
+        <span class="num" id="num">0<span class="mono" style="font-size:12px;margin-left:4px">%</span></span>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="./page.js"></script>
+<script>
+page.mount("B · The Dispatch");
+const QUIPS = ["Reading the morning's sources.", "Sorting what matters into the Brief.", "Warming up your glance."];
+const g = document.getElementById("cells"); const cells = [];
+for (let i = 0; i < 22; i++) { const el = document.createElementNS("http://www.w3.org/2000/svg", "rect"); el.setAttribute("class", "cell"); el.setAttribute("x", (4.8 + i * 5.8).toFixed(1)); el.setAttribute("y", "4.7"); el.setAttribute("width", "4.6"); el.setAttribute("height", "4.6"); el.setAttribute("rx", "1"); g.appendChild(el); cells.push(el); }
+const PAL = ["#ffd24a","#f6b53d","#e8a33a","#ffc24a","#d99a2e"];
+const q = document.getElementById("q"), num = document.getElementById("num"), stage = document.getElementById("stage");
+async function type(text) { q.textContent = ""; for (let i = 1; i <= text.length; i++) { q.textContent = text.slice(0, i); await page.wait(22); } }
+(async () => {
+  if (page.reduce) return;
+  await page.wait(500);
+  for (let s = 0; s < QUIPS.length; s++) {
+    stage.textContent = `Stage ${s + 1} of 3`;
+    const from = Math.round(s * 22 / 3), to = Math.round((s + 1) * 22 / 3);
+    const typing = type(QUIPS[s]);
+    for (let i = from; i < to; i++) { setTimeout(() => { cells[i].style.fill = PAL[i % 5]; num.firstChild.textContent = String(Math.round((i + 1) / 22 * 100)); }, (i - from) * 90); }
+    await typing; await page.wait(380);
+  }
+  document.getElementById("caret").remove();
+  await page.wait(820); // the full strip and the last line hold before the lift
+  // exit: the whole dialog travels into the masthead; portrait rides along;
+  // title and tiles build after it lands
+  page.exit();
+})();
+</script>
+</body>
+</html>

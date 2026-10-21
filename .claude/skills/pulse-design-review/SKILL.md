@@ -59,6 +59,68 @@ const { chromium } = require("playwright");
 })();' # run from frontend/ so require("playwright") resolves
 ```
 
+### Interactive states (required whenever a reaction mark, chip or toggle changed)
+
+The heart fills green at like and glows gold at super like, where it is drawn as
+a larger rig with a silhouette edge, and neither stage exists in a resting
+capture. Note the group's order: the landing word sits left of the heart on
+desktop, and the heart leads it at <=480px. Drive it by class at both viewports and shoot the frames the
+stages actually live in, including one mid-hold:
+
+```bash
+node -e '
+const { chromium } = require("playwright");
+(async () => {
+  const b = await chromium.launch();
+  for (const [w, h, tag] of [[1280, 900, "desktop"], [390, 844, "mobile"]]) {
+    const p = await b.newPage({ viewport: { width: w, height: h } });
+    await p.goto("http://localhost:PORT/#feed");
+    await p.waitForSelector(".card");
+    const cards = p.locator(".card");
+    await cards.nth(0).locator(".mark").click();                    // like
+    await p.waitForTimeout(90);
+    await p.screenshot({ path: `/tmp/pulse-shots/marks-like-${tag}.png` }); // mid row sweep
+    const heart = cards.nth(1).locator(".mark");
+    await heart.click(); await heart.click();                       // super like
+    await p.waitForTimeout(160);
+    await p.screenshot({ path: `/tmp/pulse-shots/marks-glow-${tag}.png` }); // ring, shimmer, beat
+    // A hold in progress: the screen dims toward rest before it clears.
+    const third = cards.nth(2).locator(".mark");
+    await third.click();
+    const box = await third.boundingBox();
+    await p.mouse.move(box.x + 20, box.y + 20);
+    await p.mouse.down();
+    await p.waitForTimeout(300);
+    await p.screenshot({ path: `/tmp/pulse-shots/marks-hold-${tag}.png` });
+    await p.mouse.up();
+    await p.waitForTimeout(600);
+    await p.screenshot({ path: `/tmp/pulse-shots/marks-${tag}.png`, fullPage: true });
+    await cards.nth(1).locator(".card-toggle").click();             // chips
+    await p.waitForTimeout(400);
+    await p.screenshot({ path: `/tmp/pulse-shots/chips-${tag}.png`, fullPage: true });
+    await p.close();
+  }
+  const r = await b.newPage({ viewport: { width: 1280, height: 900 } });
+  await r.emulateMedia({ reducedMotion: "reduce" });
+  await r.goto("http://localhost:PORT/#feed");
+  await r.waitForSelector(".card");
+  const rm = r.locator(".card").nth(0).locator(".mark");
+  await rm.click(); await rm.click();
+  await r.waitForTimeout(120);
+  await r.screenshot({ path: "/tmp/pulse-shots/marks-reduced.png" });
+  await b.close();
+})();' # run from frontend/ so require("playwright") resolves
+```
+
+Three frames are on the exit checklist because nothing else shows them.
+`marks-like-*.png` (~90ms into the first tap) catches the heart filling row by
+row. `marks-glow-*.png` (~160ms into the second) catches the shimmer, the halo
+and the beat together, and proves none of them covers the row.
+`marks-hold-*.png` catches the heart dimming under a press that has not finished
+yet. The reduced-motion frame must show the lit heart with no shimmer and no
+ring at all, but still drawn at its larger size and carrying its silhouette
+edge, which are state rather than motion.
+
 ## Step 3 — Spawn 3 reviewers IN PARALLEL (one message, three Agent calls)
 
 Each reviewer prompt must include: the three image paths (they Read the
@@ -99,5 +161,9 @@ forever, and do not silently accept them.
 
 - [ ] All three lenses: zero must-fix on the latest captures
 - [ ] Desktop + mobile + expanded state all captured on the final iteration
+- [ ] Interactive states captured when the mark or chips changed: like, super
+      like, chips open, plus the mid-sweep, mid-glow and mid-hold frames
+- [ ] One reduced-motion run captured: lit heart, unscaled, no stagger, no
+      shimmer, no ring
 - [ ] Dev server killed
 - [ ] No screenshots committed

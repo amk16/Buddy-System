@@ -6,16 +6,16 @@
   --paper: #faf7f0;
   --card: #fffdf8;
   --cream-2: #f3eee2;
-  --brief-bg: #fdf3cd; /* soft butter — the brand surface, calmed */
+  --brief-bg: color-mix(in srgb, #f78d1d 10%, #faf7f0); /* the highlight at a tenth into paper: the Brief's ground, the one tinted surface on the front door */
   --border: #e7e0d2;
   --border-strong: #d8cfba;
 
-  /* ink (Scribbld "Highlighter & Ink": deep brand gold + marker yellow) */
+  /* ink (Scribbld "Highlighter & Ink": deep brand gold + highlight) */
   --ink: #2c2a26;
   --ink-soft: #5f594e;
   --accent: #6e530e;       /* deep brand gold — 6.8:1 on paper */
   --accent-deep: #574108;
-  --brand-yellow: #ffd700; /* Scribbld signature — surfaces/decoration ONLY, never text */
+  --brand-highlight: #f78d1d; /* Scribbld's highlight (Ali, 2026-10-21): decoration, surfaces, and ink text ON it; never as text itself */
 
   /* signal tints */
   --tag-trending-bg: #f7e8df;
@@ -157,12 +157,20 @@ body {
     transition-duration: 0.01ms !important;
     animation: none !important;
   }
+
+  /* The rule above only collapses duration, which would leave the reaction
+     mark's per-row and per-diagonal stagger intact as pure waiting. Zero it
+     explicitly so a lit level swaps in at once. */
+  .mark-cell,
+  .boot-cell {
+    transition-delay: 0ms !important;
+  }
 }
 
-/* the "scribbld" motif: ink-gold text on a marker-yellow highlight line */
+/* the "scribbld" motif: ink-gold text on a highlight line */
 a {
   color: var(--accent);
-  text-decoration-color: var(--brand-yellow);
+  text-decoration-color: var(--brand-highlight);
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
 }
@@ -228,13 +236,17 @@ a:hover {
 
 /* Fixed-size frame (matching the dialogue box's ink border), no fill. It clips
    an over-sized RoboBuddy so he reads large and spills past the frame edges. */
+/* A square frame with RoboBuddy whole and centred in it. The PNG's opaque
+   figure spans x 40–278 of 418 and y 107–479 of 597 (measured 2026-10-21), so
+   the image is drawn at 105% of the frame and placed from the figure's own
+   centre (37.9% across, 48.9% down); the percentages scale with the frame,
+   so 112 and 92 crop identically. */
 .bd-portrait {
   flex: none;
+  position: relative;
   width: 112px;
-  align-self: stretch;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 112px;
+  align-self: flex-start;
   overflow: hidden;
   background: transparent;
   border: 2px solid var(--ink);
@@ -242,9 +254,12 @@ a:hover {
 }
 
 .bd-portrait-img {
+  position: absolute;
   display: block;
-  width: 150%; /* bigger than the frame; edges crop against it */
+  width: 105%;
   height: auto;
+  left: 10.4%; /* 50% − 37.9% × 105% */
+  top: -23.3%; /* 50% − 48.9% × 105% × (597 / 418) */
 }
 
 .bd-box {
@@ -256,25 +271,26 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   gap: var(--sp-2) var(--sp-4);
-  background: var(--brief-bg);
+  min-height: 112px; /* meets the portrait's height, no taller */
+  background: var(--card);
   border: 2px solid var(--ink);
   border-radius: var(--radius);
   padding: var(--sp-4) var(--sp-5);
 }
 
-/* Scribbld wordmark style: marker-yellow on ink — the one sanctioned
-   brand-yellow-as-text surface (≈10.9:1 on --ink, AAA). */
+/* The Scribbld highlighter: ink text on the highlight chip (5.9:1). The
+   highlight is never text; here it is the surface. */
 .bd-nameplate {
   position: absolute;
   top: -12px;
   left: var(--sp-3);
-  background: var(--ink);
-  color: var(--brand-yellow);
+  background: var(--brand-highlight);
+  color: var(--ink);
   font-family: var(--font-sans);
   font-size: var(--fs-xs);
   font-weight: 700;
   letter-spacing: 0.08em;
-  padding: 2px var(--sp-2);
+  padding: var(--sp-1) var(--sp-2);
   border-radius: var(--radius-sm);
 }
 
@@ -308,6 +324,12 @@ a:hover {
   font-family: var(--font-sans);
   font-size: var(--fs-sm);
   color: var(--ink-soft);
+}
+
+/* the date and the reading time each hold together: a narrow box breaks at
+   the separator, never on the last word */
+.bd-nowrap {
+  white-space: nowrap;
 }
 
 /* ---------- archive switcher ---------- */
@@ -410,19 +432,33 @@ a:hover {
   color: var(--ink-soft);
 }
 
-/* Brief tall on the left — always-open, never gated. */
+/* Brief tall on the left — always-open, never gated. On the glance it is the
+   wall's height, not its own: the grid stretches it to the bento, and each
+   item clamps to three lines (headline plus the start of its why), the full
+   lines living in the feed one tap away. */
 .glance .brief {
   grid-column: 1;
   margin-bottom: 0;
+  align-self: stretch;
+}
+
+.glance .brief-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /* The asymmetric section wall on the right. */
 .glance-bento {
   grid-column: 2;
+  align-self: stretch; /* the wall is the row's height, like the Brief */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--sp-4);
-  align-content: start;
+  gap: var(--sp-5); /* the same gap the Brief keeps from the wall: one rhythm */
+  /* the wall ends where the Brief ends: any px the Brief is taller spreads
+     into the row gaps (never more than a px or two) */
+  align-content: space-between;
 }
 
 .glance-bento .tile-wide,
@@ -463,7 +499,15 @@ a:hover {
 @media (hover: hover) {
   /* reserve a right safe-zone so the peek never covers tile text */
   .tile {
-    padding-right: 76px;
+    padding-right: 72px;
+  }
+
+  /* half tiles are narrow: the peek rig is drawn a size smaller there so the
+     text column keeps about 190px at the glance's width */
+  .tile:not(.tile-wide) .tile-buddy,
+  .tile:not(.tile-wide) .buddy-svg {
+    width: 64px;
+    height: 80px; /* the rig's 120:150 at 64 wide, on the grid */
   }
 
   .tile-buddy {
@@ -524,19 +568,37 @@ a:hover {
   }
 }
 
-/* Signature box: a soft wash of its hue + a colored left edge; the label
-   carries the same hue (the edge replaces the ink/yellow sliver here). */
+/* Section box, one hue per station: at rest it is card, ink and the sliver,
+   like every other box. Its hue appears only when you reach for it: the
+   sliver's lower half lights and the left edge takes the hue. The hue is the
+   signal that you are about to change station, not a wash on the glance. */
 .tile-sig {
-  background: var(--sig-bg);
-  border-left: 3px solid var(--sig);
+  background: var(--card);
 }
 
-.tile-sig::before {
-  display: none;
-}
-
+.tile-sig::before,
 .tile-sig .tile-label {
+  transition:
+    background var(--motion-md) var(--ease-settle),
+    color var(--motion-md) var(--ease-settle);
+}
+
+/* On reach the hue arrives in three places that read as one: the label, the
+   sliver's lower half, and a 3px inset edge (an inset shadow, so it follows
+   the corner radius and moves no text). The accents clear 4.5:1 on card. */
+.tile-sig:hover,
+.tile-sig:focus-within {
+  box-shadow: inset 3px 0 0 var(--sig), var(--shadow-card-hover);
+}
+
+.tile-sig:hover .tile-label,
+.tile-sig:focus-within .tile-label {
   color: var(--sig);
+}
+
+.tile-sig:hover::before,
+.tile-sig:focus-within::before {
+  background: linear-gradient(to bottom, var(--ink) 60%, var(--sig) 60%);
 }
 
 /* The hero (and trailing odd) box has room to breathe and show more. */
@@ -544,18 +606,26 @@ a:hover {
   padding: var(--sp-5);
 }
 
+/* The shorthand above would otherwise drop the safe zone on hover devices
+   (same specificity, later in the file): put it back. */
+@media (hover: hover) {
+  .tile-wide {
+    padding-right: 72px;
+  }
+}
+
 .tile-wide .tile-headline {
   font-size: var(--fs-body);
   -webkit-line-clamp: 3;
 }
 
-/* Scribbld banner DNA, miniaturized: ink bar over a marker-yellow sliver */
+/* Scribbld banner DNA, miniaturized: ink bar over a highlight sliver */
 .tile::before {
   content: "";
   display: block;
   width: var(--sp-5);
   height: 5px;
-  background: linear-gradient(to bottom, var(--ink) 60%, var(--brand-yellow) 60%);
+  background: linear-gradient(to bottom, var(--ink) 60%, var(--brand-highlight) 60%);
 }
 
 .tile-label {
@@ -587,7 +657,8 @@ a:hover {
 
 .tile-feed {
   grid-column: 1 / -1;
-  background: var(--cream-2);
+  background: var(--paper);
+  border: 1px dashed var(--border-strong);
   box-shadow: none;
 }
 
@@ -683,7 +754,7 @@ a:hover {
   font-weight: 400;
   color: var(--ink-soft);
   text-decoration: underline;
-  text-decoration-color: var(--brand-yellow);
+  text-decoration-color: var(--brand-highlight);
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
 }
@@ -695,13 +766,15 @@ a:hover {
 
 /* ---------- the fill-screen takeover (single-section view) ---------- */
 
-/* The clicked box grows to fill the glance content area (not full-bleed),
-   washed in its section's signature tint; the cards still read in the calm
-   720px column. Rounded like the tile it morphed from. */
+/* The clicked box grows to fill the glance content area (not full-bleed), on
+   paper, with its section's hue spent once as the band on its left edge; the
+   cards still read in the calm 720px column. Rounded like the tile it morphed
+   from. */
 .takeover {
-  background: var(--sig-bg, var(--paper));
+  background: var(--paper);
+  border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: var(--sp-6) var(--sp-5) var(--sp-8);
+  padding: var(--sp-6) var(--sp-5) var(--sp-6);
   min-height: 72vh;
 }
 
@@ -711,17 +784,18 @@ a:hover {
 }
 
 /* The section label is the takeover's identity: it wears the signature hue
-   and a longer ink/yellow anchor rule so "which section am I in" reads at a
+   and a longer ink/highlight anchor rule so "which section am I in" reads at a
    glance. Elsewhere the label stays ink — this is scoped here. */
 .takeover .section-label {
-  color: var(--sig, var(--ink));
+  color: var(--ink);
   margin-bottom: var(--sp-5);
 }
 
-/* Same ink/yellow DNA as the glance sliver (5px tall), just longer to anchor
-   the takeover's section identity. */
+/* The glance sliver, longer, with its lower half in the section's hue: the
+   one place the label's rule carries colour, and the section's hue spent once. */
 .takeover .section-label::before {
   width: var(--sp-8);
+  background: linear-gradient(to bottom, var(--ink) 60%, var(--sig) 60%);
 }
 
 /* The back link is the only way out of the takeover — give it real presence
@@ -736,9 +810,9 @@ a:hover {
 .brief {
   background: var(--brief-bg);
   border: 1px solid var(--border);
-  border-left: 3px solid var(--accent);
+  border-left: 3px solid var(--brand-highlight);
   border-radius: var(--radius);
-  padding: var(--sp-5) var(--sp-5) var(--sp-4);
+  padding: var(--sp-5);
   margin-bottom: var(--sp-7);
 }
 
@@ -790,6 +864,20 @@ a:hover {
   margin-bottom: var(--sp-7);
 }
 
+/* Register tape between sections in the feed: a row of 8px ink cells at half
+   strength, the pixel language as a rule. A section that follows a section
+   opens with it; the first follows the Brief and needs none. */
+.section + .section {
+  padding-top: var(--sp-5);
+  background-image: repeating-linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--ink) 50%, transparent) 0 8px,
+    transparent 8px 12px
+  );
+  background-size: 100% 3px;
+  background-repeat: no-repeat;
+}
+
 .section-label {
   margin: 0 0 var(--sp-4);
   font-size: var(--fs-lg);
@@ -803,7 +891,7 @@ a:hover {
   display: block;
   width: var(--sp-6);
   height: 5px;
-  background: linear-gradient(to bottom, var(--ink) 60%, var(--brand-yellow) 60%);
+  background: linear-gradient(to bottom, var(--ink) 60%, var(--brand-highlight) 60%);
   margin-bottom: var(--sp-3);
 }
 
@@ -827,15 +915,22 @@ a:hover {
   box-shadow: var(--shadow-card-hover);
 }
 
-.card-kicker {
-  display: inline-block;
+/* The pill recipe, worn by the signal kicker and the reason chips alike. The
+   two diverge only where they must: a chip is a control, so it takes the 40px
+   hit-target floor and the roomier padding that goes with it. */
+.card-kicker,
+.chip {
   font-family: var(--font-sans);
   font-size: var(--fs-xs);
-  font-weight: 600;
   letter-spacing: 0.05em;
-  padding: var(--sp-1) var(--sp-2);
   line-height: 1;
   border-radius: 999px;
+}
+
+.card-kicker {
+  display: inline-block;
+  font-weight: 600;
+  padding: var(--sp-1) var(--sp-2);
   margin-bottom: var(--sp-2);
 }
 
@@ -864,7 +959,7 @@ a:hover {
   /* highlighter resting underline: the headline IS the link to the source,
      and touch devices have no hover to discover that */
   text-decoration: underline;
-  text-decoration-color: var(--brand-yellow);
+  text-decoration-color: var(--brand-highlight);
   text-decoration-thickness: 2px;
   text-underline-offset: 4px;
   margin-bottom: var(--sp-2);
@@ -884,14 +979,49 @@ a:hover {
 
 .card-meta {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  gap: var(--sp-3);
+  /* Row gap is tight so a wrapped meta row stays one quiet block; the column
+     gap keeps source and controls apart on one line. */
+  gap: var(--sp-1) var(--sp-3);
+  min-height: 40px;
   font-family: var(--font-sans);
   font-size: var(--fs-sm);
   color: var(--ink-soft);
 }
 
+/* The source is the part that gives way: it shrinks to about twelve characters
+   before the controls are allowed to drop to their own line. */
+.card-source {
+  flex: 1 1 12ch;
+  min-width: 0;
+}
+
+/* Keep the date whole, so a narrow meta row breaks at the separator rather
+   than between the month and the day. */
+.card-date {
+  white-space: nowrap;
+}
+
+/* The right-hand group: the noted slot, the heart, the Details toggle, so the
+   heart and the Details toggle cluster together. At <=480px the heart leads
+   instead (see .mark below), so its ink lands on the river. */
+.card-actions {
+  display: inline-flex;
+  align-items: center;
+  /* --sp-2: the super-like rig fills its 40px button edge to edge, losing the
+     inset the smaller sizes carry, so a 4px gap read tighter at that level
+     than at rest or like. 8px keeps the optical spacing close across all
+     three, and sits on the grid. */
+  gap: var(--sp-2);
+  margin-left: auto;
+  flex: 0 0 auto;
+}
+
+/* The label swaps between "Details" and "Hide", which are different widths. The
+   min-inline-size is the wider of the two plus its chevron, so the marks to the
+   left of it never shift, and the content is pushed to the end against a zero
+   end padding, so the chevron's ink meets the text river in both states. */
 .card-toggle {
   font-family: var(--font-sans);
   font-size: var(--fs-sm);
@@ -900,11 +1030,13 @@ a:hover {
   background: none;
   border: none;
   border-radius: var(--radius-sm);
-  padding: 0 var(--sp-2);
+  padding: 0 0 0 var(--sp-2);
   min-height: 40px;
+  min-inline-size: 4.75rem;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
+  justify-content: flex-end;
   gap: var(--sp-1);
 }
 
@@ -921,6 +1053,344 @@ a:hover {
 
 .card-toggle[aria-expanded="true"] .chev {
   transform: rotate(180deg);
+}
+
+/* ---------- the reaction mark (one pixel heart) ---------- */
+
+/* A 40px target holding a 34x29 heart. Overflow stays visible so the one-shot
+   landing ring can escape the button without changing the row's height. */
+.mark {
+  position: relative;
+  inline-size: 40px;
+  block-size: 40px;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: var(--radius-sm);
+  overflow: visible;
+  cursor: pointer;
+  /* A press and hold is a gesture on this button, so the platform must not
+     read it as a selection, a callout or a double-tap zoom instead. */
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.mark-rig {
+  display: block;
+  overflow: visible;
+  /* The heart is drawn at 1:1, so every cell edge should land on a device
+     pixel rather than be softened across two. */
+  shape-rendering: crispEdges;
+}
+
+/* The heartbeat, the third motion of the ReactionMarks landing. Like gets one
+   pulse, super like gets two, so the two landings never feel like the same
+   event. Both are driven by the attribute rather than by a React key:
+   remounting the rig would replace every cell with a brand new element, and a
+   brand new element cannot transition, which would cancel the fill stagger
+   playing on the same landing. */
+.mark-rig[data-beat="single"] {
+  animation: mark-beat 300ms var(--ease-settle);
+}
+
+.mark-rig[data-beat="double"] {
+  animation: mark-beat-double 450ms var(--ease-settle);
+}
+
+@keyframes mark-beat {
+  0% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Both beats end where they began. Super like is a size larger because it is
+   drawn larger, not held there by a transform, so a beat that ended anywhere
+   but 1 would snap back the moment the animation finished. */
+@keyframes mark-beat-double {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.18);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  75% {
+    transform: scale(1.18);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Every fill is set here, never on the React element, so changing one
+   data-level attribute is enough to animate the whole heart. */
+.mark-cell {
+  fill: #938d7e;
+  transition: fill var(--motion-md) var(--ease-settle);
+  transition-delay: 0ms;
+}
+
+/* Two stagger indices, both on :nth-child rather than an inline style so the
+   rig stays a plain, repeatable piece of markup. --r is the cell's row, which
+   like fills down; --d is its diagonal (column plus row), which super like
+   fills along. The tables follow the rig's row-major order. */
+.mark-cell:nth-child(1) { --r: 0; }
+.mark-cell:nth-child(2) { --r: 0; }
+.mark-cell:nth-child(3) { --r: 0; }
+.mark-cell:nth-child(4) { --r: 0; }
+.mark-cell:nth-child(5) { --r: 1; }
+.mark-cell:nth-child(6) { --r: 1; }
+.mark-cell:nth-child(7) { --r: 1; }
+.mark-cell:nth-child(8) { --r: 1; }
+.mark-cell:nth-child(9) { --r: 1; }
+.mark-cell:nth-child(10) { --r: 1; }
+.mark-cell:nth-child(11) { --r: 1; }
+.mark-cell:nth-child(12) { --r: 2; }
+.mark-cell:nth-child(13) { --r: 2; }
+.mark-cell:nth-child(14) { --r: 2; }
+.mark-cell:nth-child(15) { --r: 2; }
+.mark-cell:nth-child(16) { --r: 2; }
+.mark-cell:nth-child(17) { --r: 2; }
+.mark-cell:nth-child(18) { --r: 2; }
+.mark-cell:nth-child(19) { --r: 3; }
+.mark-cell:nth-child(20) { --r: 3; }
+.mark-cell:nth-child(21) { --r: 3; }
+.mark-cell:nth-child(22) { --r: 3; }
+.mark-cell:nth-child(23) { --r: 3; }
+.mark-cell:nth-child(24) { --r: 4; }
+.mark-cell:nth-child(25) { --r: 4; }
+.mark-cell:nth-child(26) { --r: 4; }
+.mark-cell:nth-child(27) { --r: 5; }
+
+.mark-cell:nth-child(1) { --d: 1; }
+.mark-cell:nth-child(2) { --d: 2; }
+.mark-cell:nth-child(3) { --d: 4; }
+.mark-cell:nth-child(4) { --d: 5; }
+.mark-cell:nth-child(5) { --d: 1; }
+.mark-cell:nth-child(6) { --d: 2; }
+.mark-cell:nth-child(7) { --d: 3; }
+.mark-cell:nth-child(8) { --d: 4; }
+.mark-cell:nth-child(9) { --d: 5; }
+.mark-cell:nth-child(10) { --d: 6; }
+.mark-cell:nth-child(11) { --d: 7; }
+.mark-cell:nth-child(12) { --d: 2; }
+.mark-cell:nth-child(13) { --d: 3; }
+.mark-cell:nth-child(14) { --d: 4; }
+.mark-cell:nth-child(15) { --d: 5; }
+.mark-cell:nth-child(16) { --d: 6; }
+.mark-cell:nth-child(17) { --d: 7; }
+.mark-cell:nth-child(18) { --d: 8; }
+.mark-cell:nth-child(19) { --d: 4; }
+.mark-cell:nth-child(20) { --d: 5; }
+.mark-cell:nth-child(21) { --d: 6; }
+.mark-cell:nth-child(22) { --d: 7; }
+.mark-cell:nth-child(23) { --d: 8; }
+.mark-cell:nth-child(24) { --d: 6; }
+.mark-cell:nth-child(25) { --d: 7; }
+.mark-cell:nth-child(26) { --d: 8; }
+.mark-cell:nth-child(27) { --d: 8; }
+
+/* Hover lifts the resting cells one step, so the control answers the pointer
+   without ever competing with a heart that is actually lit. It comes before
+   the lit states on purpose: they share its specificity and must win. */
+.mark:hover .mark-cell {
+  fill: var(--ink-soft);
+}
+
+/* like: the whole heart in vivid green, filling one row at a time from the top.
+   Half a heart was too quiet to read as an answer, and so was deep gold, which
+   sits close enough to the resting grey to read as brown. Green is the
+   case_studies signature hue from lib/buddy.ts, reused here as "liked", so the
+   ladder runs green then gold: two hues at two brightnesses. */
+.mark[data-level="more"] .mark-cell {
+  fill: #1f9e6e;
+  transition-delay: calc(var(--r) * 45ms);
+}
+
+/* super like: the heart warms to amber and fills along the diagonal, with the
+   upper left lobe and the centre column carrying the highlight and the
+   point at the bottom holding the deep gold. */
+.mark[data-level="loved"] .mark-cell {
+  fill: #f6b53d;
+  transition-delay: calc(var(--d) * 30ms);
+}
+
+.mark[data-level="loved"] .mark-cell:nth-child(6),
+.mark[data-level="loved"] .mark-cell:nth-child(7),
+.mark[data-level="loved"] .mark-cell:nth-child(8),
+.mark[data-level="loved"] .mark-cell:nth-child(13),
+.mark[data-level="loved"] .mark-cell:nth-child(15) {
+  fill: var(--brand-highlight);
+}
+
+.mark[data-level="loved"] .mark-cell:nth-child(27) {
+  fill: var(--accent);
+}
+
+/* Super like is a size larger, and it gets there by drawing a bigger rig (2px
+   gaps instead of 1px, same 4px cells) rather than by scaling one. A transform
+   resampled everything: the outline rounded to a soft 1 to 2px, the cells lost
+   their edges, and on a narrow screen the grown ink pushed 3px into the gutter.
+   The rig's own width changes, and nothing outside it does: the button is still
+   40px and the row is still 40px tall. */
+
+/* The non-hue half of "super like": a 1px edge around the heart's silhouette,
+   present at that level and nowhere else. Hue alone could not carry none
+   against loved (#938d7e to #f6b53d is close in lightness), so the shape gains
+   an edge the eye reads without colour. It never animates; it only fades, on
+   the same terms as the cells beside it, so it neither pops in nor pops out. */
+.mark-halo {
+  stroke: var(--accent);
+  stroke-width: 1;
+  stroke-opacity: 0;
+  transition: stroke-opacity var(--motion-md) var(--ease-settle);
+}
+
+.mark[data-level="loved"] .mark-halo {
+  stroke-opacity: 1;
+}
+
+/* Held, the edge leaves with the cells rather than surviving until the clear
+   commits and then vanishing in one frame. */
+.mark[data-holding="true"][data-level="loved"] .mark-halo {
+  stroke-opacity: 0;
+  transition-duration: 350ms;
+  transition-timing-function: linear;
+}
+
+/* The hold cue. The cue starts at 150ms and runs 350ms linear, so it arrives at
+   rest colour exactly when the clear commits at 500ms. It has to be linear:
+   --ease-settle is nearly finished by its own midpoint, which made the heart
+   look cleared at 300ms while the gesture still had 200ms to run, so an early
+   release read as a glitch rather than as a change of mind. The selector has to
+   outrank every lit state above, hence the extra hooks. */
+.mark[data-holding="true"][data-level] .mark-cell:nth-child(n) {
+  fill: #938d7e;
+  transition-duration: 350ms;
+  transition-timing-function: linear;
+  transition-delay: 0ms;
+}
+
+/* The shimmer. One diagonal highlight band crosses the heart once when it
+   reaches super like, and again if she taps a heart already at the top, so the
+   control always answers.
+
+   It is drawn inside the rig and clipped to the 27 cells, not laid over the
+   button: as a positioned overlay it washed the gaps, filled in the concave
+   notches and spilled 16px past the silhouette.
+
+   The band's own alpha is the whole effect: the element's opacity stays at 1
+   for the entire sweep rather than fading in and out, because multiplying the
+   two left the crest at roughly a tenth of its specified 0.35 and the sweep was
+   invisible. The travel is linear for the same reason: on --ease-settle the
+   crest crossed at about 65ms, while the opacity ramp was still climbing. */
+.mark-shimmer {
+  opacity: 0;
+  pointer-events: none;
+  /* The gradient wants smooth interpolation, unlike the cells around it. */
+  shape-rendering: auto;
+  animation: mark-shimmer-sweep 500ms linear forwards;
+}
+
+@keyframes mark-shimmer-sweep {
+  from {
+    opacity: 1;
+    transform: translate(-40px, -34px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(40px, 34px);
+  }
+}
+
+/* The landing halo, one of the three motions in the ReactionMarks landing (the
+   system's third sanctioned motion exception, after the masthead greeting and
+   BuddyPeek). Tap-triggered, one shot, fired only on reaching super like, and
+   invisible at rest because the base opacity is 0, which is also what makes
+   reduced motion (animation: none) silent rather than frozen mid-ring. */
+.mark-ring {
+  position: absolute;
+  /* Sized to the heart it comes from at its larger drawn size (never a
+     transform), rather than to the button, so the halo starts at the edge of
+     the ink and never cuts it. */
+  inset: 1px;
+  border: 2px solid var(--accent);
+  border-radius: 999px;
+  opacity: 0;
+  pointer-events: none;
+  /* Two curves, one shot: the fade is linear so the ring still has body at the
+     midpoint, while the growth keeps the settle easing. The 38px ring matches
+     the larger heart's width, and at 1.6x it reaches 60.8px, which is past the
+     button's own box but fading to nothing by the time it gets there. */
+  --ring-max: 1.6;
+  animation:
+    mark-ring-fade 400ms linear forwards,
+    mark-ring-grow 400ms var(--ease-settle) forwards;
+}
+
+@keyframes mark-ring-fade {
+  from {
+    opacity: 0.55;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes mark-ring-grow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(var(--ring-max));
+  }
+}
+
+/* The landing word. Always in the DOM at a fixed width, so it fades in and out
+   without ever moving the row. */
+.noted {
+  flex: 0 0 auto;
+  inline-size: 4.5em;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  color: var(--ink-soft);
+  opacity: 0;
+  transition: opacity var(--motion-md) var(--ease-settle);
+}
+
+.noted[data-show="true"] {
+  opacity: 1;
+}
+
+/* Announced, never seen. */
+.sr-only {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* progressive disclosure */
@@ -949,7 +1419,7 @@ a:hover {
 }
 
 .card-terms {
-  margin: var(--sp-4) 0 0;
+  margin: var(--sp-3) 0 0;
   padding: var(--sp-3) var(--sp-4);
   background: var(--cream-2);
   border-radius: var(--radius-sm);
@@ -975,6 +1445,60 @@ a:hover {
   display: inline;
   margin: 0;
   color: var(--ink-soft);
+}
+
+/* ---------- reason chips (the Why row) ---------- */
+
+.chips-row {
+  margin-top: var(--sp-3);
+  padding-top: var(--sp-3);
+  border-top: 1px solid var(--border);
+}
+
+.chips-label {
+  margin: 0 0 var(--sp-2);
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--ink-soft);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+
+/* The pill made pressable. It keeps the kicker's shape and type and adds what a
+   control needs: the 40px target and the padding that carries it. */
+.chip {
+  font-weight: 400;
+  padding: var(--sp-2) var(--sp-3);
+  min-height: 40px;
+  border: none;
+  background: var(--cream-2);
+  color: var(--ink-soft);
+  cursor: pointer;
+  box-shadow: inset 0 0 0 1px transparent;
+  transition:
+    background var(--motion-md) var(--ease-settle),
+    box-shadow var(--motion-md) var(--ease-settle),
+    color var(--motion-md) var(--ease-settle);
+}
+
+.chip:hover {
+  color: var(--ink);
+}
+
+/* Pressed keeps the same recessed fill and says so in shape instead: a gold
+   edge, gold ink, and the heavier weight. A tint would have read as another
+   signal pill, and on this surface it was nearly the same value anyway. */
+.chip[aria-pressed="true"] {
+  background: var(--cream-2);
+  color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+  font-weight: 600;
 }
 
 /* ---------- states & footer ---------- */
@@ -1026,7 +1550,7 @@ a:hover {
   cursor: pointer;
   /* highlighter motif marks it unmistakably as the one action to take */
   text-decoration: underline;
-  text-decoration-color: var(--brand-yellow);
+  text-decoration-color: var(--brand-highlight);
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
 }
@@ -1045,10 +1569,188 @@ a:hover {
   color: var(--ink-soft);
 }
 
+/* ---------- boot cover (sanctioned motion exception 4 of 4) ---------- */
+
+/* "Self-test": RoboBuddy's own 11x7 screen (lib/buddy.ts geometry) drawn at
+   viewport scale, booting like a machine. The cells are painted by the
+   component's timer chain (raster sweep, noise, the face, one blink); each
+   fill still eases on its own transition. The readout counts in the corner,
+   the wordmark is the landscape at the bottom edge, and the whole sheet then
+   lifts off the top in one move with the finished page beneath. The only
+   transforms are translates: the lift, and the letters' one rise. Never a
+   scale. */
+.boot-cover {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  overflow: hidden; /* the paper's edge cuts the sunk wordmark: nothing hangs below the sheet */
+  background: var(--paper);
+  will-change: transform;
+  transition: transform 720ms var(--ease-settle);
+  /* the lower edge's soft shadow, painted once: at rest it falls off-screen,
+     and the lift reveals it. Transitioning it repainted the whole sheet every
+     frame of the lift; now the lift is transform only, compositor only. */
+  box-shadow: 0 10px 36px rgba(76, 60, 35, 0.22);
+}
+
+/* the exit: the sheet rises off the top, its lower edge carrying its shadow
+   so it reads as paper being raised, not a wipe */
+.boot-cover.lift {
+  transform: translateY(-102%);
+}
+
+/* one SVG noise layer, the texture principle: the cover is a printed sheet */
+.boot-grain {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.06;
+  mix-blend-mode: soft-light; /* texture without darkening the sheet: no tone step at the lift */
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .9 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+/* the housing's shadow lives on this wrapper (its radius is the housing's
+   rx 13 over 76 x 50), never as a filter on the SVG */
+.boot-screen-wrap {
+  display: block;
+  width: min(398px, 54.3vw); /* the housing at the size the 84 x 58 viewBox gave it */
+  border-radius: 17.1% / 26%;
+  box-shadow: 0 18px 30px rgba(76, 60, 35, 0.18);
+}
+
+.boot-screen {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* the unlit pixel, the face's own dim value; a lit cell's fill is set by the
+   component and eases here */
+.boot-cell {
+  fill: #221d17;
+  transition: fill 160ms var(--ease-settle);
+  transition-delay: 0ms;
+}
+
+/* corner readout (noomo's placement): label, the serif count, and the one
+   visible word on a reserved line so nothing moves when it arrives */
+.boot-readout {
+  position: absolute;
+  left: var(--sp-6);
+  top: var(--sp-6);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  opacity: 0;
+  animation: boot-fade 500ms var(--ease-settle) 300ms forwards;
+}
+
+.boot-label {
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.08em; /* the nameplate's tracking */
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-soft);
+}
+
+.boot-pct {
+  font-family: var(--font-serif);
+  font-size: clamp(44px, 4.5vw, 60px);
+  font-weight: 500;
+  font-variation-settings: "SOFT" 60, "WONK" 0;
+  line-height: 1;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.boot-word {
+  min-height: 1.5em;
+  font-family: var(--font-serif);
+  font-variation-settings: "SOFT" 60, "WONK" 0;
+  font-style: italic;
+  font-size: var(--fs-body);
+  line-height: 1.5;
+  color: var(--ink-soft);
+  opacity: 0;
+  transition: opacity var(--motion-md) var(--ease-settle);
+}
+
+.boot-word[data-show="true"] {
+  opacity: 1;
+}
+
+.boot-stamp {
+  position: absolute;
+  right: var(--sp-6);
+  top: calc(var(--sp-6) + 2px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  text-align: right;
+  opacity: 0;
+  animation: boot-fade 500ms var(--ease-settle) 300ms forwards;
+}
+
+@keyframes boot-fade {
+  to {
+    opacity: 1;
+  }
+}
+
+/* the wordmark as landscape (layout #9): bottom-anchored, viewport-wide, its
+   baseline sunk a little below the edge (a touch less on desktop, where the
+   sheet is wider than it is tall); the letters rise once in a stagger */
+.boot-wordmark {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.22em;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  /* sized from the viewport so the whole word always fits with a gutter:
+     the set word measures about 5.6em wide at this weight and tracking */
+  font-size: clamp(48px, calc((100vw - 2 * var(--sp-4)) / 5.8), 240px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  /* opsz pinned to the display end: Fraunces widens its glyphs at text sizes,
+     which would break the fit ratio above on phones */
+  font-variation-settings: "SOFT" 60, "WONK" 0, "opsz" 144;
+}
+
+.boot-wordmark span {
+  display: inline-block;
+  transform: translateY(1.1em);
+  animation: boot-rise 900ms var(--ease-settle) forwards;
+}
+
+@keyframes boot-rise {
+  to {
+    transform: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .boot-wordmark {
+    bottom: -0.12em;
+  }
+}
+
 /* ---------- small screens ---------- */
 
-@media (max-width: 560px) {
-  /* Collapse the bento: Brief on top, section boxes stacked full-width. */
+/* The two-column front door needs about 1024px: below that a half tile's text
+   column falls under 180px (100px at 768, 52px at 600, measured 2026-10-21).
+   So the glance collapses to Brief-over-bento here, while the bento itself
+   keeps its two columns until 560. */
+@media (max-width: 900px) {
   .glance {
     grid-template-columns: 1fr;
   }
@@ -1057,13 +1759,21 @@ a:hover {
   .glance-bento {
     grid-column: 1;
   }
+}
 
+@media (max-width: 560px) {
+  /* Stack the bento's boxes full-width. */
   .glance-bento {
     grid-template-columns: 1fr;
   }
 
   .bd-portrait {
     width: 92px;
+    height: 92px;
+  }
+
+  .bd-box {
+    min-height: 92px;
   }
 }
 
@@ -1076,24 +1786,57 @@ a:hover {
     padding: var(--sp-4);
   }
 
-  /* Stack RoboBuddy above its dialogue box on the narrowest screens, and ease
-     the greeting down a step so it doesn't rival the wordmark above it. */
+  /* Once the meta row wraps, a right-aligned group leaves a wide gutter and
+     floats. Give the actions the whole line, aligned with the text column, and
+     let the Details toggle hold the right edge on its own. */
+  .card-actions {
+    flex-basis: 100%;
+    margin-inline-start: 0;
+  }
+
+  /* The heart is two different widths at two different levels, so no single
+     negative offset can put all three of them on the river. Left-align the rig
+     inside its own button instead: the ink then starts at the group's edge,
+     which is the river, whichever size is drawn.
+
+     The heart also leads the group here, rather than following the landing word
+     as it does on desktop, so it is the ink that lands on the river. Only the
+     visual order changes: the word is aria-hidden and nothing in the group
+     moves in the tab order. */
+  .mark {
+    order: -1;
+    justify-content: flex-start;
+  }
+
+  /* A halo that reaches 1.6x from a 40px ring would leave the card's padding on
+     a narrow screen. */
+  .mark-ring {
+    --ring-max: 1.4;
+  }
+
+  .card-actions .card-toggle {
+    margin-left: auto;
+  }
+
+  /* On the narrowest screens the portrait stays beside its dialogue box, a
+     92px crop against a box that wraps as it must: two objects in one row
+     belong to each other; a portrait stacked alone above the box did not.
+     The greeting eases down a step so it doesn't rival the wordmark above. */
   .buddy-dialog {
-    flex-direction: column;
-    align-items: center;
-    gap: var(--sp-4);
+    gap: var(--sp-3);
+    align-items: flex-start;
   }
 
   .bd-portrait {
     width: 92px;
     height: 92px;
-    align-self: auto;
   }
 
   .bd-box {
-    width: 100%;
+    min-height: 92px;
     flex-direction: column;
     align-items: flex-start;
+    padding: var(--sp-4);
   }
 
   .bd-text {

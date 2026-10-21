@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C · Halftone</title>
+<link rel="stylesheet" href="/frontend/src/index.css">
+<link rel="stylesheet" href="./base.css">
+<style>
+/* Direction C — HALFTONE. The pixel language as texture. Ordered dither
+   (four alpha steps of the existing tokens) carries a section's tint into
+   paper across a tile's top edge; the Brief's butter dithers out at its ear;
+   the takeover ground is a dither field that thins toward the cards; dividers
+   are dither bands; the face palette sits as dithered dots in the glyph and
+   resolves to solid on hover. The most printed-matter reading, still paper. */
+html.c.after .bd-box { background: var(--card); }
+
+/* tiles: card ground, the tint dithered in from the top edge */
+html.c.after .tile-sig {
+  background-color: var(--card); border-left: 1px solid var(--border);
+  background-image:
+    radial-gradient(circle, var(--sig-bg) 1.6px, transparent 1.9px),
+    radial-gradient(circle, var(--sig-bg) 1.3px, transparent 1.6px),
+    radial-gradient(circle, var(--sig-bg) 1px, transparent 1.3px),
+    radial-gradient(circle, var(--sig-bg) .7px, transparent 1px);
+  background-size: 4px 4px; background-repeat: repeat-x;
+  background-position: 0 0, 2px 4px, 0 8px, 2px 12px;
+}
+html.c.after .tile-sig .tile-label { color: var(--ink); }
+html.c.after .tile-sig::before { display: block; background: linear-gradient(to bottom, var(--ink) 60%, var(--sig) 60%); }
+html.c.after .px-glyph { opacity: .6; transition: opacity var(--motion-md) var(--ease-settle); }
+html.c.after .tile:hover .px-glyph, html.c.after .tile:focus-within .px-glyph { opacity: 1; }
+
+/* the Brief: butter dithers out at the top-right ear */
+html.c.after .brief { position: relative; overflow: hidden; }
+html.c.after .brief::after {
+  content: ""; position: absolute; top: 0; right: 0; width: 72px; height: 72px; pointer-events: none;
+  background-image: radial-gradient(circle, var(--paper) 1.4px, transparent 1.7px);
+  background-size: 4px 4px;
+  mask-image: linear-gradient(225deg, #000 0, #000 30%, transparent 70%);
+  -webkit-mask-image: linear-gradient(225deg, #000 0, #000 30%, transparent 70%);
+}
+
+/* takeover: paper ground with a dither field that thins toward the column */
+html.c.after .takeover { position: relative; background: var(--paper); border: 1px solid var(--border); overflow: hidden; }
+html.c.after .takeover::before {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background-image: radial-gradient(circle, color-mix(in srgb, var(--sig) 32%, transparent) 1.1px, transparent 1.4px);
+  background-size: 5px 5px;
+  mask-image: linear-gradient(90deg, #000 0, #000 8%, transparent 32%, transparent 68%, #000 92%, #000 100%);
+  -webkit-mask-image: linear-gradient(90deg, #000 0, #000 8%, transparent 32%, transparent 68%, #000 92%, #000 100%);
+}
+html.c.after .takeover-inner { position: relative; }
+html.c.after .takeover .section-label { color: var(--ink); }
+
+/* feed: dither bands between sections */
+html.c.after .section-rule {
+  height: 12px;
+  background-image:
+    radial-gradient(circle, var(--ink) 1.1px, transparent 1.4px),
+    radial-gradient(circle, color-mix(in srgb, var(--ink) 55%, transparent) 1.1px, transparent 1.4px),
+    radial-gradient(circle, color-mix(in srgb, var(--ink) 25%, transparent) 1.1px, transparent 1.4px);
+  background-size: 4px 4px; background-repeat: repeat-x; background-position: 0 0, 2px 4px, 0 8px;
+}
+</style>
+</head>
+<body>
+<script src="./page.js"></script>
+<script>page.mount("C · Halftone", "c");</script>
+</body>
+</html>

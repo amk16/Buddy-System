@@ -38,6 +38,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Reader feedback lives on the `feedback` branch (written by the Vercel
+      # function). A missing branch just means no feedback yet — never fail here.
+      - name: Fetch reader feedback branch
+        run: git fetch --depth=1 origin feedback:refs/remotes/origin/feedback || echo "No feedback branch yet."
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -54,6 +59,7 @@ jobs:
         run: |
           set -euo pipefail
           ISSUES_DIR="frontend/public/issues"
+          PROFILE_DIR="profile"
           if git diff --quiet -- "$ISSUES_DIR" \
              && [ -z "$(git ls-files --others --exclude-standard -- "$ISSUES_DIR")" ]; then
             echo "No new or changed issue — nothing to publish (likely below the min-items floor)."
@@ -63,7 +69,8 @@ jobs:
           git config user.name  "pulse-bot"
           git config user.email "pulse-bot@users.noreply.github.com"
           git add "$ISSUES_DIR"
+          if [ -d "$PROFILE_DIR" ]; then git add "$PROFILE_DIR"; fi
           git commit -m "content: publish issue ${LATEST}" \
-                     -m "Autonomous Gemini run via scheduled workflow."
+                     -m "Autonomous Gemini run via scheduled workflow. Includes the regenerated reader profile on every publish."
           git push origin HEAD:main
           echo "Pushed issue ${LATEST}. Vercel will rebuild and go live in ~1–2 min."

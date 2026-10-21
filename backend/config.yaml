@@ -128,3 +128,11 @@ sources:
       - "AI founder or operator building agents announcement this week"
       - "executive hire or move AI strategy at a company this week"
       - "marketer or consultant sharing AI workflow advice this week"
+
+# Reader-feedback loop (backend/reader_profile.py). A reaction's weight halves every
+# half_life_days; the LLM only proposes a steer once this many explicit
+# reactions exist; top_k = how many loved/less exemplars the proposal sees.
+feedback:
+  half_life_days: 30
+  min_explicit_for_proposal: 10
+  top_k: 15

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pencil · fidelity</title>
+<link rel="stylesheet" href="./base.css">
+<style>
+.wrap { max-width: 1040px; margin: 0 auto; padding: 48px 24px 96px; }
+h1 { font-family: var(--font-serif); font-weight: 600; font-size: 38px; margin: 0 0 8px; }
+.sub { color: var(--ink-soft); margin: 0 0 32px; max-width: 72ch; line-height: 1.5; }
+.row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; align-items: start; }
+.cell { border: 1px solid var(--border); border-radius: var(--radius); background: var(--card); padding: 16px; }
+.cell h2 { font: 600 12px var(--font-sans); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 12px; }
+.logo { width: 100%; aspect-ratio: 1; object-fit: cover; object-position: 44% 56%; transform: scale(3.6); transform-origin: 44% 56%; display: block; }
+.logo-box { overflow: hidden; aspect-ratio: 1; border-radius: var(--radius-sm); background: #fff; }
+.screen { width: 100%; height: auto; display: block; }
+.screen rect.cell { fill: #221d17; }
+@media (max-width: 760px) { .row { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>The pencil, three ways</h1>
+  <p class="sub">Left: the pencil in the agency's own logo (the original 500 px transparent PNG on wearescribbld.com, hotlinked, zoomed in). Middle: the same pencil measured from that file and rasterised by area coverage onto the boot screen's 33 × 21 grid. Right: that bitmap drawn at the cover's real cell geometry inside BuddyPeek's housing. Hover a cell to read its colour.</p>
+  <div class="row">
+    <div class="cell"><h2>Logo · wearescribbld.com</h2><div class="logo-box"><img class="logo" src="https://static.wixstatic.com/media/ab8dcf_eb051c0762514344a705d29594821917~mv2.png" alt="Scribbld logo"></div></div>
+    <div class="cell"><h2>Raster · 33 × 21, area coverage</h2><img class="screen" src="./pencil-preview.png" alt="raster preview"></div>
+    <div class="cell"><h2>Live geometry · the cover's screen</h2><svg class="screen" id="scr" viewBox="18 36 84 58" aria-hidden="true"><rect x="22" y="40" width="76" height="50" rx="13" fill="#17150f"/><rect x="24" y="42" width="72" height="46" rx="11" fill="#0f0d09"/><g id="g"></g></svg></div>
+  </div>
+</div>
+<script>
+const P = {"cols": 33, "rows": 21, "cells": [[9, 20, "#938d7e"], [9, 19, "#938d7e"], [10, 19, "#938d7e"], [9, 18, "#938d7e"], [11, 19, "#938d7e"], [10, 18, "#938d7e"], [11, 18, "#f78d1d"], [10, 17, "#f78d1d"], [11, 17, "#f78d1d"], [10, 16, "#f78d1d"], [12, 17, "#f78d1d"], [11, 16, "#f78d1d"], [13, 17, "#f78d1d"], [12, 16, "#f78d1d"], [11, 15, "#f78d1d"], [13, 16, "#f78d1d"], [12, 15, "#f78d1d"], [11, 14, "#f78d1d"], [14, 16, "#f78d1d"], [13, 15, "#f78d1d"], [12, 14, "#f78d1d"], [11, 13, "#f78d1d"], [14, 15, "#f78d1d"], [13, 14, "#f78d1d"], [12, 13, "#f78d1d"], [15, 14, "#f78d1d"], [14, 13, "#f78d1d"], [13, 12, "#f78d1d"], [16, 14, "#f78d1d"], [12, 11, "#f78d1d"], [15, 13, "#f78d1d"], [14, 12, "#f78d1d"], [13, 11, "#f78d1d"], [16, 13, "#f78d1d"], [15, 12, "#f78d1d"], [14, 11, "#f78d1d"], [17, 13, "#f78d1d"], [13, 10, "#f78d1d"], [16, 12, "#f78d1d"], [15, 11, "#f78d1d"], [14, 10, "#f78d1d"], [17, 12, "#f78d1d"], [16, 11, "#f78d1d"], [15, 10, "#f78d1d"], [18, 12, "#f78d1d"], [14, 9, "#f78d1d"], [17, 11, "#f78d1d"], [16, 10, "#f78d1d"], [15, 9, "#f78d1d"], [18, 11, "#f78d1d"], [14, 8, "#f78d1d"], [17, 10, "#f78d1d"], [16, 9, "#f78d1d"], [15, 8, "#f78d1d"], [18, 10, "#f78d1d"], [17, 9, "#f78d1d"], [16, 8, "#f78d1d"], [19, 10, "#faa733"], [15, 7, "#faa733"], [18, 9, "#faa733"], [17, 8, "#faa733"], [16, 7, "#faa733"], [19, 9, "#faa733"], [18, 8, "#faa733"], [17, 7, "#faa733"], [20, 9, "#faa733"], [16, 6, "#faa733"], [19, 8, "#faa733"], [18, 7, "#faa733"], [17, 6, "#faa733"], [20, 8, "#faa733"], [16, 5, "#faa733"], [19, 7, "#faa733"], [18, 6, "#faa733"], [21, 8, "#faa733"], [17, 5, "#faa733"], [20, 7, "#faa733"], [19, 6, "#faa733"], [18, 5, "#faa733"], [21, 7, "#faa733"], [17, 4, "#faa733"], [20, 6, "#faa733"], [19, 5, "#faa733"], [18, 4, "#faa733"], [21, 6, "#faa733"], [20, 5, "#faa733"], [19, 4, "#faa733"], [22, 6, "#faa733"], [18, 3, "#faa733"], [21, 5, "#faa733"], [20, 4, "#ffc24a"], [19, 3, "#ffc24a"], [22, 5, "#ffc24a"], [21, 4, "#ffc24a"], [20, 3, "#ffc24a"], [23, 5, "#ffc24a"], [19, 2, "#ffc24a"], [22, 4, "#ffc24a"], [21, 3, "#ffc24a"], [20, 2, "#ffc24a"], [23, 4, "#ffc24a"], [19, 1, "#ffc24a"], [22, 3, "#ffc24a"], [21, 2, "#ffc24a"], [24, 4, "#ffc24a"], [20, 1, "#ffc24a"], [23, 3, "#ffc24a"], [22, 2, "#ffc24a"], [21, 1, "#ffc24a"], [24, 3, "#ffc24a"], [20, 0, "#ffc24a"], [23, 2, "#ffc24a"], [22, 1, "#ffc24a"], [21, 0, "#ffc24a"], [24, 2, "#ffc24a"], [23, 1, "#ffc24a"], [22, 0, "#ffc24a"], [25, 2, "#ffc24a"], [24, 1, "#ffc24a"], [23, 0, "#ffc24a"]], "write": [8, 20]};
+const g = document.getElementById("g"), NS = "http://www.w3.org/2000/svg";
+const lit = new Map(P.cells.map(([c, r, f]) => [c + "," + r, f])); lit.set(P.write.join(","), "#938d7e");
+for (let r = 0; r < P.rows; r++) for (let c = 0; c < P.cols; c++) {
+  const e = document.createElementNS(NS, "rect"); e.setAttribute("x", (29 + c * 1.93).toFixed(2)); e.setAttribute("y", (46 + r * 1.93).toFixed(2));
+  e.setAttribute("width", "1.5"); e.setAttribute("height", "1.5"); e.setAttribute("rx", "0.35"); e.setAttribute("class", "cell");
+  const f = lit.get(c + "," + r); if (f) { e.style.fill = f; const t = document.createElementNS(NS, "title"); t.textContent = `${c},${r} ${f}`; e.appendChild(t); }
+  g.appendChild(e);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A · Registration marks</title>
+<link rel="stylesheet" href="/frontend/src/index.css">
+<link rel="stylesheet" href="./base.css">
+<style>
+/* Direction A — REGISTRATION MARKS. The pixel is the ink's unit. The sliver
+   becomes a two-row cell register (ink row over a highlight row, offset one
+   cell, like misregistered print); every section carries a 3x3 glyph in its
+   face palette instead of a coloured edge; hairlines are ink at 10% so they
+   read on butter; pills take stepped pixel corners; the Brief gets a pixel
+   ear. Colour redistributed: butter only on the Brief, the dialog goes to
+   card, section tints drop to half strength, the vivid palette moves to the
+   glyph. */
+html.a.after .app { --border: color-mix(in srgb, var(--ink) 10%, transparent); }
+html.a.after .bd-box { background: var(--card); }
+
+/* the register: ink cells over highlight cells, one cell out of step */
+html.a.after .tile::before,
+html.a.after .section-label::before {
+  width: 36px; height: 8px;
+  background-image:
+    repeating-linear-gradient(90deg, var(--ink) 0 4px, transparent 4px 8px),
+    repeating-linear-gradient(90deg, var(--brand-yellow) 0 4px, transparent 4px 8px);
+  background-size: 36px 4px, 36px 4px;
+  background-position: 0 0, 4px 4px;
+  background-repeat: no-repeat;
+}
+html.a.after .tile-sig::before { display: block; }
+html.a.after .takeover .section-label::before { width: 68px; background-size: 68px 4px, 68px 4px; }
+
+/* section tiles: half-strength tint, no coloured edge, the glyph carries the hue */
+html.a.after .tile-sig { background: color-mix(in srgb, var(--sig-bg) 50%, var(--paper)); border-left: 1px solid var(--border); }
+html.a.after .tile-sig .tile-label { color: var(--ink); }
+html.a.after .takeover { background: color-mix(in srgb, var(--sig-bg) 50%, var(--paper)); }
+html.a.after .takeover .section-label { color: var(--ink); }
+
+/* pills: stepped pixel corners instead of a round radius */
+html.a.after .card-kicker, html.a.after .chip, html.a.after .bd-nameplate {
+  border-radius: 0;
+  clip-path: polygon(3px 0, calc(100% - 3px) 0, 100% 3px, 100% calc(100% - 3px), calc(100% - 3px) 100%, 3px 100%, 0 calc(100% - 3px), 0 3px);
+}
+
+/* the Brief's pixel ear, top-right, in the highlight */
+html.a.after .brief { position: relative; border-left-width: 1px; border-left-color: var(--border); }
+html.a.after .brief::after {
+  content: ""; position: absolute; top: 0; right: 0; width: 16px; height: 16px;
+  background:
+    linear-gradient(var(--brand-yellow), var(--brand-yellow)) 12px 0 / 4px 4px no-repeat,
+    linear-gradient(var(--brand-yellow), var(--brand-yellow)) 8px 4px / 8px 4px no-repeat,
+    linear-gradient(var(--brand-yellow), var(--brand-yellow)) 4px 8px / 12px 4px no-repeat,
+    linear-gradient(var(--brand-yellow), var(--brand-yellow)) 0 12px / 16px 4px no-repeat;
+  border-top-right-radius: var(--radius);
+}
+
+/* feed: a cell row is the rule between sections */
+html.a.after .section-rule { height: 4px; background: repeating-linear-gradient(90deg, var(--ink) 0 4px, transparent 4px 8px); opacity: .55; }
+</style>
+</head>
+<body>
+<script src="./page.js"></script>
+<script>page.mount("A · Registration marks", "a");</script>
+</body>
+</html>
