@@ -19,6 +19,13 @@ Two engines for the LLM step:
   • Sample (no key, demo data for UI work):
         python backend/pipeline.py --sample
 
+  • Reader feedback (see backend/reader_profile.py) — regenerate the reader
+    profile and the local HTML report from her reactions, then make a proposed
+    steer active once you have read it:
+        python backend/pipeline.py --profile [--feedback-dir DIR]
+                                   [--proposal FILE] [--proposer NAME]
+        python backend/pipeline.py --accept-steer
+
 The whole thing writes static JSON, so a scheduler (or `claude -p` on a cron)
 can drive it later with no rearchitecting.
 """
@@ -83,8 +90,25 @@ def _build_issue(cfg: Config, issue_id: str, body: dict, engine: str = "claude")
     }
 
 
+def _maybe_profile(cfg: Config, proposer: str) -> None:
+    """Regenerate the reader profile after a publish.
+
+    Wrapped in a blanket guard on purpose: the feedback loop is a nice-to-have
+    and must never be the reason an issue fails to ship."""
+    try:
+        import reader_profile
+
+        reader_profile.generate(cfg, proposer=proposer)
+    except Exception as exc:  # noqa: BLE001 — feedback must never break a publish
+        print(f"  [profile] skipped: {exc}")
+
+
 def _persist(
-    cfg: Config, body: dict, min_items: int = 1, engine: str = "claude"
+    cfg: Config,
+    body: dict,
+    min_items: int = 1,
+    engine: str = "claude",
+    proposer: str = "claude-code",
 ) -> int:
     body = enrich(body)
     total = sum(len(sec.get("items", [])) for sec in body.get("sections", []))
@@ -104,6 +128,7 @@ def _persist(
     issue = _build_issue(cfg, store.next_issue_id(_today()), body, engine)
     path = store.write_issue(issue)
     notify(issue)
+    _maybe_profile(cfg, proposer)
     total = sum(len(s["items"]) for s in issue["sections"])
     print(f"Wrote {path}  ({total} items, {len(issue['brief'])} in the brief)")
     return 0
@@ -129,6 +154,12 @@ def collect_only() -> int:
         "web_search_queries": cfg.web_search_queries,
         "valid_signal_tags": list(validate.SIGNAL_TAGS),
         "seen_urls": store.load_seen_urls(),
+        # The accepted steer, learned from her reactions to past issues. Null
+        # until Ali accepts a proposal; CLAUDE.md rule 8 tells Claude Code to obey it.
+        "reader_profile": {
+            "steer": cfg.steer,
+            "section_weights": cfg.section_weights,
+        },
         "pool": pool,
     }
     POOL_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2))
@@ -171,7 +202,8 @@ def run_api() -> int:
     if body is None:
         print("No issue produced (see warnings above). Nothing written.")
         return 1
-    return _persist(cfg, body, min_items=cfg.min_items_to_publish)
+    return _persist(cfg, body, min_items=cfg.min_items_to_publish,
+                    proposer="anthropic")
 
 
 # --- Autonomous Gemini run (free of human curation) --------------------------
@@ -192,7 +224,36 @@ def run_gemini() -> int:
     if body is None:
         print("No issue produced (see warnings above). Nothing written.")
         return 1
-    return _persist(cfg, body, min_items=cfg.min_items_to_publish, engine="gemini")
+    return _persist(
+        cfg, body, min_items=cfg.min_items_to_publish, engine="gemini",
+        proposer="gemini",
+    )
+
+
+# --- Reader feedback: profile + steer ----------------------------------------
+def run_profile(
+    feedback_dir: str | None = None,
+    proposal: str | None = None,
+    proposer: str = "claude-code",
+) -> int:
+    """Rebuild the reader profile from her reactions and open-able HTML report."""
+    import reader_profile
+
+    cfg = load_config()
+    reader_profile.generate(
+        cfg,
+        proposer=proposer,
+        feedback_dir=Path(feedback_dir) if feedback_dir else None,
+        proposal_path=Path(proposal) if proposal else None,
+    )
+    print(f"Wrote {reader_profile.PROFILE_DIR / 'report.html'}")
+    return 0
+
+
+def accept_steer() -> int:
+    import reader_profile
+
+    return reader_profile.accept_steer()
 
 
 # --- Sample (demo data, no key) ----------------------------------------------
@@ -269,8 +330,31 @@ def write_sample() -> int:
     return 0
 
 
+def _flag_value(args: list[str], flag: str) -> str | None:
+    """The value after ``flag``, or None when the flag is absent, last, or
+    followed by another flag (``--feedback-dir --proposer x`` is a typo, not a
+    directory called "--proposer")."""
+    if flag not in args:
+        return None
+    i = args.index(flag)
+    if i + 1 >= len(args):
+        return None
+    value = args[i + 1]
+    return None if value.startswith("--") else value
+
+
 if __name__ == "__main__":
     args = sys.argv[1:]
+    if "--accept-steer" in args:
+        raise SystemExit(accept_steer())
+    if "--profile" in args:
+        raise SystemExit(
+            run_profile(
+                feedback_dir=_flag_value(args, "--feedback-dir"),
+                proposal=_flag_value(args, "--proposal"),
+                proposer=_flag_value(args, "--proposer") or "claude-code",
+            )
+        )
     if "--sample" in args:
         raise SystemExit(write_sample())
     if "--gemini" in args:

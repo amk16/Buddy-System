@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Issue } from "../lib/types";
 import * as lastVisited from "../lib/lastVisited";
 import { signatureFor } from "../lib/signature";
@@ -35,15 +35,22 @@ export function GlanceGrid({ issue, headingRef, onOpenSection, onOpenFeed }: Pro
 
   // Cache the bento's live geometry so the section morph can aim each box's
   // collapse/expand at the area center. Re-capture on resize and issue change.
+  // The first read waits for the next frame: reading boxes inside the commit
+  // forced a synchronous layout of the whole freshly mounted page (about 170
+  // ms on a 2017 laptop), and nothing needs the geometry before the first
+  // click. ResizeObserver fires after layout, so its reads are free.
   const glanceRef = useRef<HTMLDivElement>(null);
-  useLayoutEffect(() => {
+  useEffect(() => {
     const el = glanceRef.current;
     if (!el) return;
     const capture = () => captureGlanceGeometry(el);
-    capture();
+    const raf = requestAnimationFrame(capture);
     const ro = new ResizeObserver(capture);
     ro.observe(el);
-    return () => ro.disconnect();
+    return () => {
+      cancelAnimationFrame(raf);
+      ro.disconnect();
+    };
   }, [issue]);
 
   return (

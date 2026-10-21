@@ -1,8 +1,5 @@
 import type { Engine } from "../lib/types";
-
-// Tab order is fixed (Claude first — the human-reviewed default), independent of
-// which engines currently have issues.
-export const ENGINE_ORDER: Engine[] = ["claude", "gemini"];
+import { ENGINE_ORDER } from "../lib/types";
 
 const LABELS: Record<Engine, string> = {
   claude: "Claude",

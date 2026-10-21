@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boot cover · three directions</title>
+<link rel="stylesheet" href="./base.css">
+<style>
+.wrap { max-width: 1040px; margin: 0 auto; padding: 48px 24px 96px; }
+h1 { font-family: var(--font-serif); font-weight: 600; font-size: 38px; margin: 0 0 8px; }
+.sub { color: var(--ink-soft); margin: 0 0 40px; max-width: 70ch; line-height: 1.5; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.dir { display: block; text-decoration: none; color: inherit; border: 2px solid var(--ink); border-radius: var(--radius); background: var(--card); padding: 24px; box-shadow: 6px 6px 0 var(--ink); transition: transform 200ms var(--ease-settle); }
+.dir:hover { transform: translate(-2px, -2px); }
+.dir .k { display: block; margin-bottom: 14px; }
+.dir h2 { font-family: var(--font-serif); font-weight: 600; font-size: 28px; margin: 0 0 10px; line-height: 1.1; }
+.dir p { margin: 0 0 12px; line-height: 1.5; font-size: 15px; }
+.dir .ev { font-size: 13px; color: var(--ink-soft); line-height: 1.5; }
+.dir .go { display: inline-block; margin-top: 12px; font-weight: 700; }
+@media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Boot cover · three directions</h1>
+  <p class="sub">Each opens, plays its full choreography once (about 2.5 s), then lifts off the top of the screen in one move, the finished dashboard beneath it. Replay from the top-right. Grounded in the 2026-10-21 preloader sweep in the design vault.</p>
+  <div class="grid">
+    <a class="dir" href="./a.html">
+      <span class="mono k">Direction A</span>
+      <h2>Self-test</h2>
+      <p>RoboBuddy's own screen is the instrument. It boots like a machine: a raster sweep, a burst of noise, then the eager face resolves cell by cell and blinks once. A serif readout counts in the corner; the wordmark sits viewport-wide at the bottom edge. </p>
+      <p class="ev">Evidence: noomo's corner readout + pixel wordmark · igloo's glyph instrument · wordmark-as-landscape (layout #9) · texture (layout #10).</p>
+      <span class="go">Play A →</span>
+    </a>
+    <a class="dir" href="./b.html">
+      <span class="mono k">Direction B</span>
+      <h2>The Dispatch</h2>
+      <p>The loader is a product object: RoboBuddy's dialogue box printed large, with three lines of the day's dispatch typing inside it and a strip of his screen-pixels filling as each line lands. The masthead beneath carries the same box at rest.</p>
+      <p class="ev">Evidence: poolsuite's installer dialog (loader as story object, quip in the label) · humans' one sentence · the product's own RPG-dialog identity.</p>
+      <span class="go">Play B →</span>
+    </a>
+    <a class="dir" href="./c.html">
+      <span class="mono k">Direction C</span>
+      <h2>The Edge</h2>
+      <p>The award-tier minimum. UI pushed to the frame: a display-scale counter bottom-left, a hairline of progress along the bottom edge, one mono label top-left. RoboBuddy leans in from the right, half-cropped and tilted, as he does on a tile.</p>
+      <p class="ev">Evidence: lusion's display counter · phantom's edge line · noomo's corner placement · BuddyPeek's own lean (grid violation, layout #5).</p>
+      <span class="go">Play C →</span>
+    </a>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>B · One hue per station</title>
+<link rel="stylesheet" href="/frontend/src/index.css">
+<link rel="stylesheet" href="./base.css">
+<style>
+/* Direction B — ONE HUE PER STATION. The Laboratory's rule on this palette:
+   each view spends one hue. Glance = the highlight only: tiles are card, no
+   tint, their glyph drawn in ink and highlight; the section hue appears only
+   when you reach for a tile (hover/focus lights the glyph in its palette).
+   Takeover = that section's hue only, as a dithered band on the left edge
+   instead of a wash over the ground; cards stay white. Feed = ink only, the
+   highlight the single accent on the Brief. Colour means "you changed
+   station". */
+html.b.after .bd-box { background: var(--card); }
+html.b.after .brief { background: color-mix(in srgb, var(--brand-yellow) 10%, var(--paper)); border-left-color: var(--brand-yellow); }
+
+/* glance: monochrome chrome, two-tone glyphs */
+html.b.after .tile-sig { background: var(--card); border-left: 1px solid var(--border); }
+html.b.after .tile-sig .tile-label { color: var(--ink); }
+html.b.after .tile-sig::before { display: block; }
+html.b.after .px-glyph rect { fill: var(--ink); transition: fill var(--motion-md) var(--ease-settle); }
+html.b.after .px-glyph rect:nth-child(2n) { fill: var(--brand-yellow); }
+html.b.after .tile:hover .px-glyph rect, html.b.after .tile:focus-within .px-glyph rect { fill: var(--sig); }
+html.b.after .tile:hover .px-glyph rect:nth-child(2n), html.b.after .tile:focus-within .px-glyph rect:nth-child(2n) { fill: color-mix(in srgb, var(--sig) 55%, var(--paper)); }
+
+/* takeover: paper ground, the hue as a dithered band down the left edge */
+html.b.after .takeover { position: relative; background: var(--paper); border: 1px solid var(--border); overflow: hidden; }
+html.b.after .takeover::before {
+  content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 20px; pointer-events: none;
+  background-image:
+    radial-gradient(circle, var(--sig) 1.1px, transparent 1.4px),
+    radial-gradient(circle, color-mix(in srgb, var(--sig) 65%, transparent) 1.1px, transparent 1.4px),
+    radial-gradient(circle, color-mix(in srgb, var(--sig) 40%, transparent) 1.1px, transparent 1.4px),
+    radial-gradient(circle, color-mix(in srgb, var(--sig) 18%, transparent) 1.1px, transparent 1.4px);
+  background-size: 4px 4px, 4px 4px, 4px 4px, 4px 4px;
+  background-position: 0 0, 4px 2px, 8px 0, 12px 2px;
+  background-repeat: repeat-y, repeat-y, repeat-y, repeat-y;
+}
+html.b.after .takeover .section-label { color: var(--ink); }
+html.b.after .takeover .section-label .px-glyph rect { fill: var(--sig); }
+html.b.after .takeover .section-label .px-glyph rect:nth-child(2n) { fill: color-mix(in srgb, var(--sig) 55%, var(--paper)); }
+html.b.after .takeover .section-label::before { background: linear-gradient(to bottom, var(--ink) 60%, var(--sig) 60%); }
+
+/* feed: ink only */
+html.b.after .feed-sample .px-glyph rect, html.b.after .feed-sample .px-glyph rect:nth-child(2n) { fill: var(--ink); }
+html.b.after .feed-sample .section-label::before { background: var(--ink); }
+html.b.after .section-rule { height: 4px; background: repeating-linear-gradient(90deg, var(--ink) 0 4px, transparent 4px 8px); opacity: .55; }
+</style>
+</head>
+<body>
+<script src="./page.js"></script>
+<script>page.mount("B · One hue per station", "b");</script>
+</body>
+</html>

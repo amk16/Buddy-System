@@ -3,9 +3,11 @@
 // table; slate blue is the one new pair (verified ≥ 4.5:1 on its tint, on
 // paper, and on card). Keep in sync with .claude/skills/buddy-system/SKILL.md.
 //
-// `accent` colours the box's left edge + label (the "kicker"); `tint` is the
-// box surface and the full-bleed takeover background. Text stays --ink /
-// --ink-soft, which clears AA on every tint.
+// `accent` is the section's hue: on the glance it appears only on reach (the
+// tile's label, sliver and inset edge), in the takeover once, as the dithered
+// band and the label's rule (one hue per station, 2026-10-21). `tint` is kept
+// as the hue's paper-side value for any future surface; nothing paints it
+// today.
 
 export interface Signature {
   /** Edge + label colour. */

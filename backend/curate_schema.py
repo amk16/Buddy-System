@@ -43,7 +43,34 @@ class CuratorOutput(BaseModel):
     sections: list[SectionOut]
 
 
-def system_prompt(cfg: Config) -> str:
+def reader_profile_block(
+    steer: str | None, section_weights: dict[str, float] | None = None
+) -> str:
+    """The READER PROFILE paragraph, or "" when no steer is active.
+
+    The "steer" is a short set of instructions distilled from the reader's own
+    reactions to past issues; the optional weights nudge how much of the issue
+    each section should get (1.0 = unchanged)."""
+    if not steer or not steer.strip():
+        return ""
+    lines = [
+        "READER PROFILE (learned from her reactions to past issues — obey it "
+        "when ranking and choosing):",
+        steer.strip(),
+    ]
+    if section_weights:
+        lean = ", ".join(
+            f"{sid} ×{weight:g}" for sid, weight in section_weights.items()
+        )
+        lines.append(f"Section lean (multiply a section's priority): {lean}")
+    return "\n".join(lines)
+
+
+def system_prompt(cfg: Config, steer: str | None = None) -> str:
+    # With no steer this renders as "" and the prompt stays byte-identical to
+    # the steer-free version — which is what keeps the Anthropic cache hitting.
+    block = reader_profile_block(steer, cfg.section_weights)
+    reader_block = f"\n{block}\n" if block else ""
     section_spec = "\n".join(
         f'  - id "{s.id}" (label "{s.label}"): up to {s.max_items} items'
         for s in cfg.sections
@@ -69,7 +96,7 @@ copies of items that also appear in their section.
 THE READER: a sharp marketer moving into AI consulting — NOT a technical expert, but learning.
 Write so she understands each item without opening the source and without prior jargon knowledge.
 Explain terminology in plain English; never assume she knows an acronym or technical term.
-
+{reader_block}
 FOR EACH ITEM:
 - section: one of the section ids above.
 - headline: concise, factual, no clickbait.

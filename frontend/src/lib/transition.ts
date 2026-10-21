@@ -1,5 +1,6 @@
 import { flushSync } from "react-dom";
 import type { Vector } from "./glanceGeometry";
+import { prefersReduced } from "./motion";
 
 // A glance↔section morph: one box (activeName) grows to fill the glance area
 // via the browser's built-in shared-element group animation; every other named
@@ -41,11 +42,16 @@ function morphStyleText(spec: MorphSpec): string {
 // startViewTransition snapshots the DOM after its callback resolves, and a
 // batched React setState would commit too late, animating from a stale frame.
 // Reduced motion and unsupporting browsers get an instant swap.
-export function withViewTransition(update: () => void, morph?: MorphSpec) {
-  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if (!document.startViewTransition || reduce) {
+// Returns the transition when one started, so a caller can wait for
+// `finished` (the boot cover drops its shared name only then); undefined on
+// the instant-swap paths.
+export function withViewTransition(
+  update: () => void,
+  morph?: MorphSpec,
+): ViewTransition | undefined {
+  if (!document.startViewTransition || prefersReduced()) {
     update();
-    return;
+    return undefined;
   }
 
   let styleEl: HTMLStyleElement | null = null;
@@ -59,4 +65,5 @@ export function withViewTransition(update: () => void, morph?: MorphSpec) {
     flushSync(update);
   });
   transition.finished.finally(() => styleEl?.remove());
+  return transition;
 }

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Palette fusion · three directions</title>
+<link rel="stylesheet" href="/frontend/src/index.css">
+<link rel="stylesheet" href="./base.css">
+<style>
+.wrap { max-width: 1040px; margin: 0 auto; padding: 48px 24px 96px; }
+.wrap h1 { font-family: var(--font-serif); font-weight: 600; font-size: 38px; margin: 0 0 8px; }
+.sub { color: var(--ink-soft); margin: 0 0 40px; max-width: 72ch; line-height: 1.5; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.dir { display: block; text-decoration: none; color: inherit; border: 2px solid var(--ink); border-radius: var(--radius); background: var(--card); padding: 24px; box-shadow: 6px 6px 0 var(--ink); }
+.dir .k { display: block; margin-bottom: 14px; font: 600 12px var(--font-sans); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+.dir h2 { font-family: var(--font-serif); font-weight: 600; font-size: 28px; margin: 0 0 10px; line-height: 1.1; }
+.dir p { margin: 0 0 12px; line-height: 1.5; font-size: 15px; }
+.dir .ev { font-size: 13px; color: var(--ink-soft); line-height: 1.5; }
+.dir .go { display: inline-block; margin-top: 12px; font-weight: 700; }
+@media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Palette fusion · three directions</h1>
+  <p class="sub">Each page renders the real latest issue with the product's own stylesheet. The Before/After button (top right) flips between the dashboard as it is and the direction, which also carries the whitespace improvement plan and the corrected brand highlight <code>#F78D1D</code>. Audit: <code>docs/audits/2026-10-21-colour-and-whitespace.md</code>.</p>
+  <h2 style="font-family:var(--font-serif);font-weight:600;font-size:22px;margin:0 0 12px">Round 2 · iterating on B, no marks on items</h2>
+  <div class="grid" style="margin-bottom:40px">
+    <a class="dir" href="./b2-wide.html"><span class="k">B2 · wide</span><h2>One hue, 1040 bento</h2><p>Glyphs removed. Tiles on card with ink labels; the section hue appears only on reach (the sliver's lower half and the left edge light). Takeover keeps the dithered band; feed rules are register tape. Brief beside the bento at 1040 px.</p><span class="go">Open B2 wide →</span></a>
+    <a class="dir" href="./b2-column.html"><span class="k">B2 · column</span><h2>One hue, 720 column</h2><p>The same, in the reading column the law describes: the Brief on top, the bento as a two-row wall beneath it, one calm width from masthead to footer.</p><span class="go">Open B2 column →</span></a>
+  </div>
+  <h2 style="font-family:var(--font-serif);font-weight:600;font-size:22px;margin:0 0 12px">Round 1</h2>
+  <div class="grid">
+    <a class="dir" href="./a.html"><span class="k">Direction A</span><h2>Registration marks</h2>
+      <p>The pixel is the ink's unit. The sliver becomes a two-row cell register, ink over highlight, one cell out of step. Every section carries a 3×3 glyph in its face palette instead of a coloured edge. Hairlines are ink at 10 percent so they read on butter. Pills take stepped corners. The Brief gets a pixel ear. Butter only on the Brief; tints at half strength; the vivid palette lives in the glyph.</p>
+      <p class="ev">Lab DNA: one hue on tiny exact marks · texture as accent · structure that encodes something true (the glyph is the section's face).</p><span class="go">Open A →</span></a>
+    <a class="dir" href="./b.html"><span class="k">Direction B</span><h2>One hue per station</h2>
+      <p>The Laboratory's rule on this palette. Glance spends only the highlight: tiles are card, glyphs in ink and highlight, the section hue appears only when you reach for a tile. Takeover spends only its section's hue, as a dithered band down the left edge; cards stay white. Feed is ink only. Colour means you changed station.</p>
+      <p class="ev">Lab DNA: ink and paper carry 90 percent · one station one hue · monochrome chrome, hue on meaning.</p><span class="go">Open B →</span></a>
+    <a class="dir" href="./c.html"><span class="k">Direction C</span><h2>Halftone</h2>
+      <p>The pixel language as texture. Ordered dither in four steps carries a section's tint into paper across the tile's top edge; the Brief's butter dithers out at its ear; the takeover ground is a dither field that thins toward the column; dividers are dither bands; glyphs sit at 60 percent and resolve on hover.</p>
+      <p class="ev">Lab DNA: printed matter · poolsuite's dithered dialog · texture as an accent system, not a costume.</p><span class="go">Open C →</span></a>
+  </div>
+</div>
+</body>
+</html>

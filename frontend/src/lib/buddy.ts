@@ -15,8 +15,10 @@ export interface PixelRect {
   fill: string;
 }
 
-const GRID = { cols: 11, rows: 7, cell: 4.6, gap: 1.2, x0: 29, y0: 46 };
-const PITCH = GRID.cell + GRID.gap;
+const PITCH = 4.6 + 1.2;
+// The screen's geometry, shared with the boot cover (which draws the same
+// 11x7 screen at viewport scale).
+export const GRID = { cols: 11, rows: 7, cell: 4.6, gap: 1.2, pitch: PITCH, x0: 29, y0: 46 };
 const OFF = "#221d17"; // dim, unlit pixel
 
 export const CELL = GRID.cell;
@@ -56,6 +58,16 @@ const PALETTE: Record<string, string[]> = {
   case_studies: ["#3fae6b", "#2bb6a6", "#7ed957", "#36c98a", "#1f9e6e"], // green / teal
   people: ["#5b8fd6", "#7fb0e0", "#a05ec9", "#3a7bd5", "#b98ad9"], // blue / violet
 };
+
+/** The lit cells of a face, eyes first then mouth (order drives the palette). */
+export function faceCells(id: string): Cell[] {
+  return FACE[id] ?? [];
+}
+
+/** The five-colour palette a face cycles through. */
+export function facePalette(id: string): string[] {
+  return PALETTE[id] ?? [];
+}
 
 /** Does this section have a buddy? Unknown sections render nothing. */
 export function hasBuddy(id: string): boolean {

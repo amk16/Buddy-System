@@ -23,7 +23,7 @@ Ink & accent (Highlighter & Ink):
 - `--ink` #2c2a26 (primary), `--ink-soft` #5f594e (secondary).
 - `--accent` #6e530e deep brand gold (links, markers), `--accent-deep` #574108
   (hover/active).
-- `--brand-yellow` #ffd700 — **decoration/surface only, NEVER text.**
+- `--brand-highlight` #f78d1d — **decoration/surface only, NEVER text** (ink text sits ON it in the nameplate chip). Corrected from the marker yellow on 2026-10-21.
 
 Signal tints (quiet pills, tinted bg + same-hue dark text): trending (terracotta),
 new (green), shift (gold). Section "signature" colors are assigned per section for the
@@ -65,8 +65,17 @@ hover. No hard shadows, no glass, no heavy elevation. Depth is suggestion, not d
 - View changes morph via the native View Transitions API; reduced-motion collapses to
   an instant swap, enforced in JS and CSS. Nothing animates at rest.
 - Sanctioned moving exceptions, tightly bounded: the one-time masthead typewriter
-  greeting, and the `BuddyPeek` tile-hover mascot (hover-capable devices only,
-  off-frame at rest, ≤300ms, never covers text, `aria-hidden`).
+  greeting, the `BuddyPeek` tile-hover mascot (hover-capable devices only,
+  off-frame at rest, ≤300ms, never covers text, `aria-hidden`), the
+  `ReactionMarks` landing (exception 3 of 4, one exception covering three one-shot
+  motions: a 400ms ring, a 500ms diagonal shimmer and a heartbeat, 300ms at like and
+  450ms at super like; tap-triggered only, silent under reduced motion, never fired from
+  restored state), and the `BootCover` (exception 4 of 4: once per page load,
+  RoboBuddy's own screen boots on the paper at 33x21, raster then noise then the Scribbld
+  pencil (traced from the agency's logo) resolving from its point, which writes one cell, a corner readout counts on a timer, the wordmark sits at the bottom edge,
+  and the sheet lifts off the top in one 720ms move with the finished page beneath;
+  drops at once on empty or error, never recurs on issue or engine switches, never
+  mounts under reduced motion). The numbering is fixed in SKILL.md.
 
 ## The three views
 
@@ -79,8 +88,12 @@ hover. No hard shadows, no glass, no heavy elevation. Depth is suggestion, not d
 ## Components
 
 Brief (always open, never disclosed), ItemCard (collapsed by default, opt-in detail),
-SectionTile (one button per section), ArchiveSwitcher (native `<select>`, restyled),
-BuddyDialog / BuddyCorner / BuddyPeek (the mascot surfaces), reading-time chip.
+ReactionMarks (one pixel heart in the card meta row, three states, grey at rest,
+green at like and gold at super like, the top level drawn as a larger rig with a
+crisp silhouette edge; tap to climb and hold to clear, plus the "noted" slot), ReasonChips (the Why row inside an
+expanded card), SectionTile (one button per section),
+ArchiveSwitcher (native `<select>`, restyled), BuddyDialog / BuddyCorner / BuddyPeek
+(the mascot surfaces), reading-time chip.
 
 ## Accessibility floor (non-negotiable)
 

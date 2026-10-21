@@ -47,7 +47,7 @@ def gemini_curate(
         "valid_signal_tags": list(validate.SIGNAL_TAGS),
     }
     prompt = (
-        system_prompt(cfg)
+        system_prompt(cfg, cfg.steer)
         + "\n\nCurate this issue from the pool below. Return brief + sections.\n\n"
         + json.dumps(user_payload, ensure_ascii=False)
     )

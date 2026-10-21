@@ -1,0 +1,52 @@
+/* Palette-fusion lab — base. Layers on the PRODUCT stylesheet (linked first),
+   so "before" is the real dashboard. Everything under html.after is the
+   whitespace improvement plan + the corrected brand highlight; each direction
+   adds its own sheet on top. */
+@font-face { font-family: "Fraunces"; src: url(/frontend/public/fonts/fraunces-latin-full-normal.woff2) format("woff2"); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "Source Sans 3"; src: url(/frontend/public/fonts/source-sans-3-latin-wght-normal.woff2) format("woff2"); font-weight: 200 900; font-display: swap; }
+
+/* lab chrome */
+.lab { position: fixed; right: 12px; top: 12px; z-index: 99; display: flex; gap: 8px; align-items: center; font: 600 12px/1 var(--font-sans); letter-spacing: .08em; text-transform: uppercase; }
+.lab a, .lab button { color: var(--ink); background: var(--card); border: 1px solid var(--border-strong); border-radius: 999px; padding: 8px 12px; text-decoration: none; cursor: pointer; font: inherit; }
+.lab button[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.lab .tag { color: var(--ink-soft); }
+.lab-h { margin: 64px 0 16px; font: italic 400 14px var(--font-serif); color: var(--ink-soft); }
+.lab-h:first-of-type { margin-top: 0; }
+
+/* the pixel vocabulary (hidden until a direction shows it) */
+.px-glyph { display: none; width: 14px; height: 14px; flex: none; vertical-align: -2px; }
+.px-glyph svg { display: block; width: 100%; height: 100%; }
+.section-rule { display: none; }
+
+/* ---------- html.after: whitespace plan + highlight ---------- */
+html.after :root, html.after { --brand-yellow: #f78d1d; /* the real Scribbld highlight (Ali, 2026-10-21) */ }
+
+/* 1. masthead to content height */
+/* the portrait is a fixed 112x112 crop; the box stretches to it, so the row is
+   112px tall by choice instead of 235px by accident */
+html.after .bd-portrait { width: 112px; height: 112px; }
+html.after .bd-box { min-height: 0; padding: var(--sp-4) var(--sp-5); }
+html.after .bd-nameplate { background: var(--brand-yellow); color: var(--ink); padding: var(--sp-1) var(--sp-2); }
+
+/* 2. one rhythm */
+html.after .glance { gap: var(--sp-5); }
+html.after .glance-bento { gap: var(--sp-5); }
+html.after .brief { padding: var(--sp-5); }
+html.after .card-summary { margin-top: var(--sp-3); padding-top: var(--sp-3); }
+html.after .card-terms { margin-top: var(--sp-3); }
+html.after .chips-row { margin-top: var(--sp-3); padding-top: var(--sp-3); }
+html.after .card-actions { gap: var(--sp-2); }
+
+/* 3. safe zone on the grid, hero keeps it */
+@media (hover: hover) {
+  html.after .tile { padding-right: 72px; }
+  html.after .tile-wide { padding: var(--sp-5) 72px var(--sp-5) var(--sp-5); }
+}
+
+/* 4. takeover + feed */
+html.after .takeover { padding-bottom: var(--sp-6); }
+html.after .section-rule { display: block; height: 1px; background: var(--border-strong); margin: 0 0 var(--sp-5); }
+
+/* ---------- the glyph + the cell row, shared by the directions ---------- */
+html.after.a .px-glyph, html.after.b .px-glyph, html.after.c .px-glyph { display: inline-block; }
+html.after .tile-label, html.after .section-label { display: flex; align-items: center; gap: var(--sp-2); }

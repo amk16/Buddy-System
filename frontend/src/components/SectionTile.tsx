@@ -13,7 +13,7 @@ interface Props {
 }
 
 // One bento tile = one button, carrying its section's signature colour as
-// --sig (edge + label) and --sig-bg (surface). The preview headline is plain
+// --sig (shown only on reach: label, sliver, inset edge). The preview headline is plain
 // text (the real source link lives inside the takeover). "…and more inside"
 // is the only permitted depth cue — numerals are banned by the buddy-system.
 export function SectionTile({ section, signature, wide, onOpen }: Props) {
@@ -23,7 +23,6 @@ export function SectionTile({ section, signature, wide, onOpen }: Props) {
   const style = {
     viewTransitionName: `pulse-sec-${section.id}`,
     "--sig": signature.accent,
-    "--sig-bg": signature.tint,
   } as CSSProperties;
 
   return (

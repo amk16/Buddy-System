@@ -1,18 +1,24 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import type { Engine, Issue, IndexEntry } from "./lib/types";
+import { ENGINE_ORDER } from "./lib/types";
 import { readingTime } from "./lib/readingTime";
 import { parseHash, viewToHash, type View } from "./lib/view";
 import { withViewTransition, type MorphSpec } from "./lib/transition";
+import { prefersReduced } from "./lib/motion";
+import { MIN_HOLD, SLOW_AFTER, coverCanLift, shouldShowCover } from "./lib/boot";
 import { signatureFor } from "./lib/signature";
 import { getCollapseVectors } from "./lib/glanceGeometry";
 import * as lastVisited from "./lib/lastVisited";
 import * as enginePref from "./lib/enginePref";
+import * as feedback from "./lib/feedback";
+import * as reactions from "./lib/reactions";
 import { Brief } from "./components/Brief";
 import { BuddyDialog } from "./components/BuddyDialog";
+import { BootCover } from "./components/BootCover";
 import { Section } from "./components/Section";
 import { GlanceGrid } from "./components/GlanceGrid";
 import { ArchiveSwitcher } from "./components/ArchiveSwitcher";
-import { EngineTabs, ENGINE_ORDER } from "./components/EngineTabs";
+import { EngineTabs } from "./components/EngineTabs";
 
 // Base-aware so it works locally and under a sub-path (e.g. GitHub Pages) alike.
 const BASE = import.meta.env.BASE_URL;
@@ -32,6 +38,17 @@ function formatDate(iso: string): string {
       });
 }
 
+// The cover's stamp, once the issue is in: the issue's own date (never the
+// wall clock, which disagrees with the masthead each morning before the
+// day's issue lands) and the reading-time line. No counts: PRODUCT.md.
+function formatStampDate(iso: string): string {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "";
+  return d
+    .toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short", year: "numeric" })
+    .replace(",", "");
+}
+
 export default function App() {
   const [index, setIndex] = useState<IndexEntry[]>([]);
   const [engine, setEngine] = useState<Engine | "">("");
@@ -44,10 +61,25 @@ export default function App() {
   // Bumped to re-run the issue fetch after a load failure (the retry path).
   const [reloadNonce, setReloadNonce] = useState(0);
 
+  // The boot cover (motion exception 4 of 4): "cover" while the self-test
+  // plays and holds, "exit" while the sheet lifts off the top, "done" ever
+  // after. Decided once per page load; issue and engine switches never bring
+  // it back.
+  const [boot, setBoot] = useState<"cover" | "exit" | "done">(() =>
+    shouldShowCover(prefersReduced()) ? "cover" : "done",
+  );
+  // Stamped in the lift effect on first run (render must stay pure).
+  const bootMountedAt = useRef<number | null>(null);
+  const [bootSlow, setBootSlow] = useState(false);
+  const bootLeft = useCallback(() => setBoot("done"), []);
+
   const glanceHeading = useRef<HTMLHeadingElement | null>(null);
   const sectionHeading = useRef<HTMLHeadingElement | null>(null);
   const briefHeading = useRef<HTMLHeadingElement | null>(null);
   const prevView = useRef<View>({ mode: "glance" });
+
+  // Ship any queued feedback when the tab goes away.
+  useEffect(() => feedback.install(), []);
 
   // Load the index once. Restore the last-viewed engine tab (falling back to the
   // engine of the newest issue overall), then open that engine's latest issue.
@@ -78,11 +110,51 @@ export default function App() {
       .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
       .then((data: Issue) => {
         setIssue(data);
+        // Marks are remembered per issue, and every feedback event from here on
+        // belongs to this one. The store is told first so the cards about to
+        // render already read from the right bucket.
+        reactions.setIssue(data.id);
+        feedback.setContext({ issue_id: data.id, engine: data.engine ?? "claude" });
         setView(parseHash(window.location.hash, data));
         setStatus("ready");
       })
       .catch(() => setStatus("error"));
   }, [currentId, reloadNonce]);
+
+  // Lift the cover once the first issue is on screen and the sweep has had
+  // its minimum hold. Empty or error drops it at once, with no morph, so the
+  // recovery copy is never held behind a mascot.
+  useEffect(() => {
+    if (boot !== "cover") return;
+    if (bootMountedAt.current === null) bootMountedAt.current = Date.now();
+    const mountedAt = bootMountedAt.current;
+    const decide = () => {
+      const lift = coverCanLift({ status, elapsed: Date.now() - mountedAt });
+      if (lift === "drop") {
+        setBoot("done");
+        return;
+      }
+      if (lift === "lift") setBoot("exit"); // the cover lifts; onLeft settles it
+    };
+    if (status !== "ready") {
+      decide();
+      // Still waiting on the network: after SLOW_AFTER the cover says so.
+      const untilSlow = SLOW_AFTER - (Date.now() - mountedAt);
+      if (untilSlow <= 0) {
+        setBootSlow(true);
+        return;
+      }
+      const slowId = window.setTimeout(() => setBootSlow(true), untilSlow);
+      return () => window.clearTimeout(slowId);
+    }
+    const remaining = MIN_HOLD - (Date.now() - mountedAt);
+    if (remaining <= 0) {
+      decide();
+      return;
+    }
+    const id = window.setTimeout(decide, remaining);
+    return () => window.clearTimeout(id);
+  }, [status, boot]);
 
   // The hash is the single source of truth for the view. Tile clicks, the
   // back affordance, AND browser back/forward all funnel through here, so
@@ -197,8 +269,20 @@ export default function App() {
       className={`app${
         view.mode === "glance" || view.mode === "section" ? " app-glance" : ""
       }`}
+      data-boot={boot === "done" ? undefined : boot}
     >
-      <header className="masthead">
+      {boot !== "done" && (
+        <BootCover
+          dateText={issue ? formatStampDate(issue.generated_at) : undefined}
+          statsText={readTime ? `${readTime.skimMin} min skim · ${readTime.fullMin} min full read` : undefined}
+          slow={bootSlow}
+          leaving={boot === "exit"}
+          onLeft={bootLeft}
+        />
+      )}
+      {/* While the cover is up the page beneath is inert, so a Tab press
+          cannot land focus on a control nobody can see. */}
+      <header className="masthead" inert={boot !== "done"}>
         <div className="topbar">
           {engine && (
             <EngineTabs
@@ -217,6 +301,7 @@ export default function App() {
         <BuddyDialog
           name="Kajol"
           portraitSrc={`${BASE}robobuddy.png`}
+          paused={boot !== "done"}
           dateText={issue ? formatDate(issue.generated_at) : undefined}
           readText={
             status === "ready" && readTime
@@ -226,7 +311,7 @@ export default function App() {
         />
       </header>
 
-      <main>
+      <main inert={boot !== "done"}>
         {status === "loading" && <p className="state">Loading…</p>}
         {status === "empty" && (
           <p className="state">
@@ -259,9 +344,7 @@ export default function App() {
             style={
               {
                 viewTransitionName: `pulse-sec-${currentSection.id}`,
-                ...(currentSig
-                  ? { "--sig": currentSig.accent, "--sig-bg": currentSig.tint }
-                  : {}),
+                ...(currentSig ? { "--sig": currentSig.accent } : {}),
               } as React.CSSProperties
             }
           >
@@ -290,7 +373,9 @@ export default function App() {
         )}
       </main>
 
-      <footer className="foot">Private feed · generated, then reviewed.</footer>
+      <footer className="foot" inert={boot !== "done"}>
+        Private feed · generated, then reviewed.
+      </footer>
     </div>
   );
 }
