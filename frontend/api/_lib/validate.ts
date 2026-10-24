@@ -9,8 +9,8 @@ import {
   REASON_KINDS,
   REASONS,
   VALUES,
-} from "./schema";
-import type { Engine, FeedbackEvent, FeedbackKind, FeedbackValue } from "./schema";
+} from "./schema.js";
+import type { Engine, FeedbackEvent, FeedbackKind, FeedbackValue } from "./schema.js";
 
 const ISSUE_ID = /^\d{4}-\d{2}-\d{2}(-\d+)?$/;
 const ISO_DATE_HEAD = /^\d{4}-\d{2}-\d{2}T/;

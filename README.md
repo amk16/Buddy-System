@@ -100,11 +100,16 @@ takes effect once Ali reviews and accepts it.
 
 1. On GitHub, create a fine-grained personal access token scoped to `amk16/Buddy-System`
    with **Contents: read and write**, expiry at most one year.
-   Token renewal due: <date>
+   Token renewal due: 2027-10-24 (created 2026-10-24)
 2. In Vercel, add these env vars for both **Production** and **Preview**:
    `GITHUB_TOKEN`, `GITHUB_REPO=amk16/Buddy-System`, `FEEDBACK_BRANCH=feedback`,
    `FEEDBACK_ALLOWED_ORIGINS=https://buddy-system-ivory.vercel.app` (leaving this last one
-   unset means every request is refused with a 403).
+   unset means every request is refused with a 403). The three non-secret ones were set on
+   2026-10-24; only `GITHUB_TOKEN` is missing. From the repo root (linked with `vercel link`):
+   ```bash
+   vercel env add GITHUB_TOKEN production --value <token> --yes
+   vercel env add GITHUB_TOKEN preview --value <token> --yes
+   ```
 3. After the `vercel.json` files (repo root and `frontend/`) are on `main`, create the
    branch once:
    ```bash
@@ -113,7 +118,9 @@ takes effect once Ali reviews and accepts it.
    Then confirm in Vercel that the push created no deployment.
 4. **First-deploy checks** against the production URL: `GET /api/feedback` answers 405
    with an `Allow: POST` header, `OPTIONS /api/feedback` answers 204, and
-   `GET /api/_lib/github` answers 404 (proves `_lib` is not deployed).
+   `GET /api/_lib/github` answers 404 (proves `_lib` is not deployed). To run the same checks
+   against a protected preview, use `vercel curl --deployment <preview-url> /api/feedback`;
+   without `--deployment`, `vercel curl` targets production.
 
 Preview deployments are not in `FEEDBACK_ALLOWED_ORIGINS`, so a preview site's posts are
 refused with a 403 and one console warning; that is expected, not a bug. This project also

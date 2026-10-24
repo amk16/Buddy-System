@@ -40,6 +40,22 @@ dashboard that renders them, and the source network they're drawn from.
 
 ---
 
+## [v1.5.7] — 2026-10-24 — The collector answers
+
+🧰 Tooling
+- Fixed: the reader-feedback collector (`frontend/api/feedback.ts`) crashed on every request
+  in production with `FUNCTION_INVOCATION_FAILED`. Vercel compiles each `api/` file on its
+  own without bundling, and the package is ESM, so Node refused the extension-less relative
+  imports (`./_lib/github`) at cold start. Every relative import in `api/` now names its
+  `.js` file; a contract test (`api/_lib/imports.test.ts`) keeps it that way. Verified on a
+  preview deployment: `GET` 405 with `Allow: POST`, `OPTIONS` 204, a cross-origin `POST`
+  403, `/api/_lib/github` 404.
+- Changed: `GITHUB_REPO`, `FEEDBACK_BRANCH` and `FEEDBACK_ALLOWED_ORIGINS` are set on the
+  Vercel project for Production and Preview. `GITHUB_TOKEN` and the `feedback` branch remain
+  the two steps of the runbook still waiting on Ali.
+
+---
+
 ## [v1.5.6] — 2026-10-22 — Slower still
 
 🎨 Dashboard

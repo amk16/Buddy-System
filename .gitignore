@@ -16,3 +16,4 @@ backend/profile_proposal.json
 frontend/node_modules/
 frontend/dist/
 .superpowers/
+.vercel

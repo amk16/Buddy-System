@@ -14,11 +14,11 @@
 //                             "https://pulse.example.com". localhost is added
 //                             automatically outside production.
 
-import { appendLines } from "./_lib/github";
-import type { GhCfg } from "./_lib/github";
-import { MAX_BODY } from "./_lib/schema";
-import type { FeedbackEvent } from "./_lib/schema";
-import { fileFor, originAllowed, parseBody, validateBatch } from "./_lib/validate";
+import { appendLines } from "./_lib/github.js";
+import type { GhCfg } from "./_lib/github.js";
+import { MAX_BODY } from "./_lib/schema.js";
+import type { FeedbackEvent } from "./_lib/schema.js";
+import { fileFor, originAllowed, parseBody, validateBatch } from "./_lib/validate.js";
 
 const DEV_ORIGINS = ["http://localhost:5173", "http://localhost:3000"];
 

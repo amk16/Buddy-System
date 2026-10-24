@@ -5,8 +5,8 @@
 // Never let the token out: errors here carry the HTTP status and nothing else,
 // because a GitHub error body can quote the request that contained it.
 
-import { mergeLines } from "./validate";
-import type { FeedbackEvent } from "./schema";
+import { mergeLines } from "./validate.js";
+import type { FeedbackEvent } from "./schema.js";
 
 export interface GhCfg {
   token: string;
