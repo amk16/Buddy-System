@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T17:01:47.706135+00:00",
+  "generated_at": "2026-10-26T19:04:51.973041+00:00",
   "half_life_days": 30.0,
   "counts": {
     "events": 0,
@@ -27,8 +27,8 @@
       "n_explicit": 0,
       "n_implicit": 0,
       "confidence": 0.0,
-      "mix_current": 0.331,
-      "mix_ideal": 0.331,
+      "mix_current": 0.3347,
+      "mix_ideal": 0.3347,
       "direction": 0.0
     },
     "case_studies": {
@@ -38,8 +38,8 @@
       "n_explicit": 0,
       "n_implicit": 0,
       "confidence": 0.0,
-      "mix_current": 0.2294,
-      "mix_ideal": 0.2294,
+      "mix_current": 0.2236,
+      "mix_ideal": 0.2236,
       "direction": 0.0
     },
     "people": {
@@ -49,8 +49,8 @@
       "n_explicit": 0,
       "n_implicit": 0,
       "confidence": 0.0,
-      "mix_current": 0.1415,
-      "mix_ideal": 0.1415,
+      "mix_current": 0.1436,
+      "mix_ideal": 0.1436,
       "direction": 0.0
     }
   },
