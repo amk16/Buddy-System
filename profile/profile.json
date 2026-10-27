@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T19:04:51.973041+00:00",
+  "generated_at": "2026-10-27T18:35:41.369080+00:00",
   "half_life_days": 30.0,
   "counts": {
     "events": 0,
@@ -16,8 +16,8 @@
       "n_explicit": 0,
       "n_implicit": 0,
       "confidence": 0.0,
-      "mix_current": 0.2981,
-      "mix_ideal": 0.2981,
+      "mix_current": 0.2984,
+      "mix_ideal": 0.2984,
       "direction": 0.0
     },
     "news": {
@@ -27,8 +27,8 @@
       "n_explicit": 0,
       "n_implicit": 0,
       "confidence": 0.0,
-      "mix_current": 0.3347,
-      "mix_ideal": 0.3347,
+      "mix_current": 0.3333,
+      "mix_ideal": 0.3333,
       "direction": 0.0
     },
     "case_studies": {
@@ -38,8 +38,8 @@
       "n_explicit": 0,
       "n_implicit": 0,
       "confidence": 0.0,
-      "mix_current": 0.2236,
-      "mix_ideal": 0.2236,
+      "mix_current": 0.2231,
+      "mix_ideal": 0.2231,
       "direction": 0.0
     },
     "people": {
@@ -49,8 +49,8 @@
       "n_explicit": 0,
       "n_implicit": 0,
       "confidence": 0.0,
-      "mix_current": 0.1436,
-      "mix_ideal": 0.1436,
+      "mix_current": 0.1452,
+      "mix_ideal": 0.1452,
       "direction": 0.0
     }
   },
